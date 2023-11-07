@@ -3,7 +3,7 @@
 </div>
 <p id="viewer-foo" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Stratospheer has successfully recreated the Java mod Mystical Agriculture for Bedrock Edition. I have updated the coding to make it compatible with 1.20.41. Initially created by BlakeBr0, this mod is a successor to the Magical Crops mod. Its primary objective is to enable players to cultivate various resources, including diamonds, blaze rods, and even dirt, using crops.
    
-   Note: The original mod is <a data-hook="linkViewer" href="https://www.curseforge.com/project/246640/license" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">MIT-licensed</u></strong></a>.
+   Note: The original mod is <a data-hook="linkViewer" href="https://raw.githubusercontent.com/BlakeBr0/MysticalAgriculture/1.20/LICENSE" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">MIT-licensed</u></strong></a>.
    
    Check it out if you play <a data-hook="linkViewer" href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">Java Edition</u></strong></a>: </span></span>
 </p>
