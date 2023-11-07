@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "strat:infusion_pedestal",
 			"menu_category": {
-				"category": "items",
-				"group": "itemGroup.name.items"
+				"category": "items"
 			}
 		},
 		"components": {

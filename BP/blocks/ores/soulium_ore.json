@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "strat:soulium_ore",
 			"menu_category": {
-				"category": "nature",
-				"group": "itemGroup.name.ore"
+				"category": "nature"
 			}
 		},
 		"components": {

@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "strat:infusion_pedestal_guide",
 			"menu_category": {
-				"category": "commands",
-				"group": "itemGroup.name.commands"
+				"category": "commands"
 			}
 		},
 		"components": {
