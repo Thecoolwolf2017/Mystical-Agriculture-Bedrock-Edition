@@ -1,8 +1,10 @@
 <div tabindex="-1" class="cD_92h y3TPob" data-hook="post-title">
    <h1 class="UbhFJ7 nkqC0Q blog-post-title-font blog-post-title-color blog-text-color post-title blog-hover-container-element-color FG3qXk blog-post-page-title-font" data-hook="post-title"><span class="post-title__text blog-post-title-font blog-post-title-color"><span class="blog-post-title-font blog-post-title-color">Mystical Agriculture</span></span></h1>
 </div>
-<p id="viewer-foo" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Mystical Agriculture is a Java mod, created by BlakeBr0, which I have now recreated for Bedrock Edition! As a successor of the Magical Crops mod, this add-on is based around the idea of farming various resources, like diamonds, blaze rods and even dirt if you'd like, all using crops!
-   Note: The original mod is <a data-hook="linkViewer" href="https://www.curseforge.com/project/246640/license" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">MIT licensed</u></strong></a>.
+<p id="viewer-foo" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Stratospheer has successfully recreated the Java mod Mystical Agriculture for Bedrock Edition. I have updated the coding to make it compatible with 1.20.41. Initially created by BlakeBr0, this mod is a successor to the Magical Crops mod. Its primary objective is to enable players to cultivate various resources, including diamonds, blaze rods, and even dirt, using crops.
+   
+   Note: The original mod is <a data-hook="linkViewer" href="https://www.curseforge.com/project/246640/license" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">MIT-licensed</u></strong></a>.
+   
    Check it out if you play <a data-hook="linkViewer" href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">Java Edition</u></strong></a>: </span></span>
 </p>
 <div id="viewer-5d339" class="QHjDE rzoRKE">
@@ -21,7 +23,7 @@
       </div>
    </div>
 </div>
-<p id="viewer-1f4jk" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This add-on works by collecting essence from crops, to form the material you desire! Currently, only crops which make materials from ores can be made, but other crops, which allow to farm things like natural resources and even mob drops, will be added in the future.</span></span></p>
+<p id="viewer-1f4jk" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This add-on operates by gathering essence from crops to create the desired material. Currently, only crops that produce materials from ores can be used. Nevertheless, in the future, other crops will be included that will allow farming of natural resources and even mob drops.</span></span></p>
 <h2 id="viewer-8i6mu" class="qDGi6 Y9Dpf OZy-3 cDpYU ok2w4y bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><a data-hook="linkViewer" href="https://www.mediafire.com/file/688ll2aqj5qqd24/Mystical_Agriculture_%2528v1.3%2529.zip/file" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk"><span style="font-size:28px"><span style="color:#ff0000">Download Add-on (zip)</span></span></u></strong></a></span></span></h2>
 <h2 id="viewer-pjss" class="qDGi6 Y9Dpf OZy-3 cDpYU ok2w4y bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><a data-hook="linkViewer" href="https://www.mediafire.com/file/drmqcm8j6px6dty/Mystical_Agriculture_%2528v1.3%2529.mcaddon/file" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk"><span style="font-size:28px">Download Add-on</span></u></strong></a></span></span></h2>
 <div id="ys4609nvg" index="1">
@@ -54,7 +56,7 @@
          <div class="mhGZq">
             <h3 id="viewer-da2fp" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Watering Can</span></span></h3>
             <div id="viewer-tt59" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-vta5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>By interacting with any vanilla or new crop, you can use a watering can to progressively grow it until matures. It has an infinite amount of uses, so go nuts!</span></span></p>
+            <p id="viewer-vta5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Using a watering can, you can grow any vanilla or new crop until it fully matures. This tool has infinite uses, so feel free to experiment!</span></span></p>
             <div id="viewer-cnkov" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -72,10 +74,10 @@
                </div>
             </div>
             <div id="viewer-584oc" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-erpv5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To start out, you will need to discover these two new type of ores from either stone or deepslate in caves:</span></span></p>
+            <p id="viewer-erpv5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To start, you will need to discover these two new types of ores from either stone or deepslate in caves:</span></span></p>
             <div id="viewer-4ppl1" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-75gaj" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Prosperity Ore</span></span></h3>
-            <p id="viewer-4c99b" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This drops Prosperity Shards, used for making seed bases.</span></span></p>
+            <p id="viewer-4c99b" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Prosperity Ore has the potential to yield Prosperity Shards, which are vital in creating seed bases.</span></span></p>
             <div id="viewer-3di9n" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -94,7 +96,7 @@
             </div>
             <div id="viewer-f354b" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-5b8tt" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Inferium Ore</span></span></h3>
-            <p id="viewer-1im3" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This drops Inferium Essence, used as the base component for making various seeds.</span></span></p>
+            <p id="viewer-1im3" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Inferium Ore yields Inferium Essence, the main ingredient for creating various seeds.</span></span></p>
             <div id="viewer-bvbmv" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -112,7 +114,7 @@
                </div>
             </div>
             <div id="viewer-6uf5t" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-du6b3" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This essence is also farmable by making Inferium Seeds for yourself!</span></span></p>
+            <p id="viewer-du6b3" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>You can obtain this Essence by farming Inferium Seeds. It's possible to create these seeds for yourself.</span></span></p>
             <div id="viewer-14t5" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -147,7 +149,7 @@
                </div>
             </div>
             <div id="viewer-4fuon" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-ap75n" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Due to the bugs with custom crops on farmland, Inferium Farmland is a substitute.</span></span></p>
+            <p id="viewer-ap75n" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>As custom crops on Farmland have issues, Inferium Farmland can be used as an alternative.</span></span></p>
             <div id="viewer-cfqa7" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -165,7 +167,7 @@
                </div>
             </div>
             <div id="viewer-deqia" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-e9kul" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>For automation, you can plant Mystical Agriculture crops in Mystical Growth Pots, which drop their loot immediately after reaching full growth.</span></span></p>
+            <p id="viewer-e9kul" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>For automated farming, you can use Mystical Growth Pots filled with Mystical Agriculture crops. The pots will drop the crops' loot upon reaching total growth.</span></span></p>
             <div id="viewer-qq88" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -215,7 +217,7 @@
    <div class="fsX5d">
       <div class="itVXy _8a1b4" dir="ltr">
          <div class="mhGZq">
-            <p id="viewer-al0n" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To make higher tier seeds, you must create a multi-block structure of the Infusion Altar:</span></span></p>
+            <p id="viewer-al0n" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Creating higher-tier seeds requires building a multi-block structure of the Infusion Altar.</span></span></p>
             <div id="viewer-agaj" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-86o4k" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Infusion Altar</span></span></h3>
             <div id="viewer-2913p" class="QHjDE">
@@ -235,7 +237,7 @@
                </div>
             </div>
             <div id="viewer-6hn6h" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-css91" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Along with this, you will need to surround the Altar with 8 pedestals to activate it.</span></span></p>
+            <p id="viewer-css91" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To activate the Altar, you need to surround it with eight pedestals.</span></span></p>
             <div id="viewer-cs3m" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-ct2aq" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Infusion Pedestal</span></span></h3>
             <div id="viewer-b2222" class="QHjDE">
@@ -255,7 +257,7 @@
                </div>
             </div>
             <div id="viewer-7edd8" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-1sqkv" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>If placed correctly, an XP ding sound effect will be made, indicating it can be used.</span></span></p>
+            <p id="viewer-1sqkv" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>If placed correctly, an XP ding sound effect will play, indicating it can be used.</span></span></p>
             <div id="viewer-7v9bf" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -322,7 +324,7 @@
    <div class="fsX5d">
       <div class="itVXy _8a1b4" dir="ltr">
          <div class="mhGZq">
-            <p id="viewer-alm2c" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Once making the Infusion Altar, you can make higher tier seeds, but you may wonder how to get different types of essence. Well you first need an Infusion Crystal:</span></span></p>
+            <p id="viewer-alm2c" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>After crafting the Infusion Altar, you can create higher-tier seeds. However, obtaining different types of Essence requires using an Infusion Crystal.</span></span></p>
             <div id="viewer-2a49f" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-3otgt" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Infusion Crystal</span></span></h3>
             <div id="viewer-qlk6" class="QHjDE">
@@ -343,7 +345,7 @@
             </div>
             <div id="viewer-fuuaf" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <div id="viewer-4e4ol" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-bg5kf" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This can then be used to upgrade your essence.</span></span></p>
+            <p id="viewer-bg5kf" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>You can utilize the Infusion Crystal to enhance the quality of your Essence.</span></span></p>
             <div id="viewer-3h4oo" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -444,7 +446,7 @@
    <div class="fsX5d">
       <div class="itVXy _8a1b4" dir="ltr">
          <div class="mhGZq">
-            <p id="viewer-91d93" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Resource Crops are the simplest to understand. All you need is 4 of the resource that you want to reproduce, and 4 of the respectable essence for the seed tier.</span></span></p>
+            <p id="viewer-91d93" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Resource crops are easy to understand. You only need four resources and four respectable Essences for the seed tier.</span></span></p>
             <div id="viewer-b2tg8" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -462,7 +464,7 @@
                </div>
             </div>
             <div id="viewer-3fv8t" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-4ampk" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>These seeds will drop the essence of the material once mature, which you can then place in the crafting table in specific patterns, to obtain the resource you desire.</span></span></p>
+            <p id="viewer-4ampk" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Once mature, these seeds drop Essence, which you can craft into desired resources.</span></span></p>
             <div id="viewer-3n9l6" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -481,8 +483,8 @@
             </div>
             <div id="viewer-2psh4" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <div id="viewer-fo950" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-9outm" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>For some seeds, you will require some dust under the name "Agglomeratio", which are able to categorise certain resources.</span></span></p>
-            <p id="viewer-17cen" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Each recipe is similar, always only needing a 2x2 crafting grid.</span></span></p>
+            <p id="viewer-9outm" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Some seeds require "Agglomeratio" dust to categorize resources.</span></span></p>
+            <p id="viewer-17cen" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>All the recipes share a common feature - they can be crafted using only a 2x2 grid.</span></span></p>
             <div id="viewer-5b4gc" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -501,7 +503,7 @@
             </div>
             <div id="viewer-f5itm" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <div id="viewer-sung" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-1bibr" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>These can then be substituted as the resource in the recipe.</span></span></p>
+            <p id="viewer-1bibr" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>The resource can be substituted in the recipe with the items mentioned earlier.</span></span></p>
             <div id="viewer-dphip" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -551,10 +553,10 @@
    <div class="fsX5d">
       <div class="itVXy _8a1b4" dir="ltr">
          <div class="mhGZq">
-            <p id="viewer-dnj6f" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To create seeds from mobs, however, it requires a few more steps.</span></span></p>
+            <p id="viewer-dnj6f" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To obtain seeds from mobs, you need to follow some additional steps.</span></span></p>
             <div id="viewer-1vgbv" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-6i4um" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Soulstone and Soulium</span></span></h3>
-            <p id="viewer-a49g" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Soulstone can be found in the nether as clumps, and submerged inside it is Soulium Ore.</span></span></p>
+            <p id="viewer-a49g" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Soulstone clumps containing Soulium Ore can be found in the Nether.</span></span></p>
             <div id="viewer-e1f5d" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -572,7 +574,7 @@
                </div>
             </div>
             <div id="viewer-6fgun" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-7qkpf" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This ore will drop Soulium Dust, while the Soulstone can be used as decoration; you also can continuously smelt the block to get Soul Dust.</span></span></p>
+            <p id="viewer-7qkpf" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>This ore drops Soulium Dust and Soulstone, which can be used as decoration. You can also smelt the block for Soul Dust.</span></span></p>
             <div id="viewer-3368b" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -590,7 +592,7 @@
                </div>
             </div>
             <div id="viewer-fv3m2" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-mm1m" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>With these two dusts obtained, you are now able to make Soul Jars and a Soulium Dagger.</span></span></p>
+            <p id="viewer-mm1m" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Now you can create Soul Jars and a Soulium Dagger with these two dusts.</span></span></p>
             <div id="viewer-b99pk" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -694,7 +696,7 @@
                </div>
             </div>
             <div id="viewer-7cs47" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-an1hu" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>With a Soul Jar in your offhand, attack a mob with the Soulium Dagger, and eventually the jar will fill.</span></span></p>
+            <p id="viewer-an1hu" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Attack a mob with a Soulium Dagger while holding a Soul Jar in your offhand to fill it.</span></span></p>
             <div id="viewer-emqob" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -712,7 +714,7 @@
                </div>
             </div>
             <div id="viewer-7u9o0" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-e135p" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Make sure to upgrade your Prosperity Seed Base to Soulium.</span></span></p>
+            <p id="viewer-e135p" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>We highly recommend upgrading your Prosperity Seed Base to Soulium for better results.</span></span></p>
             <div id="viewer-ciiv9" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -730,7 +732,7 @@
                </div>
             </div>
             <div id="viewer-4rhha" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-47srg" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Once with 4 filled Soul Jars, you can finally use them to create your seeds.</span></span></p>
+            <p id="viewer-47srg" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>With four filled Soul Jars, you can now create your seeds.</span></span></p>
             <div id="viewer-14dv2" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -780,10 +782,10 @@
    <div class="fsX5d">
       <div class="itVXy _8a1b4" dir="ltr">
          <div class="mhGZq">
-            <p id="viewer-80bj5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>In the most recent update, essence can now be used for various other features:</span></span></p>
+            <p id="viewer-80bj5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>The latest update has expanded the use of Essence to include various other features.</span></span></p>
             <div id="viewer-em7qg" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h3 id="viewer-cncnn" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Prosperity Ingots/Gemstones</span></span></h3>
-            <p id="viewer-escim" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>The base materials for essence.</span></span></p>
+            <p id="viewer-escim" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>The raw components used to create Essence.</span></span></p>
             <div id="viewer-fqo99" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -818,8 +820,8 @@
                </div>
             </div>
             <div id="viewer-5jhp4" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-c1s95" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>They are then used for making essence ingots/gemstones.</span></span></p>
-            <p id="viewer-44hpo" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading to prudentium or above would require the previous tier of ingots/gemstones.</span></span></p>
+            <p id="viewer-c1s95" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Essence ingots or gemstones are created using them.</span></span></p>
+            <p id="viewer-44hpo" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To upgrade to Prudentium or any tier above it, you must have the previous tier of ingots or gemstones.</span></span></p>
             <div id="viewer-4vdjl" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
@@ -855,7 +857,7 @@
             </div>
             <div id="viewer-biunp" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h4 id="viewer-4f1n7" class="_2k8TI Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Essence Armor</span></span></h4>
-            <p id="viewer-2gm2e" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading your armor will provide greater protection and durability.</span></span></p>
+            <p id="viewer-2gm2e" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading your armor will enhance its protective capabilities and durability.</span></span></p>
             <p id="viewer-9cri" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading to prudentium or above would require the previous tier of armor.</span></span></p>
             <div id="viewer-ehmbf" class="QHjDE">
                <div class="gO6aa flaqF">
@@ -875,8 +877,8 @@
             </div>
             <div id="viewer-s2sm" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
             <h4 id="viewer-dlhq5" class="_2k8TI Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Essence Tools</span></span></h4>
-            <p id="viewer-a72tu" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading your tools make them sharper, more durable and more efficient altogether.</span></span></p>
-            <p id="viewer-95kiv" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Upgrading to prudentium or above would require the previous tier of tool.</span></span></p>
+            <p id="viewer-a72tu" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Improving your tools enhances their sharpness, durability, and efficiency.</span></span></p>
+            <p id="viewer-95kiv" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>To upgrade to Prudentium or above, you need to have the previous tier of the tool.</span></span></p>
             <div id="viewer-f4pp8" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
