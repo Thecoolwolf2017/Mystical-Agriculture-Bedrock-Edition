@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soul_glass"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"~#~",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glass"
+			},
+			"~": {
+				"item": "strat:soul_dust"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soul_glass",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

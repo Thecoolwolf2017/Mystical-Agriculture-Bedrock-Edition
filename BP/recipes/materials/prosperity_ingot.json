@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prosperity_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"~#~",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"~": {
+				"item": "strat:prosperity_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:prosperity_ingot",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

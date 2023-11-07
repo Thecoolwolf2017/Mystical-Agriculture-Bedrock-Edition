@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:imperium_watering_can"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~o~",
+			"o#o",
+			"~o~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:tertium_watering_can"
+			},
+			"~": {
+				"item": "strat:mystical_fertilizer"
+			},
+			"o": {
+				"item": "strat:imperium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:imperium_watering_can",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

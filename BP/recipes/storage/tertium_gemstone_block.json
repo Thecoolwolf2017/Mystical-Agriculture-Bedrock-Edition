@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:tertium_gemstone_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:tertium_gemstone"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:tertium_gemstone_block",
+				"count": 1
+			}
+		],
+		"priority": 5
+	}
+}

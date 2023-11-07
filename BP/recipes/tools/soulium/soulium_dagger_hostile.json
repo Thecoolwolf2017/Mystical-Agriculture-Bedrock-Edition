@@ -1,0 +1,47 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soulium_dagger_hostile"
+		},
+		"tags": [
+			"infusion_altar"
+		],
+		"pattern": [
+			"~A#",
+			"BoC",
+			"#D~"
+		],
+		"key": {
+			"o": {
+				"item": "strat:soulium_dagger"
+			},
+			"~": {
+				"item": "strat:soulium_ingot"
+			},
+			"#": {
+				"item": "strat:soulium_gemstone"
+			},
+			"A": {
+				"item": "strat:soul_jar_zombie_4"
+			},
+			"B": {
+				"item": "strat:soul_jar_spider_4"
+			},
+			"C": {
+				"item": "strat:soul_jar_skeleton_4"
+			},
+			"D": {
+				"item": "strat:soul_jar_creeper_4"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soulium_dagger_hostile",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

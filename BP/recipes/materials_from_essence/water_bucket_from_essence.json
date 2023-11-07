@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:water_bucket_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"#~#",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:water_essence"
+			},
+			"~": {
+				"item": "minecraft:bucket"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:water_bucket",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

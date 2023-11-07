@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:bronze_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:bronze_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "hax:bronze_ingot",
+				"count": 4
+			}
+		],
+		"priority": 0
+	}
+}

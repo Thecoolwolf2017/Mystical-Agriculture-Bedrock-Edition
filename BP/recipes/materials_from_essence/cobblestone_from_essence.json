@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cobblestone_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:stone_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:cobblestone",
+				"count": 24
+			}
+		],
+		"priority": 0
+	}
+}

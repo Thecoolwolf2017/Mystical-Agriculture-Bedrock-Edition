@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:inferium_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"o#o",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:diamond_axe"
+			},
+			"~": {
+				"item": "strat:inferium_gemstone"
+			},
+			"o": {
+				"item": "strat:inferium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:inferium_axe",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

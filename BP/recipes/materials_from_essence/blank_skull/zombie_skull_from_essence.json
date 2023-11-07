@@ -1,0 +1,33 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:zombie_skull_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#~#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:zombie_essence"
+			},
+			"~": {
+				"item": "strat:blank_skull"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:skull",
+				"count": 1,
+				"data": 2
+			}
+		],
+		"priority": 0
+	}
+}

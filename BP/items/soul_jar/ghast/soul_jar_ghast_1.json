@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soul_jar_ghast_1",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "soul_jar_ghast_1"
+			},
+			"minecraft:display_name": {
+				"value": "Soul Jar\n§7Ghast (1.00/4.00)§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "commands"
+			},
+			"minecraft:allow_off_hand": true
+		},
+		"events": {}
+	}
+}

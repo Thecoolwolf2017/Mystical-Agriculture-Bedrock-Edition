@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soul_sand_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#~#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nether_essence"
+			},
+			"~": {
+				"item": "strat:fire_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:soul_sand",
+				"count": 16
+			}
+		],
+		"priority": 0
+	}
+}

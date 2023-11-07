@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soulium_gemstone_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:soulium_gemstone_block"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soulium_gemstone",
+				"count": 9
+			}
+		],
+		"priority": 5
+	}
+}

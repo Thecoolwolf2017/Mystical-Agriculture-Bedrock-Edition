@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prudentium_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"o#o",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:inferium_axe"
+			},
+			"~": {
+				"item": "strat:prudentium_gemstone"
+			},
+			"o": {
+				"item": "strat:prudentium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:prudentium_axe",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

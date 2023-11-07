@@ -1,0 +1,24 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.19.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:prosperity_ingot_block",
+			"menu_category": {
+				"category": "Construction",
+				"group": "itemGroup.name.Construction"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:map_color": "#80ADAD",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 10.0
+			},
+			"tag:stone": {}
+		},
+		"events": {}
+	}
+}

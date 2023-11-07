@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:honey_bottle_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glass_bottle"
+			},
+			"~": {
+				"item": "strat:honey_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:honey_bottle",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

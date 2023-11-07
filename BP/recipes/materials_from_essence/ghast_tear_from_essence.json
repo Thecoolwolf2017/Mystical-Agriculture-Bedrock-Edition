@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:ghast_tear_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:ghast_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:ghast_tear",
+				"count": 2
+			}
+		],
+		"priority": 0
+	}
+}

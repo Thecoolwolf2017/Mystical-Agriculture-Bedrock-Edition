@@ -1,0 +1,176 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:tertium_hoe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 4000,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			},
+			"minecraft:mining_speed": 11,
+			"minecraft:damage": 11,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:leaves2",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_leaves",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:azalea_leaves",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:flowering_azalea_leaves",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:nether_wart_block",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:warped_wart_block",
+						"speed": 11,
+						"on_dig": {
+							"event": "hurt"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "hurt"
+				}
+			},
+			"tag:minecraft:is_hoe": {},
+			"minecraft:display_name": {
+				"value": "Tertium Hoe\n§7Tier: §63§r"
+			},
+			"minecraft:icon": {
+				"texture": "tertium_hoe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.hoe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "hurt_2"
+				},
+				"on_hit_block": {
+					"event": "hurt"
+				}
+			},
+			"minecraft:enchantable": {
+				"slot": "hoe",
+				"value": 10
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"strat:tertium_ingot",
+							"strat:tertium_gemstone"
+						],
+						"repair_amount": "query.max_durability / 5"
+					}
+				]
+			}
+		},
+		"events": {
+			"hurt": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "none",
+							"amount": 1,
+							"target": "self"
+						}
+					}
+				]
+			},
+			"hurt_2": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "none",
+							"amount": 2,
+							"target": "self"
+						}
+					}
+				]
+			},
+			"on_tool_used": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						},
+						"run_command": {
+							"command": [
+								"playsound use.gravel @a ~ ~ ~"
+							]
+						},
+						"swing": {}
+					}
+				]
+			}
+		}
+	}
+}

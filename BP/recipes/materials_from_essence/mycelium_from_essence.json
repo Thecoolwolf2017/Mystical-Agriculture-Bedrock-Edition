@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:mycelium_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"~#~",
+			"~#~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			},
+			"~": {
+				"item": "strat:dirt_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:mycelium",
+				"count": 20
+			}
+		],
+		"priority": 0
+	}
+}

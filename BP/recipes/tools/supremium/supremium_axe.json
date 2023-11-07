@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:supremium_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"o#o",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:imperium_axe"
+			},
+			"~": {
+				"item": "strat:supremium_gemstone"
+			},
+			"o": {
+				"item": "strat:supremium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:supremium_axe",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

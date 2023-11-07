@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:supremium_essence_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:supremium_block"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:supremium_essence",
+				"count": 9
+			}
+		],
+		"priority": 5
+	}
+}

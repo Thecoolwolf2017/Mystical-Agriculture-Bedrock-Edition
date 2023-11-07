@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:wool_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:sheep_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:wool",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

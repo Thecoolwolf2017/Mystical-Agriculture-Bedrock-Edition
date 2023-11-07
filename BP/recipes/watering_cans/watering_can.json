@@ -1,0 +1,35 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:watering_can"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" #~",
+			"~o~",
+			" ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:iron_ingot"
+			},
+			"#": {
+				"item": "minecraft:bone_meal"
+			},
+			"o": {
+				"item": "minecraft:bowl"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:watering_can",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

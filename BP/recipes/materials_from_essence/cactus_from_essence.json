@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cactus_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"X#X",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:cactus",
+				"count": 16
+			}
+		],
+		"priority": 0
+	}
+}

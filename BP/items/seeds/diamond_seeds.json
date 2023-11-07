@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:diamond_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "diamond_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Diamond Seeds\n§7Tier: §45§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:diamond_crop"
+			}
+		},
+		"events": {}
+	}
+}

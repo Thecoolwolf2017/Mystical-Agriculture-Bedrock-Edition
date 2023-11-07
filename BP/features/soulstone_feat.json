@@ -1,0 +1,21 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "strat:soulstone_feat"
+		},
+		"count": 32,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "strat:soulstone"
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:netherrack"
+					}
+				]
+			}
+		]
+	}
+}

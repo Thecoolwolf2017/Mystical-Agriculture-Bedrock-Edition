@@ -1,0 +1,33 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:stone_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#~#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:stone_essence"
+			},
+			"~": {
+				"item": "strat:coal_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:stone",
+				"count": 20,
+				"data": 0
+			}
+		],
+		"priority": 0
+	}
+}

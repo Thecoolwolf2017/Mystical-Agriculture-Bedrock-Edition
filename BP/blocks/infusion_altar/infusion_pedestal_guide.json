@@ -1,0 +1,59 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:infusion_pedestal_guide",
+			"menu_category": {
+				"category": "commands",
+				"group": "itemGroup.name.commands"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:light_dampening": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "infusion_pedestal_guide",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:geometry": "geometry.infusion_pedestal",
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"tag:stone": {},
+			"minecraft:on_interact": {
+				"event": "strat:transform",
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','strat:infusion_pedestal')"
+			}
+		},
+		"events": {
+			"strat:transform": {
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "strat:infusion_pedestal"
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"playsound use.stone @a ~~~"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

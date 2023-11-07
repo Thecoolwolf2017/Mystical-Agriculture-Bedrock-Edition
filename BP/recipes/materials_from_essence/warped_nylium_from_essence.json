@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:warped_nylium_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"###",
+			"~~~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			},
+			"~": {
+				"item": "strat:nether_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:warped_nylium",
+				"count": 20
+			}
+		],
+		"priority": 0
+	}
+}

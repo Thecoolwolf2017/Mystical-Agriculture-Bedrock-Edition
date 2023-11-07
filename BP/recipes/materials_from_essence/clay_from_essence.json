@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:clay_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#X",
+			"#~X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:dirt_essence"
+			},
+			"~": {
+				"item": "strat:water_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:clay_ball",
+				"count": 24
+			}
+		],
+		"priority": 0
+	}
+}

@@ -1,0 +1,37 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:nether_agglomeratio"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~",
+			"XO"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:netherrack"
+			},
+			"~": {
+				"item": "minecraft:soul_sand"
+			},
+			"X": {
+				"item": "minecraft:nether_brick"
+			},
+			"O": {
+				"item": "minecraft:nether_wart"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:nether_agglomeratio",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

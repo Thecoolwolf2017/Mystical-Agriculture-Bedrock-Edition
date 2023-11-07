@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:inferium_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:inferium_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:inferium_block",
+				"count": 1
+			}
+		],
+		"priority": 5
+	}
+}

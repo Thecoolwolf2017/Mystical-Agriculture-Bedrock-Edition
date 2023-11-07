@@ -1,0 +1,38 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:11_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~X",
+			"o-X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:blank_record"
+			},
+			"~": {
+				"item": "strat:creeper_essence"
+			},
+			"o": {
+				"item": "strat:skeleton_essence"
+			},
+			"-": {
+				"item": "minecraft:gray_dye"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:music_disc_11",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

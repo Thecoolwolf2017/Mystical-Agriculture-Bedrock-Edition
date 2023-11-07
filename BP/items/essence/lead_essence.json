@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:lead_essence",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "lead_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Lead Essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

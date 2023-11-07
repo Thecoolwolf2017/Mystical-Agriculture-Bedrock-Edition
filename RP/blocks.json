@@ -1,0 +1,347 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"strat:fertile_soil": {
+		"textures": "farmland",
+		"sound": "gravel"
+	},
+	"strat:prosperity_ore": {
+		"textures": "prosperity_ore",
+		"sound": "stone"
+	},
+	"strat:deepslate_prosperity_ore": {
+		"textures": "deepslate_prosperity_ore",
+		"sound": "deepslate"
+	},
+	"strat:inferium_ore": {
+		"textures": "inferium_ore",
+		"sound": "stone"
+	},
+	"strat:deepslate_inferium_ore": {
+		"textures": "deepslate_inferium_ore",
+		"sound": "deepslate"
+	},
+	"strat:soulstone": {
+		"textures": "soulstone",
+		"sound": "stone"
+	},
+	"strat:cobbled_soulstone": {
+		"textures": "cobbled_soulstone",
+		"sound": "stone"
+	},
+	"strat:smooth_soulstone": {
+		"textures": "smooth_soulstone",
+		"sound": "stone"
+	},
+	"strat:soulstone_bricks": {
+		"textures": "soulstone_bricks",
+		"sound": "stone"
+	},
+	"strat:chiseled_soulstone_bricks": {
+		"textures": "chiseled_soulstone_bricks",
+		"sound": "stone"
+	},
+	"strat:cracked_soulstone_bricks": {
+		"textures": "cracked_soulstone_bricks",
+		"sound": "stone"
+	},
+	"strat:soulium_ore": {
+		"textures": "soulium_ore",
+		"sound": "stone"
+	},
+	"strat:soul_glass": {
+		"textures": "soul_glass",
+		"sound": "glass"
+	},
+	"strat:witherproof_glass": {
+		"textures": "witherproof_glass",
+		"sound": "glass"
+	},
+	"strat:witherproof_block": {
+		"textures": "witherproof_block",
+		"sound": "stone"
+	},
+	"strat:witherproof_bricks": {
+		"textures": "witherproof_bricks",
+		"sound": "stone"
+	},
+	"strat:prosperity_block": {
+		"textures": "prosperity_block",
+		"sound": "stone"
+	},
+	"strat:prosperity_ingot_block": {
+		"textures": "prosperity_ingot_block",
+		"sound": "metal"
+	},
+	"strat:prosperity_gemstone_block": {
+		"textures": "prosperity_gemstone_block",
+		"sound": "stone"
+	},
+	"strat:soulium_block": {
+		"textures": "soulium_block",
+		"sound": "stone"
+	},
+	"strat:soulium_ingot_block": {
+		"textures": "soulium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:soulium_gemstone_block": {
+		"textures": "soulium_gemstone_block",
+		"sound": "stone"
+	},
+	"strat:inferium_block": {
+		"textures": "inferium_block",
+		"sound": "stone"
+	},
+	"strat:inferium_ingot_block": {
+		"textures": "inferium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:inferium_gemstone_block": {
+		"textures": "inferium_gemstone_block",
+		"sound": "metal"
+	},
+	"strat:prudentium_block": {
+		"textures": "prudentium_block",
+		"sound": "stone"
+	},
+	"strat:prudentium_ingot_block": {
+		"textures": "prudentium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:prudentium_gemstone_block": {
+		"textures": "prudentium_gemstone_block",
+		"sound": "metal"
+	},
+	"strat:tertium_block": {
+		"textures": "tertium_block",
+		"sound": "stone"
+	},
+	"strat:tertium_ingot_block": {
+		"textures": "tertium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:tertium_gemstone_block": {
+		"textures": "tertium_gemstone_block",
+		"sound": "metal"
+	},
+	"strat:imperium_block": {
+		"textures": "imperium_block",
+		"sound": "stone"
+	},
+	"strat:imperium_ingot_block": {
+		"textures": "imperium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:imperium_gemstone_block": {
+		"textures": "imperium_gemstone_block",
+		"sound": "metal"
+	},
+	"strat:supremium_block": {
+		"textures": "supremium_block",
+		"sound": "stone"
+	},
+	"strat:supremium_ingot_block": {
+		"textures": "supremium_ingot_block",
+		"sound": "metal"
+	},
+	"strat:supremium_gemstone_block": {
+		"textures": "supremium_gemstone_block",
+		"sound": "metal"
+	},
+	"strat:inferium_growth_accelerator": {
+		"textures": "inferium_growth_accelerator",
+		"sound": "metal"
+	},
+	"strat:prudentium_growth_accelerator": {
+		"textures": "prudentium_growth_accelerator",
+		"sound": "metal"
+	},
+	"strat:tertium_growth_accelerator": {
+		"textures": "tertium_growth_accelerator",
+		"sound": "metal"
+	},
+	"strat:imperium_growth_accelerator": {
+		"textures": "imperium_growth_accelerator",
+		"sound": "metal"
+	},
+	"strat:supremium_growth_accelerator": {
+		"textures": "supremium_growth_accelerator",
+		"sound": "metal"
+	},
+	"strat:inferium_farmland": {
+		"textures": "inferium_farmland",
+		"sound": "gravel"
+	},
+	"strat:zombie_crop": {
+		"sound": "grass"
+	},
+	"strat:skeleton_crop": {
+		"sound": "grass"
+	},
+	"strat:creeper_crop": {
+		"sound": "grass"
+	},
+	"strat:spider_crop": {
+		"sound": "grass"
+	},
+	"strat:enderman_crop": {
+		"sound": "grass"
+	},
+	"strat:wither_skeleton_crop": {
+		"sound": "grass"
+	},
+	"strat:blaze_crop": {
+		"sound": "grass"
+	},
+	"strat:ghast_crop": {
+		"sound": "grass"
+	},
+	"strat:cow_crop": {
+		"sound": "grass"
+	},
+	"strat:sheep_crop": {
+		"sound": "grass"
+	},
+	"strat:pig_crop": {
+		"sound": "grass"
+	},
+	"strat:chicken_crop": {
+		"sound": "grass"
+	},
+	"strat:rabbit_crop": {
+		"sound": "grass"
+	},
+	"strat:slime_crop": {
+		"sound": "grass"
+	},
+	"strat:squid_crop": {
+		"sound": "grass"
+	},
+	"strat:fish_crop": {
+		"sound": "grass"
+	},
+	"strat:turtle_crop": {
+		"sound": "grass"
+	},
+	"strat:inferium_crop": {
+		"sound": "grass"
+	},
+	"strat:coal_crop": {
+		"sound": "grass"
+	},
+	"strat:iron_crop": {
+		"sound": "grass"
+	},
+	"strat:copper_crop": {
+		"sound": "grass"
+	},
+	"strat:redstone_crop": {
+		"sound": "grass"
+	},
+	"strat:nether_quartz_crop": {
+		"sound": "grass"
+	},
+	"strat:obsidian_crop": {
+		"sound": "grass"
+	},
+	"strat:gold_crop": {
+		"sound": "grass"
+	},
+	"strat:lapis_lazuli_crop": {
+		"sound": "grass"
+	},
+	"strat:diamond_crop": {
+		"sound": "grass"
+	},
+	"strat:emerald_crop": {
+		"sound": "grass"
+	},
+	"strat:netherite_crop": {
+		"sound": "grass"
+	},
+	"strat:cobalt_crop": {
+		"sound": "grass"
+	},
+	"strat:ardite_crop": {
+		"sound": "grass"
+	},
+	"strat:manyullyn_crop": {
+		"sound": "grass"
+	},
+	"strat:nature_crop": {
+		"sound": "grass"
+	},
+	"strat:wood_crop": {
+		"sound": "grass"
+	},
+	"strat:dirt_crop": {
+		"sound": "grass"
+	},
+	"strat:stone_crop": {
+		"sound": "grass"
+	},
+	"strat:nether_crop": {
+		"sound": "grass"
+	},
+	"strat:end_crop": {
+		"sound": "grass"
+	},
+	"strat:prismarine_crop": {
+		"sound": "grass"
+	},
+	"strat:amethyst_crop": {
+		"sound": "grass"
+	},
+	"strat:glowstone_crop": {
+		"sound": "grass"
+	},
+	"strat:air_crop": {
+		"sound": "grass"
+	},
+	"strat:earth_crop": {
+		"sound": "grass"
+	},
+	"strat:water_crop": {
+		"sound": "grass"
+	},
+	"strat:fire_crop": {
+		"sound": "grass"
+	},
+	"strat:ice_crop": {
+		"sound": "grass"
+	},
+	"strat:deepslate_crop": {
+		"sound": "grass"
+	},
+	"strat:honey_crop": {
+		"sound": "grass"
+	},
+	"strat:pig_iron_crop": {
+		"sound": "grass"
+	},
+	"strat:tin_crop": {
+		"sound": "grass"
+	},
+	"strat:bronze_crop": {
+		"sound": "grass"
+	},
+	"strat:ruby_crop": {
+		"sound": "grass"
+	},
+	"strat:steel_crop": {
+		"sound": "grass"
+	},
+	"strat:silver_crop": {
+		"sound": "grass"
+	},
+	"strat:electrum_crop": {
+		"sound": "grass"
+	},
+	"strat:lead_crop": {
+		"sound": "grass"
+	}
+}

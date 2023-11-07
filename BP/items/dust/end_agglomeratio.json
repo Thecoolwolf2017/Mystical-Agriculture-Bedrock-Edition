@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:end_agglomeratio",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "end_agglomeratio"
+			},
+			"minecraft:display_name": {
+				"value": "End Agglomeratio"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

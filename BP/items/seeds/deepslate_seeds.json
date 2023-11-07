@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:deepslate_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "deepslate_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Deepslate Seeds\n§7Tier: §e1§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:deepslate_crop"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:obsidian_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:obsidian_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:obsidian",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

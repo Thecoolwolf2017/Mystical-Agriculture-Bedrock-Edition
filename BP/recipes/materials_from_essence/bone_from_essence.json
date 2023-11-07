@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:bone_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:skeleton_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:bone",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

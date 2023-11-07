@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "strat:soulstone_furnace"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "strat:cobbled_soulstone",
+		"output": "strat:soulstone"
+	}
+}

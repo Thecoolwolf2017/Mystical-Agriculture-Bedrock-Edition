@@ -1,0 +1,69 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:watering_can",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "watering_can"
+			},
+			"minecraft:display_name": {
+				"value": "Watering Can"
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "strat:watering_can"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "watering_can",
+				"duration": 0.25
+			}
+		},
+		"events": {
+			"strat:watering_can": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:water_splash_particle ~~+1~",
+								"particle minecraft:water_splash_particle ~-0.5~+1~-0.5",
+								"particle minecraft:water_splash_particle ~-0.5~+1~+0.5",
+								"particle minecraft:water_splash_particle ~+0.5~+1~-0.5",
+								"particle minecraft:water_splash_particle ~+0.5~+1~+0.5",
+								"fill ~~~~~~ farmland 1 replace farmland 0"
+							]
+						}
+					},
+					{
+						"randomize": [
+							{
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"function watering_can_crops",
+												"function watering_can_crops_sfe"
+											]
+										}
+									}
+								],
+								"weight": 1
+							},
+							{
+								"weight": 29
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

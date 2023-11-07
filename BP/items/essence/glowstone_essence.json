@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:glowstone_essence",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "glowstone_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Glowstone Essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}
