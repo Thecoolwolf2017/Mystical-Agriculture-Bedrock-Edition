@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:soulstone_feat"
+			"identifier": "strat:imperium_growth_accelerator:soulstone_feat"
 		},
 		"count": 32,
 		"replace_rules": [
