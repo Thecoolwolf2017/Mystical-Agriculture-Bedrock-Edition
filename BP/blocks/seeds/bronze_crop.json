@@ -1,13 +1,10 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:bronze_crop",
 			"states": {
 				"strat:growth_stage": [0,1,2,3,4,5,6,7]
-			},
-			"menu_category": {
-				"category": "commands"
 			}
 		},
 		"components": {

@@ -1,15 +1,19 @@
-//bridge-file-version: #49
 {
-	"format_version": "1.19.70",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:pig_iron_crop",
 			"properties": {
-				"strat:growth_stage": [0,1,2,3,4,5,6,7]
-			},
-			"menu_category": {
-				"category": "Commands",
-				"group": "itemGroup.name.Commands"
+				"strat:growth_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
 			}
 		},
 		"components": {
@@ -51,7 +55,6 @@
 					}
 				]
 			},
-			"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json",
 			"minecraft:light_dampening": 0
 		},
 		"events": {
@@ -151,8 +154,7 @@
 							"texture": "mystical_resource_crop_0",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -163,8 +165,7 @@
 							"texture": "mystical_resource_crop_1",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -175,8 +176,7 @@
 							"texture": "mystical_resource_crop_2",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -187,8 +187,7 @@
 							"texture": "mystical_resource_crop_3",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -199,8 +198,7 @@
 							"texture": "mystical_resource_crop_4",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -211,8 +209,7 @@
 							"texture": "mystical_resource_crop_5",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -223,8 +220,7 @@
 							"texture": "mystical_resource_crop_6",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_seeds.json"
+					}
 				}
 			},
 			{
@@ -236,7 +232,6 @@
 							"render_method": "alpha_test"
 						}
 					},
-					"minecraft:loot": "loot_tables/seeds/pig_iron_crop.json",
 					"minecraft:on_interact": {
 						"event": "strat:final_stage"
 					}

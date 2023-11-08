@@ -5,7 +5,16 @@
 		"description": {
 			"identifier": "strat:obsidian_crop",
 			"properties": {
-				"strat:growth_stage": [0,1,2,3,4,5,6,7]
+				"strat:growth_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
 			},
 			"menu_category": {
 				"category": "Commands",
@@ -51,7 +60,6 @@
 					}
 				]
 			},
-			"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json",
 			"minecraft:light_dampening": 0
 		},
 		"events": {
@@ -151,8 +159,7 @@
 							"texture": "mystical_resource_crop_0",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -163,8 +170,7 @@
 							"texture": "mystical_resource_crop_1",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -175,8 +181,7 @@
 							"texture": "mystical_resource_crop_2",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -187,8 +192,7 @@
 							"texture": "mystical_resource_crop_3",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -199,8 +203,7 @@
 							"texture": "mystical_resource_crop_4",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -211,8 +214,7 @@
 							"texture": "mystical_resource_crop_5",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -223,8 +225,7 @@
 							"texture": "mystical_resource_crop_6",
 							"render_method": "alpha_test"
 						}
-					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_seeds.json"
+					}
 				}
 			},
 			{
@@ -236,7 +237,6 @@
 							"render_method": "alpha_test"
 						}
 					},
-					"minecraft:loot": "loot_tables/seeds/obsidian_crop.json",
 					"minecraft:on_interact": {
 						"event": "strat:final_stage"
 					}
