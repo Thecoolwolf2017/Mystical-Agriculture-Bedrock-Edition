@@ -1,11 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:inferium_growth_accelerator",
-			"menu_category": {
-				"category": "items"
-			}
+			"identifier": "strat:inferium_growth_accelerator"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

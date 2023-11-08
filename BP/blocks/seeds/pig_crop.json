@@ -3,8 +3,17 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:pig_crop",
-			"properties": {
-				"strat:growth_stage": [0,1,2,3,4,5,6,7]
+			"states": {
+				"strat:growth_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
 			}
 		},
 		"components": {
@@ -29,7 +38,7 @@
 			},
 			"minecraft:on_interact": {
 				"event": "strat:bone_meal",
-				"condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal','strat:fertilized_essence','strat:mystical_fertilizer') && query.block_property('strat:growth_stage') < 7"
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal','strat:fertilized_essence','strat:mystical_fertilizer') && query.block_state('strat:growth_stage') < 7"
 			},
 			"minecraft:placement_filter": {
 				"conditions": [
@@ -67,7 +76,7 @@
 					{
 						"condition": "query.is_item_name_any('slot.weapon.mainhand','strat:mystical_fertilizer')",
 						"decrement_stack": {},
-						"set_block_property": {
+						"set_block_state": {
 							"strat:growth_stage": 7
 						},
 						"run_command": {
@@ -86,8 +95,8 @@
 					},
 					{
 						"weight": 1,
-						"set_block_property": {
-							"strat:growth_stage": "(query.block_property('strat:growth_stage')<7) ? query.block_property('strat:growth_stage') + 1 : 7"
+						"set_block_state": {
+							"strat:growth_stage": "(query.block_state('strat:growth_stage')<7) ? query.block_state('strat:growth_stage') + 1 : 7"
 						}
 					}
 				]
@@ -99,8 +108,8 @@
 					},
 					{
 						"weight": 3,
-						"set_block_property": {
-							"strat:growth_stage": "(query.block_property('strat:growth_stage')<7) ? query.block_property('strat:growth_stage') + 1 : 7"
+						"set_block_state": {
+							"strat:growth_stage": "(query.block_state('strat:growth_stage')<7) ? query.block_state('strat:growth_stage') + 1 : 7"
 						}
 					}
 				]
@@ -108,8 +117,8 @@
 			"strat:grow_stage_3": {
 				"randomize": [
 					{
-						"set_block_property": {
-							"strat:growth_stage": "(query.block_property('strat:growth_stage')<7) ? query.block_property('strat:growth_stage') + 1 : 7"
+						"set_block_state": {
+							"strat:growth_stage": "(query.block_state('strat:growth_stage')<7) ? query.block_state('strat:growth_stage') + 1 : 7"
 						},
 						"weight": 1
 					},
@@ -121,7 +130,7 @@
 			"strat:final_stage": {
 				"sequence": [
 					{
-						"set_block_property": {
+						"set_block_state": {
 							"strat:growth_stage": 0
 						},
 						"spawn_loot": {
@@ -138,7 +147,7 @@
 		},
 		"permutations": [
 			{
-				"condition": "query.block_property('strat:growth_stage') == 0",
+				"condition": "query.block_state('strat:growth_stage') == 0",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -149,7 +158,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 1",
+				"condition": "query.block_state('strat:growth_stage') == 1",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -160,7 +169,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 2",
+				"condition": "query.block_state('strat:growth_stage') == 2",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -171,7 +180,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 3",
+				"condition": "query.block_state('strat:growth_stage') == 3",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -182,7 +191,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 4",
+				"condition": "query.block_state('strat:growth_stage') == 4",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -193,7 +202,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 5",
+				"condition": "query.block_state('strat:growth_stage') == 5",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -204,7 +213,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 6",
+				"condition": "query.block_state('strat:growth_stage') == 6",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {
@@ -215,7 +224,7 @@
 				}
 			},
 			{
-				"condition": "query.block_property('strat:growth_stage') == 7",
+				"condition": "query.block_state('strat:growth_stage') == 7",
 				"components": {
 					"minecraft:material_instances": {
 						"*": {

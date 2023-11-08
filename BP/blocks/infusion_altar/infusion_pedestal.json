@@ -2,10 +2,7 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:infusion_pedestal",
-			"menu_category": {
-				"category": "items"
-			}
+			"identifier": "strat:infusion_pedestal"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

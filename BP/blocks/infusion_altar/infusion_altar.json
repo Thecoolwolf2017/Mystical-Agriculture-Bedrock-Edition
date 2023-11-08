@@ -4,11 +4,14 @@
 		"description": {
 			"identifier": "strat:infusion_altar",
 			"states": {
-				"strat:activation": [0,1],
-				"strat:pedestal_guides": [0,1]
-			},
-			"menu_category": {
-				"category": "items"
+				"strat:activation": [
+					0,
+					1
+				],
+				"strat:pedestal_guides": [
+					0,
+					1
+				]
 			}
 		},
 		"components": {
@@ -180,7 +183,10 @@
 					},
 					"minecraft:queued_ticking": {
 						"looping": true,
-						"interval_range": [10,10],
+						"interval_range": [
+							10,
+							10
+						],
 						"on_tick": {
 							"event": "strat:activate"
 						}

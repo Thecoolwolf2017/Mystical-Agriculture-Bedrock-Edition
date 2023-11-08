@@ -1,11 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:infusion_pedestal_guide",
-			"menu_category": {
-				"category": "commands"
-			}
+			"identifier": "strat:infusion_pedestal_guide"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": false,
