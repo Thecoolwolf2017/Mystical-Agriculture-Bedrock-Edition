@@ -2,8 +2,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "strat:soulium_ore_feature_rule",
-			"places_feature": "strat:soulium_ore_feat"
+			"identifier": "strat:imperium_growth_accelerator:soulium_ore_feature_rule",
+			"places_feature": "strat:imperium_growth_accelerator:soulium_ore_feat"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",

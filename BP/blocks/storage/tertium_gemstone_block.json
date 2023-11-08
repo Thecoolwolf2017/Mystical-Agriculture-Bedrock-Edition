@@ -1,11 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:tertium_gemstone_block",
-			"menu_category": {
-				"category": "construction"
-			}
+			"identifier": "strat:tertium_gemstone_block"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

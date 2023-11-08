@@ -1,11 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:cobbled_soulstone",
-			"menu_category": {
-				"category": "construction"
-			}
+			"identifier": "strat:cobbled_soulstone"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

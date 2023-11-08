@@ -1,11 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:witherproof_block",
-			"menu_category": {
-				"category": "construction"
-			}
+			"identifier": "strat:witherproof_block"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

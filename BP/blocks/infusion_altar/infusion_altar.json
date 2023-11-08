@@ -95,18 +95,6 @@
 					}
 				]
 			},
-			"strat:check_function": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								""
-							],
-							"target": "player"
-						}
-					}
-				]
-			},
 			"strat:pedestal_guides_toggle": {
 				"sequence": [
 					{

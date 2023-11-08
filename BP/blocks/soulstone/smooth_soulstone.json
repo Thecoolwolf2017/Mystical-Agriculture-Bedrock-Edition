@@ -1,12 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:smooth_soulstone",
-			"menu_category": {
-				"category": "Construction",
-				"group": "itemGroup.name.Construction"
-			}
+			"identifier": "strat:smooth_soulstone"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

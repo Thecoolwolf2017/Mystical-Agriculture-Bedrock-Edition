@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:inferium_ore_feat"
+			"identifier": "strat:imperium_growth_accelerator:inferium_ore_feat"
 		},
 		"count": 8,
 		"replace_rules": [

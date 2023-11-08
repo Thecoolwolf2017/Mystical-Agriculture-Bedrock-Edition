@@ -1,12 +1,8 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:cracked_soulstone_bricks",
-			"menu_category": {
-				"category": "Construction",
-				"group": "itemGroup.name.stoneBrick"
-			}
+			"identifier": "strat:cracked_soulstone_bricks"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

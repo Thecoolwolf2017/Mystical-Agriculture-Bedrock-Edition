@@ -2,10 +2,7 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:witherproof_glass",
-			"menu_category": {
-				"category": "construction"
-			}
+			"identifier": "strat:witherproof_glass"
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

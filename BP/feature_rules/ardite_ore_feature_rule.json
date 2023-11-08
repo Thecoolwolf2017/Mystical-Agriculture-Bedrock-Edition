@@ -2,8 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "strat:ardite_ore_feature_rule",
-			"places_feature": "strat:ardite_ore_feature"
+			"identifier": "strat:imperium_growth_accelerator:ardite_ore_feature_rule"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",

@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:deepslate_prosperity_ore_feat"
+			"identifier": "strat:imperium_growth_accelerator:deepslate_prosperity_ore_feat"
 		},
 		"count": 8,
 		"replace_rules": [
