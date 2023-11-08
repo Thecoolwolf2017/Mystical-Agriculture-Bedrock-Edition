@@ -995,44 +995,6 @@
       <div class="_7zRv0">
          <div class="itVXy _8a1b4" dir="ltr">
             <div class="mhGZq">
-               <h2 id="viewer-8uoep" class="qDGi6 Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Changelog (v1.3)</span></span></h2>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="fsX5d">
-      <div class="itVXy _8a1b4" dir="ltr">
-         <div class="mhGZq">
-            <ul class="public-DraftStyleDefault-ul">
-               <li id="viewer-dehjv" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size public-DraftStyleDefault-reset OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Added Inferium Farmland (substitute for Farmland)</p>
-               </li>
-               <li id="viewer-2lsre" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Added Mystical Growth Pots (Automatable)</p>
-               </li>
-               <li id="viewer-425lu" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Inferium and Prosperity Ores can only be harvested by a pickaxe</p>
-               </li>
-               <li id="viewer-6l4ga" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Inferium and Prosperity Ores now drop experience</p>
-               </li>
-               <li id="viewer-447v6" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Recoded Infusion Altar structure (more optimised)</p>
-               </li>
-               <li id="viewer-4tupk" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Infusion Pedestal Guides can be deactivated by clicking on the Altar</p>
-               </li>
-               <li id="viewer-4ddns" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Block inventory rendering fixed</p>
-               </li>
-               <li id="viewer-7knlk" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Fixed Soulium Dagger to fill Soul Jars</p>
-               </li>
-               <li id="viewer-7olpa" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">Soul Glass and Wither-proof Glass are now fully transparent</p>
-               </li>
-            </ul>
-         </div>
-      </div>
+              
    </div>
 </div>
