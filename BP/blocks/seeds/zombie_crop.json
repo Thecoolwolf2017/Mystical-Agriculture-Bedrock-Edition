@@ -43,7 +43,7 @@
 			},
 			"minecraft:on_interact": {
 				"event": "strat:bone_meal",
-				"condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal','strat:fertilized_essence','strat:mystical_fertilizer') && query.block_property('strat:growth_stage') < 7"
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal','strat:fertilized_essence','strat:mystical_fertilizer') && query.block_state('strat:growth_stage') < 7"
 			},
 			"minecraft:placement_filter": {
 				"conditions": [

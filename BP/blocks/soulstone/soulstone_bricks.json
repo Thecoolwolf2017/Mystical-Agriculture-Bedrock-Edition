@@ -1,11 +1,10 @@
 {
-	"format_version": "1.19.70",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:soulstone_bricks",
 			"menu_category": {
-				"category": "Construction",
-				"group": "itemGroup.name.stoneBrick"
+				"category": "construction"
 			}
 		},
 		"components": {
@@ -15,7 +14,6 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 5.0
 			},
-			"minecraft:loot": "loot_tables/empty.json",
 			"tag:stone_level": {},
 			"minecraft:on_player_destroyed": {
 				"event": "strat:loot"

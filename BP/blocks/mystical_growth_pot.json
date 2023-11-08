@@ -1,5 +1,5 @@
 {
-	"format_version": "1.19.70",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:mystical_growth_pot",
@@ -9,8 +9,7 @@
 				"strat:growth_stage": [0,1,2,3,4,5,6]
 			},
 			"menu_category": {
-				"category": "Items",
-				"group": "itemGroup.name.Items"
+				"category": "items"
 			}
 		},
 		"components": {

@@ -1,6 +1,5 @@
-//bridge-file-version: #3
 {
-	"format_version": "1.19.70",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:tertium_ingot_block",
