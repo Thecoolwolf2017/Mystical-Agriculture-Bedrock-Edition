@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.40",
 	"minecraft:feature_rules": {
 		"description": {
 			"identifier": "strat:imperium_growth_accelerator:ardite_ore_feature_rule",
