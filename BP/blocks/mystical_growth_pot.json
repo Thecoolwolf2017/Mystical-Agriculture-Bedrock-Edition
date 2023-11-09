@@ -544,19 +544,6 @@
 								}
 							},
 							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand','strat:ardite_seeds')",
-								"decrement_stack": {},
-								"set_block_state": {
-									"strat:crop_category": 3,
-									"strat:crop_type": 9
-								},
-								"run_command": {
-									"command": [
-										"playsound use.gravel @a ~~~"
-									]
-								}
-							},
-							{
 								"condition": "query.is_item_name_any('slot.weapon.mainhand','strat:end_seeds')",
 								"decrement_stack": {},
 								"set_block_state": {
@@ -1174,12 +1161,6 @@
 								}
 							},
 							{
-								"condition": "query.block_state('strat:crop_type') == 9",
-								"spawn_loot": {
-									"table": "loot_tables/seeds/ardite_crop.json"
-								}
-							},
-							{
 								"condition": "query.block_state('strat:crop_type') == 10",
 								"spawn_loot": {
 									"table": "loot_tables/seeds/end_crop.json"
@@ -1556,12 +1537,6 @@
 								"condition": "query.block_state('strat:crop_type') == 8",
 								"spawn_loot": {
 									"table": "loot_tables/seeds/cobalt_seeds.json"
-								}
-							},
-							{
-								"condition": "query.block_state('strat:crop_type') == 9",
-								"spawn_loot": {
-									"table": "loot_tables/seeds/ardite_seeds.json"
 								}
 							},
 							{
