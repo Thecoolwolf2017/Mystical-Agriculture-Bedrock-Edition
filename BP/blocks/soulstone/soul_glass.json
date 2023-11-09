@@ -2,7 +2,11 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:soul_glass"
+			"identifier": "strat:soul_glass",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.glass"
+			}
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

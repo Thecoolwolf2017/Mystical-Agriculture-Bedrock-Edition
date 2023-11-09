@@ -1,8 +1,12 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:enderman_crop",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			},
 			"states": {
 				"strat:growth_stage": [
 					0,

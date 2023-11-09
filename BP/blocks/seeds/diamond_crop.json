@@ -3,6 +3,7 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:diamond_crop",
+			
 			"states": {
 				"strat:growth_stage": [
 					0,

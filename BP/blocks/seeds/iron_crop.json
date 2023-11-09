@@ -3,6 +3,7 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:iron_crop",
+			
 			"states": {
 				"strat:growth_stage": [
 					0,

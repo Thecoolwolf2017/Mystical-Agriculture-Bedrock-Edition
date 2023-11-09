@@ -3,6 +3,10 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:squid_crop",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			},
 			"states": {
 				"strat:growth_stage": [
 					0,

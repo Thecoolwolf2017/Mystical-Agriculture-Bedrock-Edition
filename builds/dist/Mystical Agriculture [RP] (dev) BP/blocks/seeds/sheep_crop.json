@@ -3,6 +3,10 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:sheep_crop",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			},
 			"properties": {
 				"strat:growth_stage": [
 					0,

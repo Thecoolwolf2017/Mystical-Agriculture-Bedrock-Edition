@@ -1,8 +1,11 @@
-{
+	{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:infusion_altar",
+			"menu_category": {
+				"category": "items"
+			},
 			"states": {
 				"strat:activation": [
 					0,

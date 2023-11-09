@@ -2,7 +2,8 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:soulstone_bricks"
+			"identifier": "strat:soulstone_bricks",
+			
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

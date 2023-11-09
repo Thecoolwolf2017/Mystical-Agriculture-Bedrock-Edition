@@ -2,7 +2,8 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:tertium_block"
+			"identifier": "strat:tertium_block",
+			
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

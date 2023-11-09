@@ -2,7 +2,10 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:imperium_ingot_block"
+			"identifier": "strat:imperium_ingot_block",
+			"menu_category": {
+"category": "construction"
+			}
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {

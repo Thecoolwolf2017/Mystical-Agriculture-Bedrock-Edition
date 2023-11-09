@@ -1,15 +1,21 @@
-	{
+{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:inferium_growth_accelerator"
+			"identifier": "strat:inferium_growth_accelerator",
+			"menu_category": {
+				"category": "items"
+			}
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 1
 			},
 			"minecraft:queued_ticking": {
-				"interval_range": [100,400],
+				"interval_range": [
+					100,
+					400
+				],
 				"looping": true,
 				"on_tick": {
 					"event": "strat:grow"

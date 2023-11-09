@@ -2,7 +2,11 @@
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:witherproof_bricks"
+			"identifier": "strat:witherproof_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
 		},
 		"components": {
 			"minecraft:destructible_by_mining": {
