@@ -1,0 +1,62 @@
+pack.name=Mystical Agriculture RP
+pack.description=A Java Mod Recreation by Stratospheer!
+
+# Ores
+tile.strat:prosperity_ore.name=Prosperity Ore
+tile.strat:deepslate_prosperity_ore.name=Deepslate Prosperity Ore
+tile.strat:inferium_ore.name=Inferium Ore
+tile.strat:deepslate_inferium_ore.name=Deepslate Inferium Ore
+tile.strat:soulium_ore.name=Soulium Ore
+
+# Crops
+tile.strat:inferium_farmland.name=Inferium Farmland
+tile.strat:mystical_growth_pot.name=Mystical Growth Pot
+
+# Altar
+tile.strat:infusion_pedestal.name=Infusion Pedestal
+tile.strat:infusion_pedestal_guide.name=Infusion Pedestal Guide
+tile.strat:infusion_altar.name=Infusion Altar
+
+# Soulstone
+tile.strat:soulstone.name=Soulstone
+tile.strat:cobbled_soulstone.name=Cobbled Soulstone
+tile.strat:smooth_soulstone.name=Smooth Soulstone
+tile.strat:soulstone_bricks.name=Soulstone Bricks
+tile.strat:chiseled_soulstone_bricks.name=Chiseled Soulstone Bricks
+tile.strat:cracked_soulstone_bricks.name=Cracked Soulstone Bricks
+tile.strat:soul_glass.name=Soul Glass
+
+# Witherproof
+tile.strat:witherproof_glass.name=Witherproof Glass
+tile.strat:witherproof_block.name=Witherproof Block
+tile.strat:witherproof_bricks.name=Witherproof Bricks
+
+# Storage
+tile.strat:prosperity_block.name=Prosperity Block
+tile.strat:prosperity_ingot_block.name=Prosperity Ingot Block
+tile.strat:prosperity_gemstone_block.name=Prosperity Gemstone Block
+tile.strat:soulium_block.name=Soulium Block
+tile.strat:soulium_ingot_block.name=Soulium Ingot Block
+tile.strat:soulium_gemstone_block.name=Soulium Gemstone Block
+tile.strat:inferium_block.name=Inferium Block
+tile.strat:inferium_ingot_block.name=Inferium Ingot Block
+tile.strat:inferium_gemstone_block.name=Inferium Gemstone Block
+tile.strat:prudentium_block.name=Prudentium Block
+tile.strat:prudentium_ingot_block.name=Prudentium Ingot Block
+tile.strat:prudentium_gemstone_block.name=Prudentium Gemstone Block
+tile.strat:tertium_block.name=Tertium Block
+tile.strat:tertium_ingot_block.name=Tertium Ingot Block
+tile.strat:tertium_gemstone_block.name=Tertium Gemstone Block
+tile.strat:imperium_block.name=Imperium Block
+tile.strat:imperium_ingot_block.name=Imperium Ingot Block
+tile.strat:imperium_gemstone_block.name=Imperium Gemstone Block
+tile.strat:supremium_block.name=Supremium Block
+tile.strat:supremium_ingot_block.name=Supremium Ingot Block
+tile.strat:supremium_gemstone_block.name=Supremium Gemstone Block
+
+# Growth Accelerators
+tile.strat:inferium_growth_accelerator.name=Inferium Growth Accelerator §7Range: §e12§7 Blocks§r
+tile.strat:prudentium_growth_accelerator.name=Prudentium Growth Accelerator §7Range: §a24§7 Blocks§r
+tile.strat:tertium_growth_accelerator.name=Tertium Growth Accelerator §7Range: §636§7 Blocks§r
+tile.strat:imperium_growth_accelerator.name=Imperium Growth Accelerator §7Range: §b48§7 Blocks§r
+tile.strat:supremium_growth_accelerator.name=Supremium Growth Accelerator §7Range: §460§7 Blocks§r

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:nether_bricks_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"#X#",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nether_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:nether_brick",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

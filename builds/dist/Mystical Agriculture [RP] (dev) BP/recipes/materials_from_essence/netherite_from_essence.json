@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:netherite_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:netherite_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:netherite_ingot",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

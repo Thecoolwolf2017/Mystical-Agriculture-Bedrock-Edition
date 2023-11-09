@@ -1,0 +1,588 @@
+{
+  "resource_pack_name": "bridgeRP",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+		"prosperity_ore": {
+			"textures": [
+				"textures/blocks/prosperity_ore"
+			]
+		},
+		"deepslate_prosperity_ore": {
+			"textures": [
+				"textures/blocks/deepslate_prosperity_ore"
+			]
+		},
+		"inferium_ore": {
+			"textures": [
+				"textures/blocks/inferium_ore"
+			]
+		},
+		"deepslate_inferium_ore": {
+			"textures": [
+				"textures/blocks/deepslate_inferium_ore"
+			]
+		},
+		"soulstone": {
+			"textures": [
+				"textures/blocks/soulstone"
+			]
+		},
+		"cobbled_soulstone": {
+			"textures": [
+				"textures/blocks/soulstone_cobble"
+			]
+		},
+		"smooth_soulstone": {
+			"textures": [
+				"textures/blocks/soulstone_smooth"
+			]
+		},
+		"soulstone_bricks": {
+			"textures": [
+				"textures/blocks/soulstone_bricks"
+			]
+		},
+		"chiseled_soulstone_bricks": {
+			"textures": [
+				"textures/blocks/soulstone_chiseled_bricks"
+			]
+		},
+		"cracked_soulstone_bricks": {
+			"textures": [
+				"textures/blocks/soulstone_cracked_bricks"
+			]
+		},
+		"soulium_ore": {
+			"textures": [
+				"textures/blocks/soulium_ore"
+			]
+		},
+		"soul_glass": {
+			"textures": [
+				"textures/blocks/soul_glass"
+			]
+		},
+		"witherproof_glass": {
+			"textures": [
+				"textures/blocks/witherproof_glass"
+			]
+		},
+		"witherproof_block": {
+			"textures": [
+				"textures/blocks/witherproof_block"
+			]
+		},
+		"witherproof_bricks": {
+			"textures": [
+				"textures/blocks/witherproof_bricks"
+			]
+		},
+		"infusion_altar": {
+			"textures": [
+				"textures/blocks/infusion_altar"
+			]
+		},
+		"infusion_pedestal": {
+			"textures": [
+				"textures/blocks/infusion_pedestal"
+			]
+		},
+		"infusion_pedestal_guide": {
+			"textures": [
+				"textures/blocks/infusion_pedestal_guide"
+			]
+		},
+		"prosperity_block": {
+			"textures": [
+				"textures/blocks/storage/prosperity_block"
+			]
+		},
+		"prosperity_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/prosperity_ingot_block"
+			]
+		},
+		"prosperity_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/prosperity_gemstone_block"
+			]
+		},
+		"soulium_block": {
+			"textures": [
+				"textures/blocks/storage/soulium_block"
+			]
+		},
+		"soulium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/soulium_ingot_block"
+			]
+		},
+		"soulium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/soulium_gemstone_block"
+			]
+		},
+		"inferium_block": {
+			"textures": [
+				"textures/blocks/storage/inferium_block"
+			]
+		},
+		"inferium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/inferium_ingot_block"
+			]
+		},
+		"inferium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/inferium_gemstone_block"
+			]
+		},
+		"inferium_growth_accelerator": {
+			"textures": [
+				"textures/blocks/inferium_growth_accelerator"
+			]
+		},
+		"prudentium_block": {
+			"textures": [
+				"textures/blocks/storage/prudentium_block"
+			]
+		},
+		"prudentium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/prudentium_ingot_block"
+			]
+		},
+		"prudentium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/prudentium_gemstone_block"
+			]
+		},
+		"prudentium_growth_accelerator": {
+			"textures": [
+				"textures/blocks/prudentium_growth_accelerator"
+			]
+		},
+		"tertium_block": {
+			"textures": [
+				"textures/blocks/storage/tertium_block"
+			]
+		},
+		"tertium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/tertium_ingot_block"
+			]
+		},
+		"tertium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/tertium_gemstone_block"
+			]
+		},
+		"tertium_growth_accelerator": {
+			"textures": [
+				"textures/blocks/tertium_growth_accelerator"
+			]
+		},
+		"imperium_block": {
+			"textures": [
+				"textures/blocks/storage/imperium_block"
+			]
+		},
+		"imperium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/imperium_ingot_block"
+			]
+		},
+		"imperium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/imperium_gemstone_block"
+			]
+		},
+		"imperium_growth_accelerator": {
+			"textures": [
+				"textures/blocks/imperium_growth_accelerator"
+			]
+		},
+		"supremium_block": {
+			"textures": [
+				"textures/blocks/storage/supremium_block"
+			]
+		},
+		"supremium_ingot_block": {
+			"textures": [
+				"textures/blocks/storage/supremium_ingot_block"
+			]
+		},
+		"supremium_gemstone_block": {
+			"textures": [
+				"textures/blocks/storage/supremium_gemstone_block"
+			]
+		},
+		"supremium_growth_accelerator": {
+			"textures": [
+				"textures/blocks/supremium_growth_accelerator"
+			]
+		},
+		"inferium_farmland": {
+			"textures": [
+				"textures/blocks/inferium_farmland"
+			]
+		},
+		"inferium_dirt": {
+			"textures": [
+				"textures/blocks/inferium_dirt"
+			]
+		},
+		"mystical_mob_crop_0": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_0"
+			]
+		},
+		"mystical_mob_crop_1": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_1"
+			]
+		},
+		"mystical_mob_crop_2": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_2"
+			]
+		},
+		"mystical_mob_crop_3": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_3"
+			]
+		},
+		"mystical_mob_crop_4": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_4"
+			]
+		},
+		"mystical_mob_crop_5": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_5"
+			]
+		},
+		"mystical_mob_crop_6": {
+			"textures": [
+				"textures/blocks/crops/mystical_mob_crop_6"
+			]
+		},
+		"mystical_zombie_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_zombie_crop_7"
+			]
+		},
+		"mystical_skeleton_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_skeleton_crop_7"
+			]
+		},
+		"mystical_creeper_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_creeper_crop_7"
+			]
+		},
+		"mystical_spider_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_spider_crop_7"
+			]
+		},
+		"mystical_enderman_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_enderman_crop_7"
+			]
+		},
+		"mystical_wither_skeleton_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_wither_skeleton_crop_7"
+			]
+		},
+		"mystical_blaze_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_blaze_crop_7"
+			]
+		},
+		"mystical_ghast_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_ghast_crop_7"
+			]
+		},
+		"mystical_cow_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_cow_crop_7"
+			]
+		},
+		"mystical_sheep_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_sheep_crop_7"
+			]
+		},
+		"mystical_pig_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_pig_crop_7"
+			]
+		},
+		"mystical_chicken_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_chicken_crop_7"
+			]
+		},
+		"mystical_rabbit_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_rabbit_crop_7"
+			]
+		},
+		"mystical_slime_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_slime_crop_7"
+			]
+		},
+		"mystical_squid_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_squid_crop_7"
+			]
+		},
+		"mystical_fish_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_fish_crop_7"
+			]
+		},
+		"mystical_turtle_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_turtle_crop_7"
+			]
+		},
+		"mystical_resource_crop_0": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_0"
+			]
+		},
+		"mystical_resource_crop_1": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_1"
+			]
+		},
+		"mystical_resource_crop_2": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_2"
+			]
+		},
+		"mystical_resource_crop_3": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_3"
+			]
+		},
+		"mystical_resource_crop_4": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_4"
+			]
+		},
+		"mystical_resource_crop_5": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_5"
+			]
+		},
+		"mystical_resource_crop_6": {
+			"textures": [
+				"textures/blocks/crops/mystical_resource_crop_6"
+			]
+		},
+		"mystical_inferium_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_inferium_crop_7"
+			]
+		},
+		"mystical_coal_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_coal_crop_7"
+			]
+		},
+		"mystical_iron_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_iron_crop_7"
+			]
+		},
+		"mystical_copper_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_copper_crop_7"
+			]
+		},
+		"mystical_redstone_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_redstone_crop_7"
+			]
+		},
+		"mystical_nether_quartz_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_nether_quartz_crop_7"
+			]
+		},
+		"mystical_obsidian_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_obsidian_crop_7"
+			]
+		},
+		"mystical_gold_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_gold_crop_7"
+			]
+		},
+		"mystical_lapis_lazuli_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_lapis_lazuli_crop_7"
+			]
+		},
+		"mystical_diamond_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_diamond_crop_7"
+			]
+		},
+		"mystical_emerald_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_emerald_crop_7"
+			]
+		},
+		"mystical_netherite_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_netherite_crop_7"
+			]
+		},
+		"mystical_cobalt_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_cobalt_crop_7"
+			]
+		},
+		"mystical_ardite_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_ardite_crop_7"
+			]
+		},
+		"mystical_manyullyn_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_manyullyn_crop_7"
+			]
+		},
+		"mystical_nature_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_nature_crop_7"
+			]
+		},
+		"mystical_wood_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_wood_crop_7"
+			]
+		},
+		"mystical_dirt_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_dirt_crop_7"
+			]
+		},
+		"mystical_stone_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_stone_crop_7"
+			]
+		},
+		"mystical_nether_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_nether_crop_7"
+			]
+		},
+		"mystical_end_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_end_crop_7"
+			]
+		},
+		"mystical_prismarine_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_prismarine_crop_7"
+			]
+		},
+		"mystical_amethyst_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_amethyst_crop_7"
+			]
+		},
+		"mystical_glowstone_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_glowstone_crop_7"
+			]
+		},
+		"mystical_air_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_air_crop_7"
+			]
+		},
+		"mystical_earth_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_earth_crop_7"
+			]
+		},
+		"mystical_water_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_water_crop_7"
+			]
+		},
+		"mystical_fire_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_fire_crop_7"
+			]
+		},
+		"mystical_ice_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_ice_crop_7"
+			]
+		},
+		"mystical_deepslate_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_deepslate_crop_7"
+			]
+		},
+		"mystical_honey_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_honey_crop_7"
+			]
+		},
+		"mystical_pig_iron_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_pig_iron_crop_7"
+			]
+		},
+		"mystical_tin_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_tin_crop_7"
+			]
+		},
+		"mystical_bronze_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_bronze_crop_7"
+			]
+		},
+		"mystical_ruby_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_ruby_crop_7"
+			]
+		},
+		"mystical_steel_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_steel_crop_7"
+			]
+		},
+		"mystical_silver_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_silver_crop_7"
+			]
+		},
+		"mystical_electrum_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_electrum_crop_7"
+			]
+		},
+		"mystical_lead_crop_7": {
+			"textures": [
+				"textures/blocks/crops/mystical_lead_crop_7"
+			]
+		}
+	}
+}

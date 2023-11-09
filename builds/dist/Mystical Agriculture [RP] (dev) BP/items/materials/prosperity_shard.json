@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prosperity_shard",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prosperity_shard"
+			},
+			"minecraft:display_name": {
+				"value": "Prosperity Shard"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

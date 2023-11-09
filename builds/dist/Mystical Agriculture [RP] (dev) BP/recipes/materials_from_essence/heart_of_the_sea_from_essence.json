@@ -1,0 +1,37 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:heart_of_the_sea_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"S~#",
+			"~O~",
+			"#~S"
+		],
+		"key": {
+			"#": {
+				"item": "strat:prismarine_essence"
+			},
+			"~": {
+				"item": "strat:diamond_essence"
+			},
+			"S": {
+				"item": "strat:squid_essence"
+			},
+			"O": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:heart_of_the_sea",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

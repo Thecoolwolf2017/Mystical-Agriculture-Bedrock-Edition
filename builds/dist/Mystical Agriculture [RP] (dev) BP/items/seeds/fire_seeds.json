@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:fire_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fire_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Fire Seeds\n§7Tier: §eElemental§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:fire_crop"
+			}
+		},
+		"events": {}
+	}
+}

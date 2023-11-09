@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:imperium_essence_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:imperium_block"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:imperium_essence",
+				"count": 9
+			}
+		],
+		"priority": 5
+	}
+}

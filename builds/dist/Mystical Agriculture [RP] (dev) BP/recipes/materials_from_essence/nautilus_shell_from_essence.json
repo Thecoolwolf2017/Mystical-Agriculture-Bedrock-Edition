@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:nautilus_shell_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~#",
+			"~#~",
+			"#~#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:prismarine_essence"
+			},
+			"~": {
+				"item": "strat:fish_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:nautilus_shell",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

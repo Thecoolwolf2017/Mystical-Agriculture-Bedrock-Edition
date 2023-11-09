@@ -1,0 +1,36 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:nature_agglomeratio"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~",
+			"XO"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:pumpkin"
+			},
+			"~": {
+				"item": "minecraft:potato"
+			},
+			"X": {
+				"item": "minecraft:cactus"
+			},
+			"O": {
+				"item": "minecraft:sugar_cane"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:nature_agglomeratio",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

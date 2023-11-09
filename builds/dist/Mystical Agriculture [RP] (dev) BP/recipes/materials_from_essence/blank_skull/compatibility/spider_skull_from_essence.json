@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:spider_skull_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#~#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:spider_essence"
+			},
+			"~": {
+				"item": "strat:blank_skull"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:spider_head_item",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

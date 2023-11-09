@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:lapis_lazuli_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:lapis_lazuli_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:lapis_lazuli",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

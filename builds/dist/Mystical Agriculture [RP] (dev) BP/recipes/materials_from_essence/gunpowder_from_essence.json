@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:gunpowder_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:skeleton_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:gunpowder",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

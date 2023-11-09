@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:nether_quartz_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:nether_quartz_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:quartz",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

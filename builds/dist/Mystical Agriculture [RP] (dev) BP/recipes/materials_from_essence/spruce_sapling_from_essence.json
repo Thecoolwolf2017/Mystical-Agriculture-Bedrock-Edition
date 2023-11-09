@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:spruce_sapling_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"~#~",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			},
+			"~": {
+				"item": "strat:wood_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:sapling",
+				"count": 8,
+				"data": 1
+			}
+		],
+		"priority": 0
+	}
+}

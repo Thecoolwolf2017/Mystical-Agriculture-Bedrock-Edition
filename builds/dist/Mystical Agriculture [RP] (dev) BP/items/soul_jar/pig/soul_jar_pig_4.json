@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soul_jar_pig_4",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "soul_jar_pig_4"
+			},
+			"minecraft:display_name": {
+				"value": "Soul Jar\n§7Pig (8.00/8.00)§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			},
+			"minecraft:allow_off_hand": true
+		},
+		"events": {}
+	}
+}

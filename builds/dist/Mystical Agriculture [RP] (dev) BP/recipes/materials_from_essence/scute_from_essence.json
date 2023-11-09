@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:scute_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:turtle_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:scute",
+				"count": 4
+			}
+		],
+		"priority": 0
+	}
+}

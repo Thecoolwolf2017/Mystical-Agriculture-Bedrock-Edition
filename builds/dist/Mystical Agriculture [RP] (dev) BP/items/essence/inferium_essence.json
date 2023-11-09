@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:inferium_essence",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "inferium_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Inferium Essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

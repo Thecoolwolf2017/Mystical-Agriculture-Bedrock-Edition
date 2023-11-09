@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:tertium_gemstone",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tertium_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "Tertium Gemstone"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

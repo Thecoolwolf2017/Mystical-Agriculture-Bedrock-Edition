@@ -1,0 +1,37 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cat_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~X",
+			"o-X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:blank_record"
+			},
+			"~": {
+				"item": "strat:creeper_essence"
+			},
+			"o": {
+				"item": "strat:skeleton_essence"
+			},
+			"-": {
+				"item": "minecraft:lime_dye"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:music_disc_cat",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

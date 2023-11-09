@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:spider_eye_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:spider_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:spider_eye",
+				"count": 4
+			}
+		],
+		"priority": 0
+	}
+}

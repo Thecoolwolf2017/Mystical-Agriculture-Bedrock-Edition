@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cod_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:fish_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:cod",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

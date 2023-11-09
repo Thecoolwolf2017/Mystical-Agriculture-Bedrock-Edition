@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:milk_bucket_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"#~#",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:cow_essence"
+			},
+			"~": {
+				"item": "minecraft:bucket"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:milk_bucket",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

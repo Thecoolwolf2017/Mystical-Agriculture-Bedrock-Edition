@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cherry_log_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX#",
+			"X#X",
+			"#XX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:wood_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:cherry_log",
+				"count": 16
+			}
+		],
+		"priority": 0
+	}
+}

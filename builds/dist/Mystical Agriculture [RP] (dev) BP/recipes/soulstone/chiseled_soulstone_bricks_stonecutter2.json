@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "strat:chiseled_soulstone_bricks_stonecutter2"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "strat:soulstone_bricks",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "strat:chiseled_soulstone_bricks",
+				"count": 1
+			}
+		]
+	}
+}

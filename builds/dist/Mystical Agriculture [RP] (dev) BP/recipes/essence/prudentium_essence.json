@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prudentium_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"~#~",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:infusion_crystal"
+			},
+			"~": {
+				"item": "strat:inferium_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:prudentium_essence",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

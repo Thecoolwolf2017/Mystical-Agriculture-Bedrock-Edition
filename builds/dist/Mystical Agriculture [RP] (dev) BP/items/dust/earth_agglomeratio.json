@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:earth_agglomeratio",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "earth_agglomeratio"
+			},
+			"minecraft:display_name": {
+				"value": "Earth Agglomeratio"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

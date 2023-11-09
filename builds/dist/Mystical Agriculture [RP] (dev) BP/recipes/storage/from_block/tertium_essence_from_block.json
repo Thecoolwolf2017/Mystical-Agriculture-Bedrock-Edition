@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:tertium_essence_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:tertium_block"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:tertium_essence",
+				"count": 9
+			}
+		],
+		"priority": 5
+	}
+}

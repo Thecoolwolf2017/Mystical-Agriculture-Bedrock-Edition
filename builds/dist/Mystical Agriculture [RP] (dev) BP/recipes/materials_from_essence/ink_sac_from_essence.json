@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:ink_sac_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:squid_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:ink_sac",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

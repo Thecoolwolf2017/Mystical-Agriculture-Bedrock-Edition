@@ -1,0 +1,43 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:supremium_growth_accelerator"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:queued_ticking": {
+				"interval_range": [
+					100,
+					400
+				],
+				"looping": true,
+				"on_tick": {
+					"event": "strat:grow"
+				}
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "strat:disrupt_altar"
+			}
+		},
+		"events": {
+			"strat:grow": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"function supremium_growth_accelerator"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"weight": 4
+					}
+				]
+			}
+		}
+	}
+}

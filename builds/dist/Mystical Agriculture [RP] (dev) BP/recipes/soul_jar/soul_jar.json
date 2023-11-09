@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soul_jar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" #",
+			"~ ~",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:soulium_ingot"
+			},
+			"~": {
+				"item": "strat:soul_glass"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soul_jar",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

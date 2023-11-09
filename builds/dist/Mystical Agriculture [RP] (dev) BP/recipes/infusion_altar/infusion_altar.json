@@ -1,0 +1,36 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:infusion_altar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"o~o",
+			" #",
+			"###"
+		],
+		"key": {
+			"o": {
+				"item": "minecraft:gold_ingot"
+			},
+			"#": {
+				"item": "minecraft:stone",
+				"data": 0
+			},
+			"~": {
+				"item": "minecraft:wool",
+				"data": 14
+			}
+		},
+		"result": [
+			{
+				"item": "strat:infusion_altar",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}
