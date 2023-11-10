@@ -5,8 +5,6 @@
 			"identifier": "strat:imperium_growth_accelerator:deepslate_prosperity_ore_feat"
 		},
 		"count": 8,
-		"replace_rules": [
-			{
 				"places_block": "strat:deepslate_prosperity_ore",
 				"may_replace": [
 					{
@@ -14,6 +12,4 @@
 					}
 				]
 			}
-		]
 	}
-}

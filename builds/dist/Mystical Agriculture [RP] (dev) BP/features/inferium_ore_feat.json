@@ -5,53 +5,49 @@
 			"identifier": "strat:imperium_growth_accelerator:inferium_ore_feat"
 		},
 		"count": 8,
-		"replace_rules": [
+		"places_block": "strat:inferium_ore",
+		"may_replace": [
 			{
-				"places_block": "strat:inferium_ore",
-				"may_replace": [
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "andesite"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "andesite_smooth"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "diorite"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "diorite_smooth"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "granite"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "granite_smooth"
-						}
-					},
-					{
-						"name": "minecraft:stone",
-						"states": {
-							"stone_type": "stone"
-						}
-					}
-				]
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "andesite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "andesite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "diorite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "diorite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "granite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "granite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "stone"
+				}
 			}
 		]
 	}

@@ -5,8 +5,6 @@
 			"identifier": "strat:imperium_growth_accelerator:inferium_ore_feat"
 		},
 		"count": 8,
-		"replace_rules": [
-			{
 				"places_block": "strat:inferium_ore",
 				"may_replace": [
 					{
@@ -53,6 +51,4 @@
 					}
 				]
 			}
-		]
 	}
-}

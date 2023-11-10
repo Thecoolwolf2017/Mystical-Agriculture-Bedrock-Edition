@@ -5,8 +5,6 @@
 			"identifier": "strat:imperium_growth_accelerator:prosperity_ore_feat"
 		},
 		"count": 8,
-		"replace_rules": [
-			{
 				"places_block": "strat:prosperity_ore",
 				"may_replace": [
 					{
@@ -53,6 +51,4 @@
 					}
 				]
 			}
-		]
 	}
-}

@@ -5,7 +5,7 @@
 		0
 	],
 	"strat:fertile_soil": {
-		"textures": "farmland",
+		"textures": "inferium_farmland",
 		"sound": "gravel"
 	},
 	"strat:prosperity_ore": {

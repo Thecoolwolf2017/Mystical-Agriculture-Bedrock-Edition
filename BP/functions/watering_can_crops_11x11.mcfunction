@@ -72,15 +72,6 @@ fill ~-5~~-5~+5~+1~+5 strat:amethyst_crop ["strat:growth_stage" = 3] replace str
 fill ~-5~~-5~+5~+1~+5 strat:amethyst_crop ["strat:growth_stage" = 2] replace strat:amethyst_crop ["strat:growth_stage" = 1]
 fill ~-5~~-5~+5~+1~+5 strat:amethyst_crop ["strat:growth_stage" = 1] replace strat:amethyst_crop ["strat:growth_stage" = 0]
 
-# Ardite Crop
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 7] replace strat:ardite_crop ["strat:growth_stage" = 6]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 6] replace strat:ardite_crop ["strat:growth_stage" = 5]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 5] replace strat:ardite_crop ["strat:growth_stage" = 4]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 4] replace strat:ardite_crop ["strat:growth_stage" = 3]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 3] replace strat:ardite_crop ["strat:growth_stage" = 2]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 2] replace strat:ardite_crop ["strat:growth_stage" = 1]
-fill ~-5~~-5~+5~+1~+5 strat:ardite_crop ["strat:growth_stage" = 1] replace strat:ardite_crop ["strat:growth_stage" = 0]
-
 # Blaze Crop
 fill ~-5~~-5~+5~+1~+5 strat:blaze_crop ["strat:growth_stage" = 7] replace strat:blaze_crop ["strat:growth_stage" = 6]
 fill ~-5~~-5~+5~+1~+5 strat:blaze_crop ["strat:growth_stage" = 6] replace strat:blaze_crop ["strat:growth_stage" = 5]

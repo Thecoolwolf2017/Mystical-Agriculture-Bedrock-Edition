@@ -3,7 +3,7 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:mystical_growth_pot",
-			"properties": {
+			"states": {
 				"strat:crop_category": [
 					0,
 					1,

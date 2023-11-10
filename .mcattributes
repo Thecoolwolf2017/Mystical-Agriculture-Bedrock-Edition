@@ -1,0 +1,2 @@
+diagnostic.disable.molang.query.unknown=true
+diagnostic.disable.behaviorpack.block.states.invalid=true
