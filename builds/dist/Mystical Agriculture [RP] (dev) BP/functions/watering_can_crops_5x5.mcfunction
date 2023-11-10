@@ -1,4 +1,3 @@
-fill ~-2~~-2~+2~+1~+2 potatoes ["growth" = 7] replace potatoes ["growth" = 6]
 fill ~-2~~-2~+2~+1~+2 potatoes ["growth" = 6] replace potatoes ["growth" = 5]
 fill ~-2~~-2~+2~+1~+2 potatoes ["growth" = 5] replace potatoes ["growth" = 4]
 fill ~-2~~-2~+2~+1~+2 potatoes ["growth" = 4] replace potatoes ["growth" = 3]
