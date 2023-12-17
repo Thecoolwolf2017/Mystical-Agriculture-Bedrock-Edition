@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
@@ -63,7 +63,7 @@
 						"damage": {
 							"amount": 1,
 							"target": "item",
-							"type": "durability"
+							"type": "all"
 						},
 						"run_command": {
 							"command": [

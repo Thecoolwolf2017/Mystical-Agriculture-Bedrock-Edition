@@ -16,6 +16,7 @@
 				"explosion_resistance": 5.0
 			},
 			"tag:stone_level": {},
+			"minecraft:loot": "loot_tables/resources/soulium_ore.json",
 			"minecraft:on_player_destroyed": {
 				"event": "strat:loot"
 			}

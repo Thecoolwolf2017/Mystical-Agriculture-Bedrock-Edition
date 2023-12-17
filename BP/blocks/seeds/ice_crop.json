@@ -3,9 +3,17 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:ice_crop",
-			
 			"states": {
-				"strat:growth_stage": [0,1,2,3,4,5,6,7]
+				"strat:growth_stage": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
 			}
 		},
 		"components": {
@@ -39,10 +47,9 @@
 							"up"
 						],
 						"block_filter": [
-							"farmland",
 							"strat:inferium_farmland",
-							"strat:fertile_soil",
-							"strat:crop_pot"
+							"minecraft:farmland",
+							"strat:mystical_growth_pot"
 						]
 					}
 				]

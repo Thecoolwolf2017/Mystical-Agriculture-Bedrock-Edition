@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
@@ -13,6 +13,7 @@
 				"seconds_to_destroy": 2
 			},
 			"tag:stone_level": {},
+			"minecraft:loot": "loot_tables/resources/prosperity_ore.json",
 			"minecraft:on_player_destroyed": {
 				"event": "strat:loot"
 			}

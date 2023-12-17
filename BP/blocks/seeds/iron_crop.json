@@ -3,7 +3,6 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:iron_crop",
-			
 			"states": {
 				"strat:growth_stage": [
 					0,
@@ -48,10 +47,9 @@
 							"up"
 						],
 						"block_filter": [
-							"farmland",
 							"strat:inferium_farmland",
-							"strat:fertile_soil",
-							"strat:crop_pot"
+							"minecraft:farmland",
+							"strat:mystical_growth_pot"
 						]
 					}
 				]

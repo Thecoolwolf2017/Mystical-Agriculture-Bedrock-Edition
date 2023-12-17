@@ -1,4 +1,4 @@
-	{
+{
 	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
@@ -51,10 +51,9 @@
 							"up"
 						],
 						"block_filter": [
-							"farmland",
 							"strat:inferium_farmland",
-							"strat:fertile_soil",
-							"strat:crop_pot"
+							"minecraft:farmland",
+							"strat:mystical_growth_pot"
 						]
 					}
 				]
