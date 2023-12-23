@@ -1,9 +1,8 @@
-//bridge-file-version: #0
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:inferium_axe"
+			"identifier": "strat:inferium_axe_r"
 		},
 		"tags": [
 			"crafting_table"

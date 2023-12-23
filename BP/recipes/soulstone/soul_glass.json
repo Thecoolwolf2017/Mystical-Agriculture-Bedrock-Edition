@@ -1,9 +1,8 @@
-//bridge-file-version: #0
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:soul_glass"
+			"identifier": "strat:soul_glass_r"
 		},
 		"tags": [
 			"crafting_table"

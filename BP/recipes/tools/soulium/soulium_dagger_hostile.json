@@ -1,9 +1,8 @@
-//bridge-file-version: #0
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:soulium_dagger_hostile"
+			"identifier": "strat:soulium_dagger_hostile_r"
 		},
 		"tags": [
 			"infusion_altar"

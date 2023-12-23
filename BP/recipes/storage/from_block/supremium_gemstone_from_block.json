@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:supremium_gemstone_from_block"
+			"identifier": "strat:supremium_gemstone_from_block_r"
 		},
 		"tags": [
 			"crafting_table"

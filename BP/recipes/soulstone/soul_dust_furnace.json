@@ -1,9 +1,8 @@
-//bridge-file-version: #3
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "strat:soul_dust_furnace"
+			"identifier": "strat:soul_dust_furnace_r"
 		},
 		"tags": [
 			"furnace",

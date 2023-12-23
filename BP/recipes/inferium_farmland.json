@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:inferium_farmland"
+			"identifier": "strat:inferium_farmland_r"
 		},
 		"tags": [
 			"crafting_table"
