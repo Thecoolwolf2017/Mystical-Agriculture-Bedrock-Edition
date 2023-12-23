@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "strat:furnace_turtle_seeds"
+			"identifier": "strat:furnace_turtle_seeds_r"
 		},
 		"tags": [
 			"furnace",

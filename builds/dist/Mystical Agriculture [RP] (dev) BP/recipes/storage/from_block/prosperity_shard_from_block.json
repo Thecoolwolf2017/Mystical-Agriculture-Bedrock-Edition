@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:prosperity_shard_from_block"
+			"identifier": "strat:prosperity_shard_from_block_r"
 		},
 		"tags": [
 			"crafting_table"

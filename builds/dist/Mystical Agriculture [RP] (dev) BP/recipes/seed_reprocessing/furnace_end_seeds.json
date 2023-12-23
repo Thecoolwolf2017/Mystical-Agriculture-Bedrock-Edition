@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "strat:furnace_end_seeds"
+			"identifier": "strat:furnace_end_seeds_r"
 		},
 		"tags": [
 			"furnace",

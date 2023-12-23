@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:ghast_seeds"
+			"identifier": "strat:ghast_seeds_r"
 		},
 		"tags": [
 			"infusion_altar"

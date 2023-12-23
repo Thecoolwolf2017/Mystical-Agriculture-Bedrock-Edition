@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:imperium_sword"
+			"identifier": "strat:imperium_sword_r"
 		},
 		"tags": [
 			"crafting_table"

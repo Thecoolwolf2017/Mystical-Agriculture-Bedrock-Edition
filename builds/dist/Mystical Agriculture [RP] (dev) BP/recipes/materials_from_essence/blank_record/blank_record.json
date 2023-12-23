@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:blank_record"
+			"identifier": "strat:blank_record_r"
 		},
 		"tags": [
 			"crafting_table"

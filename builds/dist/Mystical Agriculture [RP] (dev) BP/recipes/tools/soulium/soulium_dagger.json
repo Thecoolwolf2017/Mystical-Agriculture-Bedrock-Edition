@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:soulium_dagger"
+			"identifier": "strat:soulium_dagger_r"
 		},
 		"tags": [
 			"crafting_table"

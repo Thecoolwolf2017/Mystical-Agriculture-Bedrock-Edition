@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "strat:cracked_soulstone_bricks_furnace"
+			"identifier": "strat:cracked_soulstone_bricks_furnace_r"
 		},
 		"tags": [
 			"furnace",

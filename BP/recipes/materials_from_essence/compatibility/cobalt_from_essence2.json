@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:cobalt_from_essence2_r"
+			"identifier": "strat:cobalt_from_essence2_r_c"
 		},
 		"tags": [
 			"crafting_table"
