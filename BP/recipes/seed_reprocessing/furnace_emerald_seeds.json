@@ -1,9 +1,8 @@
-//bridge-file-version: #1
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "strat:furnace_emerald_seeds"
+			"identifier": "strat:furnace_emerald_seeds_r"
 		},
 		"tags": [
 			"furnace",

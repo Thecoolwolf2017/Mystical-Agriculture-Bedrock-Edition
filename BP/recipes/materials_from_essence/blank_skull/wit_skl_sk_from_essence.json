@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:wither_skeleton_skull_from_essence"
+			"identifier": "strat:wither_skeleton_skull_from_essence_r"
 		},
 		"tags": [
 			"crafting_table"

@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:imperium_chestplate"
+			"identifier": "strat:imperium_chestplate_r"
 		},
 		"tags": [
 			"crafting_table"

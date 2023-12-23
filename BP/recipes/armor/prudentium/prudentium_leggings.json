@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:prudentium_leggings"
+			"identifier": "strat:prudentium_leggings_r"
 		},
 		"tags": [
 			"crafting_table"
