@@ -40,6 +40,24 @@
 						"weight": 4
 					}
 				]
+			},
+			"strat:disrupt_altar": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+								"fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]"
+							]
+						}
+					}
+				]
 			}
 		}
 	}
