@@ -1031,6 +1031,8 @@
                </li>
                <li id="viewer-7olpa" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
                   <p class="Y9Dpf OZy-3 lnyWN">Soul Glass and Wither-proof Glass are now fully transparent</p>
+                  <li id="viewer-7olpa" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
+                  <p class="Y9Dpf OZy-3 lnyWN">recoded the appon to work with 1.20.41</p>
                </li>
             </ul>
          </div>
