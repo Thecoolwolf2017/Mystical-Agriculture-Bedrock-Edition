@@ -2,15 +2,15 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:imperium_growth_accelerator:soulstone_feat"
+			"identifier": "strat:soulstone_feat"
 		},
 		"count": 32,
-		"places_block": {
-			"name": "strat:soulstone"
-		},
-		"may_replace": [
+		"replace_rules": [
 			{
-				"name": "minecraft:netherrack"
+				"places_block": "strat:soulstone",
+				"may_replace": [
+					"minecraft:netherrack"
+				]
 			}
 		]
 	}

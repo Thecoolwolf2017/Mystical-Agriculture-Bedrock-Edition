@@ -2,52 +2,33 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:imperium_growth_accelerator:prosperity_ore_feat"
+			"identifier": "strat:prosperity_ore_feat"
 		},
 		"count": 8,
-		"places_block": "strat:prosperity_ore",
-		"may_replace": [
+		"replace_rules": [
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "andesite"
-				}
+				"places_block": "strat:prosperity_ore",
+				"may_replace": [
+					"minecraft:andesite"
+				]
 			},
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "andesite_smooth"
-				}
+				"places_block": "strat:prosperity_ore",
+				"may_replace": [
+					"minecraft:diorite"
+				]
 			},
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "diorite"
-				}
+				"places_block": "strat:prosperity_ore",
+				"may_replace": [
+					"minecraft:granite"
+				]
 			},
 			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "diorite_smooth"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "granite"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "granite_smooth"
-				}
-			},
-			{
-				"name": "minecraft:stone",
-				"states": {
-					"stone_type": "stone"
-				}
+				"places_block": "strat:prosperity_ore",
+				"may_replace": [
+					"minecraft:stone"
+				]
 			}
 		]
 	}

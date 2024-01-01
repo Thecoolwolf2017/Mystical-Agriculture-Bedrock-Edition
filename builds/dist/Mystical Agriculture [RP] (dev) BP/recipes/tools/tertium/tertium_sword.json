@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:tertium_sword_r"
+			"identifier": "strat:tertium_swrd_r"
 		},
 		"tags": [
 			"crafting_table"

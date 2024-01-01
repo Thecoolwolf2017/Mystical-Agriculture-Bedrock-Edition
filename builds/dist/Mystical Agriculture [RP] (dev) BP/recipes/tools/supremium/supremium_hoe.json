@@ -2,7 +2,7 @@
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:supremium_hoe_r"
+			"identifier": "strat:supremium_h_r"
 		},
 		"tags": [
 			"crafting_table"

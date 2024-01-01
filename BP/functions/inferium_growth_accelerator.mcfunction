@@ -338,7 +338,6 @@ fill ~~+1~~~+12~ strat:pig_crop ["strat:growth_stage" = 3] replace strat:pig_cro
 fill ~~+1~~~+12~ strat:pig_crop ["strat:growth_stage" = 2] replace strat:pig_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:pig_crop ["strat:growth_stage" = 1] replace strat:pig_crop ["strat:growth_stage" = 0]
 
-# Pig Iron Crop
 fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 7] replace strat:pig_iron_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 6] replace strat:pig_iron_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 5] replace strat:pig_iron_crop ["strat:growth_stage" = 4]
@@ -347,7 +346,6 @@ fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 3] replace strat:pi
 fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 2] replace strat:pig_iron_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:pig_iron_crop ["strat:growth_stage" = 1] replace strat:pig_iron_crop ["strat:growth_stage" = 0]
 
-# Prismarine Crop
 fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 7] replace strat:prismarine_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 6] replace strat:prismarine_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 5] replace strat:prismarine_crop ["strat:growth_stage" = 4]
@@ -356,7 +354,6 @@ fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 3] replace strat:
 fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 2] replace strat:prismarine_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:prismarine_crop ["strat:growth_stage" = 1] replace strat:prismarine_crop ["strat:growth_stage" = 0]
 
-# Rabbit Crop
 fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 7] replace strat:rabbit_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 6] replace strat:rabbit_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 5] replace strat:rabbit_crop ["strat:growth_stage" = 4]
@@ -365,7 +362,6 @@ fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 3] replace strat:rabb
 fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 2] replace strat:rabbit_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:rabbit_crop ["strat:growth_stage" = 1] replace strat:rabbit_crop ["strat:growth_stage" = 0]
 
-# Redstone Crop
 fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 7] replace strat:redstone_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 6] replace strat:redstone_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 5] replace strat:redstone_crop ["strat:growth_stage" = 4]
@@ -374,7 +370,6 @@ fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 3] replace strat:re
 fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 2] replace strat:redstone_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:redstone_crop ["strat:growth_stage" = 1] replace strat:redstone_crop ["strat:growth_stage" = 0]
 
-# Ruby Crop
 fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 7] replace strat:ruby_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 6] replace strat:ruby_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 5] replace strat:ruby_crop ["strat:growth_stage" = 4]
@@ -383,7 +378,6 @@ fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 3] replace strat:ruby_c
 fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 2] replace strat:ruby_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:ruby_crop ["strat:growth_stage" = 1] replace strat:ruby_crop ["strat:growth_stage" = 0]
 
-# Sheep Crop
 fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 7] replace strat:sheep_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 6] replace strat:sheep_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 5] replace strat:sheep_crop ["strat:growth_stage" = 4]
@@ -392,7 +386,6 @@ fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 3] replace strat:sheep
 fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 2] replace strat:sheep_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:sheep_crop ["strat:growth_stage" = 1] replace strat:sheep_crop ["strat:growth_stage" = 0]
 
-# Silver Crop
 fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 7] replace strat:silver_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 6] replace strat:silver_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 5] replace strat:silver_crop ["strat:growth_stage" = 4]
@@ -401,7 +394,6 @@ fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 3] replace strat:silv
 fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 2] replace strat:silver_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:silver_crop ["strat:growth_stage" = 1] replace strat:silver_crop ["strat:growth_stage" = 0]
 
-# Skeleton Crop
 fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 7] replace strat:skeleton_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 6] replace strat:skeleton_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 5] replace strat:skeleton_crop ["strat:growth_stage" = 4]
@@ -410,7 +402,6 @@ fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 3] replace strat:sk
 fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 2] replace strat:skeleton_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:skeleton_crop ["strat:growth_stage" = 1] replace strat:skeleton_crop ["strat:growth_stage" = 0]
 
-# Slime Crop
 fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 7] replace strat:slime_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 6] replace strat:slime_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 5] replace strat:slime_crop ["strat:growth_stage" = 4]
@@ -419,7 +410,6 @@ fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 3] replace strat:slime
 fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 2] replace strat:slime_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:slime_crop ["strat:growth_stage" = 1] replace strat:slime_crop ["strat:growth_stage" = 0]
 
-# Spider Crop
 fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 7] replace strat:spider_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 6] replace strat:spider_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 5] replace strat:spider_crop ["strat:growth_stage" = 4]
@@ -428,7 +418,6 @@ fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 3] replace strat:spid
 fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 2] replace strat:spider_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:spider_crop ["strat:growth_stage" = 1] replace strat:spider_crop ["strat:growth_stage" = 0]
 
-# Squid Crop
 fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 7] replace strat:squid_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 6] replace strat:squid_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 5] replace strat:squid_crop ["strat:growth_stage" = 4]
@@ -437,7 +426,6 @@ fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 3] replace strat:squid
 fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 2] replace strat:squid_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:squid_crop ["strat:growth_stage" = 1] replace strat:squid_crop ["strat:growth_stage" = 0]
 
-# Steel Crop
 fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 7] replace strat:steel_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 6] replace strat:steel_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 5] replace strat:steel_crop ["strat:growth_stage" = 4]
@@ -446,7 +434,6 @@ fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 3] replace strat:steel
 fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 2] replace strat:steel_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:steel_crop ["strat:growth_stage" = 1] replace strat:steel_crop ["strat:growth_stage" = 0]
 
-# Stone Crop
 fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 7] replace strat:stone_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 6] replace strat:stone_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 5] replace strat:stone_crop ["strat:growth_stage" = 4]
@@ -455,7 +442,6 @@ fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 3] replace strat:stone
 fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 2] replace strat:stone_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:stone_crop ["strat:growth_stage" = 1] replace strat:stone_crop ["strat:growth_stage" = 0]
 
-# Tin Crop
 fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 7] replace strat:tin_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 6] replace strat:tin_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 5] replace strat:tin_crop ["strat:growth_stage" = 4]
@@ -464,7 +450,6 @@ fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 3] replace strat:tin_cro
 fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 2] replace strat:tin_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:tin_crop ["strat:growth_stage" = 1] replace strat:tin_crop ["strat:growth_stage" = 0]
 
-# Turtle Crop
 fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 7] replace strat:turtle_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 6] replace strat:turtle_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 5] replace strat:turtle_crop ["strat:growth_stage" = 4]
@@ -473,7 +458,6 @@ fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 3] replace strat:turt
 fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 2] replace strat:turtle_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:turtle_crop ["strat:growth_stage" = 1] replace strat:turtle_crop ["strat:growth_stage" = 0]
 
-# Water Crop
 fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 7] replace strat:water_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 6] replace strat:water_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 5] replace strat:water_crop ["strat:growth_stage" = 4]
@@ -482,7 +466,6 @@ fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 3] replace strat:water
 fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 2] replace strat:water_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:water_crop ["strat:growth_stage" = 1] replace strat:water_crop ["strat:growth_stage" = 0]
 
-# Wither Skeleton Crop
 fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 7] replace strat:wither_skeleton_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 6] replace strat:wither_skeleton_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 5] replace strat:wither_skeleton_crop ["strat:growth_stage" = 4]
@@ -491,7 +474,6 @@ fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 3] replace s
 fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 2] replace strat:wither_skeleton_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:wither_skeleton_crop ["strat:growth_stage" = 1] replace strat:wither_skeleton_crop ["strat:growth_stage" = 0]
 
-# Wood Crop
 fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 7] replace strat:wood_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 6] replace strat:wood_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 5] replace strat:wood_crop ["strat:growth_stage" = 4]
@@ -500,7 +482,6 @@ fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 3] replace strat:wood_c
 fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 2] replace strat:wood_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+12~ strat:wood_crop ["strat:growth_stage" = 1] replace strat:wood_crop ["strat:growth_stage" = 0]
 
-# Zombie Crop
 fill ~~+1~~~+12~ strat:zombie_crop ["strat:growth_stage" = 7] replace strat:zombie_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+12~ strat:zombie_crop ["strat:growth_stage" = 6] replace strat:zombie_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+12~ strat:zombie_crop ["strat:growth_stage" = 5] replace strat:zombie_crop ["strat:growth_stage" = 4]

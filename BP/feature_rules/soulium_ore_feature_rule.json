@@ -2,8 +2,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "strat:imperium_growth_accelerator:soulium_ore_feature_rule",
-			"places_feature": "strat:imperium_growth_accelerator:soulium_ore_feat"
+			"identifier": "strat:soulium_ore_feature_rule",
+			"places_feature": "strat:soulium_ore_feat"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",
@@ -14,21 +14,6 @@
 							"test": "has_biome_tag",
 							"operator": "==",
 							"value": "nether"
-						},
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "nether_wastes"
-						},
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "basalt_deltas"
-						},
-						{
-							"test": "has_biome_tag",
-							"operator": "==",
-							"value": "crimson_forest"
 						}
 					]
 				}

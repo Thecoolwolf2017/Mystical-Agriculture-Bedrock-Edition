@@ -2,13 +2,15 @@
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "strat:imperium_growth_accelerator:soulium_ore_feat"
+			"identifier": "strat:soulium_ore_feat"
 		},
 		"count": 12,
-		"places_block": "strat:soulium_ore",
-		"may_replace": [
+		"replace_rules": [
 			{
-				"name": "strat:soulstone"
+				"places_block": "strat:soulium_ore",
+				"may_replace": [
+					"strat:soulstone"
+				]
 			}
 		]
 	}

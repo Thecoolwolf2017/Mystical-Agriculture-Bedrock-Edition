@@ -2,8 +2,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "strat:imperium_growth_accelerator:inferium_ore_feature_rule",
-			"places_feature": "strat:imperium_growth_accelerator:inferium_ore_feat"
+			"identifier": "strat:inferium_ore_feature_rule",
+			"places_feature": "strat:inferium_ore_feat"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",

@@ -1,22 +1,39 @@
 pack.name=Mystical Agriculture RP
 pack.description=A Java Mod Recreation by Stratospheer!
-
-## Ores
+## ores
 tile.strat:prosperity_ore.name=Prosperity Ore
 tile.strat:deepslate_prosperity_ore.name=Deepslate Prosperity Ore
 tile.strat:inferium_ore.name=Inferium Ore
 tile.strat:deepslate_inferium_ore.name=Deepslate Inferium Ore
 tile.strat:soulium_ore.name=Soulium Ore
 
-## Crops
+## crops
 tile.strat:inferium_farmland.name=Inferium Farmland
 tile.strat:mystical_growth_pot.name=Mystical Growth Pot
-
-## Altar
 tile.strat:infusion_pedestal.name=Infusion Pedestal
 tile.strat:infusion_pedestal_guide.name=Infusion Pedestal Guide
 tile.strat:infusion_altar.name=Infusion Altar
-
+tile.strat:spider_crop.name=spider crop
+tile.strat:amethyst_crop.name=amethyst crop
+tile.strat:bronze_crop.name=bronze crop
+tile.strat:chicken_crop.name=chicken crop
+tile.strat:coal_crop.name=coal crop
+tile.strat:cobalt_crop.name=cobalt crop
+tile.strat:copper_crop.name=copper crop
+tile.strat:cow_crop.name=cow crop
+tile.strat:creeper_crop.name=creeper crop
+tile.strat:deepslate_crop.name=deepslate crop
+tile.strat:dirt_crop.name=dirt crop
+tile.strat:electrum_crop.name=electrum crop
+tile.strat:emerald_crop.name=emerald crop
+tile.strat:enderman_crop.name=enderman crop
+tile.strat:fire_crop.name=fire crop
+tile.strat:fish_crop.name=fish crop
+tile.strat:lapis_lazuli_crop.name=lapis lazuli crop
+tile.strat:netherite_crop.name=netherite crop
+tile.strat:nether_crop.name=nether crop
+tile.strat:nether_quartz_crop.name=nether quartz crop
+tile.strat:obsidian_crop.name=obsidian crop
 ## Soulstone
 tile.strat:soulstone.name=Soulstone
 tile.strat:cobbled_soulstone.name=Cobbled Soulstone
@@ -53,6 +70,7 @@ tile.strat:imperium_gemstone_block.name=Imperium Gemstone Block
 tile.strat:supremium_block.name=Supremium Block
 tile.strat:supremium_ingot_block.name=Supremium Ingot Block
 tile.strat:supremium_gemstone_block.name=Supremium Gemstone Block
+
 
 ## Growth Accelerators
 tile.strat:inferium_growth_accelerator.name=Inferium Growth Accelerator §7Range: §e12§7 Blocks§r

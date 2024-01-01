@@ -383,7 +383,7 @@ fill ~~+1~~~+48~ strat:stone_crop ["strat:growth_stage" = 4] replace strat:stone
 fill ~~+1~~~+48~ strat:stone_crop ["strat:growth_stage" = 3] replace strat:stone_crop ["strat:growth_stage" = 2]
 fill ~~+1~~~+48~ strat:stone_crop ["strat:growth_stage" = 2] replace strat:stone_crop ["strat:growth_stage" = 1]
 fill ~~+1~~~+48~ strat:stone_crop ["strat:growth_stage" = 1] replace strat:stone_crop ["strat:growth_stage" = 0]
-fill ~~+1~~~+48~ strat:tin_crop ["strat:growth_stage": 7] replace strat:tin_crop ["strat:growth_stage" = 6]
+fill ~~+1~~~+48~ strat:tin_crop ["strat:growth_stage" = 7] replace strat:tin_crop ["strat:growth_stage" = 6]
 fill ~~+1~~~+48~ strat:tin_crop ["strat:growth_stage" = 6] replace strat:tin_crop ["strat:growth_stage" = 5]
 fill ~~+1~~~+48~ strat:tin_crop ["strat:growth_stage" = 5] replace strat:tin_crop ["strat:growth_stage" = 4]
 fill ~~+1~~~+48~ strat:tin_crop ["strat:growth_stage" = 4] replace strat:tin_crop ["strat:growth_stage" = 3]
