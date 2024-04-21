@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:redstone_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "redstone_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Redstone Seeds\n§7Tier: §63§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:redstone_crop"
+			}
+		},
+		"events": {}
+	}
+}

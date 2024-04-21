@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "strat:supremium_gemstone_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "strat:imperium_gemstone",
+				"count": 1
+			},
+			{
+				"item": "strat:supremium_essence",
+				"count": 2
+			}
+		],
+		"result": [
+			{
+				"item": "strat:supremium_gemstone",
+				"count": 1
+			}
+		]
+	}
+}

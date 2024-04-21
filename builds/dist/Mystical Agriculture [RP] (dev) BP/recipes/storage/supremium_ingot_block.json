@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:supremium_ingot_block_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:supremium_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:supremium_ingot_block",
+				"count": 1
+			}
+		],
+		"priority": 5
+	}
+}

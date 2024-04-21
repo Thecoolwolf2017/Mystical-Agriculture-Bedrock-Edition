@@ -13,6 +13,34 @@ projects/Mystical Agriculture [RP] (dev)/BP/functions/tick.json|1699558659194
 projects/Mystical Agriculture [RP] (dev)/BP/scripts/main.js|1699558659364
 #lang
 projects/Mystical Agriculture [RP] (dev)/BP/texts/en_US.lang|1699558659364
+projects/Mystical Agriculture [RP] (dev)/BP/texts/bg_BG.lang|1713726554987
+projects/Mystical Agriculture [RP] (dev)/BP/texts/cs_CZ.lang|1713726555031
+projects/Mystical Agriculture [RP] (dev)/BP/texts/da_DK.lang|1713726555074
+projects/Mystical Agriculture [RP] (dev)/BP/texts/de_DE.lang|1713726554527
+projects/Mystical Agriculture [RP] (dev)/BP/texts/el_GR.lang|1713726555118
+projects/Mystical Agriculture [RP] (dev)/BP/texts/en_GB.lang|1713726554514
+projects/Mystical Agriculture [RP] (dev)/BP/texts/es_ES.lang|1713726554540
+projects/Mystical Agriculture [RP] (dev)/BP/texts/es_MX.lang|1713726554552
+projects/Mystical Agriculture [RP] (dev)/BP/texts/fi_FI.lang|1713726555164
+projects/Mystical Agriculture [RP] (dev)/BP/texts/fr_CA.lang|1713726554586
+projects/Mystical Agriculture [RP] (dev)/BP/texts/fr_FR.lang|1713726554571
+projects/Mystical Agriculture [RP] (dev)/BP/texts/hu_HU.lang|1713726555211
+projects/Mystical Agriculture [RP] (dev)/BP/texts/id_ID.lang|1713726555266
+projects/Mystical Agriculture [RP] (dev)/BP/texts/it_IT.lang|1713726554595
+projects/Mystical Agriculture [RP] (dev)/BP/texts/ja_JP.lang|1713726554606
+projects/Mystical Agriculture [RP] (dev)/BP/texts/ko_KR.lang|1713726554625
+projects/Mystical Agriculture [RP] (dev)/BP/texts/nb_NO.lang|1713726555320
+projects/Mystical Agriculture [RP] (dev)/BP/texts/nl_NL.lang|1713726554959
+projects/Mystical Agriculture [RP] (dev)/BP/texts/pl_PL.lang|1713726555501
+projects/Mystical Agriculture [RP] (dev)/BP/texts/pt_BR.lang|1713726554638
+projects/Mystical Agriculture [RP] (dev)/BP/texts/pt_PT.lang|1713726554680
+projects/Mystical Agriculture [RP] (dev)/BP/texts/ru_RU.lang|1713726554767
+projects/Mystical Agriculture [RP] (dev)/BP/texts/sk_SK.lang|1713726555559
+projects/Mystical Agriculture [RP] (dev)/BP/texts/sv_SE.lang|1713726555600
+projects/Mystical Agriculture [RP] (dev)/BP/texts/tr_TR.lang|1713726555631
+projects/Mystical Agriculture [RP] (dev)/BP/texts/uk_UA.lang|1713726555643
+projects/Mystical Agriculture [RP] (dev)/BP/texts/zh_CN.lang|1713726554853
+projects/Mystical Agriculture [RP] (dev)/BP/texts/zh_TW.lang|1713726554929
 #langDef
 projects/Mystical Agriculture [RP] (dev)/BP/texts/languages.json|1699558659364
 projects/Mystical Agriculture [RP] (dev)/RP/texts/languages.json|1699558659376

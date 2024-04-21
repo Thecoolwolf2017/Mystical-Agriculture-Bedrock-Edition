@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:blank_skull_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"~#~",
+			" ~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:bone_block"
+			},
+			"~": {
+				"item": "strat:soul_dust"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:blank_skull",
+				"count": 4
+			}
+		],
+		"priority": 0
+	}
+}

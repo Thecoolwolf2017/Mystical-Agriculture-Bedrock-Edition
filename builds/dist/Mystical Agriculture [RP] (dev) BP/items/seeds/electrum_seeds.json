@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:electrum_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "electrum_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Electrum Seeds\n§7Tier: §b4§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:electrum_crop"
+			}
+		},
+		"events": {}
+	}
+}
