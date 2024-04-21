@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "strat:deepslate_inferium_ore_feat"
+		},
+		"count": 8,
+		"replace_rules": [
+			{
+				"places_block": "strat:deepslate_inferium_ore",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			}
+		]
+	}
+}

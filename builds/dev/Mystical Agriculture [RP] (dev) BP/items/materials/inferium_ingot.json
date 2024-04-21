@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:inferium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "inferium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Inferium Ingot"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

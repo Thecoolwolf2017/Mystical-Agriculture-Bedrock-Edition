@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:red_sand_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~X",
+			"~#X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:dirt_essence"
+			},
+			"~": {
+				"item": "strat:fire_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:sand",
+				"count": 16,
+				"data": 1
+			}
+		],
+		"priority": 0
+	}
+}

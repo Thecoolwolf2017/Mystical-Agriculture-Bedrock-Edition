@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:dripstone_block_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"#~#",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:stone_essence"
+			},
+			"~": {
+				"item": "strat:water_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:dripstone_block",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

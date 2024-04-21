@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prismarine_agglomeratio_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~",
+			"~#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:prismarine_crystals"
+			},
+			"~": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:prismarine_agglomeratio",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

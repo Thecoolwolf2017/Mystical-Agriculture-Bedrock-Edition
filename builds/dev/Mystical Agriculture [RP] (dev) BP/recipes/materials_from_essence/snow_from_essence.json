@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:snow_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"#X#",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:ice_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:snow",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

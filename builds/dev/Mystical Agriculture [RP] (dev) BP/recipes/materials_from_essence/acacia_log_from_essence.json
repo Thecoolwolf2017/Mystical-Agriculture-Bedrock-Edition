@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:acacia_log_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"X#X",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:wood_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:acacia_log",
+				"count": 16
+			}
+		],
+		"priority": 0
+	}
+}

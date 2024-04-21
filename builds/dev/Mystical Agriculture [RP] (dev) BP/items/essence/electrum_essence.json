@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:electrum_essence",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "electrum_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Electrum Essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

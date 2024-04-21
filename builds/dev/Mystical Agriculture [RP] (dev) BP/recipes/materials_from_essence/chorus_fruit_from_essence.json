@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:chorus_fruit_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			},
+			"~": {
+				"item": "strat:end_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:chorus_fruit",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

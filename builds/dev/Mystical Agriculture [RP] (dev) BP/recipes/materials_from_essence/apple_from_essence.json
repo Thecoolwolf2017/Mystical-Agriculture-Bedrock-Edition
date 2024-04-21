@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:apple_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#XX",
+			"X#X",
+			"XX#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:apple",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

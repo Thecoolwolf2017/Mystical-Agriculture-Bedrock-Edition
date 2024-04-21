@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "strat:furnace_enderman_seeds_r"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "strat:enderman_seeds",
+		"output": "strat:enderman_essence"
+	}
+}

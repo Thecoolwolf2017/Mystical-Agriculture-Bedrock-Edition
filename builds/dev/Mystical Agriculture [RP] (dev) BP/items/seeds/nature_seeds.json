@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:nature_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "nature_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Nature Seeds\n§7Tier: §a2§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:nature_crop"
+			}
+		},
+		"events": {}
+	}
+}

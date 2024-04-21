@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:lily_pad_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"X#X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:waterlily",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

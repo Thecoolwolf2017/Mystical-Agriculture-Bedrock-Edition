@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "strat:furnace_glowstone_seeds_r"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "strat:glowstone_seeds",
+		"output": "strat:glowstone_essence"
+	}
+}

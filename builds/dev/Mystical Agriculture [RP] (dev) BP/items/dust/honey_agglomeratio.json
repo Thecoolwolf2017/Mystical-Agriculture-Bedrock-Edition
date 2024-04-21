@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:honey_agglomeratio",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "honey_agglomeratio"
+			},
+			"minecraft:display_name": {
+				"value": "Honey Agglomeratio"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

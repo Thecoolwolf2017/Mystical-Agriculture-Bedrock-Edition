@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:rotten_flesh_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:zombie_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:rotten_flesh",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}
