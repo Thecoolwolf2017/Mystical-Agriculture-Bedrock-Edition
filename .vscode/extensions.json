@@ -1,3 +1,15 @@
 {
-    "recommendations": []
+    "recommendations": [
+        "sirlich.bedrock-addon-icons",
+        "destruc7i0n.vscode-bedrock-definitions",
+        "blockceptionltd.blockceptionvscodeminecraftbedrockdevelopmentextension",
+        "mojang-studios.minecraft-debugger",
+        "jannisx11.snowstorm",
+        "aaswordsman.bedrock-addon-completion",
+        "icecraftstudio.insert-molang-file",
+        "legend077.json-ui-auto-completions",
+        "windy.windy-minecraft-debugger",
+        "hashibutogarasu.manifestgenerator",
+        "superice666.powernukkitx"
+    ]
 }
