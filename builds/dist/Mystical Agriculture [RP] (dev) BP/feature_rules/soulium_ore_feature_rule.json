@@ -14,6 +14,16 @@
 							"test": "has_biome_tag",
 							"operator": "==",
 							"value": "nether"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "basalt_deltas"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "crimson_forest"
 						}
 					]
 				}
@@ -32,8 +42,8 @@
 			"y": {
 				"distribution": "uniform",
 				"extent": [
-					0,
-					128
+					11,
+					119
 				]
 			},
 			"z": {

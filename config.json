@@ -1,7 +1,7 @@
 {
 	"type": "minecraftBedrock",
 	"name": "Mystical Agriculture [RP] (dev)",
-	"namespace": "strat:imperium_growth_accelerator",
+	"namespace": "strat",
 	"authors": [
 		"Stratospheer and Lozenda"
 	],
