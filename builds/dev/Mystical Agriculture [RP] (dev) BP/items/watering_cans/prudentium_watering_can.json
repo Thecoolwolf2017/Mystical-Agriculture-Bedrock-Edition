@@ -58,7 +58,7 @@
 								"particle minecraft:water_splash_particle ~~+1~-2",
 								"particle minecraft:water_splash_particle ~+1~+1~-2",
 								"particle minecraft:water_splash_particle ~+2~+1~-2",
-								"fill ~~~~~~ farmland 1 replace farmland 0"
+								"fill ~ ~ ~ ~5 ~ ~5 farmland 1 replace farmland 0"
 							]
 						}
 					},
