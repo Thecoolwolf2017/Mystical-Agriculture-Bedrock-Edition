@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:inferium_farmland_r"
@@ -20,11 +20,10 @@
 				"item": "strat:inferium_essence"
 			}
 		},
-		"result": [
+		"result": 
 			{
 				"item": "strat:inferium_farmland",
 				"count": 8
 			}
-		]
 	}
 }

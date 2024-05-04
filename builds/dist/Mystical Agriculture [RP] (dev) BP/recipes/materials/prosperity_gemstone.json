@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prosperity_gemstone_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"~#~",
+			" ~ "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:diamond"
+			},
+			"~": {
+				"item": "strat:prosperity_shard"
+			}
+		},
+		"result": {
+			"item": "strat:prosperity_gemstone",
+			"count": 1
+		}
+	}
+}

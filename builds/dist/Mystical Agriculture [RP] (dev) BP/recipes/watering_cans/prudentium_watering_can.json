@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:prudentium_watering_can_r"
@@ -23,12 +23,9 @@
 				"item": "strat:prudentium_ingot"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:prudentium_watering_can",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:prudentium_watering_can",
+			"count": 1
+		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:wait_from_essence_r"
@@ -26,12 +26,9 @@
 				"item": "minecraft:light_blue_dye"
 			}
 		},
-		"result": [
-			{
+		"result": {
 				"item": "minecraft:music_disc_wait",
 				"count": 1
 			}
-		],
-		"priority": 0
 	}
 }

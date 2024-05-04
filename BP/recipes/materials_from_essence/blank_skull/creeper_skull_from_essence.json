@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:creeper_skull_from_essence_r"
@@ -20,13 +20,11 @@
 				"item": "strat:blank_skull"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "minecraft:skull",
 				"count": 1,
 				"data": 4
 			}
-		],
-		"priority": 0
 	}
 }

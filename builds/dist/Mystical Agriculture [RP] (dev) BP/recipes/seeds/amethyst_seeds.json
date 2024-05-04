@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:amethyst_seeds_r"
+		},
+		"tags": [
+			"infusion_altar"
+		],
+		"pattern": [
+			"#S#",
+			"SZS",
+			"#S#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"S": {
+				"item": "strat:prudentium_essence"
+			},
+			"Z": {
+				"item": "strat:prosperity_seed_base"
+			}
+		},
+		"result": {
+			"item": "strat:amethyst_seeds",
+			"count": 1
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:witherproof_bricks_r"
@@ -16,12 +16,10 @@
 				"item": "strat:witherproof_block"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "strat:witherproof_bricks",
 				"count": 4
 			}
-		],
-		"priority": 0
 	}
 }

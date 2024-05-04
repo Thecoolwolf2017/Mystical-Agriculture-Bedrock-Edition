@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
 			"identifier": "strat:witherproof_bricks_stonecutter_r"
@@ -13,11 +13,10 @@
 				"count": 1
 			}
 		],
-		"result": [
+		"result":
 			{
 				"item": "strat:witherproof_bricks",
 				"count": 1
 			}
-		]
 	}
 }

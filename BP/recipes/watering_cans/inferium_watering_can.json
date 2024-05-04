@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:inferium_watering_can_r"
@@ -23,12 +23,10 @@
 				"item": "strat:inferium_ingot"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "strat:inferium_watering_can",
 				"count": 1
 			}
-		],
-		"priority": 0
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:witherproof_glass_r"
@@ -20,12 +20,9 @@
 				"item": "strat:soul_glass"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:witherproof_glass",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:witherproof_glass",
+			"count": 1
+		}
 	}
 }

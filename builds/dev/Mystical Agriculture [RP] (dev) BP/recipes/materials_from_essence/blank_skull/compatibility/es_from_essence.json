@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:enderman_skull_from_essence_r"
@@ -20,12 +20,9 @@
 				"item": "strat:blank_skull"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:enderman_head_item",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:enderman_head_item",
+			"count": 1
+		}
 	}
 }

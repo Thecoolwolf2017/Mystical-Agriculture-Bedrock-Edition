@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:mystical_fertilizer2_r"
@@ -23,12 +23,10 @@
 				"item": "minecraft:diamond"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "strat:mystical_fertilizer",
 				"count": 4
 			}
-		],
-		"priority": 1
-	}
+		}
 }

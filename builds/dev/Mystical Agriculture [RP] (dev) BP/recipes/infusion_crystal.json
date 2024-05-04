@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:infusion_crystal_r"
@@ -23,28 +23,9 @@
 				"item": "minecraft:diamond"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:infusion_crystal",
-				"count": 50
-			},
-			{
-				"item": "strat:infusion_crystal",
-				"count": 50
-			},
-			{
-				"item": "strat:infusion_crystal",
-				"count": 50
-			},
-			{
-				"item": "strat:infusion_crystal",
-				"count": 50
-			},
-			{
-				"item": "strat:infusion_crystal",
-				"count": 50
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:infusion_crystal",
+			"count": 50
+		}
 	}
 }

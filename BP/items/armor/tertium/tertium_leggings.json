@@ -1,51 +1,48 @@
 {
-	"format_version": "1.17.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "strat:tertium_leggings",
-			"category": "equipment"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "tertium_leggings"
-			},
-			"minecraft:max_stack_size": 1,
-			"minecraft:durability": {
-				"max_durability": 1200,
-				"damage_chance": {
-					"min": 1,
-					"max": 1
-				}
-			},
-			"minecraft:repairable": {
-				"repair_items": [
-					{
-						"items": [
-							"strat:tertium_ingot",
-							"strat:tertium_gemstone"
-						],
-						"repair_amount": "query.max_durability / 5"
-					}
-				]
-			},
-			"minecraft:wearable": {
-				"slot": "slot.armor.legs",
-				"dispensable": true
-			},
-			"minecraft:armor": {
-				"protection": 8
-			},
-			"minecraft:display_name": {
-				"value": "Tertium Leggings\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.leggings"
-			},
-			"minecraft:enchantable": {
-				"slot": "armor_legs",
-				"value": 10
-			}
-		},
-		"events": {}
-	}
+  "format_version": "1.17.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "strat:tertium_leggings",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "tertium_leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1200,
+        "damage_chance": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["strat:tertium_ingot", "strat:tertium_gemstone"],
+            "repair_amount": "query.max_durability / 5"
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "dispensable": true
+      },
+      "minecraft:armor": {
+        "protection": 8
+      },
+      "minecraft:display_name": {
+        "value": "Tertium Leggings\n§7Tier: §63§r"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leggings"
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 10
+      }
+    },
+    "events": {}
+  }
 }

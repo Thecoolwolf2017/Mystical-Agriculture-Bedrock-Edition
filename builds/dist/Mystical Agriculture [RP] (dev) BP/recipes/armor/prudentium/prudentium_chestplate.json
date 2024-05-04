@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prudentium_chestplate_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"o#o",
+			" ~ "
+		],
+		"key": {
+			"#": {
+				"item": "strat:inferium_chestplate"
+			},
+			"~": {
+				"item": "strat:prudentium_gemstone"
+			},
+			"o": {
+				"item": "strat:prudentium_ingot"
+			}
+		},
+		"result": {
+			"item": "strat:prudentium_chestplate",
+			"count": 1
+		}
+	}
+}

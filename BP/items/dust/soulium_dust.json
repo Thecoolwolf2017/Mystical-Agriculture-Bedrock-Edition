@@ -1,21 +1,21 @@
 {
-	"format_version": "1.17.0",
-	"minecraft:item": {
-		"description": {
-			"identifier": "strat:soulium_dust",
-			"category": "items"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "soulium_dust"
-			},
-			"minecraft:display_name": {
-				"value": "Soulium Dust"
-			},
-			"minecraft:creative_category": {
-				"parent": "items"
-			}
-		},
-		"events": {}
-	}
+  "format_version": "1.17.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "strat:soulium_dust",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "soulium_dust"
+      },
+      "minecraft:display_name": {
+        "value": "Soulium Dust"
+      },
+      "minecraft:creative_category": {
+        "parent": "items"
+      }
+    },
+    "events": {}
+  }
 }

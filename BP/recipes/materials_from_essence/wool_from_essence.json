@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:wool_from_essence_r"
@@ -17,12 +17,10 @@
 				"item": "strat:sheep_essence"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "minecraft:wool",
 				"count": 6
 			}
-		],
-		"priority": 0
-	}
+		}
 }

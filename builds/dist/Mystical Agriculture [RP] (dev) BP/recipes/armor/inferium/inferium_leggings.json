@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:inferium_leggings_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" f ",
+			"o#o",
+			" f "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:diamond_leggings"
+			},
+			"f": {
+				"item": "strat:inferium_gemstone"
+			},
+			"o": {
+				"item": "strat:inferium_ingot"
+			}
+		},
+		"result": {
+			"item": "strat:inferium_leggings",
+			"count": 1
+		}
+	}
+}

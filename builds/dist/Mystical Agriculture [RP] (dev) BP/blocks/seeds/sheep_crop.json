@@ -7,7 +7,7 @@
 				"category": "nature",
 				"group": "itemGroup.name.seed"
 			},
-			"properties": {
+			"states": {
 				"strat:growth_stage": [
 					0,
 					1,

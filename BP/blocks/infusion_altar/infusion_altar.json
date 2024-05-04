@@ -1,220 +1,193 @@
 {
-	"format_version": "1.20.40",
-	"minecraft:block": {
-		"description": {
-			"identifier": "strat:infusion_altar",
-			"menu_category": {
-				"category": "items"
-			},
-			"states": {
-				"strat:activation": [
-					0,
-					1
-				],
-				"strat:pedestal_guides": [
-					0,
-					1
-				]
-			}
-		},
-		"components": {
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 1
-			},
-			"minecraft:light_dampening": 0,
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "infusion_altar",
-					"render_method": "alpha_test"
-				}
-			},
-			"minecraft:geometry": "geometry.infusion_altar",
-			"minecraft:collision_box": {
-				"origin": [
-					-8,
-					0,
-					-8
-				],
-				"size": [
-					16,
-					14.5,
-					16
-				]
-			},
-			"minecraft:selection_box": {
-				"origin": [
-					-8,
-					0,
-					-8
-				],
-				"size": [
-					16,
-					14.5,
-					16
-				]
-			},
-			"tag:stone": {}
-		},
-		"events": {
-			"strat:disrupt_altar": {
-				"condition": "!query.block_neighbor_has_any_tag(3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(-3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,3,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,-3,'infusion_pedestal')",
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-								"fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]"
-							]
-						}
-					}
-				]
-			},
-			"strat:activate": {
-				"sequence": [
-					{
-						"condition": "query.block_neighbor_has_any_tag(3,0,0,'infusion_pedestal') && query.block_neighbor_has_any_tag(-3,0,0,'infusion_pedestal') && query.block_neighbor_has_any_tag(0,0,3,'infusion_pedestal') && query.block_neighbor_has_any_tag(0,0,-3,'infusion_pedestal')",
-						"sequence": [
-							{
-								"condition": "query.block_neighbor_has_any_tag(2,0,2,'infusion_pedestal') && query.block_neighbor_has_any_tag(2,0,-2,'infusion_pedestal') && query.block_neighbor_has_any_tag(-2,0,2,'infusion_pedestal') && query.block_neighbor_has_any_tag(-2,0,-2,'infusion_pedestal')",
-								"sequence": [
-									{
-										"set_block_state": {
-											"strat:activation": 1,
-											"strat:pedestal_guides": 0
-										},
-										"run_command": {
-											"command": [
-												"particle strat:alter_p ~ ~ ~",
-												"playsound random.orb @a ~~~"
-											],
-											"target": "block"
-										}
-									}
-								]
-							}
-						]
-					},
-					{
-						"condition": "query.block_state('strat:pedestal_guides') == 1",
-						"run_command": {
-							"command": [
-								"fill ~-3~~ ~-3~~ strat:infusion_pedestal_guide replace air",
-								"fill ~~~-3 ~~~-3 strat:infusion_pedestal_guide replace air",
-								"fill ~+3~~ ~+3~~ strat:infusion_pedestal_guide replace air",
-								"fill ~~~+3 ~~~+3 strat:infusion_pedestal_guide replace air",
-								"fill ~-2~~+2 ~-2~~+2 strat:infusion_pedestal_guide replace air",
-								"fill ~+2~~+2 ~+2~~+2 strat:infusion_pedestal_guide replace air",
-								"fill ~+2~~-2 ~+2~~-2 strat:infusion_pedestal_guide replace air",
-								"fill ~-2~~-2 ~-2~~-2 strat:infusion_pedestal_guide replace air"
-							],
-							"target": "block"
-						}
-					}
-				]
-			},
-			"strat:pedestal_guides_toggle": {
-				"sequence": [
-					{
-						"condition": "query.block_state('strat:pedestal_guides') == 0",
-						"run_command": {
-							"command": [
-								"fill ~-3~~ ~-3~~ strat:infusion_pedestal_guide replace air",
-								"fill ~~~-3 ~~~-3 strat:infusion_pedestal_guide replace air",
-								"fill ~+3~~ ~+3~~ strat:infusion_pedestal_guide replace air",
-								"fill ~~~+3 ~~~+3 strat:infusion_pedestal_guide replace air",
-								"fill ~-2~~+2 ~-2~~+2 strat:infusion_pedestal_guide replace air",
-								"fill ~+2~~+2 ~+2~~+2 strat:infusion_pedestal_guide replace air",
-								"fill ~+2~~-2 ~+2~~-2 strat:infusion_pedestal_guide replace air",
-								"fill ~-2~~-2 ~-2~~-2 strat:infusion_pedestal_guide replace air",
-								"title @p actionbar Pedestal Guides Activated."
-							],
-							"target": "block"
-						},
-						"set_block_state": {
-							"strat:pedestal_guides": 1
-						}
-					},
-					{
-						"condition": "query.block_state('strat:pedestal_guides') == 1",
-						"run_command": {
-							"command": [
-								"fill ~-3~~ ~-3~~ air replace strat:infusion_pedestal_guide",
-								"fill ~~~-3 ~~~-3 air replace strat:infusion_pedestal_guide",
-								"fill ~+3~~ ~+3~~ air replace strat:infusion_pedestal_guide",
-								"fill ~~~+3 ~~~+3 air replace strat:infusion_pedestal_guide",
-								"fill ~-2~~+2 ~-2~~+2 air replace strat:infusion_pedestal_guide",
-								"fill ~+2~~+2 ~+2~~+2 air replace strat:infusion_pedestal_guide",
-								"fill ~+2~~-2 ~+2~~-2 air replace strat:infusion_pedestal_guide",
-								"fill ~-2~~-2 ~-2~~-2 air replace strat:infusion_pedestal_guide",
-								"title @p actionbar Pedestal Guides Deactivated."
-							],
-							"target": "block"
-						},
-						"set_block_state": {
-							"strat:pedestal_guides": 0
-						}
-					}
-				]
-			},
-			"strat:remove_pedestal_guides": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"fill ~-3~~ ~-3~~ air replace strat:infusion_pedestal_guide",
-								"fill ~~~-3 ~~~-3 air replace strat:infusion_pedestal_guide",
-								"fill ~+3~~ ~+3~~ air replace strat:infusion_pedestal_guide",
-								"fill ~~~+3 ~~~+3 air replace strat:infusion_pedestal_guide",
-								"fill ~-2~~+2 ~-2~~+2 air replace strat:infusion_pedestal_guide",
-								"fill ~+2~~+2 ~+2~~+2 air replace strat:infusion_pedestal_guide",
-								"fill ~+2~~-2 ~+2~~-2 air replace strat:infusion_pedestal_guide",
-								"fill ~-2~~-2 ~-2~~-2 air replace strat:infusion_pedestal_guide"
-							],
-							"target": "block"
-						}
-					}
-				]
-			}
-		},
-		"permutations": [
-			{
-				"condition": "query.block_state('strat:activation') == 0",
-				"components": {
-					"minecraft:on_interact": {
-						"event": "strat:pedestal_guides_toggle"
-					},
-					"minecraft:on_player_destroyed": {
-						"event": "strat:remove_pedestal_guides"
-					},
-					"minecraft:queued_ticking": {
-						"looping": true,
-						"interval_range": [
-							10,
-							10
-						],
-						"on_tick": {
-							"event": "strat:activate"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_state('strat:activation') == 1",
-				"components": {
-					"minecraft:crafting_table": {
-						"table_name": "Infusion Altar",
-						"crafting_tags": [
-							"infusion_altar"
-						]
-					}
-				}
-			}
-		]
-	}
+  "format_version": "1.20.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "strat:infusion_altar",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "strat:activation": [0, 1],
+        "strat:pedestal_guides": [0, 1]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infusion_altar",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:geometry": "geometry.infusion_altar",
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 14.5, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 14.5, 16]
+      },
+      "tag:stone": {}
+    },
+    "events": {
+      "strat:disrupt_altar": {
+        "condition": "!query.block_neighbor_has_any_tag(3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(-3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,3,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,-3,'infusion_pedestal')",
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+                "fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]"
+              ]
+            }
+          }
+        ]
+      },
+      "strat:activate": {
+        "sequence": [
+          {
+            "condition": "query.block_neighbor_has_any_tag(3,0,0,'infusion_pedestal') && query.block_neighbor_has_any_tag(-3,0,0,'infusion_pedestal') && query.block_neighbor_has_any_tag(0,0,3,'infusion_pedestal') && query.block_neighbor_has_any_tag(0,0,-3,'infusion_pedestal')",
+            "sequence": [
+              {
+                "condition": "query.block_neighbor_has_any_tag(2,0,2,'infusion_pedestal') && query.block_neighbor_has_any_tag(2,0,-2,'infusion_pedestal') && query.block_neighbor_has_any_tag(-2,0,2,'infusion_pedestal') && query.block_neighbor_has_any_tag(-2,0,-2,'infusion_pedestal')",
+                "sequence": [
+                  {
+                    "set_block_state": {
+                      "strat:activation": 1,
+                      "strat:pedestal_guides": 0
+                    },
+                    "run_command": {
+                      "command": [
+                        "particle strat:alter_p ~ ~ ~",
+                        "playsound random.orb @a ~~~"
+                      ],
+                      "target": "block"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "condition": "query.block_state('strat:pedestal_guides') == 1",
+            "run_command": {
+              "command": [
+                "fill ~-3~~ ~-3~~ strat:infusion_pedestal_guide replace air",
+                "fill ~~~-3 ~~~-3 strat:infusion_pedestal_guide replace air",
+                "fill ~+3~~ ~+3~~ strat:infusion_pedestal_guide replace air",
+                "fill ~~~+3 ~~~+3 strat:infusion_pedestal_guide replace air",
+                "fill ~-2~~+2 ~-2~~+2 strat:infusion_pedestal_guide replace air",
+                "fill ~+2~~+2 ~+2~~+2 strat:infusion_pedestal_guide replace air",
+                "fill ~+2~~-2 ~+2~~-2 strat:infusion_pedestal_guide replace air",
+                "fill ~-2~~-2 ~-2~~-2 strat:infusion_pedestal_guide replace air"
+              ],
+              "target": "block"
+            }
+          }
+        ]
+      },
+      "strat:pedestal_guides_toggle": {
+        "sequence": [
+          {
+            "condition": "query.block_state('strat:pedestal_guides') == 0",
+            "run_command": {
+              "command": [
+                "fill ~-3~~ ~-3~~ strat:infusion_pedestal_guide replace air",
+                "fill ~~~-3 ~~~-3 strat:infusion_pedestal_guide replace air",
+                "fill ~+3~~ ~+3~~ strat:infusion_pedestal_guide replace air",
+                "fill ~~~+3 ~~~+3 strat:infusion_pedestal_guide replace air",
+                "fill ~-2~~+2 ~-2~~+2 strat:infusion_pedestal_guide replace air",
+                "fill ~+2~~+2 ~+2~~+2 strat:infusion_pedestal_guide replace air",
+                "fill ~+2~~-2 ~+2~~-2 strat:infusion_pedestal_guide replace air",
+                "fill ~-2~~-2 ~-2~~-2 strat:infusion_pedestal_guide replace air",
+                "title @p actionbar Pedestal Guides Activated."
+              ],
+              "target": "block"
+            },
+            "set_block_state": {
+              "strat:pedestal_guides": 1
+            }
+          },
+          {
+            "condition": "query.block_state('strat:pedestal_guides') == 1",
+            "run_command": {
+              "command": [
+                "fill ~-3~~ ~-3~~ air replace strat:infusion_pedestal_guide",
+                "fill ~~~-3 ~~~-3 air replace strat:infusion_pedestal_guide",
+                "fill ~+3~~ ~+3~~ air replace strat:infusion_pedestal_guide",
+                "fill ~~~+3 ~~~+3 air replace strat:infusion_pedestal_guide",
+                "fill ~-2~~+2 ~-2~~+2 air replace strat:infusion_pedestal_guide",
+                "fill ~+2~~+2 ~+2~~+2 air replace strat:infusion_pedestal_guide",
+                "fill ~+2~~-2 ~+2~~-2 air replace strat:infusion_pedestal_guide",
+                "fill ~-2~~-2 ~-2~~-2 air replace strat:infusion_pedestal_guide",
+                "title @p actionbar Pedestal Guides Deactivated."
+              ],
+              "target": "block"
+            },
+            "set_block_state": {
+              "strat:pedestal_guides": 0
+            }
+          }
+        ]
+      },
+      "strat:remove_pedestal_guides": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "fill ~-3~~ ~-3~~ air replace strat:infusion_pedestal_guide",
+                "fill ~~~-3 ~~~-3 air replace strat:infusion_pedestal_guide",
+                "fill ~+3~~ ~+3~~ air replace strat:infusion_pedestal_guide",
+                "fill ~~~+3 ~~~+3 air replace strat:infusion_pedestal_guide",
+                "fill ~-2~~+2 ~-2~~+2 air replace strat:infusion_pedestal_guide",
+                "fill ~+2~~+2 ~+2~~+2 air replace strat:infusion_pedestal_guide",
+                "fill ~+2~~-2 ~+2~~-2 air replace strat:infusion_pedestal_guide",
+                "fill ~-2~~-2 ~-2~~-2 air replace strat:infusion_pedestal_guide"
+              ],
+              "target": "block"
+            }
+          }
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('strat:activation') == 0",
+        "components": {
+          "minecraft:on_interact": {
+            "event": "strat:pedestal_guides_toggle"
+          },
+          "minecraft:on_player_destroyed": {
+            "event": "strat:remove_pedestal_guides"
+          },
+          "minecraft:queued_ticking": {
+            "looping": true,
+            "interval_range": [10, 10],
+            "on_tick": {
+              "event": "strat:activate"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('strat:activation') == 1",
+        "components": {
+          "minecraft:crafting_table": {
+            "table_name": "Infusion Altar",
+            "crafting_tags": ["infusion_altar"]
+          }
+        }
+      }
+    ]
+  }
 }
