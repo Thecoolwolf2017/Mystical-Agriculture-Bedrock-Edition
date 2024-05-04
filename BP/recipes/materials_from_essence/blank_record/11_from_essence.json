@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:11_from_essence_r"
@@ -26,12 +26,10 @@
 				"item": "minecraft:gray_dye"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "minecraft:music_disc_11",
 				"count": 1
 			}
-		],
-		"priority": 0
 	}
 }

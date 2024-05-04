@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:crimson_stem_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#XX",
+			"~XX",
+			"#XX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:wood_essence"
+			},
+			"~": {
+				"item": "strat:nether_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:crimson_stem",
+				"count": 12
+			}
+		],
+		"priority": 0
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:inferium_chestplate_r"
@@ -8,27 +8,24 @@
 			"crafting_table"
 		],
 		"pattern": [
-			" ~",
+			" e ",
 			"o#o",
-			" ~"
+			" e "
 		],
 		"key": {
 			"#": {
 				"item": "minecraft:diamond_chestplate"
 			},
-			"~": {
+			"e": {
 				"item": "strat:inferium_gemstone"
 			},
 			"o": {
 				"item": "strat:inferium_ingot"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:inferium_chestplate",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:inferium_chestplate",
+			"count": 1
+		}
 	}
 }

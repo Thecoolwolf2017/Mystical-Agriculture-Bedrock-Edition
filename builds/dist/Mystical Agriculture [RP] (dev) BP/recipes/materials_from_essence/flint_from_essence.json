@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:flint_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~X",
+			"~#X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:stone_essence"
+			},
+			"~": {
+				"item": "strat:fire_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:flint",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

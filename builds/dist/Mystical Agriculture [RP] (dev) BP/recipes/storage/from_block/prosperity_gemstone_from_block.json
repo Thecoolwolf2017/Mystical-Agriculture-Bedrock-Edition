@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prosperity_gemstone_from_block_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:prosperity_gemstone_block"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:prosperity_gemstone",
+				"count": 9
+			}
+		],
+		"priority": 5
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:gravel_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#~X",
+			"~#X",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:dirt_essence"
+			},
+			"~": {
+				"item": "strat:stone_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:gravel",
+				"count": 16
+			}
+		],
+		"priority": 0
+	}
+}

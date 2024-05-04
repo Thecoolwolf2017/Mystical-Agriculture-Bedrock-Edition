@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:manyullyn_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:manyullyn_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:manyullyn_ingot",
+				"count": 2
+			}
+		],
+		"priority": 0
+	}
+}

@@ -57,18 +57,19 @@
 		},
 		"events": {
 			"strat:disrupt_altar": {
+				"condition": "!query.block_neighbor_has_any_tag(3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(-3,0,0,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,3,'infusion_pedestal') && !query.block_neighbor_has_any_tag(0,0,-3,'infusion_pedestal')",
 				"sequence": [
 					{
 						"run_command": {
 							"command": [
-								"fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
-								"fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]"
+								"fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
+								"fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]"
 							]
 						}
 					}

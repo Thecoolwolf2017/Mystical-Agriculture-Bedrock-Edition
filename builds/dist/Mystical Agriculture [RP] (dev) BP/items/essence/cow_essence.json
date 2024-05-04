@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:cow_essence",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cow_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Cow Essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

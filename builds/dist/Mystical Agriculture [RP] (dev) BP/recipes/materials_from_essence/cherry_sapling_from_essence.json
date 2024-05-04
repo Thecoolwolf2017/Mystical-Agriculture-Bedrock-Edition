@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cherry_sapling_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX~",
+			"X#X",
+			"~XX"
+		],
+		"key": {
+			"#": {
+				"item": "strat:nature_essence"
+			},
+			"~": {
+				"item": "strat:wood_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:cherry_sapling",
+				"count": 8
+			}
+		],
+		"priority": 0
+	}
+}

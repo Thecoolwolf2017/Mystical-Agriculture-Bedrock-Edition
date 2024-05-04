@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:turtle_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "turtle_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Turtle Seeds\n§7Tier: §a2§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:turtle_crop"
+			}
+		},
+		"events": {}
+	}
+}

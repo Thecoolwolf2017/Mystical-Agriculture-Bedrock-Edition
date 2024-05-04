@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:magma_cream_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X~X",
+			"~#~",
+			"X~X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:blaze_essence"
+			},
+			"~": {
+				"item": "strat:slime_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:magma_cream",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

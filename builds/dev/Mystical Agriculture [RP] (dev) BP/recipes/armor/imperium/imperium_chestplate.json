@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:imperium_chestplate_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"sSs",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "strat:imperium_gemstone"
+			},
+			"s": {
+				"item": "strat:imperium_ingot"
+			},
+			"S": {
+				"item": "strat:tertium_chestplate"
+			}
+		},
+		"result": {
+			"item": "strat:imperium_chestplate",
+			"count": 1
+		}
+	}
+}

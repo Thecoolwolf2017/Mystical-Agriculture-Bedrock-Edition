@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:honey_agglomeratio_r"
@@ -19,16 +19,9 @@
 				"item": "minecraft:honeycomb"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:honey_agglomeratio",
-				"count": 1
-			},
-			{
-				"item": "minecraft:glass_bottle",
-				"count": 2
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:honey_agglomeratio",
+			"count": 1
+		}
 	}
 }

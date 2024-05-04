@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:end_agglomeratio_r"
@@ -22,12 +22,9 @@
 				"item": "minecraft:purpur_block"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:end_agglomeratio",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:end_agglomeratio",
+			"count": 1
+		}
 	}
 }

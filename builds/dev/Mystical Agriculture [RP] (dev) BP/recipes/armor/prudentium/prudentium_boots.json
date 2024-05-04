@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:prudentium_boots_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"o#o",
+			" ~ "
+		],
+		"key": {
+			"#": {
+				"item": "strat:inferium_boots"
+			},
+			"~": {
+				"item": "strat:prudentium_gemstone"
+			},
+			"o": {
+				"item": "strat:prudentium_ingot"
+			}
+		},
+		"result": {
+			"item": "strat:prudentium_boots",
+			"count": 1
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:prismarine_agglomeratio_r"
@@ -19,12 +19,9 @@
 				"item": "minecraft:prismarine_shard"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:prismarine_agglomeratio",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:prismarine_agglomeratio",
+			"count": 1
+		}
 	}
 }

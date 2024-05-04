@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:imperium_growth_accelerator_r"
@@ -23,12 +23,9 @@
 				"item": "strat:imperium_gemstone"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:imperium_growth_accelerator",
-				"count": 3
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:imperium_growth_accelerator",
+			"count": 3
+		}
 	}
 }

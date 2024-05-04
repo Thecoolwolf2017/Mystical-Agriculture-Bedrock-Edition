@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:tertium_boots_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"o#o",
+			" ~ "
+		],
+		"key": {
+			"#": {
+				"item": "strat:prudentium_boots"
+			},
+			"~": {
+				"item": "strat:tertium_gemstone"
+			},
+			"o": {
+				"item": "strat:tertium_ingot"
+			}
+		},
+		"result": {
+			"item": "strat:tertium_boots",
+			"count": 1
+		}
+	}
+}

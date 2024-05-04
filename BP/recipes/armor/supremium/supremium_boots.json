@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:supremium_boots_r"
@@ -8,9 +8,9 @@
 			"crafting_table"
 		],
 		"pattern": [
-			" ~",
+			" ~ ",
 			"o#o",
-			" ~"
+			" ~ "
 		],
 		"key": {
 			"#": {
@@ -23,12 +23,10 @@
 				"item": "strat:supremium_ingot"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "strat:supremium_boots",
 				"count": 1
 			}
-		],
-		"priority": 0
 	}
 }

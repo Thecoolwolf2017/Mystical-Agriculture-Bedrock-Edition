@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:inferium_essence_from_prudentium_r"
@@ -7,6 +7,7 @@
 		"tags": [
 			"crafting_table"
 		],
+		"priority": 1,
 		"pattern": [
 			"~"
 		],
@@ -15,12 +16,9 @@
 				"item": "strat:prudentium_essence"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:inferium_essence",
-				"count": 4
-			}
-		],
-		"priority": 1
+		"result": {
+			"item": "strat:inferium_essence",
+			"count": 4
+		}
 	}
 }

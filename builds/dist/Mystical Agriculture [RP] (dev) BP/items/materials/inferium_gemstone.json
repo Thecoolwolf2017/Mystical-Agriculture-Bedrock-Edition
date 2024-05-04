@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:inferium_gemstone",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "inferium_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "Inferium Gemstone"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

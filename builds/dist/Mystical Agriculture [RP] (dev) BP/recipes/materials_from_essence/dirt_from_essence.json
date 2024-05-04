@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:dirt_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:dirt_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:dirt",
+				"count": 24
+			}
+		],
+		"priority": 0
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:andesite_from_essence_r"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#X",
+			"###",
+			"X~X"
+		],
+		"key": {
+			"#": {
+				"item": "strat:stone_essence"
+			},
+			"~": {
+				"item": "strat:nether_quartz_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:stone",
+				"count": 16,
+				"data": 5
+			}
+		],
+		"priority": 0
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.40",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:pig_seeds_r"
@@ -8,18 +8,18 @@
 			"infusion_altar"
 		],
 		"pattern": [
-			"o~o",
-			"~#~",
-			"o~o"
+			"O~O",
+			"igi",
+			"O~O"
 		],
 		"key": {
-			"#": {
+			"g": {
 				"item": "strat:soulium_seed_base"
 			},
-			"~": {
+			"i": {
 				"item": "strat:prudentium_essence"
 			},
-			"o": {
+			"O": {
 				"item": "strat:soul_jar_pig_4"
 			}
 		},

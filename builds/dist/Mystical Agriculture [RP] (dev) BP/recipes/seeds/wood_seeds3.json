@@ -1,0 +1,34 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:wood_seeds3_r"
+		},
+		"tags": [
+			"infusion_altar"
+		],
+		"pattern": [
+			"o~o",
+			"~#~",
+			"o~o"
+		],
+		"key": {
+			"#": {
+				"item": "strat:prosperity_seed_base"
+			},
+			"~": {
+				"item": "strat:inferium_essence"
+			},
+			"o": {
+				"item": "minecraft:mangrove_log"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:wood_seeds",
+				"count": 1
+			}
+		],
+		"priority": 2
+	}
+}

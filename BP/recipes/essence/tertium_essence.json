@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:tertium_essence_r"
@@ -8,9 +8,9 @@
 			"crafting_table"
 		],
 		"pattern": [
-			" ~",
+			" ~ ",
 			"~#~",
-			" ~"
+			" ~ "
 		],
 		"key": {
 			"#": {
@@ -20,12 +20,9 @@
 				"item": "strat:prudentium_essence"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:tertium_essence",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:tertium_essence",
+			"count": 1
+		}
 	}
 }

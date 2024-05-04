@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:prosperity_ingot_r"
@@ -8,9 +8,9 @@
 			"crafting_table"
 		],
 		"pattern": [
-			" ~",
+			" ~ ",
 			"~#~",
-			" ~"
+			" ~ "
 		],
 		"key": {
 			"#": {
@@ -20,12 +20,10 @@
 				"item": "strat:prosperity_shard"
 			}
 		},
-		"result": [
+		"result":
 			{
 				"item": "strat:prosperity_ingot",
 				"count": 1
 			}
-		],
-		"priority": 0
 	}
 }

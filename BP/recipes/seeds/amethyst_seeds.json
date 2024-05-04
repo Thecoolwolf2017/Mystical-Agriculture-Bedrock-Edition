@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "strat:amethyst_seeds_r"
@@ -8,27 +8,24 @@
 			"infusion_altar"
 		],
 		"pattern": [
-			"o~o",
-			"~#~",
-			"o~o"
+			"#S#",
+			"SZS",
+			"#S#"
 		],
 		"key": {
 			"#": {
-				"item": "strat:prosperity_seed_base"
+				"item": "minecraft:amethyst_shard"
 			},
-			"~": {
+			"S": {
 				"item": "strat:prudentium_essence"
 			},
-			"o": {
-				"item": "minecraft:amethyst_shard"
+			"Z": {
+				"item": "strat:prosperity_seed_base"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:amethyst_seeds",
-				"count": 1
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "strat:amethyst_seeds",
+			"count": 1
+		}
 	}
 }
