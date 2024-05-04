@@ -7,8 +7,14 @@
         "category": "items"
       },
       "states": {
-        "strat:activation": [0, 1],
-        "strat:pedestal_guides": [0, 1]
+        "strat:activation": [
+          0,
+          1
+        ],
+        "strat:pedestal_guides": [
+          0,
+          1
+        ]
       }
     },
     "components": {
@@ -24,12 +30,28 @@
       },
       "minecraft:geometry": "geometry.infusion_altar",
       "minecraft:collision_box": {
-        "origin": [-8, 0, -8],
-        "size": [16, 14.5, 16]
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          14.5,
+          16
+        ]
       },
       "minecraft:selection_box": {
-        "origin": [-8, 0, -8],
-        "size": [16, 14.5, 16]
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          14.5,
+          16
+        ]
       },
       "tag:stone": {}
     },
@@ -40,14 +62,14 @@
           {
             "run_command": {
               "command": [
-                "fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]"
+                "fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]"
               ]
             }
           }
@@ -172,7 +194,10 @@
           },
           "minecraft:queued_ticking": {
             "looping": true,
-            "interval_range": [10, 10],
+            "interval_range": [
+              10,
+              10
+            ],
             "on_tick": {
               "event": "strat:activate"
             }
@@ -184,7 +209,9 @@
         "components": {
           "minecraft:crafting_table": {
             "table_name": "Infusion Altar",
-            "crafting_tags": ["infusion_altar"]
+            "crafting_tags": [
+              "infusion_altar"
+            ]
           }
         }
       }

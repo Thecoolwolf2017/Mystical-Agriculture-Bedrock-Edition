@@ -20,12 +20,28 @@
       },
       "minecraft:geometry": "geometry.infusion_pedestal",
       "minecraft:collision_box": {
-        "origin": [-6, 0, -6],
-        "size": [12, 16, 12]
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          16,
+          12
+        ]
       },
       "minecraft:selection_box": {
-        "origin": [-6, 0, -6],
-        "size": [12, 16, 12]
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          16,
+          12
+        ]
       },
       "tag:stone": {},
       "minecraft:on_player_destroyed": {
@@ -39,14 +55,14 @@
           {
             "run_command": {
               "command": [
-                "fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]",
-                "fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 0]"
+                "fill ~-3~~ ~-3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~~~-3 ~~~-3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+3~~ ~+3~~ strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~~~+3 ~~~+3 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~-2~~+2 ~-2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+2~~+2 ~+2~~+2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~+2~~-2 ~+2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]",
+                "fill ~-2~~-2 ~-2~~-2 strat:infusion_altar [] replace strat:infusion_altar [\"strat:activation\" = 1]"
               ]
             }
           }
