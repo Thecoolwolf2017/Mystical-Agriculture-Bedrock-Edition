@@ -91,3 +91,41 @@ When updating files to use the new namespace, make sure to:
 - Missing loot tables: Make sure to create loot tables for all blocks using the correct namespace
 - Block reference errors: Make sure all block references use the correct namespace
 - Custom component errors: Make sure all custom components are properly defined with the new namespace
+- Block placer errors: Make sure seed items correctly reference crop blocks with the proper namespace
+
+## Seed Items
+
+Seed items require special attention as they use the `minecraft:block_placer` component to reference crop blocks:
+
+```json
+"minecraft:block_placer": {
+    "block": "strat:crop_name"
+}
+```
+
+Errors like `Cannot find block definition: mysticalagriculture:air_crop` indicate that a seed item is still using the old namespace to reference a crop block. To fix this:
+
+1. Update the seed item's identifier to use the `strat:` namespace
+2. Update the `block` property in the `minecraft:block_placer` component to use the `strat:` namespace
+
+Example of a correctly updated seed item:
+
+```json
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "strat:air_seeds",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": "air_seeds",
+            "minecraft:block_placer": {
+                "block": "strat:air_crop"
+            }
+        }
+    }
+}
+```
