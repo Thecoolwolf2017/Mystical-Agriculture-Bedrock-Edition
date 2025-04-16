@@ -2,19 +2,19 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_ingot_block"
+			"identifier": "strat:prudentium_ingot_block"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prudentium_ingot",
+				"item": "strat:prudentium_ingot",
 				"count": 9
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_ingot_block"
+			"item": "strat:prudentium_ingot_block"
 		}
 	}
 }

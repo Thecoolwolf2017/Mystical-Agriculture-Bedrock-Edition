@@ -7,24 +7,70 @@
 				"groups": [
 					{
 						"group_identifier": {
-							"name": "strat:itemGroup.name.seeds",
+							"name": "strat:itemGroup.name.elemental_seeds",
+							"icon": "strat:air_seeds"
+						},
+						"items": [
+							"strat:air_seeds",
+							"strat:earth_seeds",
+							"strat:fire_seeds",
+							"strat:water_seeds"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.resource_seeds",
 							"icon": "strat:inferium_seeds"
 						},
 						"items": [
 							"strat:inferium_seeds",
-							"strat:air_seeds",
-							"strat:earth_seeds",
-							"strat:fire_seeds",
-							"strat:water_seeds",
 							"strat:dirt_seeds",
 							"strat:wood_seeds",
 							"strat:stone_seeds",
 							"strat:nature_seeds",
+							"strat:obsidian_seeds",
+							"strat:ice_seeds",
+							"strat:quartz_seeds",
+							"strat:amethyst_seeds",
+							"strat:iron_seeds",
+							"strat:emerald_seeds",
+							"strat:prismarine_seeds",
+							"strat:netherite_seeds",
+							"strat:glowstone_seeds",
+							"strat:redstone_seeds",
+							"strat:diamond_seeds",
+							"strat:experience_seeds",
+							"strat:coal_seeds",
+							"strat:lapis_seeds",
+							"strat:copper_seeds",
+							"strat:gold_seeds",
+							"strat:deepslate_seeds",
+							"strat:honey_seeds",
+							"strat:coral_seeds",
+							"strat:dye_seeds",
+							"strat:nether_seeds",
+							"strat:end_seeds"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.mob_seeds",
+							"icon": "strat:zombie_seeds"
+						},
+						"items": [
 							"strat:zombie_seeds",
 							"strat:skeleton_seeds",
 							"strat:creeper_seeds",
 							"strat:spider_seeds",
-							"strat:slime_seeds"
+							"strat:slime_seeds",
+							"strat:rabbit_seeds",
+							"strat:chicken_seeds",
+							"strat:cow_seeds",
+							"strat:pig_seeds",
+							"strat:sheep_seeds",
+							"strat:squid_seeds",
+							"strat:fish_seeds",
+							"strat:enderman_seeds"
 						]
 					},
 					{
@@ -34,45 +80,60 @@
 						},
 						"items": [
 							"strat:inferium_essence",
+							"strat:prudentium_essence",
+							"strat:tertium_essence",
+							"strat:imperium_essence",
+							"strat:supremium_essence",
 							"strat:prosperity_shard",
-							"strat:prosperity_essence",
-							"strat:soulium_dust"
+							"strat:soulium_dust",
+							"strat:infusion_crystal",
+							"strat:master_infusion_crystal"
 						]
 					},
 					{
 						"group_identifier": {
 							"name": "strat:itemGroup.name.blocks",
-							"icon": "strat:prosperity_block"
+							"icon": "strat:inferium_ore"
 						},
 						"items": [
 							"strat:inferium_ore",
 							"strat:prosperity_ore",
-							"strat:prosperity_block",
+							"strat:inferium_block",
+							"strat:prudentium_block",
 							"strat:tertium_block",
 							"strat:imperium_block",
 							"strat:supremium_block",
-							"strat:soulium_block",
-							"strat:tertium_gemstone_block",
-							"strat:imperium_gemstone_block",
-							"strat:supremium_gemstone_block",
-							"strat:soulium_gemstone_block",
-							"strat:prosperity_gemstone_block",
-							"strat:prosperity_ingot_block"
+							"strat:infusion_altar",
+							"strat:infusion_pedestal",
+							"strat:essence_farmland"
 						]
 					},
 					{
 						"group_identifier": {
-							"name": "strat:itemGroup.name.witherproof",
-							"icon": "strat:witherproof_block"
+							"name": "strat:itemGroup.name.soulstone",
+							"icon": "strat:soulstone"
 						},
 						"items": [
-							"strat:witherproof_glass",
-							"strat:witherproof_bricks",
-							"strat:witherproof_block",
-							"strat:witherproof_essence",
-							"strat:witherproof_ore",
-							"strat:witherproof_gemstone_block",
-							"strat:witherproof_ingot_block"
+							"strat:soulstone",
+							"strat:soulstone_bricks",
+							"strat:soul_glass",
+							"strat:soul_jar",
+							"strat:soulium_dagger"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.tools",
+							"icon": "strat:inferium_pickaxe"
+						},
+						"items": [
+							"strat:inferium_pickaxe",
+							"strat:inferium_sword",
+							"strat:inferium_axe",
+							"strat:inferium_shovel",
+							"strat:inferium_hoe",
+							"strat:watering_can",
+							"strat:mystical_wand"
 						]
 					}
 				]

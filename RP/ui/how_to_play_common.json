@@ -259,7 +259,6 @@
     ]
   },
   "paragraph_with_selective_input@how_to_play_common.paragraph_with_icons": {
-    "line_padding": 4.0,
     "bindings": [
       {
         "binding_name": "$text"
@@ -274,23 +273,18 @@
     "$input_binding": "#keyboard_being_used"
   },
   "paragraph_gamepad@how_to_play_common.paragraph_with_selective_input": {
-    "line_padding": 10.0,
     "$input_binding": "#gamepad_being_used"
   },
   "paragraph_rift_controller@how_to_play_common.paragraph_with_selective_input": {
-    "line_padding": 10.0,
     "$input_binding": "#rift_controller_being_used"
   },
   "paragraph_windowsmr_controller@how_to_play_common.paragraph_with_selective_input": {
-    "line_padding": 10.0,
     "$input_binding": "#windowsmr_controller_being_used"
   },
   "paragraph_touch@how_to_play_common.paragraph_with_selective_input": {
-    "line_padding": 12.0,
     "$input_binding": "#touch_being_used"
   },
   "paragraph_not_touch@how_to_play_common.paragraph_with_selective_input": {
-    "line_padding": 10.0,
     "$input_binding": "#touch_not_being_used"
   },
   "image": {
@@ -329,7 +323,7 @@
                 "size": [
                   "70% - 22px",
                   "100%"
-                ], // Gamepad helpers have max size of 30% and the back button is 20px
+                ],
                 "offset": [
                   20,
                   -1
@@ -407,7 +401,6 @@
       }
     ]
   },
-  // left side
   "selector_area": {
     "type": "panel",
     "offset": [
@@ -444,7 +437,6 @@
       }
     ]
   },
-  // divider between two sides
   "section_divider": {
     "type": "image",
     "offset": [
@@ -460,7 +452,6 @@
     "layer": 3,
     "texture": "textures/ui/HowToPlayDivider"
   },
-  // contains right side
   "content_area_wrapper": {
     "type": "panel",
     "offset": [
@@ -480,7 +471,6 @@
       }
     ]
   },
-  // right side
   "content_area": {
     "type": "panel",
     "size": [
@@ -536,7 +526,6 @@
       "10px"
     ]
   },
-  // gamepad helpers
   "gamepad_bumper_helpers": {
     "type": "stack_panel",
     "orientation": "horizontal",

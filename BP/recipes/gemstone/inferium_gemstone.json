@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_gemstone"
+			"identifier": "strat:inferium_gemstone"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_gemstone"
+				"item": "strat:prosperity_gemstone"
 			},
 			{
-				"item": "mysticalagriculture:inferium_essence",
+				"item": "strat:inferium_essence",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:inferium_gemstone"
+			"item": "strat:inferium_gemstone"
 		}
 	}
 }

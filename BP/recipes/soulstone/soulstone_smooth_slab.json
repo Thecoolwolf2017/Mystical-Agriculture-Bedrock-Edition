@@ -2,21 +2,21 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soulstone_smooth_slab"
+			"identifier": "strat:soulstone_smooth_slab"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "mysticalagriculture:soulstone_smooth"
+				"item": "strat:soulstone_smooth"
 			}
 		},
 		"pattern": [
 			"###"
 		],
 		"result": {
-			"item": "mysticalagriculture:soulstone_smooth_slab",
+			"item": "strat:soulstone_smooth_slab",
 			"count": 6
 		}
 	}

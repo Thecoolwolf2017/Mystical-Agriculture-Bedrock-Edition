@@ -2,17 +2,17 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_boots"
+			"identifier": "strat:inferium_boots"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:inferium_gemstone"
+				"item": "strat:inferium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:inferium_ingot"
+				"item": "strat:inferium_ingot"
 			},
 			"S": {
 				"item": "minecraft:diamond_boots"
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:inferium_boots"
+			"item": "strat:inferium_boots"
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:watering_can"
+			"identifier": "strat:watering_can"
 		},
 		"tags": [
 			"crafting_table"
@@ -24,7 +24,7 @@
 			" I "
 		],
 		"result": {
-			"item": "mysticalagriculture:watering_can"
+			"item": "strat:watering_can"
 		}
 	}
 }

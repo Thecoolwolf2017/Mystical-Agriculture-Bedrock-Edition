@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soulstone_stairs"
+			"identifier": "strat:soulstone_stairs"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "mysticalagriculture:soulstone"
+				"item": "strat:soulstone"
 			}
 		},
 		"pattern": [
@@ -18,7 +18,7 @@
 			"###"
 		],
 		"result": {
-			"item": "mysticalagriculture:soulstone_stairs",
+			"item": "strat:soulstone_stairs",
 			"count": 4
 		}
 	}

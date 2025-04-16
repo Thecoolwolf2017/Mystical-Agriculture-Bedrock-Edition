@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_chestplate",
+			"identifier": "strat:prudentium_chestplate",
 			"menu_category": {
 				"category": "equipment"
 			}

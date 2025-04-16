@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:mellohi"
+			"identifier": "strat:mellohi"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"A": {
-				"item": "mysticalagriculture:blank_record"
+				"item": "strat:blank_record"
 			},
 			"S": {
-				"item": "mysticalagriculture:creeper_essence"
+				"item": "strat:creeper_essence"
 			},
 			"D": {
-				"item": "mysticalagriculture:skeleton_essence"
+				"item": "strat:skeleton_essence"
 			},
 			"F": {
 				"item": "minecraft:magenta_dye"

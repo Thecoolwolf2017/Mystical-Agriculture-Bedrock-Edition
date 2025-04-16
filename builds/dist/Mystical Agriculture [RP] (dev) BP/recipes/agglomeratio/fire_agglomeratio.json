@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:fire_agglomeratio"
+			"identifier": "strat:fire_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
@@ -25,13 +25,8 @@
 			"AS",
 			"DF"
 		],
-		"result": [
-			{
-				"item": "minecraft:bucket"
-			},
-			{
-				"item": "mysticalagriculture:fire_agglomeratio"
-			}
-		]
+		"result": {
+			"item": "strat:fire_agglomeratio"
+		}
 	}
 }

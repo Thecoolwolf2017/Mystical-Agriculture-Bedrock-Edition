@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_ingot"
+			"identifier": "strat:tertium_ingot"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_ingot"
+				"item": "strat:prosperity_ingot"
 			},
 			{
-				"item": "mysticalagriculture:tertium_essence",
+				"item": "strat:tertium_essence",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:tertium_ingot"
+			"item": "strat:tertium_ingot"
 		}
 	}
 }

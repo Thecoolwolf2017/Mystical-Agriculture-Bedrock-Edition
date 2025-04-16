@@ -9,18 +9,18 @@ server.system.runInterval(() => {
 
         if (!block) return
 
-        if (block.typeId.startsWith("mysticalagriculture:") && block.typeId.endsWith("_crop")) {
+        if (block.typeId.startsWith("strat:") && block.typeId.endsWith("_crop")) {
 
             let farmlandTierList = [
                 { typeId: "minecraft:farmland", tier: "0", output: 100 },
-                { typeId: "mysticalagriculture:inferium_farmland", tier: "§e1", output: 100 },
-                { typeId: "mysticalagriculture:prudentium_farmland", tier: "§a2", output: 150 },
-                { typeId: "mysticalagriculture:tertium_farmland", tier: "§63", output: 200 },
-                { typeId: "mysticalagriculture:imperium_farmland", tier: "§b4", output: 250 },
-                { typeId: "mysticalagriculture:supremium_farmland", tier: "§c5", output: 300 },
+                { typeId: "strat:inferium_farmland", tier: "§e1", output: 100 },
+                { typeId: "strat:prudentium_farmland", tier: "§a2", output: 150 },
+                { typeId: "strat:tertium_farmland", tier: "§63", output: 200 },
+                { typeId: "strat:imperium_farmland", tier: "§b4", output: 250 },
+                { typeId: "strat:supremium_farmland", tier: "§c5", output: 300 },
             ]
 
-            let growth = block.permutation.getState("mysticalagriculture:growth") == 7 ? "§aMature" : `§f${((parseInt(block.permutation.getState("mysticalagriculture:growth")) * 100) / 7).toFixed(0)}%`
+            let growth = block.permutation.getState("strat:growth") == 7 ? "§aMature" : `§f${((parseInt(block.permutation.getState("strat:growth")) * 100) / 7).toFixed(0)}%`
             let cropTier = seedsTier.find(seed => seed.typeId.replaceAll("_seeds", "_crop") == block.typeId).tier
             let output = farmlandTierList.find(farmBlock => farmBlock.typeId == block.below().typeId).output
             let farmlandTier = farmlandTierList.find(farmBlock => farmBlock.typeId == block.below().typeId).tier
@@ -38,7 +38,7 @@ server.system.runInterval(() => {
 
             let isInferium = false
 
-            if (block.typeId == "mysticalagriculture:inferium_crop") {
+            if (block.typeId == "strat:inferium_crop") {
                 isInferium = true
             }
 
@@ -47,9 +47,9 @@ server.system.runInterval(() => {
             player.onScreenDisplay.setActionBar(`§7Growth: ${itemPrefix}${growth}\n§7Tier: ${cropTier}${secondaryChance ? `\n§7Secondary Chance: ${itemPrefix}${secondaryChance}%` : ``}${isInferium ? `\n§7Inferium Output: ${itemPrefix}${output}%` : ``} `)
 
         }
-        else if (block.typeId == "mysticalagriculture:infusion_altar") {
+        else if (block.typeId == "strat:infusion_altar") {
             let state = block.above().permutation.getAllStates()
-            let isActive = state["mysticalagriculture:is_active"] ? "§aTrue" : "§cFalse"
+            let isActive = state["strat:is_active"] ? "§aTrue" : "§cFalse"
             player.onScreenDisplay.setActionBar(`§dInfusion §5Altar§r\nActive: ${isActive}`)
         }
     }

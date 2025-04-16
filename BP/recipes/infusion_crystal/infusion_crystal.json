@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:infusion_crystal"
+			"identifier": "strat:infusion_crystal"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"E": {
-				"item": "mysticalagriculture:inferium_essence"
+				"item": "strat:inferium_essence"
 			},
 			"D": {
 				"item": "minecraft:diamond"
 			},
 			"S": {
-				"item": "mysticalagriculture:prosperity_shard"
+				"item": "strat:prosperity_shard"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			"ESE"
 		],
 		"result": {
-			"item": "mysticalagriculture:infusion_crystal"
+			"item": "strat:infusion_crystal"
 		}
 	}
 }

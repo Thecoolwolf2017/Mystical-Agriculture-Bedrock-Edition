@@ -2,7 +2,7 @@
 	"format_version": "1.21.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:soul_jar",
+			"identifier": "strat:soul_jar",
 			"menu_category": {
 				"category": "equipment"
 			}

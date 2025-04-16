@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_leggings"
+			"identifier": "strat:supremium_leggings"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:supremium_gemstone"
+				"item": "strat:supremium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:supremium_ingot"
+				"item": "strat:supremium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:imperium_leggings"
+				"item": "strat:imperium_leggings"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:supremium_leggings"
+			"item": "strat:supremium_leggings"
 		}
 	}
 }

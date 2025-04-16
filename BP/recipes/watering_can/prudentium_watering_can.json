@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_watering_can"
+			"identifier": "strat:prudentium_watering_can"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"B": {
-				"item": "mysticalagriculture:mystical_fertilizer"
+				"item": "strat:mystical_fertilizer"
 			},
 			"I": {
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			},
 			"W": {
-				"item": "mysticalagriculture:inferium_watering_can"
+				"item": "strat:inferium_watering_can"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			"BIB"
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_watering_can"
+			"item": "strat:prudentium_watering_can"
 		}
 	}
 }

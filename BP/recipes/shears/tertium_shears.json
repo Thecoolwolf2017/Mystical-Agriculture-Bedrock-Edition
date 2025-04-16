@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_shears"
+			"identifier": "strat:tertium_shears"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:tertium_gemstone"
+				"item": "strat:tertium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:tertium_ingot"
+				"item": "strat:tertium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:prudentium_shears"
+				"item": "strat:prudentium_shears"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:tertium_shears"
+			"item": "strat:tertium_shears"
 		}
 	}
 }

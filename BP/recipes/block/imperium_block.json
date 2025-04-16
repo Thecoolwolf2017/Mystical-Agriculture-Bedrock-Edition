@@ -2,19 +2,19 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_block"
+			"identifier": "strat:imperium_block"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:imperium_essence",
+				"item": "strat:imperium_essence",
 				"count": 9
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_block"
+			"item": "strat:imperium_block"
 		}
 	}
 }

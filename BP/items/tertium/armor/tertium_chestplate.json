@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_chestplate",
+			"identifier": "strat:tertium_chestplate",
 			"menu_category": {
 				"category": "equipment"
 			}

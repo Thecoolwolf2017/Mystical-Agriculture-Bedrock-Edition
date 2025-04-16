@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:soulium_ingot"
+			"identifier": "strat:soulium_ingot"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_ingot"
+				"item": "strat:prosperity_ingot"
 			},
 			{
-				"item": "mysticalagriculture:soulium_dust",
+				"item": "strat:soulium_dust",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:soulium_ingot"
+			"item": "strat:soulium_ingot"
 		}
 	}
 }

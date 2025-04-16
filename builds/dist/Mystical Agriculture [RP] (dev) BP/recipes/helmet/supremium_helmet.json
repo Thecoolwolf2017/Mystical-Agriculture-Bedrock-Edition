@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_helmet"
+			"identifier": "strat:supremium_helmet"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:supremium_gemstone"
+				"item": "strat:supremium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:supremium_ingot"
+				"item": "strat:supremium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:imperium_helmet"
+				"item": "strat:imperium_helmet"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:supremium_helmet"
+			"item": "strat:supremium_helmet"
 		}
 	}
 }

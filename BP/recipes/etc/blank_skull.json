@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:blank_skull"
+			"identifier": "strat:blank_skull"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"S": {
-				"item": "mysticalagriculture:soul_dust"
+				"item": "strat:soul_dust"
 			},
 			"W": {
 				"item": "minecraft:bone_block"
@@ -21,7 +21,7 @@
 			" S "
 		],
 		"result": {
-			"item": "mysticalagriculture:blank_skull",
+			"item": "strat:blank_skull",
 			"count": 4
 		}
 	}

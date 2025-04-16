@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_boots"
+			"identifier": "strat:prudentium_boots"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:prudentium_gemstone"
+				"item": "strat:prudentium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:inferium_boots"
+				"item": "strat:inferium_boots"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_boots"
+			"item": "strat:prudentium_boots"
 		}
 	}
 }

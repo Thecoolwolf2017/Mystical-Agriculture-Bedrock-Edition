@@ -2,21 +2,21 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_farmland"
+			"identifier": "strat:imperium_farmland"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:imperium_essence"
+				"item": "strat:imperium_essence"
 			},
 			{
 				"item": "minecraft:dirt"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_farmland"
+			"item": "strat:imperium_farmland"
 		}
 	}
 }

@@ -3,19 +3,19 @@ import * as server from "@minecraft/server"
 server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
 
     let farmlandTypes = ["minecraft:farmland",
-        "mysticalagriculture:inferium_farmland",
-        "mysticalagriculture:prudentium_farmland",
-        "mysticalagriculture:tertium_farmland",
-        "mysticalagriculture:imperium_farmland",
-        "mysticalagriculture:supremium_farmland"]
+        "strat:inferium_farmland",
+        "strat:prudentium_farmland",
+        "strat:tertium_farmland",
+        "strat:imperium_farmland",
+        "strat:supremium_farmland"]
 
     let essenceFarmland = [
         { typeId: "minecraft:farmland", essence: "minecraft:air" },
-        { typeId: "mysticalagriculture:inferium_farmland", essence: "mysticalagriculture:inferium_essence" },
-        { typeId: "mysticalagriculture:prudentium_farmland", essence: "mysticalagriculture:prudentium_essence" },
-        { typeId: "mysticalagriculture:tertium_farmland", essence: "mysticalagriculture:tertium_essence" },
-        { typeId: "mysticalagriculture:imperium_farmland", essence: "mysticalagriculture:imperium_essence" },
-        { typeId: "mysticalagriculture:supremium_farmland", essence: "mysticalagriculture:supremium_essence" },
+        { typeId: "strat:inferium_farmland", essence: "strat:inferium_essence" },
+        { typeId: "strat:prudentium_farmland", essence: "strat:prudentium_essence" },
+        { typeId: "strat:tertium_farmland", essence: "strat:tertium_essence" },
+        { typeId: "strat:imperium_farmland", essence: "strat:imperium_essence" },
+        { typeId: "strat:supremium_farmland", essence: "strat:supremium_essence" },
     ]
 
     if (!result.isFirstEvent) return
@@ -33,20 +33,20 @@ server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
         if (Math.random() * 100 < 50) returnEssence = true
 
         switch (itemStack.typeId) {
-            case "mysticalagriculture:inferium_essence":
-                handleEssence("mysticalagriculture:inferium_farmland", 1);
+            case "strat:inferium_essence":
+                handleEssence("strat:inferium_farmland", 1);
                 break;
-            case "mysticalagriculture:prudentium_essence":
-                handleEssence("mysticalagriculture:prudentium_farmland", 2);
+            case "strat:prudentium_essence":
+                handleEssence("strat:prudentium_farmland", 2);
                 break;
-            case "mysticalagriculture:tertium_essence":
-                handleEssence("mysticalagriculture:tertium_farmland", 3);
+            case "strat:tertium_essence":
+                handleEssence("strat:tertium_farmland", 3);
                 break;
-            case "mysticalagriculture:imperium_essence":
-                handleEssence("mysticalagriculture:imperium_farmland", 4);
+            case "strat:imperium_essence":
+                handleEssence("strat:imperium_farmland", 4);
                 break;
-            case "mysticalagriculture:supremium_essence":
-                handleEssence("mysticalagriculture:supremium_farmland", 5);
+            case "strat:supremium_essence":
+                handleEssence("strat:supremium_farmland", 5);
                 break;
         }
 
@@ -79,7 +79,7 @@ server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
 })
 
 server.world.beforeEvents.worldInitialize.subscribe(result => {
-    result.blockComponentRegistry.registerCustomComponent("mysticalagriculture:farmland", {
+    result.blockComponentRegistry.registerCustomComponent("strat:farmland", {
         onRandomTick: result => {
             // console.warn("test")
             let state = result.block.permutation.getAllStates()
@@ -138,15 +138,15 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
 
     let farmlandTierList = [
         { typeId: "minecraft:farmland", tier: "0", output: 100 },
-        { typeId: "mysticalagriculture:inferium_farmland", tier: "§e1", output: 100 },
-        { typeId: "mysticalagriculture:prudentium_farmland", tier: "§a2", output: 150 },
-        { typeId: "mysticalagriculture:tertium_farmland", tier: "§63", output: 200 },
-        { typeId: "mysticalagriculture:imperium_farmland", tier: "§b4", output: 250 },
-        { typeId: "mysticalagriculture:supremium_farmland", tier: "§c5", output: 300 },
+        { typeId: "strat:inferium_farmland", tier: "§e1", output: 100 },
+        { typeId: "strat:prudentium_farmland", tier: "§a2", output: 150 },
+        { typeId: "strat:tertium_farmland", tier: "§63", output: 200 },
+        { typeId: "strat:imperium_farmland", tier: "§b4", output: 250 },
+        { typeId: "strat:supremium_farmland", tier: "§c5", output: 300 },
     ]
 
-    if (result.block.permutation.getState("mysticalagriculture:growth") == 7) {
-        if (blockID.startsWith("mysticalagriculture:") && blockID.includes("_crop")) {
+    if (result.block.permutation.getState("strat:growth") == 7) {
+        if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
             const baseID = blockID.replace("_crop", "");
             let itemStack1 = new server.ItemStack(`${baseID}_essence`, 1)
             let itemStack2 = new server.ItemStack(`${baseID}_seeds`, 1)
@@ -174,7 +174,7 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
                     }
                 }
 
-                if (result.block.typeId == "mysticalagriculture:inferium_crop") {
+                if (result.block.typeId == "strat:inferium_crop") {
                     server.system.run(() => {
                         itemStack1.amount = outputResult
                     })
@@ -201,14 +201,14 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
             })
 
             if (Math.floor(Math.random() * 10) + 1 == 1) {
-                let itemStack3 = new server.ItemStack(`mysticalagriculture:fertilized_essence`, 1)
+                let itemStack3 = new server.ItemStack(`strat:fertilized_essence`, 1)
                 server.system.run(() => {
                     result.block.dimension.spawnItem(itemStack3, result.block.location);
                 })
             }
         }
-    } else if (result.block.permutation.getState("mysticalagriculture:growth") < 7) {
-        if (blockID.startsWith("mysticalagriculture:") && blockID.includes("_crop")) {
+    } else if (result.block.permutation.getState("strat:growth") < 7) {
+        if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
             const baseID = blockID.replace("_crop", "");
             let itemStack = new server.ItemStack(`${baseID}_seeds`, 1)
             server.system.run(() => {
@@ -222,7 +222,7 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
 
         silk_touch.forEach(entity => {
             let itemStack = entity.getComponent("item").itemStack
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_crop")) entity.kill()
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_crop")) entity.kill()
         })
     })
 

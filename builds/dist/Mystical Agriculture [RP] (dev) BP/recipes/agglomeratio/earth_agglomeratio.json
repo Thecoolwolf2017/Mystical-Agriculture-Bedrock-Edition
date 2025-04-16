@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:earth_agglomeratio"
+			"identifier": "strat:earth_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
@@ -26,7 +26,7 @@
 			"DF"
 		],
 		"result": {
-			"item": "mysticalagriculture:air_agglomeratio"
+			"item": "strat:air_agglomeratio"
 		}
 	}
 }

@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_gemstone_block_uncraft"
+			"identifier": "strat:inferium_gemstone_block_uncraft"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:inferium_gemstone_block"
+				"item": "strat:inferium_gemstone_block"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:inferium_gemstone",
+			"item": "strat:inferium_gemstone",
 			"count": 9
 		}
 	}

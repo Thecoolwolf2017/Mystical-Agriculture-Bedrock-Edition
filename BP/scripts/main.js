@@ -72,7 +72,7 @@ server.system.runTimeout(() => {
 */
 function firstJoin(player) {
 
-    player.getComponent("inventory").container.addItem(new server.ItemStack("mysticalagriculture:guide_book", 1))
+    player.getComponent("inventory").container.addItem(new server.ItemStack("strat:guide_book", 1))
 
     sendNotification(player, `§dMystical §5Agriculture§r: Thank you for downloading \nMystical Agriculture Bedrock, \nI hope you enjoy the addon.`, "textures/ui/mystical_icon")
     server.system.runTimeout(() => {
@@ -99,7 +99,7 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + mi
 //code extracted from Televisão (giuzzin.kkjk in Discord)
 //https://discord.com/channels/523663022053392405/1067876948858118185/1318269979967229972
 server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
-    initEvent.blockComponentRegistry.registerCustomComponent("mysticalagriculture:ore_xp", {
+    initEvent.blockComponentRegistry.registerCustomComponent("strat:ore_xp", {
         onPlayerDestroy: result => {
             const equippable = result.player?.getComponent("minecraft:equippable");
             const itemStack = equippable.getEquipment(server.EquipmentSlot.Mainhand);
@@ -129,7 +129,7 @@ server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
 
 server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
 
-    if (result.permutationBeingPlaced.type.id.startsWith("mysticalagriculture:witherproof")) {
+    if (result.permutationBeingPlaced.type.id.startsWith("strat:witherproof")) {
         server.system.run(() => {
             result.player.onScreenDisplay.setActionBar("§cDOES NOT WORK WELL, DO NOT USE")
         })
@@ -140,14 +140,38 @@ server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
 //Mystical Fertilizer
 server.world.beforeEvents.itemUseOn.subscribe(result => {
 
-    if (result.itemStack.typeId != "mysticalagriculture:mystical_fertilizer") return
+    if (result.itemStack.typeId != "strat:mystical_fertilizer") return
 
     if (!result.isFirstEvent) return
 
     let state = result.block.permutation.getAllStates()
 
-    if ("mysticalagriculture:growth" in state) {
-        state["mysticalagriculture:growth"] = 7
+    // Handle custom crops with strat:growth_stage property
+    if ("strat:growth_stage" in state) {
+        state["strat:growth_stage"] = 7
+        server.system.run(() => {
+            result.block.dimension.spawnParticle("minecraft:crop_growth_emitter", result.block.center())
+            result.source.playSound("item.bone_meal.use", result.block.center())
+            result.block.setPermutation(server.BlockPermutation.resolve(result.block.typeId, state))
+        })
+    }
+    // Handle vanilla crops with age property
+    else if ("age" in state) {
+        // Get the maximum age value for the crop type
+        let maxAge = 7; // Default for most crops
+        if (result.block.typeId === "minecraft:beetroot") maxAge = 3;
+        if (result.block.typeId === "minecraft:sweet_berry_bush") maxAge = 3;
+        
+        state["age"] = maxAge;
+        server.system.run(() => {
+            result.block.dimension.spawnParticle("minecraft:crop_growth_emitter", result.block.center())
+            result.source.playSound("item.bone_meal.use", result.block.center())
+            result.block.setPermutation(server.BlockPermutation.resolve(result.block.typeId, state))
+        })
+    }
+    // Also check for the old namespace property (for backward compatibility)
+    else if ("strat:growth" in state) {
+        state["strat:growth"] = 7
         server.system.run(() => {
             result.block.dimension.spawnParticle("minecraft:crop_growth_emitter", result.block.center())
             result.source.playSound("item.bone_meal.use", result.block.center())
@@ -166,7 +190,7 @@ server.world.beforeEvents.itemUseOn.subscribe(result => {
 // })
 
 server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
-    initEvent.blockComponentRegistry.registerCustomComponent("mysticalagriculture:none", {
+    initEvent.blockComponentRegistry.registerCustomComponent("strat:none", {
         onPlace: result => {
 
         }

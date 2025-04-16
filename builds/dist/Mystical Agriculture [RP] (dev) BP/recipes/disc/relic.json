@@ -2,23 +2,23 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:relic"
+			"identifier": "strat:relic"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"A": {
-				"item": "mysticalagriculture:blank_record"
+				"item": "strat:blank_record"
 			},
 			"S": {
-				"item": "mysticalagriculture:stone_essence"
+				"item": "strat:stone_essence"
 			},
 			"D": {
-				"item": "mysticalagriculture:copper_essence"
+				"item": "strat:copper_essence"
 			},
 			"F": {
-				"item": "mysticalagriculture:diamond_essence"
+				"item": "strat:diamond_essence"
 			}
 		},
 		"pattern": [

@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:soulstone_smooth_slab_sc"
+			"identifier": "strat:soulstone_smooth_slab_sc"
 		},
 		"tags": [
 			"stonecutter"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:soulstone_smooth"
+				"item": "strat:soulstone_smooth"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:soulstone_smooth_slab",
+			"item": "strat:soulstone_smooth_slab",
 			"count": 2
 		}
 	}

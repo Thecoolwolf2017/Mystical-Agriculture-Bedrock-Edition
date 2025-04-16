@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_leggings",
+			"identifier": "strat:supremium_leggings",
 			"menu_category": {
 				"category": "equipment"
 			}

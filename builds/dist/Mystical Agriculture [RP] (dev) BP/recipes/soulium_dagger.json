@@ -2,17 +2,17 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soulium_dagger"
+			"identifier": "strat:soulium_dagger"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"S": {
-				"item": "mysticalagriculture:soulium_dust"
+				"item": "strat:soulium_dust"
 			},
 			"I": {
-				"item": "mysticalagriculture:soulium_ingot"
+				"item": "strat:soulium_ingot"
 			},
 			"W": {
 				"item": "minecraft:golden_sword"
@@ -24,7 +24,7 @@
 			" S"
 		],
 		"result": {
-			"item": "mysticalagriculture:soulium_dagger"
+			"item": "strat:soulium_dagger"
 		}
 	}
 }

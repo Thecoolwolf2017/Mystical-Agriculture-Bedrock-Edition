@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_essence_from_block"
+			"identifier": "strat:supremium_essence_from_block"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:supremium_block"
+				"item": "strat:supremium_block"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:supremium_essence",
+			"item": "strat:supremium_essence",
 			"count": 9
 		}
 	}

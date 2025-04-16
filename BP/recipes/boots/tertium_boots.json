@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_boots"
+			"identifier": "strat:tertium_boots"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:tertium_gemstone"
+				"item": "strat:tertium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:tertium_ingot"
+				"item": "strat:tertium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:prudentium_boots"
+				"item": "strat:prudentium_boots"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:tertium_boots"
+			"item": "strat:tertium_boots"
 		}
 	}
 }

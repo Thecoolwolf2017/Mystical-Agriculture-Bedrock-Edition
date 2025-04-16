@@ -5,7 +5,7 @@ let allItems = ItemTypes.getAll();
 const scytheIds = [];
 
 allItems.forEach(item => {
-    if (item.id.startsWith('mysticalagriculture:')) {
+    if (item.id.startsWith('strat:')) {
         if (item.id.endsWith('_scythe')) {
             scytheIds.push(item.id);
         }
@@ -38,15 +38,15 @@ world.beforeEvents.playerInteractWithBlock.subscribe(result => {
                     if (targetBlock && targetBlock.hasTag("minecraft:crop")) {
                         const blockID = targetBlock.typeId;
 
-                        if (targetBlock.permutation.getState("mysticalagriculture:growth") == 7) {
-                            if (blockID.startsWith("mysticalagriculture:") && blockID.includes("_crop")) {
+                        if (targetBlock.permutation.getState("strat:growth") == 7) {
+                            if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
                                 totalCrops++;
                                 const baseID = blockID.replace("_crop", "");
                                 let itemStack1 = new ItemStack(`${baseID}_essence`, 1);
                                 targetBlock.dimension.spawnItem(itemStack1, targetBlock.location);
 
                                 if (Math.floor(Math.random() * 10) + 1 == 1) {
-                                    let itemStack3 = new ItemStack(`mysticalagriculture:fertilized_essence`, 1);
+                                    let itemStack3 = new ItemStack(`strat:fertilized_essence`, 1);
                                     targetBlock.dimension.spawnItem(itemStack3, targetBlock.location);
                                 }
 

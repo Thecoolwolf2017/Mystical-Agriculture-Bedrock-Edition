@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soulium_dust"
+			"identifier": "strat:soulium_dust"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"O": {
-				"item": "mysticalagriculture:soulium_essence"
+				"item": "strat:soulium_essence"
 			}
 		},
 		"pattern": [
@@ -18,7 +18,7 @@
 			"OOO"
 		],
 		"result": {
-			"item": "mysticalagriculture:soulium_dust",
+			"item": "strat:soulium_dust",
 			"count": 4
 		}
 	}

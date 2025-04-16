@@ -2,19 +2,19 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:soulium_block"
+			"identifier": "strat:soulium_block"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:soulium_dust",
+				"item": "strat:soulium_dust",
 				"count": 9
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:soulium_block"
+			"item": "strat:soulium_block"
 		}
 	}
 }

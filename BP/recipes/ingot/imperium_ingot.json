@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_ingot"
+			"identifier": "strat:imperium_ingot"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_ingot"
+				"item": "strat:prosperity_ingot"
 			},
 			{
-				"item": "mysticalagriculture:imperium_essence",
+				"item": "strat:imperium_essence",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_ingot"
+			"item": "strat:imperium_ingot"
 		}
 	}
 }

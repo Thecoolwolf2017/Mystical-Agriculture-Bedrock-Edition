@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_shovel"
+			"identifier": "strat:imperium_shovel"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:imperium_gemstone"
+				"item": "strat:imperium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:imperium_ingot"
+				"item": "strat:imperium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:tertium_shovel"
+				"item": "strat:tertium_shovel"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_shovel"
+			"item": "strat:imperium_shovel"
 		}
 	}
 }

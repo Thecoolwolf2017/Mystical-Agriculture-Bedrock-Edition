@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:diamond_sickle"
+			"identifier": "strat:diamond_sickle"
 		},
 		"tags": [
 			"crafting_table"
@@ -21,7 +21,7 @@
 			"SD"
 		],
 		"result": {
-			"item": "mysticalagriculture:diamond_sickle"
+			"item": "strat:diamond_sickle"
 		}
 	}
 }

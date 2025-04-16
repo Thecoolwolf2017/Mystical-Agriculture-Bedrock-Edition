@@ -5,7 +5,7 @@ let allItems = ItemTypes.getAll();
 const sickleIds = [];
 
 allItems.forEach(item => {
-    if (item.id.startsWith('mysticalagriculture:')) {
+    if (item.id.startsWith('strat:')) {
         if (item.id.endsWith('_sickle')) {
             sickleIds.push(item.id);
         }
@@ -40,8 +40,8 @@ world.beforeEvents.playerBreakBlock.subscribe(result => {
 
                         const blockID = targetBlock.typeId;
 
-                        if (targetBlock.permutation.getState("mysticalagriculture:growth") == 7) {
-                            if (blockID.startsWith("mysticalagriculture:") && blockID.includes("_crop")) {
+                        if (targetBlock.permutation.getState("strat:growth") == 7) {
+                            if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
                                 const baseID = blockID.replace("_crop", "");
                                 let itemStack1 = new ItemStack(`${baseID}_essence`, 1);
                                 let itemStack2 = new ItemStack(`${baseID}_seeds`, 1);
@@ -49,12 +49,12 @@ world.beforeEvents.playerBreakBlock.subscribe(result => {
                                 targetBlock.dimension.spawnItem(itemStack2, targetBlock.location);
 
                                 if (Math.floor(Math.random() * 10) + 1 == 1) {
-                                    let itemStack3 = new ItemStack(`mysticalagriculture:fertilized_essence`, 1);
+                                    let itemStack3 = new ItemStack(`strat:fertilized_essence`, 1);
                                     targetBlock.dimension.spawnItem(itemStack3, targetBlock.location);
                                 }
                             }
-                        } else if (targetBlock.permutation.getState("mysticalagriculture:growth") < 7) {
-                            if (blockID.startsWith("mysticalagriculture:") && blockID.includes("_crop")) {
+                        } else if (targetBlock.permutation.getState("strat:growth") < 7) {
+                            if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
                                 const baseID = blockID.replace("_crop", "");
                                 let itemStack = new ItemStack(`${baseID}_seeds`, 1);
                                 targetBlock.dimension.spawnItem(itemStack, targetBlock.location);

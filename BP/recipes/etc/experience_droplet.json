@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:experience_droplet"
+			"identifier": "strat:experience_droplet"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "mysticalagriculture:experience_essence"
+				"item": "strat:experience_essence"
 			}
 		},
 		"pattern": [
@@ -18,7 +18,7 @@
 			"###"
 		],
 		"result": {
-			"item": "mysticalagriculture:experience_droplet",
+			"item": "strat:experience_droplet",
 			"count": 8
 		}
 	}

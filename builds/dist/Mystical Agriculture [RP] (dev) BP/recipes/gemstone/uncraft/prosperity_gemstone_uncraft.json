@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prosperity_gemstone_block_uncraft"
+			"identifier": "strat:prosperity_gemstone_block_uncraft"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_gemstone_block"
+				"item": "strat:prosperity_gemstone_block"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prosperity_gemstone",
+			"item": "strat:prosperity_gemstone",
 			"count": 9
 		}
 	}

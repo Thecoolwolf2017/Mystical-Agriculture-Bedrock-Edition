@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:experience_bottle"
+			"identifier": "strat:experience_bottle"
 		},
 		"tags": [
 			"crafting_table"
@@ -12,7 +12,7 @@
 				"item": "minecraft:glass_bottle"
 			},
 			{
-				"item": "mysticalagriculture:experience_droplet"
+				"item": "strat:experience_droplet"
 			}
 		],
 		"result": {

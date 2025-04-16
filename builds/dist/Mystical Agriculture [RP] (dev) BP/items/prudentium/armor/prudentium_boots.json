@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_boots",
+			"identifier": "strat:prudentium_boots",
 			"menu_category": {
 				"category": "equipment"
 			}

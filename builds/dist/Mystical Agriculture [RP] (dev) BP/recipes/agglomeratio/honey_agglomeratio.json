@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:honey_agglomeratio"
+			"identifier": "strat:honey_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
@@ -25,14 +25,8 @@
 			"AS",
 			"DF"
 		],
-		"result": [
-			{
-				"item": "minecraft:glass_bottle",
-				"count": 2
-			},
-			{
-				"item": "mysticalagriculture:honey_agglomeratio"
-			}
-		]
+		"result": {
+			"item": "strat:honey_agglomeratio"
+		}
 	}
 }

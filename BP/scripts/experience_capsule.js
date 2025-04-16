@@ -19,7 +19,7 @@ server.system.runInterval(() => {
 
             if (!itemStack) continue;
 
-            if ((itemStack.typeId == "mysticalagriculture:experience_capsule")
+            if ((itemStack.typeId == "strat:experience_capsule")
                 && isCapsuleNotFull(itemStack)) {
 
                 capsuleSlot = i;
@@ -57,7 +57,7 @@ server.system.runInterval(() => {
 
                             if (currentXp.toFixed(0) == 1200) {
                                 console.warn(`§dMystical §5Agriculture§r - §e§l${player.name}'s Experience Capsule §ris now §a§lfull`)
-                                inventory.setItem(capsuleSlot, new server.ItemStack("mysticalagriculture:experience_capsule_full"));
+                                inventory.setItem(capsuleSlot, new server.ItemStack("strat:experience_capsule_full"));
 
                             }
                             else {
@@ -93,7 +93,7 @@ function isCapsuleNotFull(itemStack) {
 }
 
 server.world.beforeEvents.itemUse.subscribe(result => {
-    if (result.itemStack.typeId != "mysticalagriculture:experience_capsule") return;
+    if (result.itemStack.typeId != "strat:experience_capsule") return;
 
     server.system.run(() => {
         const player = result.source;

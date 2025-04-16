@@ -2,7 +2,7 @@
 	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_bow",
+			"identifier": "strat:inferium_bow",
 			"menu_category": {
 				"category": "equipment"
 			}

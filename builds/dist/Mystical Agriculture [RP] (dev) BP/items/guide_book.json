@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:guide_book",
+			"identifier": "strat:guide_book",
 			"menu_category": {
 				"category": "equipment"
 			}

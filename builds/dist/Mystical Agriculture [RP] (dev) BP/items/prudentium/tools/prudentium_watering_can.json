@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_watering_can",
+			"identifier": "strat:prudentium_watering_can",
 			"menu_category": {
 				"category": "equipment"
 			}

@@ -9,7 +9,7 @@ const weaponTypeIds = [];
 let allItems = ItemTypes.getAll();
 
 allItems.forEach(item => {
-    if (item.id.startsWith('mysticalagriculture:')) {
+    if (item.id.startsWith('strat:')) {
         if (item.id.endsWith('_pickaxe') || item.id.endsWith('_axe') || item.id.endsWith('_hoe') || item.id.endsWith('_shovel') || item.id.endsWith('_shears')) {
             toolTypeIds.push(item.id);
         } else if (item.id.endsWith('_sword')) {

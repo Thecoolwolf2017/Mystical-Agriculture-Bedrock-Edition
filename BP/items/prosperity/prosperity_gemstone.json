@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prosperity_gemstone",
+			"identifier": "strat:prosperity_gemstone",
 			"menu_category": {
 				"category": "equipment"
 			}

@@ -2,12 +2,12 @@
 	"format_version": "1.12",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_essence_smelt"
+			"identifier": "strat:inferium_essence_smelt"
 		},
 		"tags": [
 			"furnace"
 		],
-		"input": "mysticalagriculture:inferium_ore",
-		"output": "mysticalagriculture:inferium_essence"
+		"input": "strat:inferium_ore",
+		"output": "strat:inferium_essence"
 	}
 }

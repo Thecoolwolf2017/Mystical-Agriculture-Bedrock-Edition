@@ -5,7 +5,7 @@ import * as server from "@minecraft/server"
 // const canIds = [];
 
 // allItems.forEach(item => {
-//     if (item.id.startsWith('mysticalagriculture:')) {
+//     if (item.id.startsWith('strat:')) {
 //         if (item.id.endsWith('_scythe')) {
 //             canIds.push(item.id);
 //         }
@@ -22,7 +22,7 @@ server.world.beforeEvents.itemUseOn.subscribe(result => {
 
     let block = result.source.getBlockFromViewDirection({ includeLiquidBlocks: true }).block
 
-    if (block.typeId == "minecraft:water" && (result.itemStack.typeId.startsWith("mysticalagriculture:") && result.itemStack.typeId.endsWith("_can"))) {
+    if (block.typeId == "minecraft:water" && (result.itemStack.typeId.startsWith("strat:") && result.itemStack.typeId.endsWith("_can"))) {
         server.system.run(() => {
             let lore = result.itemStack.getLore();
 
@@ -42,7 +42,7 @@ server.world.beforeEvents.itemUseOn.subscribe(result => {
 server.world.afterEvents.itemUse.subscribe(result => {
     if (!result.itemStack) return
 
-    if (result.itemStack.typeId.startsWith("mysticalagriculture:") && result.itemStack.typeId.endsWith("_can")) {
+    if (result.itemStack.typeId.startsWith("strat:") && result.itemStack.typeId.endsWith("_can")) {
 
         if (!result.itemStack.getLore().includes("§7Filled")) {
             result.source.onScreenDisplay.setActionBar("§cFill the watering can with water first")
@@ -67,19 +67,19 @@ server.world.afterEvents.itemUse.subscribe(result => {
 
                     let targetBlock = block.dimension.getBlock({ x, y, z });
 
-                    targetBlock.dimension.spawnParticle("mysticalagriculture:watering_can", {
+                    targetBlock.dimension.spawnParticle("strat:watering_can", {
                         x: x,
                         y: y,
                         z: z
                     })
 
-                    if (targetBlock && (targetBlock.permutation.getState("mysticalagriculture:growth") == 0 || targetBlock.permutation.getState("mysticalagriculture:growth"))) {
+                    if (targetBlock && (targetBlock.permutation.getState("strat:growth") == 0 || targetBlock.permutation.getState("strat:growth"))) {
 
                         let state = targetBlock.permutation.getAllStates();
 
                         if (Math.floor(Math.random() * 32) + 1 == 1) {
-                            if (state["mysticalagriculture:growth"] != 7) targetBlock.dimension.spawnParticle("minecraft:crop_growth_emitter", targetBlock.center())
-                            state["mysticalagriculture:growth"] = Math.min(state["mysticalagriculture:growth"] + 1, 7);
+                            if (state["strat:growth"] != 7) targetBlock.dimension.spawnParticle("minecraft:crop_growth_emitter", targetBlock.center())
+                            state["strat:growth"] = Math.min(state["strat:growth"] + 1, 7);
                             targetBlock.setPermutation(server.BlockPermutation.resolve(targetBlock.typeId, state));
                         }
                     }

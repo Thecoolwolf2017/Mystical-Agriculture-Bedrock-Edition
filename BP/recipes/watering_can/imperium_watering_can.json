@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_watering_can"
+			"identifier": "strat:imperium_watering_can"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"B": {
-				"item": "mysticalagriculture:mystical_fertilizer"
+				"item": "strat:mystical_fertilizer"
 			},
 			"I": {
-				"item": "mysticalagriculture:imperium_ingot"
+				"item": "strat:imperium_ingot"
 			},
 			"W": {
-				"item": "mysticalagriculture:tertium_watering_can"
+				"item": "strat:tertium_watering_can"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			"BIB"
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_watering_can"
+			"item": "strat:imperium_watering_can"
 		}
 	}
 }

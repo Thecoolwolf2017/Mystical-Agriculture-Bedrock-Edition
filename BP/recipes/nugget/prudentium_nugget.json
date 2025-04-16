@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_nugget"
+			"identifier": "strat:prudentium_nugget"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_nugget",
+			"item": "strat:prudentium_nugget",
 			"count": 9
 		}
 	}

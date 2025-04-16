@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_nugget"
+			"identifier": "strat:tertium_nugget"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:tertium_ingot"
+				"item": "strat:tertium_ingot"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:tertium_nugget",
+			"item": "strat:tertium_nugget",
 			"count": 9
 		}
 	}

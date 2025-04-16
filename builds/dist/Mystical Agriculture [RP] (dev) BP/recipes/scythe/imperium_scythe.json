@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_scythe"
+			"identifier": "strat:imperium_scythe"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:imperium_gemstone"
+				"item": "strat:imperium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:imperium_ingot"
+				"item": "strat:imperium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:tertium_scythe"
+				"item": "strat:tertium_scythe"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_scythe"
+			"item": "strat:imperium_scythe"
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_boots",
+			"identifier": "strat:imperium_boots",
 			"materials": {
 				"default": "armor",
 				"enchanted": "armor_enchanted"

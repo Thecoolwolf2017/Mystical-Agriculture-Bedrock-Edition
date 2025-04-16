@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:soulium_seed_base"
+			"identifier": "strat:soulium_seed_base"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_seed_base"
+				"item": "strat:prosperity_seed_base"
 			},
 			{
-				"item": "mysticalagriculture:soulium_dust",
+				"item": "strat:soulium_dust",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:soulium_seed_base"
+			"item": "strat:soulium_seed_base"
 		}
 	}
 }

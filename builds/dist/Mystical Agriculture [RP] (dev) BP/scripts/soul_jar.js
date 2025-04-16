@@ -13,7 +13,7 @@ server.world.afterEvents.entityDie.subscribe(result => {
 
     if (!item) return
 
-    if (result.damageSource.cause == server.EntityDamageCause.entityAttack && item.hasTag("mysticalagriculture:dagger")) {
+    if (result.damageSource.cause == server.EntityDamageCause.entityAttack && item.hasTag("strat:dagger")) {
         let inventory = result.damageSource.damagingEntity.getComponent("inventory").container
         let jar_slot = null
 
@@ -22,7 +22,7 @@ server.world.afterEvents.entityDie.subscribe(result => {
 
             if (!item) continue
 
-            if (item.typeId == "mysticalagriculture:soul_jar") {
+            if (item.typeId == "strat:soul_jar") {
                 jar_slot = i
                 break
             }
@@ -45,7 +45,7 @@ server.world.afterEvents.entityDie.subscribe(result => {
 
             if (!item) continue;
 
-            if (item.typeId == `mysticalagriculture:${animalID}_soul_jar`) {
+            if (item.typeId == `strat:${animalID}_soul_jar`) {
                 let lore = item.getLore();
 
                 // Verifica que el lore contenga el formato esperado
@@ -71,13 +71,13 @@ server.world.afterEvents.entityDie.subscribe(result => {
         }
 
         if (!has_jar) {
-            if (!server.ItemTypes.get(`mysticalagriculture:${animalID}_soul_jar`)) return
-            let itemStack = new server.ItemStack(`mysticalagriculture:${animalID}_soul_jar`, 1)
+            if (!server.ItemTypes.get(`strat:${animalID}_soul_jar`)) return
+            let itemStack = new server.ItemStack(`strat:${animalID}_soul_jar`, 1)
             let tags = itemStack.getTags()
             const maxSoul = parseInt(tags.find(tag => tag.startsWith("maxSoul")).split(":").pop()).toFixed(2);;
-            let hasPassiveDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:passive_soulium_dagger"
-            let hasHostileDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:hostile_soulium_dagger"
-            let hasCreativeDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:creative_soulium_dagger"
+            let hasPassiveDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:passive_soulium_dagger"
+            let hasHostileDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:hostile_soulium_dagger"
+            let hasCreativeDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:creative_soulium_dagger"
             if (hasPassiveDagger && passiveMobs.includes(result.deadEntity.typeId)) {
                 itemStack.setLore([`§7${capitalizedAnimalID} (1.50/${maxSoul})`])
             }
@@ -85,7 +85,7 @@ server.world.afterEvents.entityDie.subscribe(result => {
                 itemStack.setLore([`§7${capitalizedAnimalID} (1.50/${maxSoul})`])
             }
             else if (hasCreativeDagger) {
-                inventory.setItem(jar_slot, new server.ItemStack(`mysticalagriculture:${animalID}_soul_jar_full`, 1))
+                inventory.setItem(jar_slot, new server.ItemStack(`strat:${animalID}_soul_jar_full`, 1))
                 return
                 // itemStack.setLore([`§7${capitalizedAnimalID} (${maxSoul}/${maxSoul})`])
             }
@@ -103,9 +103,9 @@ server.world.afterEvents.entityDie.subscribe(result => {
 
             // Verifica que el lore no esté vacío y tenga el formato esperado
             if (lore.length > 0 && /§7.*\((\d+\.\d+)\/(\d+\.\d+)\)/.test(lore[0])) {
-                let hasPassiveDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:passive_soulium_dagger"
-                let hasHostileDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:hostile_soulium_dagger"
-                let hasCreativeDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "mysticalagriculture:creative_soulium_dagger"
+                let hasPassiveDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:passive_soulium_dagger"
+                let hasHostileDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:hostile_soulium_dagger"
+                let hasCreativeDagger = result.damageSource.damagingEntity.getComponent("equippable").getEquipment(server.EquipmentSlot.Mainhand).typeId == "strat:creative_soulium_dagger"
                 let currentLore = lore[0];
                 let soul_value = 0
 
@@ -132,7 +132,7 @@ server.world.afterEvents.entityDie.subscribe(result => {
                 });
 
                 if (updatedLore == "full") {
-                    inventory.setItem(jar_slot, new server.ItemStack(`mysticalagriculture:${animalID}_soul_jar_full`, 1))
+                    inventory.setItem(jar_slot, new server.ItemStack(`strat:${animalID}_soul_jar_full`, 1))
                     return
                 }
 

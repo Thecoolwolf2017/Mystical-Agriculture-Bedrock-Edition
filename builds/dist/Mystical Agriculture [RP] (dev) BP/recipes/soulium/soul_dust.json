@@ -2,12 +2,12 @@
 	"format_version": "1.12",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "mysticalagriculture:soul_dust"
+			"identifier": "strat:soul_dust"
 		},
 		"tags": [
 			"furnace"
 		],
-		"input": "mysticalagriculture:soulstone_smooth",
-		"output": "mysticalagriculture:soul_dust"
+		"input": "strat:soulstone_smooth",
+		"output": "strat:soul_dust"
 	}
 }

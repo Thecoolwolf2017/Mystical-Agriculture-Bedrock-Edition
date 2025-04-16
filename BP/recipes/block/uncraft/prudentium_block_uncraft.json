@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_block_uncraft"
+			"identifier": "strat:prudentium_block_uncraft"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prudentium_block"
+				"item": "strat:prudentium_block"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_essence",
+			"item": "strat:prudentium_essence",
 			"count": 9
 		}
 	}

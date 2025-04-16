@@ -2,7 +2,7 @@
 	"format_version": "1.20.10",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_bow",
+			"identifier": "strat:tertium_bow",
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"

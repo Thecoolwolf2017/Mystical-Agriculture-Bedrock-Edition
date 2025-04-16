@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_bow"
+			"identifier": "strat:prudentium_bow"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:prudentium_gemstone"
+				"item": "strat:prudentium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:inferium_bow"
+				"item": "strat:inferium_bow"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_bow"
+			"item": "strat:prudentium_bow"
 		}
 	}
 }

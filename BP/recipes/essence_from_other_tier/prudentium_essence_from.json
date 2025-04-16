@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_essence_from_other_tier"
+			"identifier": "strat:prudentium_essence_from_other_tier"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:tertium_essence"
+				"item": "strat:tertium_essence"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_essence",
+			"item": "strat:prudentium_essence",
 			"count": 4
 		}
 	}

@@ -2,17 +2,17 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:experience_capsule"
+			"identifier": "strat:experience_capsule"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"E": {
-				"item": "mysticalagriculture:soulium_ingot"
+				"item": "strat:soulium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:soul_glass"
+				"item": "strat:soul_glass"
 			}
 		},
 		"pattern": [
@@ -21,7 +21,7 @@
 			" E "
 		],
 		"result": {
-			"item": "mysticalagriculture:experience_capsule"
+			"item": "strat:experience_capsule"
 		}
 	}
 }

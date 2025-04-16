@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_block_uncraft"
+			"identifier": "strat:tertium_block_uncraft"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:tertium_block"
+				"item": "strat:tertium_block"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:tertium_essence",
+			"item": "strat:tertium_essence",
 			"count": 9
 		}
 	}

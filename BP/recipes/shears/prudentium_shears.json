@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_shears"
+			"identifier": "strat:prudentium_shears"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:prudentium_gemstone"
+				"item": "strat:prudentium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:inferium_shears"
+				"item": "strat:inferium_shears"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_shears"
+			"item": "strat:prudentium_shears"
 		}
 	}
 }

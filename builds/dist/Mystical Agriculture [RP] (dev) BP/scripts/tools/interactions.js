@@ -19,7 +19,7 @@ const shearsIds = [];
 const sickleIds = [];
 
 allItems.forEach(item => {
-    if (item.id.startsWith('mysticalagriculture:')) {
+    if (item.id.startsWith('strat:')) {
         if (item.id.endsWith('_hoe')) {
             hoeIds.push(item.id);
         } else if (item.id.endsWith('_shovel')) {

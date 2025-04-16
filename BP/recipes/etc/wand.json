@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:wand"
+			"identifier": "strat:wand"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "mysticalagriculture:inferium_essence"
+				"item": "strat:inferium_essence"
 			},
 			"/": {
 				"item": "minecraft:stick"
@@ -24,7 +24,7 @@
 			"O"
 		],
 		"result": {
-			"item": "mysticalagriculture:wand"
+			"item": "strat:wand"
 		}
 	}
 }

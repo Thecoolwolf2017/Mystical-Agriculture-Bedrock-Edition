@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:infusion_altar"
+			"identifier": "strat:infusion_altar"
 		},
 		"tags": [
 			"crafting_table"
@@ -24,7 +24,7 @@
 			"SSS"
 		],
 		"result": {
-			"item": "mysticalagriculture:infusion_altar_player"
+			"item": "strat:infusion_altar_player"
 		}
 	}
 }

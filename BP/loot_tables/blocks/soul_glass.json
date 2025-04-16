@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -24,23 +24,14 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:wooden_pickaxe",
-					"count": {
-						"range_min": 1,
-						"range_max": 3
-					},
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
+
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -59,23 +50,13 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:stone_pickaxe",
-					"count": {
-						"range_min": 1,
-						"range_max": 3
-					},
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -94,23 +75,13 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:golden_pickaxe",
-					"count": {
-						"range_min": 1,
-						"range_max": 3
-					},
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -129,23 +100,13 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:iron_pickaxe",
-					"count": {
-						"range_min": 1,
-						"range_max": 3
-					},
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -164,23 +125,13 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:diamond_pickaxe",
-					"count": {
-						"range_min": 1,
-						"range_max": 3
-					},
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -199,19 +150,13 @@
 				{
 					"condition": "match_tool",
 					"item": "minecraft:netherite_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -229,20 +174,14 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": "mysticalagriculture:inferium_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"item": "strat:inferium_pickaxe",
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -260,20 +199,14 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": "mysticalagriculture:prudentium_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"item": "strat:prudentium_pickaxe",
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -291,20 +224,14 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": "mysticalagriculture:tertium_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"item": "strat:tertium_pickaxe",
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -322,20 +249,14 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": "mysticalagriculture:imperium_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"item": "strat:imperium_pickaxe",
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",
@@ -353,20 +274,14 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": "mysticalagriculture:supremium_pickaxe",
-					"enchantments": [
-						{
-							"enchantment": "fortune",
-							"range_min": 1,
-							"range_max": 3
-						}
-					]
+					"item": "strat:supremium_pickaxe",
+					"count": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "item",
-					"name": "mysticalagriculture:inferium_essence",
+					"name": "strat:inferium_essence",
 					"functions": [
 						{
 							"function": "set_count",

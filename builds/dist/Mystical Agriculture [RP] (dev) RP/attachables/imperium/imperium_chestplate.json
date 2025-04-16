@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_chestplate",
+			"identifier": "strat:imperium_chestplate",
 			"materials": {
 				"default": "armor",
 				"enchanted": "armor_enchanted"

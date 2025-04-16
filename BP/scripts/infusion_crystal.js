@@ -9,19 +9,19 @@ server.world.beforeEvents.itemUse.subscribe(result => {
 
     if (!offhandItemStack) return;
 
-    if (offhandItemStack.typeId != "mysticalagriculture:infusion_crystal" &&
-        offhandItemStack.typeId != "mysticalagriculture:master_infusion_crystal") return;
+    if (offhandItemStack.typeId != "strat:infusion_crystal" &&
+        offhandItemStack.typeId != "strat:master_infusion_crystal") return;
 
     const essenceConversions = {
-        "mysticalagriculture:inferium_essence": "mysticalagriculture:prudentium_essence",
-        "mysticalagriculture:prudentium_essence": "mysticalagriculture:tertium_essence",
-        "mysticalagriculture:tertium_essence": "mysticalagriculture:imperium_essence",
-        "mysticalagriculture:imperium_essence": "mysticalagriculture:supremium_essence",
+        "strat:inferium_essence": "strat:prudentium_essence",
+        "strat:prudentium_essence": "strat:tertium_essence",
+        "strat:tertium_essence": "strat:imperium_essence",
+        "strat:imperium_essence": "strat:supremium_essence",
 
-        "mysticalagriculture:inferium_block": "mysticalagriculture:prudentium_block",
-        "mysticalagriculture:prudentium_block": "mysticalagriculture:tertium_block",
-        "mysticalagriculture:tertium_block": "mysticalagriculture:imperium_block",
-        "mysticalagriculture:imperium_block": "mysticalagriculture:supremium_block",
+        "strat:inferium_block": "strat:prudentium_block",
+        "strat:prudentium_block": "strat:tertium_block",
+        "strat:tertium_block": "strat:imperium_block",
+        "strat:imperium_block": "strat:supremium_block",
     };
 
     const targetEssence = essenceConversions[result.itemStack.typeId];
@@ -68,11 +68,11 @@ server.world.beforeEvents.itemUse.subscribe(result => {
 
         if (isSneaking && batches > 0) {
             updateMainhandStack(remaining);
-            if (offhandItemStack.typeId != "mysticalagriculture:master_infusion_crystal") updateOffhandStack(batches);
+            if (offhandItemStack.typeId != "strat:master_infusion_crystal") updateOffhandStack(batches);
             convertEssences(batches);
         } else if (!isSneaking && amount >= batchSize) {
             updateMainhandStack(amount - batchSize);
-            if (offhandItemStack.typeId != "mysticalagriculture:master_infusion_crystal") updateOffhandStack(1);
+            if (offhandItemStack.typeId != "strat:master_infusion_crystal") updateOffhandStack(1);
             convertEssences(1);
         }
     });

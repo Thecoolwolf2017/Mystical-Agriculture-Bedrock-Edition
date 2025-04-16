@@ -2,7 +2,7 @@
 	"format_version": "1.21.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:mystical_fertilizer",
+			"identifier": "strat:mystical_fertilizer",
 			"menu_category": {
 				"category": "equipment"
 			}

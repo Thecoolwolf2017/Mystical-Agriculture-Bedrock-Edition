@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_boots",
+			"identifier": "strat:supremium_boots",
 			"menu_category": {
 				"category": "equipment"
 			}

@@ -43,7 +43,13 @@
 							"strat:coal_seeds",
 							"strat:lapis_seeds",
 							"strat:copper_seeds",
-							"strat:gold_seeds"
+							"strat:gold_seeds",
+							"strat:deepslate_seeds",
+							"strat:honey_seeds",
+							"strat:coral_seeds",
+							"strat:dye_seeds",
+							"strat:nether_seeds",
+							"strat:end_seeds"
 						]
 					},
 					{

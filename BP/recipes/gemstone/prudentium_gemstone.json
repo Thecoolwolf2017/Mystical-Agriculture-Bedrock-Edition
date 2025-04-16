@@ -2,22 +2,22 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_gemstone"
+			"identifier": "strat:prudentium_gemstone"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_gemstone"
+				"item": "strat:prosperity_gemstone"
 			},
 			{
-				"item": "mysticalagriculture:prudentium_essence",
+				"item": "strat:prudentium_essence",
 				"count": 2
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_gemstone"
+			"item": "strat:prudentium_gemstone"
 		}
 	}
 }

@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_essence_from_other_tier"
+			"identifier": "strat:imperium_essence_from_other_tier"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:supremium_essence"
+				"item": "strat:supremium_essence"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_essence",
+			"item": "strat:imperium_essence",
 			"count": 4
 		}
 	}

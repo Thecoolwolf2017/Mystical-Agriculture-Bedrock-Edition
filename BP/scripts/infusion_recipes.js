@@ -1,266 +1,266 @@
 export let recipes = {
-    "mysticalagriculture:coral_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:coral_agglomeratio")
+    "strat:coral_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:coral_agglomeratio")
     ],
-    "mysticalagriculture:glowstone_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:glowstone_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:glowstone_dust")
     ],
-    "mysticalagriculture:rabbit_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:rabbit_soul_jar_full")
+    "strat:rabbit_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:rabbit_soul_jar_full")
     ],
-    "mysticalagriculture:chicken_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:chicken_soul_jar_full")
+    "strat:chicken_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:chicken_soul_jar_full")
     ],
-    "mysticalagriculture:squid_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:squid_soul_jar_full")
+    "strat:squid_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:squid_soul_jar_full")
     ],
-    "mysticalagriculture:water_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
-        ...Array(4).fill("mysticalagriculture:water_agglomeratio")
+    "strat:water_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
+        ...Array(4).fill("strat:water_agglomeratio")
     ],
-    "mysticalagriculture:cow_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:cow_soul_jar_full")
+    "strat:cow_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:cow_soul_jar_full")
     ],
-    "mysticalagriculture:ice_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
+    "strat:ice_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
         ...Array(4).fill("minecraft:ice")
     ],
-    "mysticalagriculture:deepslate_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
+    "strat:deepslate_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
         ...Array(4).fill("minecraft:deepslate")
     ],
-    "mysticalagriculture:pig_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:pig_soul_jar_full")
+    "strat:pig_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:pig_soul_jar_full")
     ],
-    "mysticalagriculture:redstone_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:redstone_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:redstone")
     ],
-    "mysticalagriculture:iron_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:iron_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:iron_ingot")
     ],
-    "mysticalagriculture:experience_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:experience_capsule_full")
+    "strat:experience_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:experience_capsule_full")
     ],
-    "mysticalagriculture:spider_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:spider_soul_jar_full")
+    "strat:spider_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:spider_soul_jar_full")
     ],
     /////////////////////////////////////////////////////////////////////////
-    "mysticalagriculture:wood_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
+    "strat:wood_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
         ...Array(4).fill("minecraft:logs")
     ],
     /////////////////////////////////////////////////////////////////////////
-    "mysticalagriculture:prismarine_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:prismarine_agglomeratio")
+    "strat:prismarine_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:prismarine_agglomeratio")
     ],
-    "mysticalagriculture:coal_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
+    "strat:coal_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
         ...Array(4).fill("minecraft:coal")
     ],
-    "mysticalagriculture:nether_quartz_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:nether_quartz_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:quartz")
     ],
-    "mysticalagriculture:soulium_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:soulium_dust")
+    "strat:soulium_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:soulium_dust")
     ],
-    "mysticalagriculture:sheep_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:sheep_soul_jar_full")
+    "strat:sheep_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:sheep_soul_jar_full")
     ],
-    "mysticalagriculture:wither_skeleton_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:supremium_essence"),
-        ...Array(4).fill("mysticalagriculture:wither_skeleton_soul_jar_full")
+    "strat:wither_skeleton_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:supremium_essence"),
+        ...Array(4).fill("strat:wither_skeleton_soul_jar_full")
     ],
-    "mysticalagriculture:stone_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
+    "strat:stone_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
         ...Array(4).fill("minecraft:stone")
     ],
-    "mysticalagriculture:lapis_lazuli_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
+    "strat:lapis_lazuli_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
         ...Array(4).fill("minecraft:lapis_lazuli")
     ],
-    "mysticalagriculture:honey_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:honey_agglomeratio")
+    "strat:honey_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:honey_agglomeratio")
     ],
-    "mysticalagriculture:passive_soulium_dagger": [
-        "mysticalagriculture:soulium_dagger",
-        "mysticalagriculture:pig_soul_jar_full",
-        "mysticalagriculture:soulium_gemstone",
-        "mysticalagriculture:chicken_soul_jar_full",
-        "mysticalagriculture:soulium_ingot",
-        "mysticalagriculture:cow_soul_jar_full",
-        "mysticalagriculture:soulium_gemstone",
-        "mysticalagriculture:sheep_soul_jar_full",
-        "mysticalagriculture:soulium_ingot",
+    "strat:passive_soulium_dagger": [
+        "strat:soulium_dagger",
+        "strat:pig_soul_jar_full",
+        "strat:soulium_gemstone",
+        "strat:chicken_soul_jar_full",
+        "strat:soulium_ingot",
+        "strat:cow_soul_jar_full",
+        "strat:soulium_gemstone",
+        "strat:sheep_soul_jar_full",
+        "strat:soulium_ingot",
     ],
-    "mysticalagriculture:hostile_soulium_dagger": [
-        "mysticalagriculture:soulium_dagger",
-        "mysticalagriculture:zombie_soul_jar_full",
-        "mysticalagriculture:soulium_gemstone",
-        "mysticalagriculture:skeleton_soul_jar_full",
-        "mysticalagriculture:soulium_ingot",
-        "mysticalagriculture:creeper_soul_jar_full",
-        "mysticalagriculture:soulium_gemstone",
-        "mysticalagriculture:spider_soul_jar_full",
-        "mysticalagriculture:soulium_ingot",
+    "strat:hostile_soulium_dagger": [
+        "strat:soulium_dagger",
+        "strat:zombie_soul_jar_full",
+        "strat:soulium_gemstone",
+        "strat:skeleton_soul_jar_full",
+        "strat:soulium_ingot",
+        "strat:creeper_soul_jar_full",
+        "strat:soulium_gemstone",
+        "strat:spider_soul_jar_full",
+        "strat:soulium_ingot",
     ],
-    "mysticalagriculture:copper_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:copper_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:copper_ingot")
     ],
-    "mysticalagriculture:end_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:end_agglomeratio")
+    "strat:end_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:end_agglomeratio")
     ],
-    "mysticalagriculture:dirt_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
+    "strat:dirt_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
         ...Array(4).fill("minecraft:dirt")
     ],
-    "mysticalagriculture:earth_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
-        ...Array(4).fill("mysticalagriculture:earth_agglomeratio")
+    "strat:earth_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
+        ...Array(4).fill("strat:earth_agglomeratio")
     ],
-    "mysticalagriculture:gold_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
+    "strat:gold_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
         ...Array(4).fill("minecraft:gold_ingot")
     ],
-    "mysticalagriculture:fish_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:fish_soul_jar_full")
+    "strat:fish_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:fish_soul_jar_full")
     ],
-    "mysticalagriculture:skeleton_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:skeleton_soul_jar_full")
+    "strat:skeleton_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:skeleton_soul_jar_full")
     ],
-    "mysticalagriculture:obsidian_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
+    "strat:obsidian_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
         ...Array(4).fill("minecraft:obsidian")
     ],
-    "mysticalagriculture:blaze_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:blaze_soul_jar_full")
+    "strat:blaze_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:blaze_soul_jar_full")
     ],
-    "mysticalagriculture:ghast_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:ghast_soul_jar_full")
+    "strat:ghast_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:ghast_soul_jar_full")
     ],
-    "mysticalagriculture:diamond_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:supremium_essence"),
+    "strat:diamond_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:supremium_essence"),
         ...Array(4).fill("minecraft:diamond")
     ],
-    "mysticalagriculture:enderman_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:imperium_essence"),
-        ...Array(4).fill("mysticalagriculture:enderman_soul_jar_full")
+    "strat:enderman_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:imperium_essence"),
+        ...Array(4).fill("strat:enderman_soul_jar_full")
     ],
-    "mysticalagriculture:zombie_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:zombie_soul_jar_full")
+    "strat:zombie_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:zombie_soul_jar_full")
     ],
-    "mysticalagriculture:dye_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:dye_agglomeratio")
+    "strat:dye_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:dye_agglomeratio")
     ],
-    "mysticalagriculture:slime_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:slime_soul_jar_full")
+    "strat:slime_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:slime_soul_jar_full")
     ],
-    "mysticalagriculture:emerald_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:supremium_essence"),
+    "strat:emerald_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:supremium_essence"),
         ...Array(4).fill("minecraft:emerald")
     ],
-    "mysticalagriculture:fire_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
-        ...Array(4).fill("mysticalagriculture:fire_agglomeratio")
+    "strat:fire_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
+        ...Array(4).fill("strat:fire_agglomeratio")
     ],
-    "mysticalagriculture:amethyst_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
+    "strat:amethyst_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
         ...Array(4).fill("minecraft:amethyst_shard")
     ],
-    "mysticalagriculture:nature_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:nature_agglomeratio")
+    "strat:nature_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:nature_agglomeratio")
     ],
-    "mysticalagriculture:creeper_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:tertium_essence"),
-        ...Array(4).fill("mysticalagriculture:creeper_soul_jar_full")
+    "strat:creeper_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:tertium_essence"),
+        ...Array(4).fill("strat:creeper_soul_jar_full")
     ],
-    "mysticalagriculture:turle_seeds": [
-        "mysticalagriculture:soulium_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:turtle_soul_jar_full")
+    "strat:turle_seeds": [
+        "strat:soulium_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:turtle_soul_jar_full")
     ],
-    "mysticalagriculture:air_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:inferium_essence"),
-        ...Array(4).fill("mysticalagriculture:air_agglomeratio")
+    "strat:air_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:inferium_essence"),
+        ...Array(4).fill("strat:air_agglomeratio")
     ],
-    "mysticalagriculture:nether_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:prudentium_essence"),
-        ...Array(4).fill("mysticalagriculture:nether_agglomeratio")
+    "strat:nether_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:prudentium_essence"),
+        ...Array(4).fill("strat:nether_agglomeratio")
     ],
-    "mysticalagriculture:netherite_seeds": [
-        "mysticalagriculture:prosperity_seed_base",
-        ...Array(4).fill("mysticalagriculture:supremium_essence"),
+    "strat:netherite_seeds": [
+        "strat:prosperity_seed_base",
+        ...Array(4).fill("strat:supremium_essence"),
         ...Array(4).fill("minecraft:netherite_ingot")
     ],
 };

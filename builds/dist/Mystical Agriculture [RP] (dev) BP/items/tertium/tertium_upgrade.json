@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:tertium_upgrade",
+			"identifier": "strat:tertium_upgrade",
 			"menu_category": {
 				"category": "equipment"
 			}

@@ -2,19 +2,19 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_ingot_block"
+			"identifier": "strat:inferium_ingot_block"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:inferium_ingot",
+				"item": "strat:inferium_ingot",
 				"count": 9
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:inferium_ingot_block"
+			"item": "strat:inferium_ingot_block"
 		}
 	}
 }

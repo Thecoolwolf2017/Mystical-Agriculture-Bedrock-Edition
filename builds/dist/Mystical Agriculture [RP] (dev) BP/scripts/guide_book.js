@@ -34,8 +34,8 @@ function createGuideSection(player, title, body, buttons, actions = {}) {
 }
 
 world.afterEvents.itemUse.subscribe((data) => {
-    if (data.itemStack.typeId == "mysticalagriculture:guide_book") {
-        if (data.source.hasTag("mysticalagriculture:guide_book")) {
+    if (data.itemStack.typeId == "strat:guide_book") {
+        if (data.source.hasTag("strat:guide_book")) {
             guideBook(data.source)
         }
         else {
@@ -47,7 +47,7 @@ world.afterEvents.itemUse.subscribe((data) => {
 
             form.show(data.source).then(response => {
 
-                data.source.addTag("mysticalagriculture:guide_book")
+                data.source.addTag("strat:guide_book")
 
                 if (response.canceled) {
                     guideBook(data.source)

@@ -10,10 +10,10 @@ export class cropManager {
         let allBlocks = BlockTypes.getAll();
 
         allBlocks.forEach(block => {
-            if (block.id.startsWith("mysticalagriculture:") && block.id.includes("_crop")) {
+            if (block.id.startsWith("strat:") && block.id.includes("_crop")) {
                 cropBlocks.push({
                     blockID: block.id,
-                    stateID: `mysticalagriculture:growth`,
+                    stateID: `strat:growth`,
                     maxStage: 7,
                     growChance: {
                         numerator: 1,
@@ -42,10 +42,10 @@ export class cropManager {
         let allBlocks = BlockTypes.getAll();
 
         allBlocks.forEach(block => {
-            if (block.id.startsWith("mysticalagriculture:") && block.id.includes("_crop")) {
+            if (block.id.startsWith("strat:") && block.id.includes("_crop")) {
                 cropBlocks.push({
                     blockID: block.id,
-                    stateID: `mysticalagriculture:growth`,
+                    stateID: `strat:growth`,
                     maxStage: 7,
                     growChance: {
                         numerator: 1,

@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prosperity_gemstone"
+			"identifier": "strat:prosperity_gemstone"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"O": {
-				"item": "mysticalagriculture:prosperity_shard"
+				"item": "strat:prosperity_shard"
 			},
 			"I": {
 				"item": "minecraft:diamond"
@@ -21,7 +21,7 @@
 			" O "
 		],
 		"result": {
-			"item": "mysticalagriculture:prosperity_gemstone"
+			"item": "strat:prosperity_gemstone"
 		}
 	}
 }

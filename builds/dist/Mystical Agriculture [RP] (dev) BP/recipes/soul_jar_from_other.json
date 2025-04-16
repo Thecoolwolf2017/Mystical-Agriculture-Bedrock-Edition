@@ -2,18 +2,18 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:soul_jar_from_other"
+			"identifier": "strat:soul_jar_from_other"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"tag": "mysticalagriculture:is_jar"
+				"tag": "strat:is_jar"
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:soul_jar"
+			"item": "strat:soul_jar"
 		}
 	}
 }

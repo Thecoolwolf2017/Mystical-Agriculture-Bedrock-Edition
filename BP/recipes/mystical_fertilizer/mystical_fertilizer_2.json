@@ -2,17 +2,17 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:mystical_fertilizer_2"
+			"identifier": "strat:mystical_fertilizer_2"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"E": {
-				"item": "mysticalagriculture:inferium_essence"
+				"item": "strat:inferium_essence"
 			},
 			"S": {
-				"item": "mysticalagriculture:fertilized_essence"
+				"item": "strat:fertilized_essence"
 			},
 			"D": {
 				"item": "minecraft:diamond"
@@ -24,7 +24,7 @@
 			"ESE"
 		],
 		"result": {
-			"item": "mysticalagriculture:mystical_fertilizer",
+			"item": "strat:mystical_fertilizer",
 			"count": 8
 		}
 	}

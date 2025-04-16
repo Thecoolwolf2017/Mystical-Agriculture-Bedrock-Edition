@@ -2,19 +2,19 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
 		"description": {
-			"identifier": "mysticalagriculture:prosperity_ingot_from_nugget"
+			"identifier": "strat:prosperity_ingot_from_nugget"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"ingredients": [
 			{
-				"item": "mysticalagriculture:prosperity_nugget",
+				"item": "strat:prosperity_nugget",
 				"count": 9
 			}
 		],
 		"result": {
-			"item": "mysticalagriculture:prosperity_ingot"
+			"item": "strat:prosperity_ingot"
 		}
 	}
 }

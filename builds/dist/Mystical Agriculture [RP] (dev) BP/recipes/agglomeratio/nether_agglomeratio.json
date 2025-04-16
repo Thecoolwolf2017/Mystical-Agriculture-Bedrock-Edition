@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:nether_agglomeratio"
+			"identifier": "strat:nether_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
@@ -26,7 +26,7 @@
 			"DF"
 		],
 		"result": {
-			"item": "mysticalagriculture:nether_agglomeratio"
+			"item": "strat:nether_agglomeratio"
 		}
 	}
 }

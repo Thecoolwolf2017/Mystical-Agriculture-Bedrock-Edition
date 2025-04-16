@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:5"
+			"identifier": "strat:5"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"A": {
-				"item": "mysticalagriculture:blank_record"
+				"item": "strat:blank_record"
 			},
 			"S": {
-				"item": "mysticalagriculture:deepslate_essence"
+				"item": "strat:deepslate_essence"
 			},
 			"D": {
-				"item": "mysticalagriculture:end_essence"
+				"item": "strat:end_essence"
 			},
 			"F": {
 				"item": "minecraft:cyan_dye"

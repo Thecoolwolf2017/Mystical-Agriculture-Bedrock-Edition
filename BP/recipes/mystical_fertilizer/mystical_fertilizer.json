@@ -2,14 +2,14 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:mystical_fertilizer"
+			"identifier": "strat:mystical_fertilizer"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"E": {
-				"item": "mysticalagriculture:inferium_essence"
+				"item": "strat:inferium_essence"
 			},
 			"S": {
 				"item": "minecraft:bone_meal"
@@ -24,7 +24,7 @@
 			"ESE"
 		],
 		"result": {
-			"item": "mysticalagriculture:mystical_fertilizer",
+			"item": "strat:mystical_fertilizer",
 			"count": 4
 		}
 	}

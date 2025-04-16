@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:supremium_axe",
+			"identifier": "strat:supremium_axe",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -35,7 +35,7 @@
 					"minecraft:is_axe",
 					"minecraft:digger",
 					"minecraft:is_tool",
-					"mysticalagriculture:supremium_tier"
+					"strat:supremium_tier"
 				]
 			},
 			"minecraft:max_stack_size": {

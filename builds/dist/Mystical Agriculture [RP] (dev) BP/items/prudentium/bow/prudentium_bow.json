@@ -2,7 +2,7 @@
 	"format_version": "1.21.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_bow",
+			"identifier": "strat:prudentium_bow",
 			"menu_category": {
 				"category": "equipment"
 			}

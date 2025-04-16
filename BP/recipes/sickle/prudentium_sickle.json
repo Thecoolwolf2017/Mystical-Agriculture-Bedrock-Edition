@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:prudentium_sickle"
+			"identifier": "strat:prudentium_sickle"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:prudentium_gemstone"
+				"item": "strat:prudentium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:prudentium_ingot"
+				"item": "strat:prudentium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:inferium_sickle"
+				"item": "strat:inferium_sickle"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:prudentium_sickle"
+			"item": "strat:prudentium_sickle"
 		}
 	}
 }

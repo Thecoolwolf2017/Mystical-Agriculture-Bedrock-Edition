@@ -2,21 +2,21 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soulstone_cobble_slab"
+			"identifier": "strat:soulstone_cobble_slab"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"#": {
-				"item": "mysticalagriculture:soulstone_cobble"
+				"item": "strat:soulstone_cobble"
 			}
 		},
 		"pattern": [
 			"###"
 		],
 		"result": {
-			"item": "mysticalagriculture:soulstone_cobble_slab",
+			"item": "strat:soulstone_cobble_slab",
 			"count": 6
 		}
 	}

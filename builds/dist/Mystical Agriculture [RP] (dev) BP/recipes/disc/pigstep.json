@@ -2,23 +2,23 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:pigstep"
+			"identifier": "strat:pigstep"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"A": {
-				"item": "mysticalagriculture:blank_record"
+				"item": "strat:blank_record"
 			},
 			"S": {
-				"item": "mysticalagriculture:nether_essence"
+				"item": "strat:nether_essence"
 			},
 			"D": {
-				"item": "mysticalagriculture:netherite_essence"
+				"item": "strat:netherite_essence"
 			},
 			"F": {
-				"item": "mysticalagriculture:gold_essence"
+				"item": "strat:gold_essence"
 			}
 		},
 		"pattern": [

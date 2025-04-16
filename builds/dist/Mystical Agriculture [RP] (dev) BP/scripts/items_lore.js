@@ -39,7 +39,7 @@ server.system.runInterval(() => {
             }
 
             //Fertilized Essence
-            if (itemStack.typeId == "mysticalagriculture:fertilized_essence" && lore.length == 0) {
+            if (itemStack.typeId == "strat:fertilized_essence" && lore.length == 0) {
                 itemStack.setLore([
                     `§710% Drop Chance`
                 ]);
@@ -47,7 +47,7 @@ server.system.runInterval(() => {
             }
 
             //Mystical Fertilizer
-            if (itemStack.typeId == "mysticalagriculture:mystical_fertilizer" && lore.length == 0) {
+            if (itemStack.typeId == "strat:mystical_fertilizer" && lore.length == 0) {
                 itemStack.setLore([
                     `§7Instantly grow mystical crops`
                 ]);
@@ -55,7 +55,7 @@ server.system.runInterval(() => {
             }
 
             // Watering Can
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_can") && lore.length == 0) {
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_can") && lore.length == 0) {
                 let type = Object.keys(prefix).find(key => itemStack.typeId.includes(key));
 
                 let itemPrefix = prefix[type] || "§7";
@@ -72,7 +72,7 @@ server.system.runInterval(() => {
 
 
             //Infusion Crystal
-            if (itemStack.typeId == "mysticalagriculture:infusion_crystal" && lore.length == 0) {
+            if (itemStack.typeId == "strat:infusion_crystal" && lore.length == 0) {
                 itemStack.setLore([
                     `§71000 Uses Left`
                 ]);
@@ -80,7 +80,7 @@ server.system.runInterval(() => {
                 inventory.setItem(i, itemStack);
             }
             //Infusion Cristal Offhand
-            if (player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.typeId == "mysticalagriculture:infusion_crystal" &&
+            if (player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.typeId == "strat:infusion_crystal" &&
                 player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.getLore().length == 0) {
                 let item = player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)
                 item.setLore([
@@ -90,7 +90,7 @@ server.system.runInterval(() => {
                 player.getComponent("equippable").setEquipment(server.EquipmentSlot.Offhand, item)
             }
             //Master Crystal
-            if (itemStack.typeId == "mysticalagriculture:master_infusion_crystal" && lore.length == 0) {
+            if (itemStack.typeId == "strat:master_infusion_crystal" && lore.length == 0) {
                 itemStack.setLore([
                     `§7Unlimited Uses`
                 ]);
@@ -98,7 +98,7 @@ server.system.runInterval(() => {
                 inventory.setItem(i, itemStack);
             }
             //Master Infusion Crystal Offhand
-            if (player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.typeId == "mysticalagriculture:master_infusion_crystal" &&
+            if (player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.typeId == "strat:master_infusion_crystal" &&
                 player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)?.getLore().length == 0) {
                 let item = player.getComponent("equippable").getEquipment(server.EquipmentSlot.Offhand)
                 item.setLore([
@@ -109,7 +109,7 @@ server.system.runInterval(() => {
             }
 
             //Soul Jar
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_jar") && itemStack.typeId != "mysticalagriculture:soul_jar" && lore.length == 0) {
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_jar") && itemStack.typeId != "strat:soul_jar" && lore.length == 0) {
 
                 let mobName = itemStack.typeId
                     .split(":")[1]
@@ -127,7 +127,7 @@ server.system.runInterval(() => {
             }
 
             //Soul Jar Full
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_jar_full") && itemStack.typeId != "mysticalagriculture:soul_jar" && lore.length == 0) {
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_jar_full") && itemStack.typeId != "strat:soul_jar" && lore.length == 0) {
 
                 let mobName = itemStack.typeId.replaceAll("_full", "")
                     .split(":")[1]
@@ -145,11 +145,11 @@ server.system.runInterval(() => {
             }
 
             //Dagger
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_dagger") && lore.length == 0) {
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_dagger") && lore.length == 0) {
 
-                if (itemStack.typeId == "mysticalagriculture:passive_soulium_dagger") itemStack.setLore([`§aPassive Attuned`, "§7Grants additional souls from peaceful creatures"])
-                if (itemStack.typeId == "mysticalagriculture:hostile_soulium_dagger") itemStack.setLore([`§cHostile Attuned`, "§7Grants additional souls from hostile creatures"])
-                if (itemStack.typeId == "mysticalagriculture:creative_soulium_dagger") itemStack.setLore([`§dCreative Attuned`, "§7Grants *infinite* souls from all creatures"])
+                if (itemStack.typeId == "strat:passive_soulium_dagger") itemStack.setLore([`§aPassive Attuned`, "§7Grants additional souls from peaceful creatures"])
+                if (itemStack.typeId == "strat:hostile_soulium_dagger") itemStack.setLore([`§cHostile Attuned`, "§7Grants additional souls from hostile creatures"])
+                if (itemStack.typeId == "strat:creative_soulium_dagger") itemStack.setLore([`§dCreative Attuned`, "§7Grants *infinite* souls from all creatures"])
 
 
                 inventory.setItem(i, itemStack)
@@ -157,7 +157,7 @@ server.system.runInterval(() => {
             }
 
             //Experience Capsule
-            if (itemStack.typeId == ("mysticalagriculture:experience_capsule") && lore.length == 0) {
+            if (itemStack.typeId == ("strat:experience_capsule") && lore.length == 0) {
 
                 itemStack.setLore([`§70 / 1200 Experience Points`, "§cThe item is not 100% perfect, bugs may occur"])
 
@@ -165,7 +165,7 @@ server.system.runInterval(() => {
 
             }
             //Experience Capsule Full
-            if (itemStack.typeId == ("mysticalagriculture:experience_capsule_full") && lore.length == 0) {
+            if (itemStack.typeId == ("strat:experience_capsule_full") && lore.length == 0) {
 
                 itemStack.setLore([`§71200 / 1200 Experience Points`, "§cThe item is not 100% perfect, bugs may occur"])
 
@@ -174,7 +174,7 @@ server.system.runInterval(() => {
             }
 
             //Upgrade
-            if (itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_upgrade") && lore.length == 0) {
+            if (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_upgrade") && lore.length == 0) {
 
                 let type = Object.keys(prefix).find(key => itemStack.typeId.includes(key));
 
@@ -203,7 +203,7 @@ server.system.runInterval(() => {
             handleTier(itemStack, "supremium", 5, inventory, i);
 
 
-            // if (itemStack.typeId.startsWith("mysticalagriculture:") && lore[lore.length - 1] != "§9Mystical Agriculture (Unofficial Port)") {
+            // if (itemStack.typeId.startsWith("strat:") && lore[lore.length - 1] != "§9Mystical Agriculture (Unofficial Port)") {
 
             //     let newLore = itemStack.getLore()
 
@@ -222,7 +222,7 @@ server.system.runInterval(() => {
              */
             function handleTier(itemStack, tierName, tierLevel, inventory, index) {
                 if (
-                    itemStack.typeId.startsWith(`mysticalagriculture:${tierName}`) &&
+                    itemStack.typeId.startsWith(`strat:${tierName}`) &&
                     Array.from(validSuffixes).some(suffix => itemStack.typeId.endsWith(suffix)) &&
                     lore.length === 0
                 ) {
@@ -267,7 +267,7 @@ server.world.afterEvents.entitySpawn.subscribe(result => {
 
     let lore = itemStack.getLore()
 
-    // if (itemStack.typeId.startsWith("mysticalagriculture:") && lore[lore.length - 1] != "§9Mystical Agriculture (Unofficial Port)") {
+    // if (itemStack.typeId.startsWith("strat:") && lore[lore.length - 1] != "§9Mystical Agriculture (Unofficial Port)") {
     //     lore.push("§9Mystical Agriculture (Unofficial Port)")
     //     try {
     //         itemStack.setLore(lore);
@@ -277,7 +277,7 @@ server.world.afterEvents.entitySpawn.subscribe(result => {
     // }
 
     let item = seedsTier.find(item => item.typeId == itemStack.typeId)
-    if (item && lore.length == 0 && itemStack.typeId.startsWith("mysticalagriculture:") && itemStack.typeId.endsWith("_seeds")) {
+    if (item && lore.length == 0 && itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_seeds")) {
         try {
             itemStack.setLore([
                 `§7Tier: ${item.tier}`

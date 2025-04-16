@@ -2,20 +2,20 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_boots"
+			"identifier": "strat:imperium_boots"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"G": {
-				"item": "mysticalagriculture:imperium_gemstone"
+				"item": "strat:imperium_gemstone"
 			},
 			"I": {
-				"item": "mysticalagriculture:imperium_ingot"
+				"item": "strat:imperium_ingot"
 			},
 			"S": {
-				"item": "mysticalagriculture:tertium_boots"
+				"item": "strat:tertium_boots"
 			}
 		},
 		"pattern": [
@@ -24,7 +24,7 @@
 			" G "
 		],
 		"result": {
-			"item": "mysticalagriculture:imperium_boots"
+			"item": "strat:imperium_boots"
 		}
 	}
 }
