@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:sheep_seeds",
+			"identifier": "strat:sheep_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "sheep_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:sheep_crop"
+				"block": "strat:sheep_crop"
 			}
 		}
 	}

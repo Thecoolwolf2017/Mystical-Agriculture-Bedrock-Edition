@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:spider_seeds",
+			"identifier": "strat:spider_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "spider_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:spider_crop"
+				"block": "strat:spider_crop"
 			}
 		}
 	}

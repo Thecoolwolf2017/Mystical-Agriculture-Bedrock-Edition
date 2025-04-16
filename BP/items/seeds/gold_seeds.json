@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:gold_seeds",
+			"identifier": "strat:gold_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "gold_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:gold_crop"
+				"block": "strat:gold_crop"
 			}
 		}
 	}

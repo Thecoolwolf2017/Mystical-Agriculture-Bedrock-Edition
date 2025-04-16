@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:lapis_lazuli_seeds",
+			"identifier": "strat:lapis_lazuli_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "lapis_lazuli_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:lapis_lazuli_crop"
+				"block": "strat:lapis_lazuli_crop"
 			}
 		}
 	}

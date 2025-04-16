@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:stone_seeds",
+			"identifier": "strat:stone_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "stone_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:stone_crop"
+				"block": "strat:stone_crop"
 			}
 		}
 	}

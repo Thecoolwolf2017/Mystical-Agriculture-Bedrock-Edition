@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:lead_seeds",
+			"identifier": "strat:lead_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "lead_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:lead_crop"
+				"block": "strat:lead_crop"
 			}
 		}
 	}

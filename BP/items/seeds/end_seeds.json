@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:end_seeds",
+			"identifier": "strat:end_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "end_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:end_crop"
+				"block": "strat:end_crop"
 			}
 		}
 	}

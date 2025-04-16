@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:tin_seeds",
+			"identifier": "strat:tin_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "tin_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:tin_crop"
+				"block": "strat:tin_crop"
 			}
 		}
 	}

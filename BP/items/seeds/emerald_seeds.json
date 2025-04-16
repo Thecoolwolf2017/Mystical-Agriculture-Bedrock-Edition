@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:emerald_seeds",
+			"identifier": "strat:emerald_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "emerald_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:emerald_crop"
+				"block": "strat:emerald_crop"
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:nature_seeds",
+			"identifier": "strat:nature_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "nature_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:nature_crop"
+				"block": "strat:nature_crop"
 			}
 		}
 	}

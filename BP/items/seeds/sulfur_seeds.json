@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:sulfur_seeds",
+			"identifier": "strat:sulfur_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "sulfur_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:sulfur_crop"
+				"block": "strat:sulfur_crop"
 			}
 		}
 	}

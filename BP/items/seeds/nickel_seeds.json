@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:nickel_seeds",
+			"identifier": "strat:nickel_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "nickel_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:nickel_crop"
+				"block": "strat:nickel_crop"
 			}
 		}
 	}

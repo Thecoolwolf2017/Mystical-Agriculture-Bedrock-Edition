@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:invar_seeds",
+			"identifier": "strat:invar_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "invar_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:invar_crop"
+				"block": "strat:invar_crop"
 			}
 		}
 	}

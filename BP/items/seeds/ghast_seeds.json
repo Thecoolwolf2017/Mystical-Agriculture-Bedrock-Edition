@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:ghast_seeds",
+			"identifier": "strat:ghast_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "ghast_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:ghast_crop"
+				"block": "strat:ghast_crop"
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:prismarine_seeds",
+			"identifier": "strat:prismarine_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "prismarine_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:prismarine_crop"
+				"block": "strat:prismarine_crop"
 			}
 		}
 	}

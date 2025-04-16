@@ -5,7 +5,7 @@
 		"entries": [
 		  {
 			"type": "item",
-			"name": "kai:oak_fence_inventory",
+			"name": "minecraft:oak_fence",
 			"weight": 1,
 			"functions": [
 			  {

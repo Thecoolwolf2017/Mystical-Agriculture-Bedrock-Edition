@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:peridot_seeds",
+			"identifier": "strat:peridot_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "peridot_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:peridot_crop"
+				"block": "strat:peridot_crop"
 			}
 		}
 	}

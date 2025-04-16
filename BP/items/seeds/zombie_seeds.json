@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:zombie_seeds",
+			"identifier": "strat:zombie_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "zombie_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:zombie_crop"
+				"block": "strat:zombie_crop"
 			}
 		}
 	}

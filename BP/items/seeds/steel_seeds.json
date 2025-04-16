@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:steel_seeds",
+			"identifier": "strat:steel_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "steel_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:steel_crop"
+				"block": "strat:steel_crop"
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:pig_seeds",
+			"identifier": "strat:pig_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "pig_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:pig_crop"
+				"block": "strat:pig_crop"
 			}
 		}
 	}

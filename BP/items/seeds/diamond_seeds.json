@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:diamond_seeds",
+			"identifier": "strat:diamond_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "diamond_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:diamond_crop"
+				"block": "strat:diamond_crop"
 			}
 		}
 	}

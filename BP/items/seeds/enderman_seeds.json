@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:enderman_seeds",
+			"identifier": "strat:enderman_seeds",
 			"menu_category": {
 				"category": "equipment"
 			}
@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:icon": "enderman_seeds",
 			"minecraft:block_placer": {
-				"block": "mysticalagriculture:enderman_crop"
+				"block": "strat:enderman_crop"
 			}
 		}
 	}
