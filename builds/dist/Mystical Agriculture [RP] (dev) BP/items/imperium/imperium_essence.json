@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:imperium_essence",
+			"identifier": "strat:imperium_essence",
 			"menu_category": {
 				"category": "equipment"
 			}
