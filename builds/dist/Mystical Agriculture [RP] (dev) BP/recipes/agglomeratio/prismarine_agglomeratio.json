@@ -2,26 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:prismarine_agglomeratio_r"
+			"identifier": "mysticalagriculture:prismarine_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"~#"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:prismarine_crystals"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:prismarine_shard"
+			},
+			"D": {
+				"item": "minecraft:prismarine_shard"
+			},
+			"F": {
+				"item": "minecraft:prismarine_crystals"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:prismarine_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:prismarine_agglomeratio"
 		}
 	}
 }

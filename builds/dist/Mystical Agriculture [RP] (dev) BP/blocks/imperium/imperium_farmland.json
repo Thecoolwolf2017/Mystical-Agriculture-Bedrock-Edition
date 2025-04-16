@@ -1,0 +1,103 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:imperium_farmland",
+			"menu_category": {
+				"category": "construction"
+			},
+			"states": {
+				"wiki:wet_farmland": [
+					0,
+					1
+				],
+				"farmersdelight:dirt": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "imperium_dirt",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				},
+				"up": {
+					"texture": "imperium_farmland_dry",
+					"render_method": "alpha_test"
+				}
+			},
+			"tag:faded_farmland": {},
+			"tag:delight_farmland": {},
+			"minecraft:geometry": "geometry.farmland",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					15,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					15,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/imperium_farmland.json",
+			"minecraft:light_dampening": 15,
+			"minecraft:custom_components": [
+				"strat:farmland_controller"
+			],
+			"tag:minecraft:is_shovel_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('wiki:wet_farmland') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "imperium_dirt",
+							"render_method": "alpha_test"
+						},
+						"up": {
+							"texture": "imperium_farmland_dry",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wiki:wet_farmland') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "imperium_dirt",
+							"render_method": "alpha_test"
+						},
+						"up": {
+							"texture": "imperium_farmland_wet",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}

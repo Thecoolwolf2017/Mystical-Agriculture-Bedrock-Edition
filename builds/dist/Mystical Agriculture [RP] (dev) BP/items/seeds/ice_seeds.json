@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:ice_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "ice_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Ice Seeds\n§7Tier: §e1§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "ice_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:ice_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

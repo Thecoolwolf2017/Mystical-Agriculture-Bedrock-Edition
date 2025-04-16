@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:wood_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "wood_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Wood Seeds\n§7Tier: §e1§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "wood_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:wood_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

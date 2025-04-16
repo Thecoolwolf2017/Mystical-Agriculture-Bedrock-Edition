@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:blaze_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "blaze_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Blaze Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "blaze_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:blaze_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

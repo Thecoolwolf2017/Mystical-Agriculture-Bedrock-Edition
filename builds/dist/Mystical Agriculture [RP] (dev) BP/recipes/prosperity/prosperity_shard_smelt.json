@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "mysticalagriculture:prosperity_shard_smelt"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "mysticalagriculture:prosperity_ore",
+		"output": "mysticalagriculture:prosperity_shard"
+	}
+}

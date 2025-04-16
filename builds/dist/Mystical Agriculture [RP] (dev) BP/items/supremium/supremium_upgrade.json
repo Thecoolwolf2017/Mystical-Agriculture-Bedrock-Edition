@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_upgrade",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "supremium_upgrade",
+			"minecraft:tags": {
+				"tags": [
+					"operationSpeed:40",
+					"fuelUsage:48",
+					"fuelCapacity:6",
+					"area:5"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+import * as server from "@minecraft/server"
+
+// let allItems = server.ItemTypes.getAll();
+
+// const canIds = [];
+
+// allItems.forEach(item => {
+//     if (item.id.startsWith('mysticalagriculture:')) {
+//         if (item.id.endsWith('_scythe')) {
+//             canIds.push(item.id);
+//         }
+//     }
+// });
+
+server.world.beforeEvents.itemUseOn.subscribe(result => {
+
+    if (!result.isFirstEvent) return
+
+    if (!result.itemStack) return
+
+    if (!result.block) return
+
+    let block = result.source.getBlockFromViewDirection({ includeLiquidBlocks: true }).block
+
+    if (block.typeId == "minecraft:water" && (result.itemStack.typeId.startsWith("mysticalagriculture:") && result.itemStack.typeId.endsWith("_can"))) {
+        server.system.run(() => {
+            let lore = result.itemStack.getLore();
+
+            lore = lore.filter(line => line !== "§7Empty");
+
+            if (!lore.includes("§7Filled")) {
+                lore.unshift("§7Filled");
+                result.source.playSound("bucket.fill_water")
+            }
+
+            result.itemStack.setLore(lore);
+            result.source.getComponent("equippable").setEquipment(server.EquipmentSlot.Mainhand, result.itemStack);
+        })
+    }
+})
+
+server.world.afterEvents.itemUse.subscribe(result => {
+    if (!result.itemStack) return
+
+    if (result.itemStack.typeId.startsWith("mysticalagriculture:") && result.itemStack.typeId.endsWith("_can")) {
+
+        if (!result.itemStack.getLore().includes("§7Filled")) {
+            result.source.onScreenDisplay.setActionBar("§cFill the watering can with water first")
+            return
+        }
+
+        let block = result.source.getBlockFromViewDirection({ maxDistance: 10 })?.block;
+        if (!block) return
+        let blockLocation = block.location;
+
+        let tags = result.itemStack.getTags()
+
+        const area = Math.floor((parseInt(tags.find(tag => tag.startsWith("area")).split(":").pop()) / 2));
+
+        for (let dx = -area; dx <= area; dx++) {
+            for (let dy = 0; dy <= 1; dy++) {
+                for (let dz = -area; dz <= area; dz++) {
+
+                    let x = blockLocation.x + dx;
+                    let y = blockLocation.y + dy;
+                    let z = blockLocation.z + dz;
+
+                    let targetBlock = block.dimension.getBlock({ x, y, z });
+
+                    targetBlock.dimension.spawnParticle("mysticalagriculture:watering_can", {
+                        x: x,
+                        y: y,
+                        z: z
+                    })
+
+                    if (targetBlock && (targetBlock.permutation.getState("mysticalagriculture:growth") == 0 || targetBlock.permutation.getState("mysticalagriculture:growth"))) {
+
+                        let state = targetBlock.permutation.getAllStates();
+
+                        if (Math.floor(Math.random() * 32) + 1 == 1) {
+                            if (state["mysticalagriculture:growth"] != 7) targetBlock.dimension.spawnParticle("minecraft:crop_growth_emitter", targetBlock.center())
+                            state["mysticalagriculture:growth"] = Math.min(state["mysticalagriculture:growth"] + 1, 7);
+                            targetBlock.setPermutation(server.BlockPermutation.resolve(targetBlock.typeId, state));
+                        }
+                    }
+                }
+            }
+        }
+    }
+})

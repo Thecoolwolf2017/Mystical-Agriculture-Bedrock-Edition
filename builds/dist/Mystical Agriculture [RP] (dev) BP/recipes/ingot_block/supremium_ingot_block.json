@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_ingot_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:supremium_ingot",
+				"count": 9
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:supremium_ingot_block"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_upgrade",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "prudentium_upgrade",
+			"minecraft:tags": {
+				"tags": [
+					"operationSpeed:1.6",
+					"fuelUsage:4",
+					"fuelCapacity:3",
+					"area:2"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:imperium_pickaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "mysticalagriculture:imperium_gemstone"
+			},
+			"I": {
+				"item": "mysticalagriculture:imperium_ingot"
+			},
+			"S": {
+				"item": "mysticalagriculture:tertium_pickaxe"
+			}
+		},
+		"pattern": [
+			" G ",
+			"ISI",
+			" G "
+		],
+		"result": {
+			"item": "mysticalagriculture:imperium_pickaxe"
+		}
+	}
+}

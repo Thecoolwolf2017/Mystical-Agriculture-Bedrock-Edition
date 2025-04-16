@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:prosperity_ingot_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:prosperity_ingot_block"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:prosperity_ingot",
+			"count": 9
+		}
+	}
+}

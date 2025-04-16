@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:infusion_altar_check",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"strat:is_active": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "infusion_all_transparent",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:tick": {
+				"interval_range": [
+					20,
+					20
+				]
+			},
+			"minecraft:custom_components": [
+				"strat:altar_check"
+			],
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": false
+		}
+	}
+}

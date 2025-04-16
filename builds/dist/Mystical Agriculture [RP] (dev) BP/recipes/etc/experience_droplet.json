@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:experience_droplet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "mysticalagriculture:experience_essence"
+			}
+		},
+		"pattern": [
+			"###",
+			"# #",
+			"###"
+		],
+		"result": {
+			"item": "mysticalagriculture:experience_droplet",
+			"count": 8
+		}
+	}
+}

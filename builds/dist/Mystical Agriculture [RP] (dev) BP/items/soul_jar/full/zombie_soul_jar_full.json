@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:zombie_soul_jar_full",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "zombie_soul_jar",
+			"minecraft:tags": {
+				"tags": [
+					"maxSoul:10",
+					"mysticalagriculture:is_jar"
+				]
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

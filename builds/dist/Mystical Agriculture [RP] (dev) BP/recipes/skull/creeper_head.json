@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:creeper_head"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"W": {
+				"item": "mysticalagriculture:creeper_essence"
+			},
+			"#": {
+				"item": "mysticalagriculture:blank_skull"
+			}
+		},
+		"pattern": [
+			"WWW",
+			"W#W",
+			"WWW"
+		],
+		"result": {
+			"item": "minecraft:creeper_head"
+		}
+	}
+}

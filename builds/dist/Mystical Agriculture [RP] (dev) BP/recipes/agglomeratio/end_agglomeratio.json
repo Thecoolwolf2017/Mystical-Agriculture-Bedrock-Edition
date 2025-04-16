@@ -2,29 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:end_agglomeratio_r"
+			"identifier": "mysticalagriculture:end_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"X#"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:end_stone"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:chorus_fruit"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:purpur_block"
+			},
+			"F": {
+				"item": "minecraft:end_stone"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:end_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:end_agglomeratio"
 		}
 	}
 }

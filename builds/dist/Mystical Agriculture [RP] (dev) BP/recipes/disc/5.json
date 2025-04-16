@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:5"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"A": {
+				"item": "mysticalagriculture:blank_record"
+			},
+			"S": {
+				"item": "mysticalagriculture:deepslate_essence"
+			},
+			"D": {
+				"item": "mysticalagriculture:end_essence"
+			},
+			"F": {
+				"item": "minecraft:cyan_dye"
+			}
+		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
+		"result": {
+			"item": "minecraft:music_disc_5"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:prosperity_ingot"
+			},
+			{
+				"item": "mysticalagriculture:prudentium_essence",
+				"count": 2
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:prudentium_ingot"
+		}
+	}
+}

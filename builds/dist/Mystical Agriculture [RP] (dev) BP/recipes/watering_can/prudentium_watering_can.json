@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_watering_can"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"B": {
+				"item": "mysticalagriculture:mystical_fertilizer"
+			},
+			"I": {
+				"item": "mysticalagriculture:prudentium_ingot"
+			},
+			"W": {
+				"item": "mysticalagriculture:inferium_watering_can"
+			}
+		},
+		"pattern": [
+			"BIB",
+			"IWI",
+			"BIB"
+		],
+		"result": {
+			"item": "mysticalagriculture:prudentium_watering_can"
+		}
+	}
+}

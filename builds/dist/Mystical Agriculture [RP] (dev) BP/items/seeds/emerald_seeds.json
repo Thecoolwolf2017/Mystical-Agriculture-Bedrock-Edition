@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:emerald_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "emerald_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Emerald Seeds\n§7Tier: §45§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "emerald_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:emerald_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

@@ -2,17 +2,17 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "mysticalagriculture:soul_jar"
+			"identifier": "strat:soul_jar"
 		},
 		"tags": [
 			"crafting_table"
 		],
 		"key": {
 			"E": {
-				"item": "mysticalagriculture:soulium_ingot"
+				"item": "strat:soulium_ingot"
 			},
 			"D": {
-				"item": "mysticalagriculture:soul_glass"
+				"item": "strat:soul_glass"
 			}
 		},
 		"pattern": [
@@ -21,7 +21,7 @@
 			" D "
 		],
 		"result": {
-			"item": "mysticalagriculture:soul_jar"
+			"item": "strat:soul_jar"
 		}
 	}
 }

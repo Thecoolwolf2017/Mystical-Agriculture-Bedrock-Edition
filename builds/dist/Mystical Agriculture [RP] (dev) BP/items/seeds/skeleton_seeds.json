@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:skeleton_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "skeleton_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Skeleton Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "skeleton_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:skeleton_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

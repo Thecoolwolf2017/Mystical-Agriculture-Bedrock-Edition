@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.40",
+	"format_version": "1.21.50",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:witherproof_block",
@@ -8,12 +8,19 @@
 			}
 		},
 		"components": {
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 2
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "witherproof_block"
+				}
 			},
-			"minecraft:destructible_by_explosion": false,
-			"tag:stone": {}
-		},
-		"events": {}
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:destructible_by_explosion": true,
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
 	}
 }

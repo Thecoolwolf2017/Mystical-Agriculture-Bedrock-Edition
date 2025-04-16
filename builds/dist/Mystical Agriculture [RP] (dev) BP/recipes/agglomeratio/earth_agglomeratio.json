@@ -2,32 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:earth_agglomeratio_r"
+			"identifier": "mysticalagriculture:earth_agglomeratio"
 		},
 		"tags": [
-			"infusion_altar"
-		],
-		"pattern": [
-			"#~",
-			"XO"
+			"crafting_table"
 		],
 		"key": {
-			"#": {
-				"item": "minecraft:tallgrass"
+			"A": {
+				"item": "minecraft:short_grass"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:gravel"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:dirt"
 			},
-			"O": {
+			"F": {
 				"item": "minecraft:clay_ball"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:earth_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:air_agglomeratio"
 		}
 	}
 }

@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:enderman_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "enderman_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Enderman Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "enderman_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:enderman_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

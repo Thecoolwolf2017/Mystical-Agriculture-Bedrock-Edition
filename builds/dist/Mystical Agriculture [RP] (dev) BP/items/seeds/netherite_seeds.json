@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:netherite_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "netherite_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Netherite Seeds\n§7Tier: §45§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "netherite_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:netherite_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "strat:soulstone_ore_feature"
+		},
+		"count": 3,
+		"replace_rules": [
+			{
+				"places_block": "strat:soulium_ore",
+				"may_replace": [
+					"strat:soulstone"
+				]
+			}
+		]
+	}
+}

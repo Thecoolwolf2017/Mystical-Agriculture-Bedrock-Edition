@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_helmet",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "prudentium_helmet",
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_head"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 4
+			},
+			"minecraft:durability": {
+				"max_durability": 660
+			}
+		}
+	}
+}

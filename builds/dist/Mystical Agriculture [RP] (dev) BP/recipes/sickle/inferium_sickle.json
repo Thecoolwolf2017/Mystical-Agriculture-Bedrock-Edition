@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:inferium_sickle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "mysticalagriculture:inferium_gemstone"
+			},
+			"I": {
+				"item": "mysticalagriculture:inferium_ingot"
+			},
+			"S": {
+				"item": "mysticalagriculture:diamond_sickle"
+			}
+		},
+		"pattern": [
+			" G ",
+			"ISI",
+			" G "
+		],
+		"result": {
+			"item": "mysticalagriculture:inferium_sickle"
+		}
+	}
+}

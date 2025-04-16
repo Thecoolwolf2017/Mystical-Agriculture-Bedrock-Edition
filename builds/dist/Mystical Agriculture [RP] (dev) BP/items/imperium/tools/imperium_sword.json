@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:imperium_sword",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "imperium_sword",
+			"minecraft:durability": {
+				"max_durability": 6000
+			},
+			"minecraft:damage": {
+				"value": 17
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:hand_equipped": {
+				"value": true
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_sword",
+					"minecraft:is_tool",
+					"mysticalagriculture:imperium_tier"
+				]
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

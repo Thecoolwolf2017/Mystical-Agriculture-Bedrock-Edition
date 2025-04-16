@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "mysticalagriculture:supremium_gemstone"
+			},
+			"I": {
+				"item": "mysticalagriculture:supremium_ingot"
+			},
+			"S": {
+				"item": "mysticalagriculture:imperium_axe"
+			}
+		},
+		"pattern": [
+			" G ",
+			"ISI",
+			" G "
+		],
+		"result": {
+			"item": "mysticalagriculture:supremium_axe"
+		}
+	}
+}

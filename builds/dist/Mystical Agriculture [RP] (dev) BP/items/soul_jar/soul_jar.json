@@ -1,23 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.21.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:soul_jar",
-			"category": "equipment"
+			"identifier": "mysticalagriculture:soul_jar",
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:max_stack_size": 1,
-			"minecraft:icon": {
-				"texture": "soul_jar"
-			},
-			"minecraft:display_name": {
-				"value": "Soul Jar"
-			},
-			"minecraft:creative_category": {
-				"parent": "equipment"
-			},
-			"minecraft:allow_off_hand": true
-		},
-		"events": {}
+			"minecraft:icon": "soul_jar",
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
 	}
 }

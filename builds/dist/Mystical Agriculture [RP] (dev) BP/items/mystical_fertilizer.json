@@ -1,96 +1,14 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.21.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:mystical_fertilizer",
-			"category": "items"
+			"identifier": "mysticalagriculture:mystical_fertilizer",
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "mystical_fertilizer"
-			},
-			"minecraft:display_name": {
-				"value": "Mystical Fertilizer\n§7Instantly grows a crop.§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "items"
-			},
-			"minecraft:fertilizer": {
-				"type": "rapid"
-			},
-			"minecraft:on_use_on": {
-				"on_use_on": {
-					"event": "strat:mystical_fertilizer"
-				}
-			}
-		},
-		"events": {
-			"strat:mystical_fertilizer": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"particle minecraft:crop_growth_emitter ~~~",
-								"playsound item.bone_meal.use @a ~~~"
-							]
-						},
-						"decrement_stack": {}
-					},
-					{
-						"sequence": [
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ wheat [\"growth\":7] replace wheat"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ potatoes [\"growth\":7] replace potatoes"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ carrots [\"growth\":7] replace carrots"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ beetroot [\"growth\":7] replace beetroot"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ melon_stem [\"growth\":7] replace melon_stem"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ pumpkin_stem [\"growth\":7] replace pumpkin_stem"
-									]
-								}
-							},
-							{
-								"run_command": {
-									"command": [
-										"fill ~~~~~~ sweet_berry_bush [\"growth\":7] replace sweet_berry_bush"
-									]
-								}
-							}
-						]
-					}
-				]
-			}
+			"minecraft:icon": "mystical_fertilizer"
 		}
 	}
 }

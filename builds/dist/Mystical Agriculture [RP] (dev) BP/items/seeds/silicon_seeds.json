@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:silicon_seeds",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "silicon_seeds",
+			"minecraft:block_placer": {
+				"block": "strat:silicon_crop"
+			}
+		}
+	}
+}

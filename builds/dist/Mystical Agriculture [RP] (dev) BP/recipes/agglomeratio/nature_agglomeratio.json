@@ -2,32 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:nature_agglomeratio_r"
+			"identifier": "mysticalagriculture:nature_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"XO"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:pumpkin"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:potato"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:cactus"
 			},
-			"O": {
+			"F": {
 				"item": "minecraft:sugar_cane"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:nature_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:nature_agglomeratio"
 		}
 	}
 }

@@ -1,20 +1,26 @@
 {
-	"format_version": "1.20.40",
+	"format_version": "1.21.50",
 	"minecraft:block": {
 		"description": {
 			"identifier": "strat:witherproof_bricks",
 			"menu_category": {
-				"category": "construction",
-				"group": "itemGroup.name.stoneBrick"
+				"category": "construction"
 			}
 		},
 		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "witherproof_bricks"
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 2
+				"seconds_to_destroy": 3
 			},
 			"minecraft:destructible_by_explosion": false,
-			"tag:stone": {}
-		},
-		"events": {}
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
 	}
 }

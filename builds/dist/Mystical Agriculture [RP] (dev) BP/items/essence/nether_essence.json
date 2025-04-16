@@ -1,21 +1,14 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:nether_essence",
-			"category": "items"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "nether_essence"
-			},
-			"minecraft:display_name": {
-				"value": "Nether Essence"
-			},
-			"minecraft:creative_category": {
-				"parent": "items"
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "nether_essence"
+		}
 	}
 }

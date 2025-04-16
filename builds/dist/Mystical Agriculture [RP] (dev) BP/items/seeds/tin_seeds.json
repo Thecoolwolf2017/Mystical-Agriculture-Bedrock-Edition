@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:tin_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "tin_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Tin Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "tin_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:tin_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:master_infusion_crystal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"E": {
+				"item": "mysticalagriculture:supremium_essence"
+			},
+			"D": {
+				"item": "mysticalagriculture:supremium_gemstone"
+			},
+			"S": {
+				"item": "mysticalagriculture:prosperity_shard"
+			}
+		},
+		"pattern": [
+			"ESE",
+			"SDS",
+			"ESE"
+		],
+		"result": {
+			"item": "mysticalagriculture:master_infusion_crystal"
+		}
+	}
+}

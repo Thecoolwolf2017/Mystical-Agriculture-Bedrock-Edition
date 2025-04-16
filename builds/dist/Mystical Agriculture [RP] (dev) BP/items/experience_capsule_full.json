@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:experience_capsule_full",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "experience_capsule",
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

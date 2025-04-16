@@ -1,0 +1,185 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:spider_crop",
+			"menu_category": {
+				"category": "none",
+				"group": "none",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"strat:growth": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:custom_components": [
+				"strat:custom_crop"
+			],
+			"minecraft:geometry": "geometry.crop.x",
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"farmland",
+							"strat:inferium_farmland",
+							"strat:prudentium_farmland",
+							"strat:tertium_farmland",
+							"strat:imperium_farmland",
+							"strat:supremium_farmland"
+						]
+					}
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					4,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"tag:minecraft:crop": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('strat:growth') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_0"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_1"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_2"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_3"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_4"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 5",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_5"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 6",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_6"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('strat:growth') == 7",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_7"
+						},
+						"south": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "spider_flower"
+						},
+						"north": {
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test",
+							"texture": "mystical_resource_crop_7"
+						}
+					},
+					"minecraft:custom_components": [
+						"strat:none"
+					]
+				}
+			}
+		]
+	}
+}

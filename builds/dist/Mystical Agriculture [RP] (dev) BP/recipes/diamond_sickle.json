@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:diamond_sickle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": [
+			" D ",
+			"  D",
+			"SD"
+		],
+		"result": {
+			"item": "mysticalagriculture:diamond_sickle"
+		}
+	}
+}

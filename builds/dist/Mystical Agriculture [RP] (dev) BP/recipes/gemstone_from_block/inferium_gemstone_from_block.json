@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:inferium_gemstone_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:inferium_gemstone_block"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:inferium_gemstone",
+			"count": 9
+		}
+	}
+}

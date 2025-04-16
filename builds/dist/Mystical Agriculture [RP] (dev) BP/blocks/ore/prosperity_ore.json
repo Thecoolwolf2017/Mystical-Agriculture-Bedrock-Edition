@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:prosperity_ore"
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "prosperity_ore"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:loot": "loot_tables/blocks/prosperity_ore.json",
+			"minecraft:custom_components": [
+				"strat:ore_xp"
+			]
+		}
+	}
+}

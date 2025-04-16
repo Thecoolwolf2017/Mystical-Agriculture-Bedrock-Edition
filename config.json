@@ -1,45 +1,37 @@
 {
-	"type": "minecraftBedrock",
-	"name": "Mystical Agriculture [RP] (dev)",
-	"namespace": "strat",
-	"authors": [
-		"Stratospheer and Lozenda"
-	],
-	"targetVersion": "1.20.40",
-	"description": "A faithful recreation of a popular magical crops mod (v1.3). Created by §lStratospheer§r and recoded by §lLozenda§r . Original Java mod by §lBlakeBr0§r.",
-	"experimentalGameplay": {
-		"holidayCreatorFeatures": true,
-		"creationOfCustomBiomes": true,
-		"upcomingCreatorFeatures": true,
-		"enableGameTestFramework": true,
-		"experimentalMolangFeatures": true,
-		"educationEdition": false
-	},
-	"bdsProject": false,
-	"packs": {
-		"behaviorPack": "./BP",
-		"resourcePack": "./RP"
-	},
-	"worlds": [
-		"./worlds/*"
-	],
-	"compiler": {
-		"plugins": [
-			"generatorScripts",
-			"typeScript",
-			"entityIdentifierAlias",
-			"customEntityComponents",
-			"customItemComponents",
-			"customBlockComponents",
-			"customCommands",
-			"moLang",
-			"formatVersionCorrection",
-			[
-				"simpleRewrite",
-				{
-					"packName": "Mystical Agriculture [RP] (dev)"
-				}
-			]
-		]
-	}
+    "type": "minecraftBedrock",
+    "name": "Mystical Agriculture [RP] (dev)",
+    "namespace": "strat",
+    "authors": [ "Stratospheer and Lozenda" ],
+    "targetVersion": "1.21.73",
+    "description": "A faithful recreation of a popular magical crops mod (v1.3). Created by §lStratospheer§r and recoded by §lLozenda§r . Original Java mod by §lBlakeBr0§r.",
+    "experimentalGameplay": {
+        "holidayCreatorFeatures": true,
+        "creationOfCustomBiomes": true,
+        "upcomingCreatorFeatures": true,
+        "enableGameTestFramework": true,
+        "experimentalMolangFeatures": true,
+        "educationEdition": false,
+        "experimentalCreatorCameraFeatures": true,
+        "customComponentsV2": true,
+        "dataDrivenJigsawStructures": true,
+        "renderDragonFeatures": true
+    },
+    "bdsProject": false,
+    "packs": { "behaviorPack": "./BP", "resourcePack": "./RP" },
+    "worlds": [ "./worlds/*" ],
+    "compiler": {
+        "plugins": [
+            "generatorScripts",
+            "typeScript",
+            "entityIdentifierAlias",
+            "customEntityComponents",
+            "customItemComponents",
+            "customBlockComponents",
+            "customCommands",
+            "moLang",
+            "formatVersionCorrection",
+            [ "simpleRewrite", { "packName": "Mystical Agriculture [RP] (dev)" }]
+        ]
+    }
 }

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_block_uncraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:supremium_block"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:supremium_essence",
+			"count": 9
+		}
+	}
+}

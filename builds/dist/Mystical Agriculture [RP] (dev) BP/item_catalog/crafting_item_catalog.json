@@ -1,0 +1,82 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:crafting_items_catalog": {
+		"categories": [
+			{
+				"category_name": "items",
+				"groups": [
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.seeds",
+							"icon": "strat:inferium_seeds"
+						},
+						"items": [
+							"strat:inferium_seeds",
+							"strat:air_seeds",
+							"strat:earth_seeds",
+							"strat:fire_seeds",
+							"strat:water_seeds",
+							"strat:dirt_seeds",
+							"strat:wood_seeds",
+							"strat:stone_seeds",
+							"strat:nature_seeds",
+							"strat:zombie_seeds",
+							"strat:skeleton_seeds",
+							"strat:creeper_seeds",
+							"strat:spider_seeds",
+							"strat:slime_seeds"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.materials",
+							"icon": "strat:inferium_essence"
+						},
+						"items": [
+							"strat:inferium_essence",
+							"strat:prosperity_shard",
+							"strat:prosperity_essence",
+							"strat:soulium_dust"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.blocks",
+							"icon": "strat:prosperity_block"
+						},
+						"items": [
+							"strat:inferium_ore",
+							"strat:prosperity_ore",
+							"strat:prosperity_block",
+							"strat:tertium_block",
+							"strat:imperium_block",
+							"strat:supremium_block",
+							"strat:soulium_block",
+							"strat:tertium_gemstone_block",
+							"strat:imperium_gemstone_block",
+							"strat:supremium_gemstone_block",
+							"strat:soulium_gemstone_block",
+							"strat:prosperity_gemstone_block",
+							"strat:prosperity_ingot_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.witherproof",
+							"icon": "strat:witherproof_block"
+						},
+						"items": [
+							"strat:witherproof_glass",
+							"strat:witherproof_bricks",
+							"strat:witherproof_block",
+							"strat:witherproof_essence",
+							"strat:witherproof_ore",
+							"strat:witherproof_gemstone_block",
+							"strat:witherproof_ingot_block"
+						]
+					}
+				]
+			}
+		]
+	}
+}
