@@ -2,32 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:air_agglomeratio_r"
+			"identifier": "mysticalagriculture:air_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"XO"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:glass_bottle"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:gravel"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:dirt"
 			},
-			"O": {
+			"F": {
 				"item": "minecraft:clay_ball"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:air_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:air_agglomeratio"
 		}
 	}
 }

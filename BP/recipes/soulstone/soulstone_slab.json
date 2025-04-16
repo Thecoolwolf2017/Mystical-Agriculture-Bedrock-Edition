@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:soulstone_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "mysticalagriculture:soulstone"
+			}
+		},
+		"pattern": [
+			"###"
+		],
+		"result": {
+			"item": "mysticalagriculture:soulstone_slab",
+			"count": 6
+		}
+	}
+}

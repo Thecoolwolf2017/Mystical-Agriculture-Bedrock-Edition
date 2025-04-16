@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:inferium_ore"
+		},
+		"components": {
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:map_color": "#ffffff",
+			"minecraft:geometry": {
+				"identifier": "minecraft:geometry.full_block"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "inferium_ore"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:loot": "loot_tables/blocks/inferium_ore.json",
+			"minecraft:custom_components": [
+				"strat:ore_xp"
+			]
+		}
+	}
+}

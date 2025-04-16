@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_pickaxe",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "supremium_pickaxe",
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('minecraft:is_pickaxe_item_destructible','diamond_pick_diggable','minecraft:diamond_tier_destructible')"
+						},
+						"speed": 8
+					}
+				],
+				"use_efficiency": true
+			},
+			"minecraft:enchantable": {
+				"slot": "pickaxe",
+				"value": 10
+			},
+			"minecraft:damage": {
+				"value": 22
+			},
+			"minecraft:hand_equipped": {
+				"value": true
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_pickaxe",
+					"minecraft:digger",
+					"minecraft:is_tool",
+					"mysticalagriculture:supremium_tier"
+				]
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

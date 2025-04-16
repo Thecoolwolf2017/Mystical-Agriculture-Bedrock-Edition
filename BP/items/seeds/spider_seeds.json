@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:spider_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "spider_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Spider Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:spider_crop"
+			"identifier": "mysticalagriculture:spider_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "spider_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:spider_crop"
+			}
+		}
 	}
 }

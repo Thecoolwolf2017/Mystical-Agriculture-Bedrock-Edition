@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:lead_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "lead_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Lead Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:lead_crop"
+			"identifier": "mysticalagriculture:lead_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "lead_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:lead_crop"
+			}
+		}
 	}
 }

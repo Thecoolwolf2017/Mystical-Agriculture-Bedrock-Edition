@@ -1,8 +1,0 @@
-fill ~-3~~ ~-3~~ strat:infusion_altar ["strat:activation" = 1] replace strat:infusion_altar ["strat:activation" = 0]
-fill ~~~-3 ~~~-3 strat:infusion_altar ["strat:activation" = 2] replace strat:infusion_altar ["strat:activation" = 1]
-fill ~3~~ ~3~~ strat:infusion_altar ["strat:activation" = 3] replace strat:infusion_altar ["strat:activation" = 2]
-fill ~~~3 ~~~3 strat:infusion_altar ["strat:activation" = 4] replace strat:infusion_altar ["strat:activation" = 3]
-fill ~-2~~2 ~-2~~2 strat:infusion_altar ["strat:activation" = 5] replace strat:infusion_altar ["strat:activation" = 4]
-fill ~2~~2 ~2~~2 strat:infusion_altar ["strat:activation" = 6] replace strat:infusion_altar ["strat:activation" = 5]
-fill ~2~~-2 ~2~~-2 strat:infusion_altar ["strat:activation" = 7] replace strat:infusion_altar ["strat:activation" = 6]
-fill ~-2~~-2 ~-2~~-2 strat:infusion_altar ["strat:activation" = 8] replace strat:infusion_altar ["strat:activation" = 7]

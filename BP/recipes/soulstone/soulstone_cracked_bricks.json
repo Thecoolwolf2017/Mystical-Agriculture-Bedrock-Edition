@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "mysticalagriculture:soulstone_cracked_bricks"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "mysticalagriculture:soulstone_bricks",
+		"output": "mysticalagriculture:soulstone_cracked_bricks"
+	}
+}

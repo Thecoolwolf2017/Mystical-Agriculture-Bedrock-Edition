@@ -1,0 +1,140 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "strat:infusion_altar_entity",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"strat:despawn": {
+				"minecraft:transformation": {
+					"drop_equipment": true,
+					"into": "strat:nothing",
+					"delay": {
+						"value": 0.1
+					}
+				}
+			},
+			"strat:respawn": {
+				"minecraft:transformation": {
+					"drop_equipment": true,
+					"into": "strat:infusion_altar_entity",
+					"delay": {
+						"value": 0.1
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.5
+			},
+			"minecraft:type_family": {
+				"family": [
+					"item"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:scale": {
+				"value": 0.9286
+			},
+			"minecraft:persistent": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:inventory": {
+				"inventory_size": 1,
+				"private": true,
+				"container_type": "container"
+			},
+			"minecraft:health": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "strat:infusion_altar_check"
+						},
+						"exited_block_event": {
+							"event": "strat:despawn"
+						}
+					}
+				]
+			},
+			"minecraft:equippable": {
+				"slots": [
+					{
+						"slot": 0,
+						"item": "saddle",
+						"accepted_items": [
+							"saddle"
+						],
+						"interact_text": "delight.welcome3"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no",
+						"on_damage_sound_event": "dig.wood"
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneaking",
+										"subject": "other",
+										"value": false
+									}
+								]
+							}
+						},
+						"give_item": true,
+						"take_item": true,
+						"interact_text": "action.interact.allay"
+					}
+				]
+			}
+		},
+		"events": {
+			"strat:despawn": {
+				"add": {
+					"component_groups": [
+						"strat:despawn"
+					]
+				}
+			},
+			"strat:respawn": {
+				"add": {
+					"component_groups": [
+						"strat:respawn"
+					]
+				}
+			}
+		}
+	}
+}

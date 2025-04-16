@@ -1,0 +1,624 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:crafting_items_catalog": {
+		"categories": [
+			{
+				"category_name": "equipment",
+				"groups": [
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.helmet"
+						},
+						"items": [
+							"strat:inferium_helmet",
+							"strat:prudentium_helmet",
+							"strat:tertium_helmet",
+							"strat:imperium_helmet",
+							"strat:supremium_helmet"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.chestplate"
+						},
+						"items": [
+							"strat:inferium_chestplate",
+							"strat:prudentium_chestplate",
+							"strat:tertium_chestplate",
+							"strat:imperium_chestplate",
+							"strat:supremium_chestplate"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.leggings"
+						},
+						"items": [
+							"strat:inferium_leggings",
+							"strat:prudentium_leggings",
+							"strat:tertium_leggings",
+							"strat:imperium_leggings",
+							"strat:supremium_leggings"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.boots"
+						},
+						"items": [
+							"strat:inferium_boots",
+							"strat:prudentium_boots",
+							"strat:tertium_boots",
+							"strat:imperium_boots",
+							"strat:supremium_boots"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.sword"
+						},
+						"items": [
+							"strat:inferium_sword",
+							"strat:prudentium_sword",
+							"strat:tertium_sword",
+							"strat:imperium_sword",
+							"strat:supremium_sword"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.axe"
+						},
+						"items": [
+							"strat:inferium_axe",
+							"strat:prudentium_axe",
+							"strat:tertium_axe",
+							"strat:imperium_axe",
+							"strat:supremium_axe"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.pickaxe"
+						},
+						"items": [
+							"strat:inferium_pickaxe",
+							"strat:prudentium_pickaxe",
+							"strat:tertium_pickaxe",
+							"strat:imperium_pickaxe",
+							"strat:supremium_pickaxe"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.shovel"
+						},
+						"items": [
+							"strat:inferium_shovel",
+							"strat:prudentium_shovel",
+							"strat:tertium_shovel",
+							"strat:imperium_shovel",
+							"strat:supremium_shovel"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "minecraft:itemGroup.name.hoe"
+						},
+						"items": [
+							"strat:inferium_hoe",
+							"strat:prudentium_hoe",
+							"strat:tertium_hoe",
+							"strat:imperium_hoe",
+							"strat:supremium_hoe"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.watering_can",
+							"icon": "strat:inferium_watering_can"
+						},
+						"items": [
+							"strat:inferium_watering_can",
+							"strat:prudentium_watering_can",
+							"strat:tertium_watering_can",
+							"strat:imperium_watering_can",
+							"strat:supremium_watering_can",
+							"strat:watering_can"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.soul_jar",
+							"icon": "strat:soul_jar"
+						},
+						"items": [
+							"strat:sheep_soul_jar",
+							"strat:blizz_soul_jar",
+							"strat:slime_soul_jar",
+							"strat:fish_soul_jar",
+							"strat:blaze_soul_jar",
+							"strat:basalz_soul_jar",
+							"strat:ghast_soul_jar",
+							"strat:zombie_soul_jar",
+							"strat:cow_soul_jar",
+							"strat:creeper_soul_jar",
+							"strat:rabbit_soul_jar",
+							"strat:blitz_soul_jar",
+							"strat:skeleton_soul_jar",
+							"strat:wither_skeleton_soul_jar",
+							"strat:soul_jar",
+							"strat:chicken_soul_jar",
+							"strat:enderman_soul_jar",
+							"strat:pig_soul_jar",
+							"strat:squid_soul_jar",
+							"strat:turtle_soul_jar",
+							"strat:spider_soul_jar"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.soul_jar_full",
+							"icon": "strat:blaze_soul_jar_full"
+						},
+						"items": [
+							"strat:chicken_soul_jar_full",
+							"strat:creeper_soul_jar_full",
+							"strat:skeleton_soul_jar_full",
+							"strat:turtle_soul_jar_full",
+							"strat:pig_soul_jar_full",
+							"strat:ghast_soul_jar_full",
+							"strat:blaze_soul_jar_full",
+							"strat:squid_soul_jar_full",
+							"strat:rabbit_soul_jar_full",
+							"strat:zombie_soul_jar_full",
+							"strat:wither_skeleton_soul_jar_full",
+							"strat:enderman_soul_jar_full",
+							"strat:sheep_soul_jar_full",
+							"strat:blitz_soul_jar_full",
+							"strat:spider_soul_jar_full",
+							"strat:slime_soul_jar_full",
+							"strat:fish_soul_jar_full",
+							"strat:basalz_soul_jar_full",
+							"strat:blizz_soul_jar_full",
+							"strat:cow_soul_jar_full"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.dagger",
+							"icon": "strat:soulium_dagger"
+						},
+						"items": [
+							"strat:passive_soulium_dagger",
+							"strat:hostile_soulium_dagger",
+							"strat:soulium_dagger",
+							"strat:creative_soulium_dagger"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.scythe",
+							"icon": "strat:inferium_scythe"
+						},
+						"items": [
+							"strat:inferium_scythe",
+							"strat:prudentium_scythe",
+							"strat:tertium_scythe",
+							"strat:imperium_scythe",
+							"strat:supremium_scythe",
+							"strat:diamond_scythe"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.sickle",
+							"icon": "strat:inferium_sickle"
+						},
+						"items": [
+							"strat:inferium_sickle",
+							"strat:prudentium_sickle",
+							"strat:tertium_sickle",
+							"strat:imperium_sickle",
+							"strat:supremium_sickle",
+							"strat:diamond_sickle"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.mystical_bow",
+							"icon": "strat:inferium_bow"
+						},
+						"items": [
+							"strat:inferium_bow",
+							"strat:prudentium_bow",
+							"strat:tertium_bow",
+							"strat:imperium_bow",
+							"strat:supremium_bow"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.mystical_shears",
+							"icon": "strat:inferium_shears"
+						},
+						"items": [
+							"strat:inferium_shears",
+							"strat:prudentium_shears",
+							"strat:tertium_shears",
+							"strat:imperium_shears",
+							"strat:supremium_shears"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "strat:air_seeds",
+							"name": "strat:itemGroup.name.mysticalSeeds"
+						},
+						"items": [
+							"strat:inferium_seeds",
+							"strat:nature_seeds",
+							"strat:rabbit_seeds",
+							"strat:template_seeds",
+							"strat:chicken_seeds",
+							"strat:obsidian_seeds",
+							"strat:ice_seeds",
+							"strat:peridot_seeds",
+							"strat:wither_skeleton_seeds",
+							"strat:bronze_seeds",
+							"strat:nickel_seeds",
+							"strat:nether_quartz_seeds",
+							"strat:cow_seeds",
+							"strat:turtle_seeds",
+							"strat:amethyst_seeds",
+							"strat:fire_seeds",
+							"strat:graphite_seeds",
+							"strat:tin_seeds",
+							"strat:brass_seeds",
+							"strat:ruby_seeds",
+							"strat:wood_seeds",
+							"strat:steel_seeds",
+							"strat:dye_seeds",
+							"strat:iron_seeds",
+							"strat:zombie_seeds",
+							"strat:emerald_seeds",
+							"strat:prismarine_seeds",
+							"strat:constantan_seeds",
+							"strat:sheep_seeds",
+							"strat:rubber_seeds",
+							"strat:squid_seeds",
+							"strat:creeper_seeds",
+							"strat:zinc_seeds",
+							"strat:netherite_seeds",
+							"strat:glowstone_seeds",
+							"strat:silver_seeds",
+							"strat:sapphire_seeds",
+							"strat:redstone_seeds",
+							"strat:iridium_seeds",
+							"strat:apatite_seeds",
+							"strat:blaze_seeds",
+							"strat:saltpeter_seeds",
+							"strat:diamond_seeds",
+							"strat:experience_seeds",
+							"strat:platinum_seeds",
+							"strat:end_seeds",
+							"strat:water_seeds",
+							"strat:aluminum_seeds",
+							"strat:sulfur_seeds",
+							"strat:skeleton_seeds",
+							"strat:coal_seeds",
+							"strat:lapis_lazuli_seeds",
+							"strat:stone_seeds",
+							"strat:dirt_seeds",
+							"strat:air_seeds",
+							"strat:honey_seeds",
+							"strat:spider_seeds",
+							"strat:fish_seeds",
+							"strat:silicon_seeds",
+							"strat:earth_seeds",
+							"strat:pig_seeds",
+							"strat:nether_seeds",
+							"strat:uranium_seeds",
+							"strat:ghast_seeds",
+							"strat:coral_seeds",
+							"strat:deepslate_seeds",
+							"strat:copper_seeds",
+							"strat:enderman_seeds",
+							"strat:gold_seeds",
+							"strat:lead_seeds",
+							"strat:electrum_seeds",
+							"strat:invar_seeds",
+							"strat:slime_seeds"
+						]
+					},
+					{
+						"group_identifier": {
+							"icon": "strat:inferium_essence",
+							"name": "strat:itemGroup.name.essence"
+						},
+						"items": [
+							"strat:inferium_essence",
+							"strat:prudentium_essence",
+							"strat:tertium_essence",
+							"strat:imperium_essence",
+							"strat:supremium_essence",
+							"strat:nature_essence",
+							"strat:pig_essence",
+							"strat:diamond_essence",
+							"strat:redstone_essence",
+							"strat:sapphire_essence",
+							"strat:graphite_essence",
+							"strat:earth_essence",
+							"strat:squid_essence",
+							"strat:nether_essence",
+							"strat:turtle_essence",
+							"strat:honey_essence",
+							"strat:blaze_essence",
+							"strat:wood_essence",
+							"strat:sheep_essence",
+							"strat:ice_essence",
+							"strat:ghast_essence",
+							"strat:tin_essence",
+							"strat:template_essence",
+							"strat:silicon_essence",
+							"strat:dye_essence",
+							"strat:slime_essence",
+							"strat:dirt_essence",
+							"strat:saltpeter_essence",
+							"strat:lead_essence",
+							"strat:fire_essence",
+							"strat:aluminum_essence",
+							"strat:rabbit_essence",
+							"strat:silver_essence",
+							"strat:platinum_essence",
+							"strat:rubber_essence",
+							"strat:nickel_essence",
+							"strat:coral_essence",
+							"strat:obsidian_essence",
+							"strat:prismarine_essence",
+							"strat:gold_essence",
+							"strat:coal_essence",
+							"strat:zinc_essence",
+							"strat:iridium_essence",
+							"strat:cow_essence",
+							"strat:peridot_essence",
+							"strat:fish_essence",
+							"strat:water_essence",
+							"strat:enderman_essence",
+							"strat:end_essence",
+							"strat:uranium_essence",
+							"strat:wither_skeleton_essence",
+							"strat:spider_essence",
+							"strat:creeper_essence",
+							"strat:invar_essence",
+							"strat:electrum_essence",
+							"strat:chicken_essence",
+							"strat:emerald_essence",
+							"strat:iron_essence",
+							"strat:experience_essence",
+							"strat:lapis_lazuli_essence",
+							"strat:fertilized_essence",
+							"strat:copper_essence",
+							"strat:apatite_essence",
+							"strat:sulfur_essence",
+							"strat:skeleton_essence",
+							"strat:zombie_essence",
+							"strat:netherite_essence",
+							"strat:nether_quartz_essence",
+							"strat:stone_essence",
+							"strat:ruby_essence",
+							"strat:bronze_essence",
+							"strat:brass_essence",
+							"strat:glowstone_essence",
+							"strat:steel_essence",
+							"strat:amethyst_essence",
+							"strat:air_essence",
+							"strat:deepslate_essence",
+							"strat:constantan_essence"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.ingot",
+							"icon": "strat:inferium_ingot"
+						},
+						"items": [
+							"strat:inferium_ingot",
+							"strat:prudentium_ingot",
+							"strat:tertium_ingot",
+							"strat:imperium_ingot",
+							"strat:supremium_ingot"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.nugget",
+							"icon": "strat:inferium_nugget"
+						},
+						"items": [
+							"strat:inferium_nugget",
+							"strat:prudentium_nugget",
+							"strat:tertium_nugget",
+							"strat:imperium_nugget",
+							"strat:supremium_nugget"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.gemstone",
+							"icon": "strat:inferium_gemstone"
+						},
+						"items": [
+							"strat:inferium_gemstone",
+							"strat:prudentium_gemstone",
+							"strat:tertium_gemstone",
+							"strat:imperium_gemstone",
+							"strat:supremium_gemstone"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.agglomeratio",
+							"icon": "strat:air_agglomeratio"
+						},
+						"items": [
+							"strat:end_agglomeratio",
+							"strat:dye_agglomeratio",
+							"strat:nature_agglomeratio",
+							"strat:fire_agglomeratio",
+							"strat:nether_agglomeratio",
+							"strat:honey_agglomeratio",
+							"strat:coral_agglomeratio",
+							"strat:prismarine_agglomeratio",
+							"strat:air_agglomeratio",
+							"strat:water_agglomeratio",
+							"strat:earth_agglomeratio"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.upgrade",
+							"icon": "strat:inferium_upgrade"
+						},
+						"items": [
+							"strat:inferium_upgrade",
+							"strat:prudentium_upgrade",
+							"strat:tertium_upgrade",
+							"strat:imperium_upgrade",
+							"strat:supremium_upgrade",
+							"strat:upgrade_base"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.prosperity",
+							"icon": "strat:prosperity_seed_base"
+						},
+						"items": [
+							"strat:prosperity_ingot",
+							"strat:prosperity_seed_base",
+							"strat:prosperity_nugget",
+							"strat:prosperity_gemstone",
+							"strat:prosperity_shard"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.experience_capsule",
+							"icon": "strat:experience_capsule"
+						},
+						"items": [
+							"strat:experience_capsule_full",
+							"strat:experience_capsule"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.miscellaneous",
+							"icon": "strat:blank_skull"
+						},
+						"items": [
+							"strat:soul_dust",
+							"strat:experience_droplet",
+							"strat:master_infusion_crystal",
+							"strat:blank_skull",
+							"strat:mystical_fertilizer",
+							"strat:infusion_crystal",
+							"strat:blank_record",
+							"strat:wand"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.soulium",
+							"icon": "strat:soulium_seed_base"
+						},
+						"items": [
+							"strat:soulium_essence",
+							"strat:soulium_seed_base",
+							"strat:soulium_seeds",
+							"strat:soulium_ingot",
+							"strat:soulium_gemstone",
+							"strat:soulium_nugget",
+							"strat:soulium_dust"
+						]
+					}
+				]
+			},
+			{
+				"category_name": "construction",
+				"groups": [
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.farmland",
+							"icon": "strat:inferium_farmland"
+						},
+						"items": [
+							"strat:inferium_farmland",
+							"strat:prudentium_farmland",
+							"strat:tertium_farmland",
+							"strat:imperium_farmland",
+							"strat:supremium_farmland"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.block",
+							"icon": "strat:inferium_block"
+						},
+						"items": [
+							"strat:inferium_block",
+							"strat:prudentium_block",
+							"strat:tertium_block",
+							"strat:imperium_block",
+							"strat:supremium_block",
+							"strat:soulium_block",
+							"strat:prosperity_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.ingot_block",
+							"icon": "strat:inferium_ingot_block"
+						},
+						"items": [
+							"strat:inferium_ingot_block",
+							"strat:prudentium_ingot_block",
+							"strat:tertium_ingot_block",
+							"strat:imperium_ingot_block",
+							"strat:supremium_ingot_block",
+							"strat:soulium_ingot_block",
+							"strat:prosperity_ingot_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.gemstone_block",
+							"icon": "strat:inferium_block"
+						},
+						"items": [
+							"strat:inferium_gemstone_block",
+							"strat:prudentium_gemstone_block",
+							"strat:tertium_gemstone_block",
+							"strat:imperium_gemstone_block",
+							"strat:supremium_gemstone_block",
+							"strat:soulium_gemstone_block",
+							"strat:prosperity_gemstone_block"
+						]
+					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.witherproof",
+							"icon": "strat:witherproof_block"
+						},
+						"items": [
+							"strat:witherproof_glass",
+							"strat:witherproof_bricks",
+							"strat:witherproof_block"
+						]
+					}
+				]
+			}
+		]
+	}
+}

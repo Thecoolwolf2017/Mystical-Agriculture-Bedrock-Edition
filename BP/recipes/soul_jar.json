@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:soul_jar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"E": {
+				"item": "mysticalagriculture:soulium_ingot"
+			},
+			"D": {
+				"item": "mysticalagriculture:soul_glass"
+			}
+		},
+		"pattern": [
+			" E",
+			"D D",
+			" D "
+		],
+		"result": {
+			"item": "mysticalagriculture:soul_jar"
+		}
+	}
+}

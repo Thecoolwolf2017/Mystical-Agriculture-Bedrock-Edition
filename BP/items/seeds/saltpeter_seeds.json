@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:saltpeter_seeds",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "saltpeter_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:saltpeter_crop"
+			}
+		}
+	}
+}

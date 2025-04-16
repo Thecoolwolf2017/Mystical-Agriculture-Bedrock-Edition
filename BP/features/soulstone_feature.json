@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "strat:soulstone_feature"
+		},
+		"count": 100,
+		"replace_rules": [
+			{
+				"places_block": "strat:soulstone",
+				"may_replace": [
+					"minecraft:netherrack",
+					"minecraft:magma",
+					"minecraft:gravel",
+					"minecraft:soul_sand",
+					"minecraft:soul_soil"
+				]
+			}
+		]
+	}
+}

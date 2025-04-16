@@ -1,765 +1,40 @@
 {
-  "resource_pack_name": "bridgeRP",
-  "texture_name": "atlas.items",
-  "texture_data": {
-		"prosperity_shard": {
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"augment_0": {
 			"textures": [
-				"textures/items/prosperity_shard"
+				"textures/items/augment_0"
 			]
 		},
-		"prosperity_seed_base": {
+		"augment_1": {
 			"textures": [
-				"textures/items/prosperity_seed_base"
+				"textures/items/augment_1"
 			]
 		},
-		"prosperity_ingot": {
+		"awakened_supremium_essence": {
 			"textures": [
-				"textures/items/prosperity_ingot"
+				"textures/items/awakened_supremium_essence"
 			]
 		},
-		"prosperity_gemstone": {
+		"awakened_supremium_gemstone": {
 			"textures": [
-				"textures/items/prosperity_gemstone"
+				"textures/items/awakened_supremium_gemstone"
 			]
 		},
-		"inferium_seeds": {
+		"awakened_supremium_ingot": {
 			"textures": [
-				"textures/items/seeds/inferium_seeds"
+				"textures/items/awakened_supremium_ingot"
 			]
 		},
-		"inferium_essence": {
+		"awakened_supremium_nugget": {
 			"textures": [
-				"textures/items/essence/inferium_essence"
+				"textures/items/awakened_supremium_nugget"
 			]
 		},
-		"prudentium_essence": {
+		"awakened_supremium_upgrade": {
 			"textures": [
-				"textures/items/essence/prudentium_essence"
-			]
-		},
-		"tertium_essence": {
-			"textures": [
-				"textures/items/essence/tertium_essence"
-			]
-		},
-		"imperium_essence": {
-			"textures": [
-				"textures/items/essence/imperium_essence"
-			]
-		},
-		"supremium_essence": {
-			"textures": [
-				"textures/items/essence/supremium_essence"
-			]
-		},
-		"inferium_ingot": {
-			"textures": [
-				"textures/items/inferium_ingot"
-			]
-		},
-		"prudentium_ingot": {
-			"textures": [
-				"textures/items/prudentium_ingot"
-			]
-		},
-		"tertium_ingot": {
-			"textures": [
-				"textures/items/tertium_ingot"
-			]
-		},
-		"imperium_ingot": {
-			"textures": [
-				"textures/items/imperium_ingot"
-			]
-		},
-		"supremium_ingot": {
-			"textures": [
-				"textures/items/supremium_ingot"
-			]
-		},
-		"inferium_gemstone": {
-			"textures": [
-				"textures/items/inferium_gemstone"
-			]
-		},
-		"prudentium_gemstone": {
-			"textures": [
-				"textures/items/prudentium_gemstone"
-			]
-		},
-		"inferium_helmet": {
-			"textures": [
-				"textures/items/inferium_helmet"
-			]
-		},
-		"prudentium_helmet": {
-			"textures": [
-				"textures/items/prudentium_helmet"
-			]
-		},
-		"tertium_helmet": {
-			"textures": [
-				"textures/items/tertium_helmet"
-			]
-		},
-		"imperium_helmet": {
-			"textures": [
-				"textures/items/imperium_helmet"
-			]
-		},
-		"supremium_helmet": {
-			"textures": [
-				"textures/items/supremium_helmet"
-			]
-		},
-		"inferium_chestplate": {
-			"textures": [
-				"textures/items/inferium_chestplate"
-			]
-		},
-		"prudentium_chestplate": {
-			"textures": [
-				"textures/items/prudentium_chestplate"
-			]
-		},
-		"tertium_chestplate": {
-			"textures": [
-				"textures/items/tertium_chestplate"
-			]
-		},
-		"imperium_chestplate": {
-			"textures": [
-				"textures/items/imperium_chestplate"
-			]
-		},
-		"supremium_chestplate": {
-			"textures": [
-				"textures/items/supremium_chestplate"
-			]
-		},
-		"inferium_leggings": {
-			"textures": [
-				"textures/items/inferium_leggings"
-			]
-		},
-		"prudentium_leggings": {
-			"textures": [
-				"textures/items/prudentium_leggings"
-			]
-		},
-		"tertium_leggings": {
-			"textures": [
-				"textures/items/tertium_leggings"
-			]
-		},
-		"imperium_leggings": {
-			"textures": [
-				"textures/items/imperium_leggings"
-			]
-		},
-		"supremium_leggings": {
-			"textures": [
-				"textures/items/supremium_leggings"
-			]
-		},
-		"inferium_boots": {
-			"textures": [
-				"textures/items/inferium_boots"
-			]
-		},
-		"prudentium_boots": {
-			"textures": [
-				"textures/items/prudentium_boots"
-			]
-		},
-		"tertium_boots": {
-			"textures": [
-				"textures/items/tertium_boots"
-			]
-		},
-		"imperium_boots": {
-			"textures": [
-				"textures/items/imperium_boots"
-			]
-		},
-		"supremium_boots": {
-			"textures": [
-				"textures/items/supremium_boots"
-			]
-		},
-		"inferium_sword": {
-			"textures": [
-				"textures/items/inferium_sword"
-			]
-		},
-		"prudentium_sword": {
-			"textures": [
-				"textures/items/prudentium_sword"
-			]
-		},
-		"tertium_sword": {
-			"textures": [
-				"textures/items/tertium_sword"
-			]
-		},
-		"imperium_sword": {
-			"textures": [
-				"textures/items/imperium_sword"
-			]
-		},
-		"supremium_sword": {
-			"textures": [
-				"textures/items/supremium_sword"
-			]
-		},
-		"inferium_pickaxe": {
-			"textures": [
-				"textures/items/inferium_pickaxe"
-			]
-		},
-		"prudentium_pickaxe": {
-			"textures": [
-				"textures/items/prudentium_pickaxe"
-			]
-		},
-		"tertium_pickaxe": {
-			"textures": [
-				"textures/items/tertium_pickaxe"
-			]
-		},
-		"imperium_pickaxe": {
-			"textures": [
-				"textures/items/imperium_pickaxe"
-			]
-		},
-		"supremium_pickaxe": {
-			"textures": [
-				"textures/items/supremium_pickaxe"
-			]
-		},
-		"inferium_axe": {
-			"textures": [
-				"textures/items/inferium_axe"
-			]
-		},
-		"prudentium_axe": {
-			"textures": [
-				"textures/items/prudentium_axe"
-			]
-		},
-		"tertium_axe": {
-			"textures": [
-				"textures/items/tertium_axe"
-			]
-		},
-		"imperium_axe": {
-			"textures": [
-				"textures/items/imperium_axe"
-			]
-		},
-		"supremium_axe": {
-			"textures": [
-				"textures/items/supremium_axe"
-			]
-		},
-		"inferium_shovel": {
-			"textures": [
-				"textures/items/inferium_shovel"
-			]
-		},
-		"prudentium_shovel": {
-			"textures": [
-				"textures/items/prudentium_shovel"
-			]
-		},
-		"tertium_shovel": {
-			"textures": [
-				"textures/items/tertium_shovel"
-			]
-		},
-		"imperium_shovel": {
-			"textures": [
-				"textures/items/imperium_shovel"
-			]
-		},
-		"supremium_shovel": {
-			"textures": [
-				"textures/items/supremium_shovel"
-			]
-		},
-		"inferium_hoe": {
-			"textures": [
-				"textures/items/inferium_hoe"
-			]
-		},
-		"prudentium_hoe": {
-			"textures": [
-				"textures/items/prudentium_hoe"
-			]
-		},
-		"tertium_hoe": {
-			"textures": [
-				"textures/items/tertium_hoe"
-			]
-		},
-		"imperium_hoe": {
-			"textures": [
-				"textures/items/imperium_hoe"
-			]
-		},
-		"supremium_hoe": {
-			"textures": [
-				"textures/items/supremium_hoe"
-			]
-		},
-		"tertium_gemstone": {
-			"textures": [
-				"textures/items/tertium_gemstone"
-			]
-		},
-		"imperium_gemstone": {
-			"textures": [
-				"textures/items/imperium_gemstone"
-			]
-		},
-		"supremium_gemstone": {
-			"textures": [
-				"textures/items/supremium_gemstone"
-			]
-		},
-		"infusion_crystal": {
-			"textures": [
-				"textures/items/infusion_crystal"
-			]
-		},
-		"watering_can": {
-			"textures": [
-				"textures/items/watering_can"
-			]
-		},
-		"inferium_watering_can": {
-			"textures": [
-				"textures/items/inferium_watering_can"
-			]
-		},
-		"prudentium_watering_can": {
-			"textures": [
-				"textures/items/prudentium_watering_can"
-			]
-		},
-		"tertium_watering_can": {
-			"textures": [
-				"textures/items/tertium_watering_can"
-			]
-		},
-		"imperium_watering_can": {
-			"textures": [
-				"textures/items/imperium_watering_can"
-			]
-		},
-		"supremium_watering_can": {
-			"textures": [
-				"textures/items/supremium_watering_can"
-			]
-		},
-		"soul_dust": {
-			"textures": [
-				"textures/items/soul_dust"
-			]
-		},
-		"soulium_dust": {
-			"textures": [
-				"textures/items/soulium_dust"
-			]
-		},
-		"soulium_seed_base": {
-			"textures": [
-				"textures/items/soulium_seed_base"
-			]
-		},
-		"soulium_ingot": {
-			"textures": [
-				"textures/items/soulium_ingot"
-			]
-		},
-		"soulium_gemstone": {
-			"textures": [
-				"textures/items/soulium_gemstone"
-			]
-		},
-		"soulium_dagger": {
-			"textures": [
-				"textures/items/soulium_dagger"
-			]
-		},
-		"soulium_dagger_hostile": {
-			"textures": [
-				"textures/items/soulium_dagger_hostile"
-			]
-		},
-		"soulium_dagger_passive": {
-			"textures": [
-				"textures/items/soulium_dagger_passive"
-			]
-		},
-		"soulium_dagger_creative": {
-			"textures": [
-				"textures/items/soulium_dagger_creative"
-			]
-		},
-		"soul_jar": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar"
-			]
-		},
-		"soul_jar_zombie_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_zombie_1"
-			]
-		},
-		"soul_jar_zombie_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_zombie_2"
-			]
-		},
-		"soul_jar_zombie_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_zombie_3"
-			]
-		},
-		"soul_jar_zombie_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_zombie_4"
-			]
-		},
-		"soul_jar_skeleton_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_skeleton_1"
-			]
-		},
-		"soul_jar_skeleton_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_skeleton_2"
-			]
-		},
-		"soul_jar_skeleton_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_skeleton_3"
-			]
-		},
-		"soul_jar_skeleton_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_skeleton_4"
-			]
-		},
-		"soul_jar_creeper_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_creeper_1"
-			]
-		},
-		"soul_jar_creeper_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_creeper_2"
-			]
-		},
-		"soul_jar_creeper_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_creeper_3"
-			]
-		},
-		"soul_jar_creeper_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_creeper_4"
-			]
-		},
-		"soul_jar_spider_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_spider_1"
-			]
-		},
-		"soul_jar_spider_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_spider_2"
-			]
-		},
-		"soul_jar_spider_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_spider_3"
-			]
-		},
-		"soul_jar_spider_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_spider_4"
-			]
-		},
-		"soul_jar_enderman_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_enderman_1"
-			]
-		},
-		"soul_jar_enderman_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_enderman_2"
-			]
-		},
-		"soul_jar_enderman_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_enderman_3"
-			]
-		},
-		"soul_jar_enderman_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_enderman_4"
-			]
-		},
-		"soul_jar_wither_skeleton_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_wither_skeleton_1"
-			]
-		},
-		"soul_jar_wither_skeleton_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_wither_skeleton_2"
-			]
-		},
-		"soul_jar_wither_skeleton_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_wither_skeleton_3"
-			]
-		},
-		"soul_jar_wither_skeleton_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_wither_skeleton_4"
-			]
-		},
-		"soul_jar_blaze_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_blaze_1"
-			]
-		},
-		"soul_jar_blaze_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_blaze_2"
-			]
-		},
-		"soul_jar_blaze_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_blaze_3"
-			]
-		},
-		"soul_jar_blaze_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_blaze_4"
-			]
-		},
-		"soul_jar_ghast_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_ghast_1"
-			]
-		},
-		"soul_jar_ghast_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_ghast_2"
-			]
-		},
-		"soul_jar_ghast_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_ghast_3"
-			]
-		},
-		"soul_jar_ghast_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_ghast_4"
-			]
-		},
-		"soul_jar_cow_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_cow_1"
-			]
-		},
-		"soul_jar_cow_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_cow_2"
-			]
-		},
-		"soul_jar_cow_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_cow_3"
-			]
-		},
-		"soul_jar_cow_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_cow_4"
-			]
-		},
-		"soul_jar_sheep_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_sheep_1"
-			]
-		},
-		"soul_jar_sheep_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_sheep_2"
-			]
-		},
-		"soul_jar_sheep_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_sheep_3"
-			]
-		},
-		"soul_jar_sheep_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_sheep_4"
-			]
-		},
-		"soul_jar_pig_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_pig_1"
-			]
-		},
-		"soul_jar_pig_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_pig_2"
-			]
-		},
-		"soul_jar_pig_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_pig_3"
-			]
-		},
-		"soul_jar_pig_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_pig_4"
-			]
-		},
-		"soul_jar_chicken_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_chicken_1"
-			]
-		},
-		"soul_jar_chicken_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_chicken_2"
-			]
-		},
-		"soul_jar_chicken_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_chicken_3"
-			]
-		},
-		"soul_jar_chicken_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_chicken_4"
-			]
-		},
-		"soul_jar_rabbit_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_rabbit_1"
-			]
-		},
-		"soul_jar_rabbit_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_rabbit_2"
-			]
-		},
-		"soul_jar_rabbit_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_rabbit_3"
-			]
-		},
-		"soul_jar_rabbit_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_rabbit_4"
-			]
-		},
-		"soul_jar_slime_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_slime_1"
-			]
-		},
-		"soul_jar_slime_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_slime_2"
-			]
-		},
-		"soul_jar_slime_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_slime_3"
-			]
-		},
-		"soul_jar_slime_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_slime_4"
-			]
-		},
-		"soul_jar_squid_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_squid_1"
-			]
-		},
-		"soul_jar_squid_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_squid_2"
-			]
-		},
-		"soul_jar_squid_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_squid_3"
-			]
-		},
-		"soul_jar_squid_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_squid_4"
-			]
-		},
-		"soul_jar_fish_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_fish_1"
-			]
-		},
-		"soul_jar_fish_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_fish_2"
-			]
-		},
-		"soul_jar_fish_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_fish_3"
-			]
-		},
-		"soul_jar_fish_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_fish_4"
-			]
-		},
-		"soul_jar_turtle_1": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_turtle_1"
-			]
-		},
-		"soul_jar_turtle_2": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_turtle_2"
-			]
-		},
-		"soul_jar_turtle_3": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_turtle_3"
-			]
-		},
-		"soul_jar_turtle_4": {
-			"textures": [
-				"textures/items/soul_jar/soul_jar_turtle_4"
-			]
-		},
-		"fertilized_essence": {
-			"textures": [
-				"textures/items/essence/fertilized_essence"
-			]
-		},
-		"blank_skull": {
-			"textures": [
-				"textures/items/blank_skull"
+				"textures/items/awakened_supremium_upgrade"
 			]
 		},
 		"blank_record": {
@@ -767,605 +42,2703 @@
 				"textures/items/blank_record"
 			]
 		},
+		"blank_skull": {
+			"textures": [
+				"textures/items/blank_skull"
+			]
+		},
+		"cognizant_dust": {
+			"textures": [
+				"textures/items/cognizant_dust"
+			]
+		},
+		"creative_soulium_dagger": {
+			"textures": [
+				"textures/items/creative_soulium_dagger"
+			]
+		},
+		"diamond_scythe": {
+			"textures": [
+				"textures/items/diamond_scythe"
+			]
+		},
+		"diamond_sickle": {
+			"textures": [
+				"textures/items/diamond_sickle"
+			]
+		},
+		"essence_diamond": {
+			"textures": [
+				"textures/items/essence_diamond"
+			]
+		},
+		"essence_dust": {
+			"textures": [
+				"textures/items/essence_dust"
+			]
+		},
+		"essence_flame": {
+			"textures": [
+				"textures/items/essence_flame"
+			]
+		},
+		"essence_gem": {
+			"textures": [
+				"textures/items/essence_gem"
+			]
+		},
+		"essence_ingot": {
+			"textures": [
+				"textures/items/essence_ingot"
+			]
+		},
+		"essence_quartz": {
+			"textures": [
+				"textures/items/essence_quartz"
+			]
+		},
+		"essence_rock": {
+			"textures": [
+				"textures/items/essence_rock"
+			]
+		},
+		"essence_rod": {
+			"textures": [
+				"textures/items/essence_rod"
+			]
+		},
+		"essence_tall_gem": {
+			"textures": [
+				"textures/items/essence_tall_gem"
+			]
+		},
+		"experience_droplet": {
+			"textures": [
+				"textures/items/experience_droplet"
+			]
+		},
+		"fertilized_essence": {
+			"textures": [
+				"textures/items/fertilized_essence"
+			]
+		},
+		"guide_book": {
+			"textures": [
+				"textures/items/guide_book"
+			]
+		},
+		"hostile_soulium_dagger": {
+			"textures": [
+				"textures/items/hostile_soulium_dagger"
+			]
+		},
+		"imperium_essence": {
+			"textures": [
+				"textures/items/imperium_essence"
+			]
+		},
+		"imperium_gemstone": {
+			"textures": [
+				"textures/items/imperium_gemstone"
+			]
+		},
+		"imperium_ingot": {
+			"textures": [
+				"textures/items/imperium_ingot"
+			]
+		},
+		"imperium_nugget": {
+			"textures": [
+				"textures/items/imperium_nugget"
+			]
+		},
+		"imperium_upgrade": {
+			"textures": [
+				"textures/items/imperium_upgrade"
+			]
+		},
+		"inferium_gemstone": {
+			"textures": [
+				"textures/items/inferium_gemstone"
+			]
+		},
+		"inferium_ingot": {
+			"textures": [
+				"textures/items/inferium_ingot"
+			]
+		},
+		"inferium_nugget": {
+			"textures": [
+				"textures/items/inferium_nugget"
+			]
+		},
+		"inferium_sword": {
+			"textures": [
+				"textures/items/gear/inferium_sword"
+			]
+		},
+		"inferium_upgrade": {
+			"textures": [
+				"textures/items/inferium_upgrade"
+			]
+		},
+		"infusion_crystal": {
+			"textures": [
+				"textures/items/infusion_crystal"
+			]
+		},
+		"master_infusion_crystal": {
+			"textures": [
+				"textures/items/master_infusion_crystal"
+			]
+		},
 		"mystical_fertilizer": {
 			"textures": [
 				"textures/items/mystical_fertilizer"
 			]
 		},
-		"zombie_seeds": {
+		"mystical_seeds": {
 			"textures": [
-				"textures/items/seeds/zombie_seeds"
+				"textures/items/mystical_seeds"
 			]
 		},
-		"zombie_essence": {
+		"passive_soulium_dagger": {
 			"textures": [
-				"textures/items/essence/zombie_essence"
+				"textures/items/passive_soulium_dagger"
 			]
 		},
-		"skeleton_seeds": {
+		"prosperity_gemstone": {
 			"textures": [
-				"textures/items/seeds/skeleton_seeds"
+				"textures/items/prosperity_gemstone"
 			]
 		},
-		"skeleton_essence": {
+		"prosperity_ingot": {
 			"textures": [
-				"textures/items/essence/skeleton_essence"
+				"textures/items/prosperity_ingot"
 			]
 		},
-		"creeper_seeds": {
+		"prosperity_nugget": {
 			"textures": [
-				"textures/items/seeds/creeper_seeds"
+				"textures/items/prosperity_nugget"
 			]
 		},
-		"creeper_essence": {
+		"prosperity_seed_base": {
 			"textures": [
-				"textures/items/essence/creeper_essence"
+				"textures/items/prosperity_seed_base"
 			]
 		},
-		"spider_seeds": {
+		"prosperity_shard": {
 			"textures": [
-				"textures/items/seeds/spider_seeds"
+				"textures/items/prosperity_shard"
 			]
 		},
-		"spider_essence": {
+		"prudentium_essence": {
 			"textures": [
-				"textures/items/essence/spider_essence"
+				"textures/items/prudentium_essence"
 			]
 		},
-		"enderman_seeds": {
+		"prudentium_gemstone": {
 			"textures": [
-				"textures/items/seeds/enderman_seeds"
+				"textures/items/prudentium_gemstone"
 			]
 		},
-		"enderman_essence": {
+		"prudentium_ingot": {
 			"textures": [
-				"textures/items/essence/enderman_essence"
+				"textures/items/prudentium_ingot"
 			]
 		},
-		"wither_skeleton_seeds": {
+		"prudentium_nugget": {
 			"textures": [
-				"textures/items/seeds/wither_skeleton_seeds"
+				"textures/items/prudentium_nugget"
 			]
 		},
-		"wither_skeleton_essence": {
+		"prudentium_upgrade": {
 			"textures": [
-				"textures/items/essence/wither_skeleton_essence"
+				"textures/items/prudentium_upgrade"
 			]
 		},
-		"blaze_seeds": {
+		"soulium_dagger": {
 			"textures": [
-				"textures/items/seeds/blaze_seeds"
+				"textures/items/soulium_dagger"
 			]
 		},
-		"blaze_essence": {
+		"soulium_dust": {
 			"textures": [
-				"textures/items/essence/blaze_essence"
+				"textures/items/soulium_dust"
 			]
 		},
-		"ghast_seeds": {
+		"soulium_gemstone": {
 			"textures": [
-				"textures/items/seeds/ghast_seeds"
+				"textures/items/soulium_gemstone"
 			]
 		},
-		"ghast_essence": {
+		"soulium_ingot": {
 			"textures": [
-				"textures/items/essence/ghast_essence"
+				"textures/items/soulium_ingot"
 			]
 		},
-		"cow_seeds": {
+		"soulium_nugget": {
 			"textures": [
-				"textures/items/seeds/cow_seeds"
+				"textures/items/soulium_nugget"
 			]
 		},
-		"cow_essence": {
+		"soulium_seed_base": {
 			"textures": [
-				"textures/items/essence/cow_essence"
+				"textures/items/soulium_seed_base"
 			]
 		},
-		"sheep_seeds": {
+		"soul_dust": {
 			"textures": [
-				"textures/items/seeds/sheep_seeds"
+				"textures/items/soul_dust"
 			]
 		},
-		"sheep_essence": {
+		"supremium_essence": {
 			"textures": [
-				"textures/items/essence/sheep_essence"
+				"textures/items/supremium_essence"
 			]
 		},
-		"pig_seeds": {
+		"supremium_gemstone": {
 			"textures": [
-				"textures/items/seeds/pig_seeds"
+				"textures/items/supremium_gemstone"
 			]
 		},
-		"pig_essence": {
+		"supremium_ingot": {
 			"textures": [
-				"textures/items/essence/pig_essence"
+				"textures/items/supremium_ingot"
 			]
 		},
-		"chicken_seeds": {
+		"supremium_nugget": {
 			"textures": [
-				"textures/items/seeds/chicken_seeds"
+				"textures/items/supremium_nugget"
 			]
 		},
-		"chicken_essence": {
+		"supremium_upgrade": {
 			"textures": [
-				"textures/items/essence/chicken_essence"
+				"textures/items/supremium_upgrade"
 			]
 		},
-		"rabbit_seeds": {
+		"template_hoe": {
 			"textures": [
-				"textures/items/seeds/rabbit_seeds"
+				"textures/items/template_hoe"
 			]
 		},
-		"rabbit_essence": {
+		"tertium_essence": {
 			"textures": [
-				"textures/items/essence/rabbit_essence"
+				"textures/items/tertium_essence"
 			]
 		},
-		"slime_seeds": {
+		"tertium_gemstone": {
 			"textures": [
-				"textures/items/seeds/slime_seeds"
+				"textures/items/tertium_gemstone"
 			]
 		},
-		"slime_essence": {
+		"tertium_ingot": {
 			"textures": [
-				"textures/items/essence/slime_essence"
+				"textures/items/tertium_ingot"
 			]
 		},
-		"squid_seeds": {
+		"tertium_nugget": {
 			"textures": [
-				"textures/items/seeds/squid_seeds"
+				"textures/items/tertium_nugget"
 			]
 		},
-		"squid_essence": {
+		"tertium_upgrade": {
 			"textures": [
-				"textures/items/essence/squid_essence"
+				"textures/items/tertium_upgrade"
 			]
 		},
-		"fish_seeds": {
+		"unattuned_augment": {
 			"textures": [
-				"textures/items/seeds/fish_seeds"
+				"textures/items/unattuned_augment"
 			]
 		},
-		"fish_essence": {
+		"upgrade_base": {
 			"textures": [
-				"textures/items/essence/fish_essence"
+				"textures/items/upgrade_base"
 			]
 		},
-		"turtle_seeds": {
+		"wand": {
 			"textures": [
-				"textures/items/seeds/turtle_seeds"
+				"textures/items/wand"
 			]
 		},
-		"turtle_essence": {
+		"watering_can": {
 			"textures": [
-				"textures/items/essence/turtle_essence"
+				"textures/items/watering_can"
 			]
 		},
-		"coal_seeds": {
+		"blank_agglomeratio": {
 			"textures": [
-				"textures/items/seeds/coal_seeds"
+				"textures/items/agglomeratio/blank_agglomeratio"
 			]
 		},
-		"coal_essence": {
+		"mystical_flower_agglomeratio": {
 			"textures": [
-				"textures/items/essence/coal_essence"
-			]
-		},
-		"iron_seeds": {
-			"textures": [
-				"textures/items/seeds/iron_seeds"
-			]
-		},
-		"iron_essence": {
-			"textures": [
-				"textures/items/essence/iron_essence"
-			]
-		},
-		"copper_seeds": {
-			"textures": [
-				"textures/items/seeds/copper_seeds"
-			]
-		},
-		"copper_essence": {
-			"textures": [
-				"textures/items/essence/copper_essence"
-			]
-		},
-		"redstone_seeds": {
-			"textures": [
-				"textures/items/seeds/redstone_seeds"
-			]
-		},
-		"redstone_essence": {
-			"textures": [
-				"textures/items/essence/redstone_essence"
-			]
-		},
-		"nether_quartz_seeds": {
-			"textures": [
-				"textures/items/seeds/nether_quartz_seeds"
-			]
-		},
-		"nether_quartz_essence": {
-			"textures": [
-				"textures/items/essence/nether_quartz_essence"
-			]
-		},
-		"obsidian_seeds": {
-			"textures": [
-				"textures/items/seeds/obsidian_seeds"
-			]
-		},
-		"obsidian_essence": {
-			"textures": [
-				"textures/items/essence/obsidian_essence"
-			]
-		},
-		"gold_seeds": {
-			"textures": [
-				"textures/items/seeds/gold_seeds"
-			]
-		},
-		"gold_essence": {
-			"textures": [
-				"textures/items/essence/gold_essence"
-			]
-		},
-		"lapis_lazuli_seeds": {
-			"textures": [
-				"textures/items/seeds/lapis_lazuli_seeds"
-			]
-		},
-		"lapis_lazuli_essence": {
-			"textures": [
-				"textures/items/essence/lapis_lazuli_essence"
-			]
-		},
-		"diamond_seeds": {
-			"textures": [
-				"textures/items/seeds/diamond_seeds"
-			]
-		},
-		"diamond_essence": {
-			"textures": [
-				"textures/items/essence/diamond_essence"
-			]
-		},
-		"emerald_seeds": {
-			"textures": [
-				"textures/items/seeds/emerald_seeds"
-			]
-		},
-		"emerald_essence": {
-			"textures": [
-				"textures/items/essence/emerald_essence"
-			]
-		},
-		"netherite_seeds": {
-			"textures": [
-				"textures/items/seeds/netherite_seeds"
-			]
-		},
-		"netherite_essence": {
-			"textures": [
-				"textures/items/essence/netherite_essence"
-			]
-		},
-		"cobalt_seeds": {
-			"textures": [
-				"textures/items/seeds/cobalt_seeds"
-			]
-		},
-		"cobalt_essence": {
-			"textures": [
-				"textures/items/essence/cobalt_essence"
-			]
-		},
-		"ardite_seeds": {
-			"textures": [
-				"textures/items/seeds/ardite_seeds"
-			]
-		},
-		"ardite_essence": {
-			"textures": [
-				"textures/items/essence/ardite_essence"
-			]
-		},
-		"manyullyn_seeds": {
-			"textures": [
-				"textures/items/seeds/manyullyn_seeds"
-			]
-		},
-		"manyullyn_essence": {
-			"textures": [
-				"textures/items/essence/manyullyn_essence"
-			]
-		},
-		"nature_seeds": {
-			"textures": [
-				"textures/items/seeds/nature_seeds"
-			]
-		},
-		"nature_essence": {
-			"textures": [
-				"textures/items/essence/nature_essence"
-			]
-		},
-		"wood_seeds": {
-			"textures": [
-				"textures/items/seeds/wood_seeds"
-			]
-		},
-		"wood_essence": {
-			"textures": [
-				"textures/items/essence/wood_essence"
-			]
-		},
-		"dirt_seeds": {
-			"textures": [
-				"textures/items/seeds/dirt_seeds"
-			]
-		},
-		"dirt_essence": {
-			"textures": [
-				"textures/items/essence/dirt_essence"
-			]
-		},
-		"stone_seeds": {
-			"textures": [
-				"textures/items/seeds/stone_seeds"
-			]
-		},
-		"stone_essence": {
-			"textures": [
-				"textures/items/essence/stone_essence"
-			]
-		},
-		"nether_seeds": {
-			"textures": [
-				"textures/items/seeds/nether_seeds"
-			]
-		},
-		"nether_essence": {
-			"textures": [
-				"textures/items/essence/nether_essence"
-			]
-		},
-		"end_seeds": {
-			"textures": [
-				"textures/items/seeds/end_seeds"
-			]
-		},
-		"end_essence": {
-			"textures": [
-				"textures/items/essence/end_essence"
-			]
-		},
-		"prismarine_seeds": {
-			"textures": [
-				"textures/items/seeds/prismarine_seeds"
-			]
-		},
-		"prismarine_essence": {
-			"textures": [
-				"textures/items/essence/prismarine_essence"
-			]
-		},
-		"amethyst_seeds": {
-			"textures": [
-				"textures/items/seeds/amethyst_seeds"
-			]
-		},
-		"amethyst_essence": {
-			"textures": [
-				"textures/items/essence/amethyst_essence"
-			]
-		},
-		"glowstone_seeds": {
-			"textures": [
-				"textures/items/seeds/glowstone_seeds"
-			]
-		},
-		"glowstone_essence": {
-			"textures": [
-				"textures/items/essence/glowstone_essence"
-			]
-		},
-		"nature_agglomeratio": {
-			"textures": [
-				"textures/items/nature_agglomeratio"
-			]
-		},
-		"nether_agglomeratio": {
-			"textures": [
-				"textures/items/nether_agglomeratio"
-			]
-		},
-		"end_agglomeratio": {
-			"textures": [
-				"textures/items/end_agglomeratio"
-			]
-		},
-		"prismarine_agglomeratio": {
-			"textures": [
-				"textures/items/prismarine_agglomeratio"
+				"textures/items/agglomeratio/mystical_flower_agglomeratio"
 			]
 		},
 		"air_agglomeratio": {
 			"textures": [
-				"textures/items/air_agglomeratio"
+				"textures/items/agglomeratio/in-game/air_agglomeratio"
+			]
+		},
+		"coral_agglomeratio": {
+			"textures": [
+				"textures/items/agglomeratio/in-game/coral_agglomeratio"
+			]
+		},
+		"dye_agglomeratio": {
+			"textures": [
+				"textures/items/agglomeratio/in-game/dye_agglomeratio"
 			]
 		},
 		"earth_agglomeratio": {
 			"textures": [
-				"textures/items/earth_agglomeratio"
+				"textures/items/agglomeratio/in-game/earth_agglomeratio"
 			]
 		},
-		"water_agglomeratio": {
+		"end_agglomeratio": {
 			"textures": [
-				"textures/items/water_agglomeratio"
+				"textures/items/agglomeratio/in-game/end_agglomeratio"
 			]
 		},
 		"fire_agglomeratio": {
 			"textures": [
-				"textures/items/fire_agglomeratio"
-			]
-		},
-		"air_seeds": {
-			"textures": [
-				"textures/items/seeds/air_seeds"
-			]
-		},
-		"earth_seeds": {
-			"textures": [
-				"textures/items/seeds/earth_seeds"
-			]
-		},
-		"water_seeds": {
-			"textures": [
-				"textures/items/seeds/water_seeds"
-			]
-		},
-		"fire_seeds": {
-			"textures": [
-				"textures/items/seeds/fire_seeds"
-			]
-		},
-		"air_essence": {
-			"textures": [
-				"textures/items/essence/air_essence"
-			]
-		},
-		"earth_essence": {
-			"textures": [
-				"textures/items/essence/earth_essence"
-			]
-		},
-		"water_essence": {
-			"textures": [
-				"textures/items/essence/water_essence"
-			]
-		},
-		"fire_essence": {
-			"textures": [
-				"textures/items/essence/fire_essence"
-			]
-		},
-		"ice_seeds": {
-			"textures": [
-				"textures/items/seeds/ice_seeds"
-			]
-		},
-		"deepslate_seeds": {
-			"textures": [
-				"textures/items/seeds/deepslate_seeds"
-			]
-		},
-		"ice_essence": {
-			"textures": [
-				"textures/items/essence/ice_essence"
-			]
-		},
-		"deepslate_essence": {
-			"textures": [
-				"textures/items/essence/deepslate_essence"
+				"textures/items/agglomeratio/in-game/fire_agglomeratio"
 			]
 		},
 		"honey_agglomeratio": {
 			"textures": [
-				"textures/items/honey_agglomeratio"
+				"textures/items/agglomeratio/in-game/honey_agglomeratio"
 			]
 		},
-		"honey_seeds": {
+		"nature_agglomeratio": {
 			"textures": [
-				"textures/items/seeds/honey_seeds"
+				"textures/items/agglomeratio/in-game/nature_agglomeratio"
 			]
 		},
-		"honey_essence": {
+		"nether_agglomeratio": {
 			"textures": [
-				"textures/items/essence/honey_essence"
+				"textures/items/agglomeratio/in-game/nether_agglomeratio"
 			]
 		},
-		"pig_iron_seeds": {
+		"prismarine_agglomeratio": {
 			"textures": [
-				"textures/items/seeds/pig_iron_seeds"
+				"textures/items/agglomeratio/in-game/prismarine_agglomeratio"
 			]
 		},
-		"pig_iron_essence": {
+		"water_agglomeratio": {
 			"textures": [
-				"textures/items/essence/pig_iron_essence"
+				"textures/items/agglomeratio/in-game/water_agglomeratio"
 			]
 		},
-		"tin_seeds": {
+		"air_essence": {
 			"textures": [
-				"textures/items/seeds/tin_seeds"
+				"textures/items/essence/in-game/air_essence"
 			]
 		},
-		"tin_essence": {
+		"aluminum_essence": {
 			"textures": [
-				"textures/items/essence/tin_essence"
+				"textures/items/essence/in-game/aluminum_essence"
 			]
 		},
-		"bronze_seeds": {
+		"amethyst_essence": {
 			"textures": [
-				"textures/items/seeds/bronze_seeds"
+				"textures/items/essence/in-game/amethyst_essence"
+			]
+		},
+		"apatite_essence": {
+			"textures": [
+				"textures/items/essence/in-game/apatite_essence"
+			]
+		},
+		"blaze_essence": {
+			"textures": [
+				"textures/items/essence/in-game/blaze_essence"
+			]
+		},
+		"brass_essence": {
+			"textures": [
+				"textures/items/essence/in-game/brass_essence"
 			]
 		},
 		"bronze_essence": {
 			"textures": [
-				"textures/items/essence/bronze_essence"
+				"textures/items/essence/in-game/bronze_essence"
 			]
 		},
-		"ruby_seeds": {
+		"chicken_essence": {
 			"textures": [
-				"textures/items/seeds/ruby_seeds"
+				"textures/items/essence/in-game/chicken_essence"
 			]
 		},
-		"ruby_essence": {
+		"coal_essence": {
 			"textures": [
-				"textures/items/essence/ruby_essence"
+				"textures/items/essence/in-game/coal_essence"
 			]
 		},
-		"steel_seeds": {
+		"constantan_essence": {
 			"textures": [
-				"textures/items/seeds/steel_seeds"
+				"textures/items/essence/in-game/constantan_essence"
 			]
 		},
-		"steel_essence": {
+		"copper_essence": {
 			"textures": [
-				"textures/items/essence/steel_essence"
+				"textures/items/essence/in-game/copper_essence"
 			]
 		},
-		"silver_seeds": {
+		"coral_essence": {
 			"textures": [
-				"textures/items/seeds/silver_seeds"
+				"textures/items/essence/in-game/coral_essence"
 			]
 		},
-		"silver_essence": {
+		"cow_essence": {
 			"textures": [
-				"textures/items/essence/silver_essence"
+				"textures/items/essence/in-game/cow_essence"
 			]
 		},
-		"electrum_seeds": {
+		"creeper_essence": {
 			"textures": [
-				"textures/items/seeds/electrum_seeds"
+				"textures/items/essence/in-game/creeper_essence"
+			]
+		},
+		"deepslate_essence": {
+			"textures": [
+				"textures/items/essence/in-game/deepslate_essence"
+			]
+		},
+		"diamond_essence": {
+			"textures": [
+				"textures/items/essence/in-game/diamond_essence"
+			]
+		},
+		"dirt_essence": {
+			"textures": [
+				"textures/items/essence/in-game/dirt_essence"
+			]
+		},
+		"dye_essence": {
+			"textures": [
+				"textures/items/essence/in-game/dye_essence"
+			]
+		},
+		"earth_essence": {
+			"textures": [
+				"textures/items/essence/in-game/earth_essence"
 			]
 		},
 		"electrum_essence": {
 			"textures": [
-				"textures/items/essence/electrum_essence"
+				"textures/items/essence/in-game/electrum_essence"
 			]
 		},
-		"lead_seeds": {
+		"emerald_essence": {
 			"textures": [
-				"textures/items/seeds/lead_seeds"
+				"textures/items/essence/in-game/emerald_essence"
+			]
+		},
+		"enderman_essence": {
+			"textures": [
+				"textures/items/essence/in-game/enderman_essence"
+			]
+		},
+		"end_essence": {
+			"textures": [
+				"textures/items/essence/in-game/end_essence"
+			]
+		},
+		"experience_essence": {
+			"textures": [
+				"textures/items/essence/in-game/experience_essence"
+			]
+		},
+		"fire_essence": {
+			"textures": [
+				"textures/items/essence/in-game/fire_essence"
+			]
+		},
+		"fish_essence": {
+			"textures": [
+				"textures/items/essence/in-game/fish_essence"
+			]
+		},
+		"ghast_essence": {
+			"textures": [
+				"textures/items/essence/in-game/ghast_essence"
+			]
+		},
+		"glowstone_essence": {
+			"textures": [
+				"textures/items/essence/in-game/glowstone_essence"
+			]
+		},
+		"gold_essence": {
+			"textures": [
+				"textures/items/essence/in-game/gold_essence"
+			]
+		},
+		"graphite_essence": {
+			"textures": [
+				"textures/items/essence/in-game/graphite_essence"
+			]
+		},
+		"honey_essence": {
+			"textures": [
+				"textures/items/essence/in-game/honey_essence"
+			]
+		},
+		"ice_essence": {
+			"textures": [
+				"textures/items/essence/in-game/ice_essence"
+			]
+		},
+		"inferium_essence": {
+			"textures": [
+				"textures/items/essence/unused/inferium_essence"
+			]
+		},
+		"invar_essence": {
+			"textures": [
+				"textures/items/essence/in-game/invar_essence"
+			]
+		},
+		"iridium_essence": {
+			"textures": [
+				"textures/items/essence/in-game/iridium_essence"
+			]
+		},
+		"iron_essence": {
+			"textures": [
+				"textures/items/essence/in-game/iron_essence"
+			]
+		},
+		"lapis_lazuli_essence": {
+			"textures": [
+				"textures/items/essence/in-game/lapis_lazuli_essence"
 			]
 		},
 		"lead_essence": {
 			"textures": [
-				"textures/items/essence/lead_essence"
+				"textures/items/essence/in-game/lead_essence"
 			]
+		},
+		"nature_essence": {
+			"textures": [
+				"textures/items/essence/in-game/nature_essence"
+			]
+		},
+		"netherite_essence": {
+			"textures": [
+				"textures/items/essence/in-game/netherite_essence"
+			]
+		},
+		"nether_essence": {
+			"textures": [
+				"textures/items/essence/in-game/nether_essence"
+			]
+		},
+		"nether_quartz_essence": {
+			"textures": [
+				"textures/items/essence/in-game/nether_quartz_essence"
+			]
+		},
+		"nickel_essence": {
+			"textures": [
+				"textures/items/essence/in-game/nickel_essence"
+			]
+		},
+		"obsidian_essence": {
+			"textures": [
+				"textures/items/essence/in-game/obsidian_essence"
+			]
+		},
+		"peridot_essence": {
+			"textures": [
+				"textures/items/essence/in-game/peridot_essence"
+			]
+		},
+		"pig_essence": {
+			"textures": [
+				"textures/items/essence/in-game/pig_essence"
+			]
+		},
+		"platinum_essence": {
+			"textures": [
+				"textures/items/essence/in-game/platinum_essence"
+			]
+		},
+		"prismarine_essence": {
+			"textures": [
+				"textures/items/essence/in-game/prismarine_essence"
+			]
+		},
+		"rabbit_essence": {
+			"textures": [
+				"textures/items/essence/in-game/rabbit_essence"
+			]
+		},
+		"redstone_essence": {
+			"textures": [
+				"textures/items/essence/in-game/redstone_essence"
+			]
+		},
+		"rubber_essence": {
+			"textures": [
+				"textures/items/essence/in-game/rubber_essence"
+			]
+		},
+		"ruby_essence": {
+			"textures": [
+				"textures/items/essence/in-game/ruby_essence"
+			]
+		},
+		"saltpeter_essence": {
+			"textures": [
+				"textures/items/essence/in-game/saltpeter_essence"
+			]
+		},
+		"sapphire_essence": {
+			"textures": [
+				"textures/items/essence/in-game/sapphire_essence"
+			]
+		},
+		"sheep_essence": {
+			"textures": [
+				"textures/items/essence/in-game/sheep_essence"
+			]
+		},
+		"silicon_essence": {
+			"textures": [
+				"textures/items/essence/in-game/silicon_essence"
+			]
+		},
+		"silver_essence": {
+			"textures": [
+				"textures/items/essence/in-game/silver_essence"
+			]
+		},
+		"skeleton_essence": {
+			"textures": [
+				"textures/items/essence/in-game/skeleton_essence"
+			]
+		},
+		"slime_essence": {
+			"textures": [
+				"textures/items/essence/in-game/slime_essence"
+			]
+		},
+		"soulium_essence": {
+			"textures": [
+				"textures/items/essence/in-game/soulium_essence"
+			]
+		},
+		"spider_essence": {
+			"textures": [
+				"textures/items/essence/in-game/spider_essence"
+			]
+		},
+		"squid_essence": {
+			"textures": [
+				"textures/items/essence/in-game/squid_essence"
+			]
+		},
+		"steel_essence": {
+			"textures": [
+				"textures/items/essence/in-game/steel_essence"
+			]
+		},
+		"stone_essence": {
+			"textures": [
+				"textures/items/essence/in-game/stone_essence"
+			]
+		},
+		"sulfur_essence": {
+			"textures": [
+				"textures/items/essence/in-game/sulfur_essence"
+			]
+		},
+		"tin_essence": {
+			"textures": [
+				"textures/items/essence/in-game/tin_essence"
+			]
+		},
+		"turtle_essence": {
+			"textures": [
+				"textures/items/essence/in-game/turtle_essence"
+			]
+		},
+		"uranium_essence": {
+			"textures": [
+				"textures/items/essence/in-game/uranium_essence"
+			]
+		},
+		"water_essence": {
+			"textures": [
+				"textures/items/essence/in-game/water_essence"
+			]
+		},
+		"wither_skeleton_essence": {
+			"textures": [
+				"textures/items/essence/in-game/wither_skeleton_essence"
+			]
+		},
+		"wood_essence": {
+			"textures": [
+				"textures/items/essence/in-game/wood_essence"
+			]
+		},
+		"zinc_essence": {
+			"textures": [
+				"textures/items/essence/in-game/zinc_essence"
+			]
+		},
+		"zombie_essence": {
+			"textures": [
+				"textures/items/essence/in-game/zombie_essence"
+			]
+		},
+		"amethyst_bronze_essence": {
+			"textures": [
+				"textures/items/essence/unused/amethyst_bronze_essence"
+			]
+		},
+		"aquamarine_essence": {
+			"textures": [
+				"textures/items/essence/unused/aquamarine_essence"
+			]
+		},
+		"basalt_essence": {
+			"textures": [
+				"textures/items/essence/unused/basalt_essence"
+			]
+		},
+		"basalz_essence": {
+			"textures": [
+				"textures/items/essence/unused/basalz_essence"
+			]
+		},
+		"blazing_crystal_essence": {
+			"textures": [
+				"textures/items/essence/unused/blazing_crystal_essence"
+			]
+		},
+		"blitz_essence": {
+			"textures": [
+				"textures/items/essence/unused/blitz_essence"
+			]
+		},
+		"blizz_essence": {
+			"textures": [
+				"textures/items/essence/unused/blizz_essence"
+			]
+		},
+		"certus_quartz_essence": {
+			"textures": [
+				"textures/items/essence/unused/certus_quartz_essence"
+			]
+		},
+		"cobalt_essence": {
+			"textures": [
+				"textures/items/essence/unused/cobalt_essence"
+			]
+		},
+		"compressed_iron_essence": {
+			"textures": [
+				"textures/items/essence/unused/compressed_iron_essence"
+			]
+		},
+		"conductive_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/conductive_alloy_essence"
+			]
+		},
+		"copper_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/copper_alloy_essence"
+			]
+		},
+		"cyanite_essence": {
+			"textures": [
+				"textures/items/essence/unused/cyanite_essence"
+			]
+		},
+		"dark_steel_essence": {
+			"textures": [
+				"textures/items/essence/unused/dark_steel_essence"
+			]
+		},
+		"draconium_essence": {
+			"textures": [
+				"textures/items/essence/unused/draconium_essence"
+			]
+		},
+		"elementium_essence": {
+			"textures": [
+				"textures/items/essence/unused/elementium_essence"
+			]
+		},
+		"enderium_essence": {
+			"textures": [
+				"textures/items/essence/unused/enderium_essence"
+			]
+		},
+		"end_steel_essence": {
+			"textures": [
+				"textures/items/essence/unused/end_steel_essence"
+			]
+		},
+		"energetic_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/energetic_alloy_essence"
+			]
+		},
+		"energized_steel_essence": {
+			"textures": [
+				"textures/items/essence/unused/energized_steel_essence"
+			]
+		},
+		"fiery_ingot_essence": {
+			"textures": [
+				"textures/items/essence/unused/fiery_ingot_essence"
+			]
+		},
+		"fluix_essence": {
+			"textures": [
+				"textures/items/essence/unused/fluix_essence"
+			]
+		},
+		"fluorite_essence": {
+			"textures": [
+				"textures/items/essence/unused/fluorite_essence"
+			]
+		},
+		"flux_infused_gem_essence": {
+			"textures": [
+				"textures/items/essence/unused/flux_infused_gem_essence"
+			]
+		},
+		"flux_infused_ingot_essence": {
+			"textures": [
+				"textures/items/essence/unused/flux_infused_ingot_essence"
+			]
+		},
+		"grains_of_infinity_essence": {
+			"textures": [
+				"textures/items/essence/unused/grains_of_infinity_essence"
+			]
+		},
+		"hepatizon_essence": {
+			"textures": [
+				"textures/items/essence/unused/hepatizon_essence"
+			]
+		},
+		"hop_graphite_essence": {
+			"textures": [
+				"textures/items/essence/unused/hop_graphite_essence"
+			]
+		},
+		"ironwood_essence": {
+			"textures": [
+				"textures/items/essence/unused/ironwood_essence"
+			]
+		},
+		"knightmetal_essence": {
+			"textures": [
+				"textures/items/essence/unused/knightmetal_essence"
+			]
+		},
+		"limestone_essence": {
+			"textures": [
+				"textures/items/essence/unused/limestone_essence"
+			]
+		},
+		"lumium_essence": {
+			"textures": [
+				"textures/items/essence/unused/lumium_essence"
+			]
+		},
+		"manasteel_essence": {
+			"textures": [
+				"textures/items/essence/unused/manasteel_essence"
+			]
+		},
+		"manyullyn_essence": {
+			"textures": [
+				"textures/items/essence/unused/manyullyn_essence"
+			]
+		},
+		"marble_essence": {
+			"textures": [
+				"textures/items/essence/unused/marble_essence"
+			]
+		},
+		"menril_essence": {
+			"textures": [
+				"textures/items/essence/unused/menril_essence"
+			]
+		},
+		"mystical_flower_essence": {
+			"textures": [
+				"textures/items/essence/unused/mystical_flower_essence"
+			]
+		},
+		"niotic_crystal_essence": {
+			"textures": [
+				"textures/items/essence/unused/niotic_crystal_essence"
+			]
+		},
+		"osmium_essence": {
+			"textures": [
+				"textures/items/essence/unused/osmium_essence"
+			]
+		},
+		"pig_iron_essence": {
+			"textures": [
+				"textures/items/essence/unused/pig_iron_essence"
+			]
+		},
+		"pulsating_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/pulsating_alloy_essence"
+			]
+		},
+		"quartz_enriched_iron_essence": {
+			"textures": [
+				"textures/items/essence/unused/quartz_enriched_iron_essence"
+			]
+		},
+		"queens_slime_essence": {
+			"textures": [
+				"textures/items/essence/unused/queens_slime_essence"
+			]
+		},
+		"redstone_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/redstone_alloy_essence"
+			]
+		},
+		"refined_glowstone_essence": {
+			"textures": [
+				"textures/items/essence/unused/refined_glowstone_essence"
+			]
+		},
+		"refined_obsidian_essence": {
+			"textures": [
+				"textures/items/essence/unused/refined_obsidian_essence"
+			]
+		},
+		"rock_crystal_essence": {
+			"textures": [
+				"textures/items/essence/unused/rock_crystal_essence"
+			]
+		},
+		"rose_gold_essence": {
+			"textures": [
+				"textures/items/essence/unused/rose_gold_essence"
+			]
+		},
+		"signalum_essence": {
+			"textures": [
+				"textures/items/essence/unused/signalum_essence"
+			]
+		},
+		"sky_stone_essence": {
+			"textures": [
+				"textures/items/essence/unused/sky_stone_essence"
+			]
+		},
+		"slimesteel_essence": {
+			"textures": [
+				"textures/items/essence/unused/slimesteel_essence"
+			]
+		},
+		"soularium_essence": {
+			"textures": [
+				"textures/items/essence/unused/soularium_essence"
+			]
+		},
+		"spirited_crystal_essence": {
+			"textures": [
+				"textures/items/essence/unused/spirited_crystal_essence"
+			]
+		},
+		"starmetal_essence": {
+			"textures": [
+				"textures/items/essence/unused/starmetal_essence"
+			]
+		},
+		"steeleaf_essence": {
+			"textures": [
+				"textures/items/essence/unused/steeleaf_essence"
+			]
+		},
+		"terrasteel_essence": {
+			"textures": [
+				"textures/items/essence/unused/terrasteel_essence"
+			]
+		},
+		"uraninite_essence": {
+			"textures": [
+				"textures/items/essence/unused/uraninite_essence"
+			]
+		},
+		"vibrant_alloy_essence": {
+			"textures": [
+				"textures/items/essence/unused/vibrant_alloy_essence"
+			]
+		},
+		"yellorium_essence": {
+			"textures": [
+				"textures/items/essence/unused/yellorium_essence"
+			]
+		},
+		"experience_capsule": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule"
+			]
+		},
+		"experience_capsule_inner_1": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_1"
+			]
+		},
+		"experience_capsule_inner_10": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_10"
+			]
+		},
+		"experience_capsule_inner_2": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_2"
+			]
+		},
+		"experience_capsule_inner_3": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_3"
+			]
+		},
+		"experience_capsule_inner_4": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_4"
+			]
+		},
+		"experience_capsule_inner_5": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_5"
+			]
+		},
+		"experience_capsule_inner_6": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_6"
+			]
+		},
+		"experience_capsule_inner_7": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_7"
+			]
+		},
+		"experience_capsule_inner_8": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_8"
+			]
+		},
+		"experience_capsule_inner_9": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_inner_9"
+			]
+		},
+		"experience_capsule_unused": {
+			"textures": [
+				"textures/items/experience_capsule/experience_capsule_unused"
+			]
+		},
+		"awakened_supremium_axe": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_axe"
+			]
+		},
+		"awakened_supremium_boots": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_boots"
+			]
+		},
+		"awakened_supremium_bow": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_bow"
+			]
+		},
+		"awakened_supremium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_bow_pulling_0"
+			]
+		},
+		"awakened_supremium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_bow_pulling_1"
+			]
+		},
+		"awakened_supremium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_bow_pulling_2"
+			]
+		},
+		"awakened_supremium_chestplate": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_chestplate"
+			]
+		},
+		"awakened_supremium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_arrow"
+			]
+		},
+		"awakened_supremium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_firework"
+			]
+		},
+		"awakened_supremium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_pulling_0"
+			]
+		},
+		"awakened_supremium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_pulling_1"
+			]
+		},
+		"awakened_supremium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_pulling_2"
+			]
+		},
+		"awakened_supremium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_crossbow_standby"
+			]
+		},
+		"awakened_supremium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_fishing_rod"
+			]
+		},
+		"awakened_supremium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_fishing_rod_cast"
+			]
+		},
+		"awakened_supremium_helmet": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_helmet"
+			]
+		},
+		"awakened_supremium_hoe": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_hoe"
+			]
+		},
+		"awakened_supremium_leggings": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_leggings"
+			]
+		},
+		"awakened_supremium_pickaxe": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_pickaxe"
+			]
+		},
+		"awakened_supremium_scythe": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_scythe"
+			]
+		},
+		"awakened_supremium_shears": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_shears"
+			]
+		},
+		"awakened_supremium_shovel": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_shovel"
+			]
+		},
+		"awakened_supremium_sickle": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_sickle"
+			]
+		},
+		"awakened_supremium_staff": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_staff"
+			]
+		},
+		"awakened_supremium_sword": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_sword"
+			]
+		},
+		"awakened_supremium_watering_can": {
+			"textures": [
+				"textures/items/gear/awakened_supremium_watering_can"
+			]
+		},
+		"imperium_axe": {
+			"textures": [
+				"textures/items/gear/imperium_axe"
+			]
+		},
+		"imperium_boots": {
+			"textures": [
+				"textures/items/gear/imperium_boots"
+			]
+		},
+		"imperium_bow": {
+			"textures": [
+				"textures/items/gear/imperium_bow"
+			]
+		},
+		"imperium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/imperium_bow_pulling_0"
+			]
+		},
+		"imperium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/imperium_bow_pulling_1"
+			]
+		},
+		"imperium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/imperium_bow_pulling_2"
+			]
+		},
+		"imperium_chestplate": {
+			"textures": [
+				"textures/items/gear/imperium_chestplate"
+			]
+		},
+		"imperium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_arrow"
+			]
+		},
+		"imperium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_firework"
+			]
+		},
+		"imperium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_pulling_0"
+			]
+		},
+		"imperium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_pulling_1"
+			]
+		},
+		"imperium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_pulling_2"
+			]
+		},
+		"imperium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/imperium_crossbow_standby"
+			]
+		},
+		"imperium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/imperium_fishing_rod"
+			]
+		},
+		"imperium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/imperium_fishing_rod_cast"
+			]
+		},
+		"imperium_helmet": {
+			"textures": [
+				"textures/items/gear/imperium_helmet"
+			]
+		},
+		"imperium_hoe": {
+			"textures": [
+				"textures/items/gear/imperium_hoe"
+			]
+		},
+		"imperium_leggings": {
+			"textures": [
+				"textures/items/gear/imperium_leggings"
+			]
+		},
+		"imperium_pickaxe": {
+			"textures": [
+				"textures/items/gear/imperium_pickaxe"
+			]
+		},
+		"imperium_scythe": {
+			"textures": [
+				"textures/items/gear/imperium_scythe"
+			]
+		},
+		"imperium_shears": {
+			"textures": [
+				"textures/items/gear/imperium_shears"
+			]
+		},
+		"imperium_shovel": {
+			"textures": [
+				"textures/items/gear/imperium_shovel"
+			]
+		},
+		"imperium_sickle": {
+			"textures": [
+				"textures/items/gear/imperium_sickle"
+			]
+		},
+		"imperium_staff": {
+			"textures": [
+				"textures/items/gear/imperium_staff"
+			]
+		},
+		"imperium_sword": {
+			"textures": [
+				"textures/items/gear/imperium_sword"
+			]
+		},
+		"imperium_watering_can": {
+			"textures": [
+				"textures/items/gear/imperium_watering_can"
+			]
+		},
+		"inferium_axe": {
+			"textures": [
+				"textures/items/gear/inferium_axe"
+			]
+		},
+		"inferium_boots": {
+			"textures": [
+				"textures/items/gear/inferium_boots"
+			]
+		},
+		"inferium_bow": {
+			"textures": [
+				"textures/items/gear/inferium_bow"
+			]
+		},
+		"inferium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/inferium_bow_pulling_0"
+			]
+		},
+		"inferium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/inferium_bow_pulling_1"
+			]
+		},
+		"inferium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/inferium_bow_pulling_2"
+			]
+		},
+		"inferium_chestplate": {
+			"textures": [
+				"textures/items/gear/inferium_chestplate"
+			]
+		},
+		"inferium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_arrow"
+			]
+		},
+		"inferium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_firework"
+			]
+		},
+		"inferium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_pulling_0"
+			]
+		},
+		"inferium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_pulling_1"
+			]
+		},
+		"inferium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_pulling_2"
+			]
+		},
+		"inferium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/inferium_crossbow_standby"
+			]
+		},
+		"inferium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/inferium_fishing_rod"
+			]
+		},
+		"inferium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/inferium_fishing_rod_cast"
+			]
+		},
+		"inferium_helmet": {
+			"textures": [
+				"textures/items/gear/inferium_helmet"
+			]
+		},
+		"inferium_hoe": {
+			"textures": [
+				"textures/items/gear/inferium_hoe"
+			]
+		},
+		"inferium_leggings": {
+			"textures": [
+				"textures/items/gear/inferium_leggings"
+			]
+		},
+		"inferium_pickaxe": {
+			"textures": [
+				"textures/items/gear/inferium_pickaxe"
+			]
+		},
+		"inferium_scythe": {
+			"textures": [
+				"textures/items/gear/inferium_scythe"
+			]
+		},
+		"inferium_shears": {
+			"textures": [
+				"textures/items/gear/inferium_shears"
+			]
+		},
+		"inferium_shovel": {
+			"textures": [
+				"textures/items/gear/inferium_shovel"
+			]
+		},
+		"inferium_sickle": {
+			"textures": [
+				"textures/items/gear/inferium_sickle"
+			]
+		},
+		"inferium_staff": {
+			"textures": [
+				"textures/items/gear/inferium_staff"
+			]
+		},
+		"inferium_watering_can": {
+			"textures": [
+				"textures/items/gear/inferium_watering_can"
+			]
+		},
+		"prudentium_axe": {
+			"textures": [
+				"textures/items/gear/prudentium_axe"
+			]
+		},
+		"prudentium_boots": {
+			"textures": [
+				"textures/items/gear/prudentium_boots"
+			]
+		},
+		"prudentium_bow": {
+			"textures": [
+				"textures/items/gear/prudentium_bow"
+			]
+		},
+		"prudentium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/prudentium_bow_pulling_0"
+			]
+		},
+		"prudentium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/prudentium_bow_pulling_1"
+			]
+		},
+		"prudentium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/prudentium_bow_pulling_2"
+			]
+		},
+		"prudentium_chestplate": {
+			"textures": [
+				"textures/items/gear/prudentium_chestplate"
+			]
+		},
+		"prudentium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_arrow"
+			]
+		},
+		"prudentium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_firework"
+			]
+		},
+		"prudentium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_pulling_0"
+			]
+		},
+		"prudentium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_pulling_1"
+			]
+		},
+		"prudentium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_pulling_2"
+			]
+		},
+		"prudentium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/prudentium_crossbow_standby"
+			]
+		},
+		"prudentium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/prudentium_fishing_rod"
+			]
+		},
+		"prudentium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/prudentium_fishing_rod_cast"
+			]
+		},
+		"prudentium_helmet": {
+			"textures": [
+				"textures/items/gear/prudentium_helmet"
+			]
+		},
+		"prudentium_hoe": {
+			"textures": [
+				"textures/items/gear/prudentium_hoe"
+			]
+		},
+		"prudentium_leggings": {
+			"textures": [
+				"textures/items/gear/prudentium_leggings"
+			]
+		},
+		"prudentium_pickaxe": {
+			"textures": [
+				"textures/items/gear/prudentium_pickaxe"
+			]
+		},
+		"prudentium_scythe": {
+			"textures": [
+				"textures/items/gear/prudentium_scythe"
+			]
+		},
+		"prudentium_shears": {
+			"textures": [
+				"textures/items/gear/prudentium_shears"
+			]
+		},
+		"prudentium_shovel": {
+			"textures": [
+				"textures/items/gear/prudentium_shovel"
+			]
+		},
+		"prudentium_sickle": {
+			"textures": [
+				"textures/items/gear/prudentium_sickle"
+			]
+		},
+		"prudentium_staff": {
+			"textures": [
+				"textures/items/gear/prudentium_staff"
+			]
+		},
+		"prudentium_sword": {
+			"textures": [
+				"textures/items/gear/prudentium_sword"
+			]
+		},
+		"prudentium_watering_can": {
+			"textures": [
+				"textures/items/gear/prudentium_watering_can"
+			]
+		},
+		"supremium_axe": {
+			"textures": [
+				"textures/items/gear/supremium_axe"
+			]
+		},
+		"supremium_boots": {
+			"textures": [
+				"textures/items/gear/supremium_boots"
+			]
+		},
+		"supremium_bow": {
+			"textures": [
+				"textures/items/gear/supremium_bow"
+			]
+		},
+		"supremium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/supremium_bow_pulling_0"
+			]
+		},
+		"supremium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/supremium_bow_pulling_1"
+			]
+		},
+		"supremium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/supremium_bow_pulling_2"
+			]
+		},
+		"supremium_chestplate": {
+			"textures": [
+				"textures/items/gear/supremium_chestplate"
+			]
+		},
+		"supremium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_arrow"
+			]
+		},
+		"supremium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_firework"
+			]
+		},
+		"supremium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_pulling_0"
+			]
+		},
+		"supremium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_pulling_1"
+			]
+		},
+		"supremium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_pulling_2"
+			]
+		},
+		"supremium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/supremium_crossbow_standby"
+			]
+		},
+		"supremium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/supremium_fishing_rod"
+			]
+		},
+		"supremium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/supremium_fishing_rod_cast"
+			]
+		},
+		"supremium_helmet": {
+			"textures": [
+				"textures/items/gear/supremium_helmet"
+			]
+		},
+		"supremium_hoe": {
+			"textures": [
+				"textures/items/gear/supremium_hoe"
+			]
+		},
+		"supremium_leggings": {
+			"textures": [
+				"textures/items/gear/supremium_leggings"
+			]
+		},
+		"supremium_pickaxe": {
+			"textures": [
+				"textures/items/gear/supremium_pickaxe"
+			]
+		},
+		"supremium_scythe": {
+			"textures": [
+				"textures/items/gear/supremium_scythe"
+			]
+		},
+		"supremium_shears": {
+			"textures": [
+				"textures/items/gear/supremium_shears"
+			]
+		},
+		"supremium_shovel": {
+			"textures": [
+				"textures/items/gear/supremium_shovel"
+			]
+		},
+		"supremium_sickle": {
+			"textures": [
+				"textures/items/gear/supremium_sickle"
+			]
+		},
+		"supremium_staff": {
+			"textures": [
+				"textures/items/gear/supremium_staff"
+			]
+		},
+		"supremium_sword": {
+			"textures": [
+				"textures/items/gear/supremium_sword"
+			]
+		},
+		"supremium_watering_can": {
+			"textures": [
+				"textures/items/gear/supremium_watering_can"
+			]
+		},
+		"tertium_axe": {
+			"textures": [
+				"textures/items/gear/tertium_axe"
+			]
+		},
+		"tertium_boots": {
+			"textures": [
+				"textures/items/gear/tertium_boots"
+			]
+		},
+		"tertium_bow": {
+			"textures": [
+				"textures/items/gear/tertium_bow"
+			]
+		},
+		"tertium_bow_pulling_0": {
+			"textures": [
+				"textures/items/gear/tertium_bow_pulling_0"
+			]
+		},
+		"tertium_bow_pulling_1": {
+			"textures": [
+				"textures/items/gear/tertium_bow_pulling_1"
+			]
+		},
+		"tertium_bow_pulling_2": {
+			"textures": [
+				"textures/items/gear/tertium_bow_pulling_2"
+			]
+		},
+		"tertium_chestplate": {
+			"textures": [
+				"textures/items/gear/tertium_chestplate"
+			]
+		},
+		"tertium_crossbow_arrow": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_arrow"
+			]
+		},
+		"tertium_crossbow_firework": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_firework"
+			]
+		},
+		"tertium_crossbow_pulling_0": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_pulling_0"
+			]
+		},
+		"tertium_crossbow_pulling_1": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_pulling_1"
+			]
+		},
+		"tertium_crossbow_pulling_2": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_pulling_2"
+			]
+		},
+		"tertium_crossbow_standby": {
+			"textures": [
+				"textures/items/gear/tertium_crossbow_standby"
+			]
+		},
+		"tertium_fishing_rod": {
+			"textures": [
+				"textures/items/gear/tertium_fishing_rod"
+			]
+		},
+		"tertium_fishing_rod_cast": {
+			"textures": [
+				"textures/items/gear/tertium_fishing_rod_cast"
+			]
+		},
+		"tertium_helmet": {
+			"textures": [
+				"textures/items/gear/tertium_helmet"
+			]
+		},
+		"tertium_hoe": {
+			"textures": [
+				"textures/items/gear/tertium_hoe"
+			]
+		},
+		"tertium_leggings": {
+			"textures": [
+				"textures/items/gear/tertium_leggings"
+			]
+		},
+		"tertium_pickaxe": {
+			"textures": [
+				"textures/items/gear/tertium_pickaxe"
+			]
+		},
+		"tertium_scythe": {
+			"textures": [
+				"textures/items/gear/tertium_scythe"
+			]
+		},
+		"tertium_shears": {
+			"textures": [
+				"textures/items/gear/tertium_shears"
+			]
+		},
+		"tertium_shovel": {
+			"textures": [
+				"textures/items/gear/tertium_shovel"
+			]
+		},
+		"tertium_sickle": {
+			"textures": [
+				"textures/items/gear/tertium_sickle"
+			]
+		},
+		"tertium_staff": {
+			"textures": [
+				"textures/items/gear/tertium_staff"
+			]
+		},
+		"tertium_sword": {
+			"textures": [
+				"textures/items/gear/tertium_sword"
+			]
+		},
+		"tertium_watering_can": {
+			"textures": [
+				"textures/items/gear/tertium_watering_can"
+			]
+		},
+		"basalz_soul_jar": {
+			"textures": [
+				"textures/items/jar/basalz_soul_jar"
+			]
+		},
+		"blaze_soul_jar": {
+			"textures": [
+				"textures/items/jar/blaze_soul_jar"
+			]
+		},
+		"blitz_soul_jar": {
+			"textures": [
+				"textures/items/jar/blitz_soul_jar"
+			]
+		},
+		"blizz_soul_jar": {
+			"textures": [
+				"textures/items/jar/blizz_soul_jar"
+			]
+		},
+		"chicken_soul_jar": {
+			"textures": [
+				"textures/items/jar/chicken_soul_jar"
+			]
+		},
+		"cow_soul_jar": {
+			"textures": [
+				"textures/items/jar/cow_soul_jar"
+			]
+		},
+		"creeper_soul_jar": {
+			"textures": [
+				"textures/items/jar/creeper_soul_jar"
+			]
+		},
+		"enderman_soul_jar": {
+			"textures": [
+				"textures/items/jar/enderman_soul_jar"
+			]
+		},
+		"fish_soul_jar": {
+			"textures": [
+				"textures/items/jar/fish_soul_jar"
+			]
+		},
+		"ghast_soul_jar": {
+			"textures": [
+				"textures/items/jar/ghast_soul_jar"
+			]
+		},
+		"pig_soul_jar": {
+			"textures": [
+				"textures/items/jar/pig_soul_jar"
+			]
+		},
+		"rabbit_soul_jar": {
+			"textures": [
+				"textures/items/jar/rabbit_soul_jar"
+			]
+		},
+		"sheep_soul_jar": {
+			"textures": [
+				"textures/items/jar/sheep_soul_jar"
+			]
+		},
+		"skeleton_soul_jar": {
+			"textures": [
+				"textures/items/jar/skeleton_soul_jar"
+			]
+		},
+		"slime_soul_jar": {
+			"textures": [
+				"textures/items/jar/slime_soul_jar"
+			]
+		},
+		"soul_jar": {
+			"textures": [
+				"textures/items/jar/soul_jar"
+			]
+		},
+		"spider_soul_jar": {
+			"textures": [
+				"textures/items/jar/spider_soul_jar"
+			]
+		},
+		"squid_soul_jar": {
+			"textures": [
+				"textures/items/jar/squid_soul_jar"
+			]
+		},
+		"turtle_soul_jar": {
+			"textures": [
+				"textures/items/jar/turtle_soul_jar"
+			]
+		},
+		"wither_skeleton_soul_jar": {
+			"textures": [
+				"textures/items/jar/wither_skeleton_soul_jar"
+			]
+		},
+		"zombie_soul_jar": {
+			"textures": [
+				"textures/items/jar/zombie_soul_jar"
+			]
+		},
+		"soul_jar_inner_1": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_1"
+			]
+		},
+		"soul_jar_inner_2": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_2"
+			]
+		},
+		"soul_jar_inner_3": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_3"
+			]
+		},
+		"soul_jar_inner_4": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_4"
+			]
+		},
+		"soul_jar_inner_5": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_5"
+			]
+		},
+		"soul_jar_inner_6": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_6"
+			]
+		},
+		"soul_jar_inner_7": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_7"
+			]
+		},
+		"soul_jar_inner_8": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_8"
+			]
+		},
+		"soul_jar_inner_9": {
+			"textures": [
+				"textures/items/jar/unsued/soul_jar_inner_9"
+			]
+		},
+		"air_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/air_seeds"
+			]
+		},
+		"aluminum_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/aluminum_seeds"
+			]
+		},
+		"amethyst_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/amethyst_seeds"
+			]
+		},
+		"apatite_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/apatite_seeds"
+			]
+		},
+		"blaze_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/blaze_seeds"
+			]
+		},
+		"brass_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/brass_seeds"
+			]
+		},
+		"bronze_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/bronze_seeds"
+			]
+		},
+		"chicken_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/chicken_seeds"
+			]
+		},
+		"coal_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/coal_seeds"
+			]
+		},
+		"constantan_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/constantan_seeds"
+			]
+		},
+		"copper_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/copper_seeds"
+			]
+		},
+		"coral_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/coral_seeds"
+			]
+		},
+		"cow_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/cow_seeds"
+			]
+		},
+		"creeper_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/creeper_seeds"
+			]
+		},
+		"deepslate_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/deepslate_seeds"
+			]
+		},
+		"diamond_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/diamond_seeds"
+			]
+		},
+		"dirt_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/dirt_seeds"
+			]
+		},
+		"dye_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/dye_seeds"
+			]
+		},
+		"earth_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/earth_seeds"
+			]
+		},
+		"electrum_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/electrum_seeds"
+			]
+		},
+		"emerald_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/emerald_seeds"
+			]
+		},
+		"enderman_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/enderman_seeds"
+			]
+		},
+		"end_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/end_seeds"
+			]
+		},
+		"experience_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/experience_seeds"
+			]
+		},
+		"fire_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/fire_seeds"
+			]
+		},
+		"fish_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/fish_seeds"
+			]
+		},
+		"ghast_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/ghast_seeds"
+			]
+		},
+		"glowstone_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/glowstone_seeds"
+			]
+		},
+		"gold_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/gold_seeds"
+			]
+		},
+		"graphite_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/graphite_seeds"
+			]
+		},
+		"honey_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/honey_seeds"
+			]
+		},
+		"ice_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/ice_seeds"
+			]
+		},
+		"inferium_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/inferium_seeds"
+			]
+		},
+		"invar_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/invar_seeds"
+			]
+		},
+		"iridium_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/iridium_seeds"
+			]
+		},
+		"iron_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/iron_seeds"
+			]
+		},
+		"lapis_lazuli_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/lapis_lazuli_seeds"
+			]
+		},
+		"lead_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/lead_seeds"
+			]
+		},
+		"nature_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/nature_seeds"
+			]
+		},
+		"netherite_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/netherite_seeds"
+			]
+		},
+		"nether_quartz_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/nether_quartz_seeds"
+			]
+		},
+		"nether_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/nether_seeds"
+			]
+		},
+		"nickel_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/nickel_seeds"
+			]
+		},
+		"obsidian_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/obsidian_seeds"
+			]
+		},
+		"peridot_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/peridot_seeds"
+			]
+		},
+		"pig_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/pig_seeds"
+			]
+		},
+		"platinum_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/platinum_seeds"
+			]
+		},
+		"prismarine_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/prismarine_seeds"
+			]
+		},
+		"rabbit_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/rabbit_seeds"
+			]
+		},
+		"redstone_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/redstone_seeds"
+			]
+		},
+		"rubber_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/rubber_seeds"
+			]
+		},
+		"ruby_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/ruby_seeds"
+			]
+		},
+		"saltpeter_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/saltpeter_seeds"
+			]
+		},
+		"sapphire_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/sapphire_seeds"
+			]
+		},
+		"sheep_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/sheep_seeds"
+			]
+		},
+		"silicon_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/silicon_seeds"
+			]
+		},
+		"silver_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/silver_seeds"
+			]
+		},
+		"skeleton_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/skeleton_seeds"
+			]
+		},
+		"slime_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/slime_seeds"
+			]
+		},
+		"soulium_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/soulium_seeds"
+			]
+		},
+		"spider_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/spider_seeds"
+			]
+		},
+		"squid_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/squid_seeds"
+			]
+		},
+		"steel_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/steel_seeds"
+			]
+		},
+		"stone_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/stone_seeds"
+			]
+		},
+		"sulfur_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/sulfur_seeds"
+			]
+		},
+		"tin_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/tin_seeds"
+			]
+		},
+		"turtle_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/turtle_seeds"
+			]
+		},
+		"uranium_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/uranium_seeds"
+			]
+		},
+		"water_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/water_seeds"
+			]
+		},
+		"wither_skeleton_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/wither_skeleton_seeds"
+			]
+		},
+		"wood_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/wood_seeds"
+			]
+		},
+		"zinc_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/zinc_seeds"
+			]
+		},
+		"zombie_seeds": {
+			"textures": [
+				"textures/items/seeds/in-game/zombie_seeds"
+			]
+		},
+		"amethyst_bronze_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/amethyst_bronze_seeds"
+			]
+		},
+		"aquamarine_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/aquamarine_seeds"
+			]
+		},
+		"basalt_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/basalt_seeds"
+			]
+		},
+		"basalz_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/basalz_seeds"
+			]
+		},
+		"blazing_crystal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/blazing_crystal_seeds"
+			]
+		},
+		"blitz_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/blitz_seeds"
+			]
+		},
+		"blizz_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/blizz_seeds"
+			]
+		},
+		"certus_quartz_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/certus_quartz_seeds"
+			]
+		},
+		"cobalt_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/cobalt_seeds"
+			]
+		},
+		"compressed_iron_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/compressed_iron_seeds"
+			]
+		},
+		"conductive_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/conductive_alloy_seeds"
+			]
+		},
+		"copper_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/copper_alloy_seeds"
+			]
+		},
+		"cyanite_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/cyanite_seeds"
+			]
+		},
+		"dark_steel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/dark_steel_seeds"
+			]
+		},
+		"draconium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/draconium_seeds"
+			]
+		},
+		"elementium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/elementium_seeds"
+			]
+		},
+		"enderium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/enderium_seeds"
+			]
+		},
+		"end_steel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/end_steel_seeds"
+			]
+		},
+		"energetic_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/energetic_alloy_seeds"
+			]
+		},
+		"energized_steel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/energized_steel_seeds"
+			]
+		},
+		"fiery_ingot_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/fiery_ingot_seeds"
+			]
+		},
+		"fluix_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/fluix_seeds"
+			]
+		},
+		"fluorite_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/fluorite_seeds"
+			]
+		},
+		"flux_infused_gem_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/flux_infused_gem_seeds"
+			]
+		},
+		"flux_infused_ingot_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/flux_infused_ingot_seeds"
+			]
+		},
+		"grains_of_infinity_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/grains_of_infinity_seeds"
+			]
+		},
+		"hepatizon_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/hepatizon_seeds"
+			]
+		},
+		"hop_graphite_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/hop_graphite_seeds"
+			]
+		},
+		"ironwood_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/ironwood_seeds"
+			]
+		},
+		"knightmetal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/knightmetal_seeds"
+			]
+		},
+		"limestone_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/limestone_seeds"
+			]
+		},
+		"lumium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/lumium_seeds"
+			]
+		},
+		"manasteel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/manasteel_seeds"
+			]
+		},
+		"manyullyn_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/manyullyn_seeds"
+			]
+		},
+		"marble_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/marble_seeds"
+			]
+		},
+		"menril_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/menril_seeds"
+			]
+		},
+		"mystical_flower_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/mystical_flower_seeds"
+			]
+		},
+		"niotic_crystal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/niotic_crystal_seeds"
+			]
+		},
+		"osmium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/osmium_seeds"
+			]
+		},
+		"pig_iron_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/pig_iron_seeds"
+			]
+		},
+		"pulsating_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/pulsating_alloy_seeds"
+			]
+		},
+		"quartz_enriched_iron_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/quartz_enriched_iron_seeds"
+			]
+		},
+		"queens_slime_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/queens_slime_seeds"
+			]
+		},
+		"redstone_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/redstone_alloy_seeds"
+			]
+		},
+		"refined_glowstone_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/refined_glowstone_seeds"
+			]
+		},
+		"refined_obsidian_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/refined_obsidian_seeds"
+			]
+		},
+		"rock_crystal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/rock_crystal_seeds"
+			]
+		},
+		"rose_gold_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/rose_gold_seeds"
+			]
+		},
+		"signalum_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/signalum_seeds"
+			]
+		},
+		"sky_stone_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/sky_stone_seeds"
+			]
+		},
+		"slimesteel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/slimesteel_seeds"
+			]
+		},
+		"soularium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/soularium_seeds"
+			]
+		},
+		"spirited_crystal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/spirited_crystal_seeds"
+			]
+		},
+		"starmetal_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/starmetal_seeds"
+			]
+		},
+		"steeleaf_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/steeleaf_seeds"
+			]
+		},
+		"terrasteel_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/terrasteel_seeds"
+			]
+		},
+		"uraninite_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/uraninite_seeds"
+			]
+		},
+		"vibrant_alloy_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/vibrant_alloy_seeds"
+			]
+		},
+		"yellorium_seeds": {
+			"textures": [
+				"textures/items/seeds/unused/yellorium_seeds"
+			]
+		},
+		"mysticalagriculture_guide_book": {
+			"textures": "textures/items/guide_book"
 		}
 	}
 }

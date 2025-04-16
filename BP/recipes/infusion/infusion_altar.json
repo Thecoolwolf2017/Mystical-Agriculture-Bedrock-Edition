@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:infusion_altar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"W": {
+				"item": "minecraft:red_wool"
+			},
+			"S": {
+				"item": "minecraft:stone"
+			}
+		},
+		"pattern": [
+			"GWG",
+			" S ",
+			"SSS"
+		],
+		"result": {
+			"item": "mysticalagriculture:infusion_altar_player"
+		}
+	}
+}

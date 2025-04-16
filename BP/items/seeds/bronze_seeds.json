@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:bronze_seeds",
-			"category": "nature"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:icon": {
-				"texture": "bronze_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Bronze Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
+			"minecraft:icon": "bronze_seeds",
 			"minecraft:block_placer": {
 				"block": "strat:bronze_crop"
 			}
-		},
-		"events": {}
+		}
 	}
 }

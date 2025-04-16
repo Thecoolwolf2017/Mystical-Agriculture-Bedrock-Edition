@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:gold_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "gold_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Gold Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:gold_crop"
+			"identifier": "mysticalagriculture:gold_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "gold_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:gold_crop"
+			}
+		}
 	}
 }

@@ -1,27 +1,24 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:soulstone_bricks_r"
+			"identifier": "mysticalagriculture:soulstone_bricks"
 		},
 		"tags": [
 			"crafting_table"
 		],
+		"key": {
+			"#": {
+				"item": "mysticalagriculture:soulstone"
+			}
+		},
 		"pattern": [
 			"##",
 			"##"
 		],
-		"key": {
-			"#": {
-				"item": "strat:soulstone"
-			}
-		},
-		"result": [
-			{
-				"item": "strat:soulstone_bricks",
-				"count": 4
-			}
-		],
-		"priority": 0
+		"result": {
+			"item": "mysticalagriculture:soulstone_bricks",
+			"count": 4
+		}
 	}
 }

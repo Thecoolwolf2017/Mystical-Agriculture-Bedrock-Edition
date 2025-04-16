@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "strat:inferium_ore_feature"
+		},
+		"count": 9,
+		"replace_rules": [
+			{
+				"places_block": "strat:inferium_ore",
+				"may_replace": [
+					"minecraft:stone",
+					"minecraft:andesite",
+					"minecraft:granite",
+					"minecraft:diorite"
+				]
+			}
+		]
+	}
+}

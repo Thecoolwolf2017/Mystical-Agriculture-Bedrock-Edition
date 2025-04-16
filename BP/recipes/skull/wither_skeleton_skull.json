@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:wither_skeleton_skull"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"W": {
+				"item": "mysticalagriculture:wither_skeleton_essence"
+			},
+			"#": {
+				"item": "mysticalagriculture:blank_skull"
+			}
+		},
+		"pattern": [
+			"WWW",
+			"W#W",
+			"WWW"
+		],
+		"result": {
+			"item": "minecraft:wither_skeleton_skull"
+		}
+	}
+}

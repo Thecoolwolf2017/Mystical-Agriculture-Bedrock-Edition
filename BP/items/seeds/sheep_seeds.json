@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:sheep_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "sheep_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Sheep Seeds\n§7Tier: §a2§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:sheep_crop"
+			"identifier": "mysticalagriculture:sheep_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "sheep_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:sheep_crop"
+			}
+		}
 	}
 }

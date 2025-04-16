@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:nature_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "nature_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Nature Seeds\n§7Tier: §a2§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:nature_crop"
+			"identifier": "mysticalagriculture:nature_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "nature_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:nature_crop"
+			}
+		}
 	}
 }

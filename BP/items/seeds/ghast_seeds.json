@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:ghast_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "ghast_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Ghast Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:ghast_crop"
+			"identifier": "mysticalagriculture:ghast_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "ghast_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:ghast_crop"
+			}
+		}
 	}
 }

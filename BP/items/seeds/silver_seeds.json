@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:silver_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "silver_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Silver Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:silver_crop"
+			"identifier": "mysticalagriculture:silver_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "silver_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:silver_crop"
+			}
+		}
 	}
 }

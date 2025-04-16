@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_gemstone_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:prudentium_gemstone_block"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:prudentium_gemstone",
+			"count": 9
+		}
+	}
+}

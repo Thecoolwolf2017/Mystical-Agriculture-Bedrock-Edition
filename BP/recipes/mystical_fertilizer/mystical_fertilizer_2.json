@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:mystical_fertilizer_2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"E": {
+				"item": "mysticalagriculture:inferium_essence"
+			},
+			"S": {
+				"item": "mysticalagriculture:fertilized_essence"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"pattern": [
+			"ESE",
+			"SDS",
+			"ESE"
+		],
+		"result": {
+			"item": "mysticalagriculture:mystical_fertilizer",
+			"count": 8
+		}
+	}
+}

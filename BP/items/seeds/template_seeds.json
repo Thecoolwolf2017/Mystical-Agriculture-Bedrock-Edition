@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:template_seeds",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "air_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:template_crop"
+			}
+		}
+	}
+}

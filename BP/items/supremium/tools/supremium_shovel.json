@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_shovel",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "supremium_shovel",
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('minecraft:is_shovel_item_destructible')"
+						},
+						"speed": 8
+					}
+				]
+			},
+			"minecraft:damage": {
+				"value": 22
+			},
+			"minecraft:enchantable": {
+				"slot": "shovel",
+				"value": 10
+			},
+			"minecraft:hand_equipped": {
+				"value": true
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shovel",
+					"minecraft:digger",
+					"minecraft:is_tool",
+					"mysticalagriculture:supremium_tier"
+				]
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

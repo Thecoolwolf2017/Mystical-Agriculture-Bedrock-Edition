@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:trim_material": {
+    "description": {
+      "identifier": "strat:imperium"
+    },
+    "item": "strat:imperium_ingot",
+    "color": "#5C4FB4",
+    "ingredient": "strat:imperium_ingot"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:blank_record"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"E": {
+				"item": "mysticalagriculture:creeper_essence"
+			},
+			"S": {
+				"item": "mysticalagriculture:skeleton_essence"
+			},
+			"W": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"pattern": [
+			"ESE",
+			"SWS",
+			"ESE"
+		],
+		"result": {
+			"item": "mysticalagriculture:blank_record"
+		}
+	}
+}

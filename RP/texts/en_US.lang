@@ -1,105 +1,691 @@
-pack.name=Mystical Agriculture RP
-pack.description=A Java Mod Recreation by Stratospheer!
-## ores
-tile.strat:prosperity_ore.name=Prosperity Ore
-tile.strat:deepslate_prosperity_ore.name=Deepslate Prosperity Ore
-tile.strat:inferium_ore.name=Inferium Ore
-tile.strat:deepslate_inferium_ore.name=Deepslate Inferium Ore
-tile.strat:soulium_ore.name=Soulium Ore
+pack.name=Mystical Agriculture Bedrock (Unofficial Port) RP
+pack.description=Mystical Agriculture is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!
 
-## crops
-tile.strat:inferium_farmland.name=Inferium Farmland
-tile.strat:mystical_growth_pot.name=Mystical Growth Pot
-tile.strat:infusion_pedestal.name=Infusion Pedestal
-tile.strat:infusion_pedestal_guide.name=Infusion Pedestal Guide
-tile.strat:infusion_altar.name=Infusion Altar
-tile.strat:spider_crop.name=spider crop
-tile.strat:amethyst_crop.name=amethyst crop
-tile.strat:bronze_crop.name=bronze crop
-tile.strat:chicken_crop.name=chicken crop
-tile.strat:coal_crop.name=coal crop
-tile.strat:cobalt_crop.name=cobalt crop
-tile.strat:copper_crop.name=copper crop
-tile.strat:cow_crop.name=cow crop
-tile.strat:creeper_crop.name=creeper crop
-tile.strat:deepslate_crop.name=deepslate crop
-tile.strat:dirt_crop.name=dirt crop
-tile.strat:electrum_crop.name=electrum crop
-tile.strat:emerald_crop.name=emerald crop
-tile.strat:enderman_crop.name=enderman crop
-tile.strat:fire_crop.name=fire crop
-tile.strat:fish_crop.name=fish crop
-tile.strat:lapis_lazuli_crop.name=lapis lazuli crop
-tile.strat:netherite_crop.name=netherite crop
-tile.strat:nether_crop.name=nether crop
-tile.strat:nether_quartz_crop.name=nether quartz crop
-tile.strat:obsidian_crop.name=obsidian crop
-tile.strat:rabbit_crop.name=rabbit crop
-tile.strat:prismarine_crop.name=prismarine crop
-tile.strat:skeleton_crop.name=skeleton crop
-tile.strat:slime_crop.name=slime crop
-tile.strat:blaze_crop.name=blaze crop
-tile.strat:steel_crop.name=steel crop
-tile.strat:stone_crop.name=stone crop
-tile.strat:water_crop.name=water crop
-tile.strat:wither_skeleton_crop.name=wither skeleton crop
-tile.strat:squid_crop.name=squid crop
-tile.strat:redstone_crop.name=redstone crop
-tile.strat:nature_crop.name=nature crop
-tile.strat:gold_crop.name=gold crop
-tile.strat:lead_crop.name=lead crop
-tile.strat:honey_crop.name=honey crop
-tile.strat:turtle_crop.name=turtle crop
-tile.strat:pig_iron_crop.name=pig iron crop
-tile.strat:earth_crop.name=earth crop
-tile.strat:air_crop.name=air crop
-tile.strat:manyullyn_crop.name=manyullyn crop
-tile.strat:glowstone_crop.name=glowstone crop
-tile.strat:sheep_crop.name=sheep crop
-tile.strat:zombie_crop.name=zombie crop
-tile.strat:inferium_crop.name=inferium crop
-tile.strat:tin_crop.name=tin crop
-## Soulstone
-tile.strat:soulstone.name=Soulstone
-tile.strat:cobbled_soulstone.name=Cobbled Soulstone
-tile.strat:smooth_soulstone.name=Smooth Soulstone
-tile.strat:soulstone_bricks.name=Soulstone Bricks
-tile.strat:chiseled_soulstone_bricks.name=Chiseled Soulstone Bricks
-tile.strat:cracked_soulstone_bricks.name=Cracked Soulstone Bricks
-tile.strat:soul_glass.name=Soul Glass
+mysticalagriculture:itemGroup.name.watering_can=§dMystical §5Agriculture§r: Watering Cans
+mysticalagriculture:itemGroup.name.soul_jar=§dMystical §5Agriculture§r: Soul Jars
+mysticalagriculture:itemGroup.name.soul_jar_full=§dMystical §5Agriculture§r: Soul Jars Full
+mysticalagriculture:itemGroup.name.dagger=§dMystical §5Agriculture§r: Daggers
+mysticalagriculture:itemGroup.name.scythe=§dMystical §5Agriculture§r: Scythes
+mysticalagriculture:itemGroup.name.sickle=§dMystical §5Agriculture§r: Sickles
+mysticalagriculture:itemGroup.name.mystical_bow=§dMystical §5Agriculture§r: Mystical Bows
+mysticalagriculture:itemGroup.name.mystical_shears=§dMystical §5Agriculture§r: Mystical Shears
+mysticalagriculture:itemGroup.name.mysticalSeeds=§dMystical §5Agriculture§r: Seeds
+mysticalagriculture:itemGroup.name.essence=§dMystical §5Agriculture§r: Essences
+mysticalagriculture:itemGroup.name.ingot=§dMystical §5Agriculture§r: Ingots
+mysticalagriculture:itemGroup.name.nugget=§dMystical §5Agriculture§r: Nuggets
+mysticalagriculture:itemGroup.name.gemstone=§dMystical §5Agriculture§r: Gemstones
+mysticalagriculture:itemGroup.name.agglomeratio=§dMystical §5Agriculture§r: Agglomeratios
+mysticalagriculture:itemGroup.name.upgrade=§dMystical §5Agriculture§r: Upgrades
+mysticalagriculture:itemGroup.name.prosperity=§dMystical §5Agriculture§r: Prosperity Items
+mysticalagriculture:itemGroup.name.experience_capsule=§dMystical §5Agriculture§r: Experience Capsules
+mysticalagriculture:itemGroup.name.miscellaneous=§dMystical §5Agriculture§r: Miscellaneous
+mysticalagriculture:itemGroup.name.soulium=§dMystical §5Agriculture§r: Soulium Items
+mysticalagriculture:itemGroup.name.witherproof=§dMystical §5Agriculture§r: Witherproof Blocks
+mysticalagriculture:itemGroup.name.gemstone_block=§dMystical §5Agriculture§r: Gemstone Blocks
+mysticalagriculture:itemGroup.name.ingot_block=§dMystical §5Agriculture§r: Ingot Blocks
+mysticalagriculture:itemGroup.name.block=§dMystical §5Agriculture§r: Blocks
+mysticalagriculture:itemGroup.name.farmland=§dMystical §5Agriculture§r: Farmland Blocks
 
-## Witherproof
-tile.strat:witherproof_glass.name=Witherproof Glass
-tile.strat:witherproof_block.name=Witherproof Block
-tile.strat:witherproof_bricks.name=Witherproof Bricks
+entity.mysticalagriculture:infusion_altar_entity.name=Infusion Altar Entity
+entity.mysticalagriculture:infusion_pedestal_entity.name=Infusion Pedestal Entity
+entity.mysticalagriculture:nothing.name=Nothing
 
-## Storage
-tile.strat:prosperity_block.name=Prosperity Block
-tile.strat:prosperity_ingot_block.name=Prosperity Ingot Block
-tile.strat:prosperity_gemstone_block.name=Prosperity Gemstone Block
-tile.strat:soulium_block.name=Soulium Block
-tile.strat:soulium_ingot_block.name=Soulium Ingot Block
-tile.strat:soulium_gemstone_block.name=Soulium Gemstone Block
-tile.strat:inferium_block.name=Inferium Block
-tile.strat:inferium_ingot_block.name=Inferium Ingot Block
-tile.strat:inferium_gemstone_block.name=Inferium Gemstone Block
-tile.strat:prudentium_block.name=Prudentium Block
-tile.strat:prudentium_ingot_block.name=Prudentium Ingot Block
-tile.strat:prudentium_gemstone_block.name=Prudentium Gemstone Block
-tile.strat:tertium_block.name=Tertium Block
-tile.strat:tertium_ingot_block.name=Tertium Ingot Block
-tile.strat:tertium_gemstone_block.name=Tertium Gemstone Block
-tile.strat:imperium_block.name=Imperium Block
-tile.strat:imperium_ingot_block.name=Imperium Ingot Block
-tile.strat:imperium_gemstone_block.name=Imperium Gemstone Block
-tile.strat:supremium_block.name=Supremium Block
-tile.strat:supremium_ingot_block.name=Supremium Ingot Block
-tile.strat:supremium_gemstone_block.name=Supremium Gemstone Block
+item.mysticalagriculture:air_agglomeratio=Air Agglomeratio
+item.mysticalagriculture:air_essence=Air Essence
+item.mysticalagriculture:air_seeds=Air Seeds
+item.mysticalagriculture:aluminum_essence=Aluminum Essence
+item.mysticalagriculture:aluminum_seeds=Aluminum Seeds
+item.mysticalagriculture:amethyst_essence=Amethyst Essence
+item.mysticalagriculture:amethyst_seeds=Amethyst Seeds
+item.mysticalagriculture:apatite_essence=Apatite Essence
+item.mysticalagriculture:apatite_seeds=Apatite Seeds
+item.mysticalagriculture:basalz_soul_jar=Basalz Soul Jar
+item.mysticalagriculture:basalz_soul_jar_full=Basalz Soul Jar Full
+item.mysticalagriculture:blank_record=Blank Record
+item.mysticalagriculture:blank_skull=Blank Skull
+item.mysticalagriculture:blaze_essence=Blaze Essence
+item.mysticalagriculture:blaze_seeds=Blaze Seeds
+item.mysticalagriculture:blaze_soul_jar=Blaze Soul Jar
+item.mysticalagriculture:blaze_soul_jar_full=Blaze Soul Jar Full
+item.mysticalagriculture:blitz_soul_jar=Blitz Soul Jar
+item.mysticalagriculture:blitz_soul_jar_full=Blitz Soul Jar Full
+item.mysticalagriculture:blizz_soul_jar=Blizz Soul Jar
+item.mysticalagriculture:blizz_soul_jar_full=Blizz Soul Jar Full
+item.mysticalagriculture:brass_essence=Brass Essence
+item.mysticalagriculture:brass_seeds=Brass Seeds
+item.mysticalagriculture:bronze_essence=Bronze Essence
+item.mysticalagriculture:bronze_seeds=Bronze Seeds
+item.mysticalagriculture:chicken_essence=Chicken Essence
+item.mysticalagriculture:chicken_seeds=Chicken Seeds
+item.mysticalagriculture:chicken_soul_jar=Chicken Soul Jar
+item.mysticalagriculture:chicken_soul_jar_full=Chicken Soul Jar Full
+item.mysticalagriculture:coal_essence=Coal Essence
+item.mysticalagriculture:coal_seeds=Coal Seeds
+item.mysticalagriculture:constantan_essence=Constantan Essence
+item.mysticalagriculture:constantan_seeds=Constantan Seeds
+item.mysticalagriculture:copper_essence=Copper Essence
+item.mysticalagriculture:copper_seeds=Copper Seeds
+item.mysticalagriculture:coral_agglomeratio=Coral Agglomeratio
+item.mysticalagriculture:coral_essence=Coral Essence
+item.mysticalagriculture:coral_seeds=Coral Seeds
+item.mysticalagriculture:cow_essence=Cow Essence
+item.mysticalagriculture:cow_seeds=Cow Seeds
+item.mysticalagriculture:cow_soul_jar=Cow Soul Jar
+item.mysticalagriculture:cow_soul_jar_full=Cow Soul Jar Full
+item.mysticalagriculture:creative_soulium_dagger=Creative Soulium Dagger
+item.mysticalagriculture:creeper_essence=Creeper Essence
+item.mysticalagriculture:creeper_seeds=Creeper Seeds
+item.mysticalagriculture:creeper_soul_jar=Creeper Soul Jar
+item.mysticalagriculture:creeper_soul_jar_full=Creeper Soul Jar Full
+item.mysticalagriculture:deepslate_essence=Deepslate Essence
+item.mysticalagriculture:deepslate_seeds=Deepslate Seeds
+item.mysticalagriculture:diamond_essence=Diamond Essence
+item.mysticalagriculture:diamond_scythe=Diamond Scythe
+item.mysticalagriculture:diamond_seeds=Diamond Seeds
+item.mysticalagriculture:diamond_sickle=Diamond Sickle
+item.mysticalagriculture:dirt_essence=Dirt Essence
+item.mysticalagriculture:dirt_seeds=Dirt Seeds
+item.mysticalagriculture:dye_agglomeratio=Dye Agglomeratio
+item.mysticalagriculture:dye_essence=Dye Essence
+item.mysticalagriculture:dye_seeds=Dye Seeds
+item.mysticalagriculture:earth_agglomeratio=Earth Agglomeratio
+item.mysticalagriculture:earth_essence=Earth Essence
+item.mysticalagriculture:earth_seeds=Earth Seeds
+item.mysticalagriculture:electrum_essence=Electrum Essence
+item.mysticalagriculture:electrum_seeds=Electrum Seeds
+item.mysticalagriculture:emerald_essence=Emerald Essence
+item.mysticalagriculture:emerald_seeds=Emerald Seeds
+item.mysticalagriculture:end_agglomeratio=End Agglomeratio
+item.mysticalagriculture:end_essence=End Essence
+item.mysticalagriculture:end_seeds=End Seeds
+item.mysticalagriculture:enderman_essence=Enderman Essence
+item.mysticalagriculture:enderman_seeds=Enderman Seeds
+item.mysticalagriculture:enderman_soul_jar=Enderman Soul Jar
+item.mysticalagriculture:enderman_soul_jar_full=Enderman Soul Jar Full
+item.mysticalagriculture:experience_capsule=Experience Capsule
+item.mysticalagriculture:experience_capsule_full=Experience Capsule Full
+item.mysticalagriculture:experience_droplet=Experience Droplet
+item.mysticalagriculture:experience_essence=Experience Essence
+item.mysticalagriculture:experience_seeds=Experience Seeds
+item.mysticalagriculture:fertilized_essence=Fertilized Essence
+item.mysticalagriculture:fire_agglomeratio=Fire Agglomeratio
+item.mysticalagriculture:fire_essence=Fire Essence
+item.mysticalagriculture:fire_seeds=Fire Seeds
+item.mysticalagriculture:fish_essence=Fish Essence
+item.mysticalagriculture:fish_seeds=Fish Seeds
+item.mysticalagriculture:fish_soul_jar=Fish Soul Jar
+item.mysticalagriculture:fish_soul_jar_full=Fish Soul Jar Full
+item.mysticalagriculture:ghast_essence=Ghast Essence
+item.mysticalagriculture:ghast_seeds=Ghast Seeds
+item.mysticalagriculture:ghast_soul_jar=Ghast Soul Jar
+item.mysticalagriculture:ghast_soul_jar_full=Ghast Soul Jar Full
+item.mysticalagriculture:glowstone_essence=Glowstone Essence
+item.mysticalagriculture:glowstone_seeds=Glowstone Seeds
+item.mysticalagriculture:gold_essence=Gold Essence
+item.mysticalagriculture:gold_seeds=Gold Seeds
+item.mysticalagriculture:graphite_essence=Graphite Essence
+item.mysticalagriculture:graphite_seeds=Graphite Seeds
+item.mysticalagriculture:honey_agglomeratio=Honey Agglomeratio
+item.mysticalagriculture:honey_essence=Honey Essence
+item.mysticalagriculture:honey_seeds=Honey Seeds
+item.mysticalagriculture:hostile_soulium_dagger=Hostile Soulium Dagger
+item.mysticalagriculture:ice_essence=Ice Essence
+item.mysticalagriculture:ice_seeds=Ice Seeds
+item.mysticalagriculture:imperium_axe=Imperium Axe
+item.mysticalagriculture:imperium_boots=Imperium Boots
+item.mysticalagriculture:imperium_bow=Imperium Bow
+item.mysticalagriculture:imperium_chestplate=Imperium Chestplate
+item.mysticalagriculture:imperium_essence=Imperium Essence
+item.mysticalagriculture:imperium_gemstone=Imperium Gemstone
+item.mysticalagriculture:imperium_helmet=Imperium Helmet
+item.mysticalagriculture:imperium_hoe=Imperium Hoe
+item.mysticalagriculture:imperium_ingot=Imperium Ingot
+item.mysticalagriculture:imperium_leggings=Imperium Leggings
+item.mysticalagriculture:imperium_nugget=Imperium Nugget
+item.mysticalagriculture:imperium_pickaxe=Imperium Pickaxe
+item.mysticalagriculture:imperium_scythe=Imperium Scythe
+item.mysticalagriculture:imperium_shears=Imperium Shears
+item.mysticalagriculture:imperium_shovel=Imperium Shovel
+item.mysticalagriculture:imperium_sickle=Imperium Sickle
+item.mysticalagriculture:imperium_sword=Imperium Sword
+item.mysticalagriculture:imperium_upgrade=Imperium Upgrade
+item.mysticalagriculture:imperium_watering_can=Imperium Watering Can
+item.mysticalagriculture:inferium_axe=Inferium Axe
+item.mysticalagriculture:inferium_boots=Inferium Boots
+item.mysticalagriculture:inferium_bow=Inferium Bow
+item.mysticalagriculture:inferium_chestplate=Inferium Chestplate
+item.mysticalagriculture:inferium_essence=Inferium Essence
+item.mysticalagriculture:inferium_gemstone=Inferium Gemstone
+item.mysticalagriculture:inferium_helmet=Inferium Helmet
+item.mysticalagriculture:inferium_hoe=Inferium Hoe
+item.mysticalagriculture:inferium_ingot=Inferium Ingot
+item.mysticalagriculture:inferium_leggings=Inferium Leggings
+item.mysticalagriculture:inferium_nugget=Inferium Nugget
+item.mysticalagriculture:inferium_pickaxe=Inferium Pickaxe
+item.mysticalagriculture:inferium_scythe=Inferium Scythe
+item.mysticalagriculture:inferium_seeds=Inferium Seeds
+item.mysticalagriculture:inferium_shears=Inferium Shears
+item.mysticalagriculture:inferium_shovel=Inferium Shovel
+item.mysticalagriculture:inferium_sickle=Inferium Sickle
+item.mysticalagriculture:inferium_sword=Inferium Sword
+item.mysticalagriculture:inferium_upgrade=Inferium Upgrade
+item.mysticalagriculture:inferium_watering_can=Inferium Watering Can
+item.mysticalagriculture:infusion_crystal=Infusion Crystal
+item.mysticalagriculture:invar_essence=Invar Essence
+item.mysticalagriculture:invar_seeds=Invar Seeds
+item.mysticalagriculture:iridium_essence=Iridium Essence
+item.mysticalagriculture:iridium_seeds=Iridium Seeds
+item.mysticalagriculture:iron_essence=Iron Essence
+item.mysticalagriculture:iron_seeds=Iron Seeds
+item.mysticalagriculture:lapis_lazuli_essence=Lapis Lazuli Essence
+item.mysticalagriculture:lapis_lazuli_seeds=Lapis Lazuli Seeds
+item.mysticalagriculture:lead_essence=Lead Essence
+item.mysticalagriculture:lead_seeds=Lead Seeds
+item.mysticalagriculture:master_infusion_crystal=Master Infusion Crystal
+item.mysticalagriculture:mystical_fertilizer=Mystical Fertilizer
+item.mysticalagriculture:nature_agglomeratio=Nature Agglomeratio
+item.mysticalagriculture:nature_essence=Nature Essence
+item.mysticalagriculture:nature_seeds=Nature Seeds
+item.mysticalagriculture:nether_agglomeratio=Nether Agglomeratio
+item.mysticalagriculture:nether_essence=Nether Essence
+item.mysticalagriculture:nether_quartz_essence=Nether Quartz Essence
+item.mysticalagriculture:nether_quartz_seeds=Nether Quartz Seeds
+item.mysticalagriculture:nether_seeds=Nether Seeds
+item.mysticalagriculture:netherite_essence=Netherite Essence
+item.mysticalagriculture:netherite_seeds=Netherite Seeds
+item.mysticalagriculture:nickel_essence=Nickel Essence
+item.mysticalagriculture:nickel_seeds=Nickel Seeds
+item.mysticalagriculture:obsidian_essence=Obsidian Essence
+item.mysticalagriculture:obsidian_seeds=Obsidian Seeds
+item.mysticalagriculture:passive_soulium_dagger=Passive Soulium Dagger
+item.mysticalagriculture:peridot_essence=Peridot Essence
+item.mysticalagriculture:peridot_seeds=Peridot Seeds
+item.mysticalagriculture:pig_essence=Pig Essence
+item.mysticalagriculture:pig_seeds=Pig Seeds
+item.mysticalagriculture:pig_soul_jar=Pig Soul Jar
+item.mysticalagriculture:pig_soul_jar_full=Pig Soul Jar Full
+item.mysticalagriculture:platinum_essence=Platinum Essence
+item.mysticalagriculture:platinum_seeds=Platinum Seeds
+item.mysticalagriculture:prismarine_agglomeratio=Prismarine Agglomeratio
+item.mysticalagriculture:prismarine_essence=Prismarine Essence
+item.mysticalagriculture:prismarine_seeds=Prismarine Seeds
+item.mysticalagriculture:prosperity_gemstone=Prosperity Gemstone
+item.mysticalagriculture:prosperity_ingot=Prosperity Ingot
+item.mysticalagriculture:prosperity_nugget=Prosperity Nugget
+item.mysticalagriculture:prosperity_seed_base=Prosperity Seed Base
+item.mysticalagriculture:prosperity_shard=Prosperity Shard
+item.mysticalagriculture:prudentium_axe=Prudentium Axe
+item.mysticalagriculture:prudentium_boots=Prudentium Boots
+item.mysticalagriculture:prudentium_bow=Prudentium Bow
+item.mysticalagriculture:prudentium_chestplate=Prudentium Chestplate
+item.mysticalagriculture:prudentium_essence=Prudentium Essence
+item.mysticalagriculture:prudentium_gemstone=Prudentium Gemstone
+item.mysticalagriculture:prudentium_helmet=Prudentium Helmet
+item.mysticalagriculture:prudentium_hoe=Prudentium Hoe
+item.mysticalagriculture:prudentium_ingot=Prudentium Ingot
+item.mysticalagriculture:prudentium_leggings=Prudentium Leggings
+item.mysticalagriculture:prudentium_nugget=Prudentium Nugget
+item.mysticalagriculture:prudentium_pickaxe=Prudentium Pickaxe
+item.mysticalagriculture:prudentium_scythe=Prudentium Scythe
+item.mysticalagriculture:prudentium_shears=Prudentium Shears
+item.mysticalagriculture:prudentium_shovel=Prudentium Shovel
+item.mysticalagriculture:prudentium_sickle=Prudentium Sickle
+item.mysticalagriculture:prudentium_sword=Prudentium Sword
+item.mysticalagriculture:prudentium_upgrade=Prudentium Upgrade
+item.mysticalagriculture:prudentium_watering_can=Prudentium Watering Can
+item.mysticalagriculture:rabbit_essence=Rabbit Essence
+item.mysticalagriculture:rabbit_seeds=Rabbit Seeds
+item.mysticalagriculture:rabbit_soul_jar=Rabbit Soul Jar
+item.mysticalagriculture:rabbit_soul_jar_full=Rabbit Soul Jar Full
+item.mysticalagriculture:redstone_essence=Redstone Essence
+item.mysticalagriculture:redstone_seeds=Redstone Seeds
+item.mysticalagriculture:rubber_essence=Rubber Essence
+item.mysticalagriculture:rubber_seeds=Rubber Seeds
+item.mysticalagriculture:ruby_essence=Ruby Essence
+item.mysticalagriculture:ruby_seeds=Ruby Seeds
+item.mysticalagriculture:saltpeter_essence=Saltpeter Essence
+item.mysticalagriculture:saltpeter_seeds=Saltpeter Seeds
+item.mysticalagriculture:sapphire_essence=Sapphire Essence
+item.mysticalagriculture:sapphire_seeds=Sapphire Seeds
+item.mysticalagriculture:sheep_essence=Sheep Essence
+item.mysticalagriculture:sheep_seeds=Sheep Seeds
+item.mysticalagriculture:sheep_soul_jar=Sheep Soul Jar
+item.mysticalagriculture:sheep_soul_jar_full=Sheep Soul Jar Full
+item.mysticalagriculture:silicon_essence=Silicon Essence
+item.mysticalagriculture:silicon_seeds=Silicon Seeds
+item.mysticalagriculture:silver_essence=Silver Essence
+item.mysticalagriculture:silver_seeds=Silver Seeds
+item.mysticalagriculture:skeleton_essence=Skeleton Essence
+item.mysticalagriculture:skeleton_seeds=Skeleton Seeds
+item.mysticalagriculture:skeleton_soul_jar=Skeleton Soul Jar
+item.mysticalagriculture:skeleton_soul_jar_full=Skeleton Soul Jar Full
+item.mysticalagriculture:slime_essence=Slime Essence
+item.mysticalagriculture:slime_seeds=Slime Seeds
+item.mysticalagriculture:slime_soul_jar=Slime Soul Jar
+item.mysticalagriculture:slime_soul_jar_full=Slime Soul Jar Full
+item.mysticalagriculture:soul_dust=Soul Dust
+item.mysticalagriculture:soul_jar=Soul Jar
+item.mysticalagriculture:soulium_dagger=Soulium Dagger
+item.mysticalagriculture:soulium_dust=Soulium Dust
+item.mysticalagriculture:soulium_essence=Soulium Essence
+item.mysticalagriculture:soulium_gemstone=Soulium Gemstone
+item.mysticalagriculture:soulium_ingot=Soulium Ingot
+item.mysticalagriculture:soulium_nugget=Soulium Nugget
+item.mysticalagriculture:soulium_seed_base=Soulium Seed Base
+item.mysticalagriculture:soulium_seeds=Soulium Seeds
+item.mysticalagriculture:spider_essence=Spider Essence
+item.mysticalagriculture:spider_seeds=Spider Seeds
+item.mysticalagriculture:spider_soul_jar=Spider Soul Jar
+item.mysticalagriculture:spider_soul_jar_full=Spider Soul Jar Full
+item.mysticalagriculture:squid_essence=Squid Essence
+item.mysticalagriculture:squid_seeds=Squid Seeds
+item.mysticalagriculture:squid_soul_jar=Squid Soul Jar
+item.mysticalagriculture:squid_soul_jar_full=Squid Soul Jar Full
+item.mysticalagriculture:steel_essence=Steel Essence
+item.mysticalagriculture:steel_seeds=Steel Seeds
+item.mysticalagriculture:stone_essence=Stone Essence
+item.mysticalagriculture:stone_seeds=Stone Seeds
+item.mysticalagriculture:sulfur_essence=Sulfur Essence
+item.mysticalagriculture:sulfur_seeds=Sulfur Seeds
+item.mysticalagriculture:supremium_axe=Supremium Axe
+item.mysticalagriculture:supremium_boots=Supremium Boots
+item.mysticalagriculture:supremium_bow=Supremium Bow
+item.mysticalagriculture:supremium_chestplate=Supremium Chestplate
+item.mysticalagriculture:supremium_essence=Supremium Essence
+item.mysticalagriculture:supremium_gemstone=Supremium Gemstone
+item.mysticalagriculture:supremium_helmet=Supremium Helmet
+item.mysticalagriculture:supremium_hoe=Supremium Hoe
+item.mysticalagriculture:supremium_ingot=Supremium Ingot
+item.mysticalagriculture:supremium_leggings=Supremium Leggings
+item.mysticalagriculture:supremium_nugget=Supremium Nugget
+item.mysticalagriculture:supremium_pickaxe=Supremium Pickaxe
+item.mysticalagriculture:supremium_scythe=Supremium Scythe
+item.mysticalagriculture:supremium_shears=Supremium Shears
+item.mysticalagriculture:supremium_shovel=Supremium Shovel
+item.mysticalagriculture:supremium_sickle=Supremium Sickle
+item.mysticalagriculture:supremium_sword=Supremium Sword
+item.mysticalagriculture:supremium_upgrade=Supremium Upgrade
+item.mysticalagriculture:supremium_watering_can=Supremium Watering Can
+item.mysticalagriculture:template_essence=Template Essence
+item.mysticalagriculture:template_seeds=Template Seeds
+item.mysticalagriculture:tertium_axe=Tertium Axe
+item.mysticalagriculture:tertium_boots=Tertium Boots
+item.mysticalagriculture:tertium_bow=Tertium Bow
+item.mysticalagriculture:tertium_chestplate=Tertium Chestplate
+item.mysticalagriculture:tertium_essence=Tertium Essence
+item.mysticalagriculture:tertium_gemstone=Tertium Gemstone
+item.mysticalagriculture:tertium_helmet=Tertium Helmet
+item.mysticalagriculture:tertium_hoe=Tertium Hoe
+item.mysticalagriculture:tertium_ingot=Tertium Ingot
+item.mysticalagriculture:tertium_leggings=Tertium Leggings
+item.mysticalagriculture:tertium_nugget=Tertium Nugget
+item.mysticalagriculture:tertium_pickaxe=Tertium Pickaxe
+item.mysticalagriculture:tertium_scythe=Tertium Scythe
+item.mysticalagriculture:tertium_shears=Tertium Shears
+item.mysticalagriculture:tertium_shovel=Tertium Shovel
+item.mysticalagriculture:tertium_sickle=Tertium Sickle
+item.mysticalagriculture:tertium_sword=Tertium Sword
+item.mysticalagriculture:tertium_upgrade=Tertium Upgrade
+item.mysticalagriculture:tertium_watering_can=Tertium Watering Can
+item.mysticalagriculture:tin_essence=Tin Essence
+item.mysticalagriculture:tin_seeds=Tin Seeds
+item.mysticalagriculture:turtle_essence=Turtle Essence
+item.mysticalagriculture:turtle_seeds=Turtle Seeds
+item.mysticalagriculture:turtle_soul_jar=Turtle Soul Jar
+item.mysticalagriculture:turtle_soul_jar_full=Turtle Soul Jar Full
+item.mysticalagriculture:upgrade_base=Upgrade Base
+item.mysticalagriculture:uranium_essence=Uranium Essence
+item.mysticalagriculture:uranium_seeds=Uranium Seeds
+item.mysticalagriculture:wand=Wand
+item.mysticalagriculture:water_agglomeratio=Water Agglomeratio
+item.mysticalagriculture:water_essence=Water Essence
+item.mysticalagriculture:water_seeds=Water Seeds
+item.mysticalagriculture:watering_can=Watering Can
+item.mysticalagriculture:wither_skeleton_essence=Wither Skeleton Essence
+item.mysticalagriculture:wither_skeleton_seeds=Wither Skeleton Seeds
+item.mysticalagriculture:wither_skeleton_soul_jar=Wither Skeleton Soul Jar
+item.mysticalagriculture:wither_skeleton_soul_jar_full=Wither Skeleton Soul Jar Full
+item.mysticalagriculture:wood_essence=Wood Essence
+item.mysticalagriculture:wood_seeds=Wood Seeds
+item.mysticalagriculture:zinc_essence=Zinc Essence
+item.mysticalagriculture:zinc_seeds=Zinc Seeds
+item.mysticalagriculture:zombie_essence=Zombie Essence
+item.mysticalagriculture:zombie_seeds=Zombie Seeds
+item.mysticalagriculture:zombie_soul_jar=Zombie Soul Jar
+item.mysticalagriculture:zombie_soul_jar_full=Zombie Soul Jar Full
+item.spawn_egg.entity.minecraft:player.name=Spawn Player
+item.spawn_egg.entity.mysticalagriculture:infusion_altar_entity.name=Spawn Infusion Altar Entity
+item.spawn_egg.entity.mysticalagriculture:infusion_pedestal_entity.name=Spawn Infusion Pedestal Entity
+item.spawn_egg.entity.mysticalagriculture:nothing.name=Spawn Nothing
+tile.mysticalagriculture:air_crop.name=Air Crop
+tile.mysticalagriculture:aluminum_crop.name=Aluminum Crop
+tile.mysticalagriculture:amethyst_crop.name=Amethyst Crop
+tile.mysticalagriculture:apatite_crop.name=Apatite Crop
+tile.mysticalagriculture:blaze_crop.name=Blaze Crop
+tile.mysticalagriculture:brass_crop.name=Brass Crop
+tile.mysticalagriculture:bronze_crop.name=Bronze Crop
+tile.mysticalagriculture:chicken_crop.name=Chicken Crop
+tile.mysticalagriculture:coal_crop.name=Coal Crop
+tile.mysticalagriculture:constantan_crop.name=Constantan Crop
+tile.mysticalagriculture:copper_crop.name=Copper Crop
+tile.mysticalagriculture:coral_crop.name=Coral Crop
+tile.mysticalagriculture:cow_crop.name=Cow Crop
+tile.mysticalagriculture:creeper_crop.name=Creeper Crop
+tile.mysticalagriculture:deepslate_crop.name=Deepslate Crop
+tile.mysticalagriculture:deepslate_inferium_ore.name=Deepslate Inferium Ore
+tile.mysticalagriculture:deepslate_prosperity_ore.name=Deepslate Prosperity Ore
+tile.mysticalagriculture:diamond_crop.name=Diamond Crop
+tile.mysticalagriculture:dirt_crop.name=Dirt Crop
+tile.mysticalagriculture:dye_crop.name=Dye Crop
+tile.mysticalagriculture:earth_crop.name=Earth Crop
+tile.mysticalagriculture:electrum_crop.name=Electrum Crop
+tile.mysticalagriculture:emerald_crop.name=Emerald Crop
+tile.mysticalagriculture:end_crop.name=End Crop
+tile.mysticalagriculture:enderman_crop.name=Enderman Crop
+tile.mysticalagriculture:experience_crop.name=Experience Crop
+tile.mysticalagriculture:fire_crop.name=Fire Crop
+tile.mysticalagriculture:fish_crop.name=Fish Crop
+tile.mysticalagriculture:ghast_crop.name=Ghast Crop
+tile.mysticalagriculture:glowstone_crop.name=Glowstone Crop
+tile.mysticalagriculture:gold_crop.name=Gold Crop
+tile.mysticalagriculture:graphite_crop.name=Graphite Crop
+tile.mysticalagriculture:honey_crop.name=Honey Crop
+tile.mysticalagriculture:ice_crop.name=Ice Crop
+tile.mysticalagriculture:imperium_block.name=Imperium Block
+tile.mysticalagriculture:imperium_farmland.name=Imperium Farmland
+tile.mysticalagriculture:imperium_gemstone_block.name=Imperium Gemstone Block
+tile.mysticalagriculture:imperium_ingot_block.name=Imperium Ingot Block
+tile.mysticalagriculture:inferium_block.name=Inferium Block
+tile.mysticalagriculture:inferium_crop.name=Inferium Crop
+tile.mysticalagriculture:inferium_farmland.name=Inferium Farmland
+tile.mysticalagriculture:inferium_gemstone_block.name=Inferium Gemstone Block
+tile.mysticalagriculture:inferium_ingot_block.name=Inferium Ingot Block
+tile.mysticalagriculture:inferium_ore.name=Inferium Ore
+tile.mysticalagriculture:infusion_altar.name=Infusion Altar
+tile.mysticalagriculture:infusion_altar_check.name=Infusion Altar Check
+tile.mysticalagriculture:infusion_altar_player.name=Infusion Altar Player
+tile.mysticalagriculture:infusion_pedestal.name=Infusion Pedestal
+tile.mysticalagriculture:invar_crop.name=Invar Crop
+tile.mysticalagriculture:iridium_crop.name=Iridium Crop
+tile.mysticalagriculture:iron_crop.name=Iron Crop
+tile.mysticalagriculture:lapis_lazuli_crop.name=Lapis Lazuli Crop
+tile.mysticalagriculture:lead_crop.name=Lead Crop
+tile.mysticalagriculture:nature_crop.name=Nature Crop
+tile.mysticalagriculture:nether_crop.name=Nether Crop
+tile.mysticalagriculture:nether_quartz_crop.name=Nether Quartz Crop
+tile.mysticalagriculture:netherite_crop.name=Netherite Crop
+tile.mysticalagriculture:nickel_crop.name=Nickel Crop
+tile.mysticalagriculture:obsidian_crop.name=Obsidian Crop
+tile.mysticalagriculture:peridot_crop.name=Peridot Crop
+tile.mysticalagriculture:pig_crop.name=Pig Crop
+tile.mysticalagriculture:platinum_crop.name=Platinum Crop
+tile.mysticalagriculture:prismarine_crop.name=Prismarine Crop
+tile.mysticalagriculture:prosperity_block.name=Prosperity Block
+tile.mysticalagriculture:prosperity_gemstone_block.name=Prosperity Gemstone Block
+tile.mysticalagriculture:prosperity_ingot_block.name=Prosperity Ingot Block
+tile.mysticalagriculture:prosperity_ore.name=Prosperity Ore
+tile.mysticalagriculture:prudentium_block.name=Prudentium Block
+tile.mysticalagriculture:prudentium_farmland.name=Prudentium Farmland
+tile.mysticalagriculture:prudentium_gemstone_block.name=Prudentium Gemstone Block
+tile.mysticalagriculture:prudentium_ingot_block.name=Prudentium Ingot Block
+tile.mysticalagriculture:rabbit_crop.name=Rabbit Crop
+tile.mysticalagriculture:redstone_crop.name=Redstone Crop
+tile.mysticalagriculture:rubber_crop.name=Rubber Crop
+tile.mysticalagriculture:ruby_crop.name=Ruby Crop
+tile.mysticalagriculture:saltpeter_crop.name=Saltpeter Crop
+tile.mysticalagriculture:sapphire_crop.name=Sapphire Crop
+tile.mysticalagriculture:sheep_crop.name=Sheep Crop
+tile.mysticalagriculture:silicon_crop.name=Silicon Crop
+tile.mysticalagriculture:silver_crop.name=Silver Crop
+tile.mysticalagriculture:skeleton_crop.name=Skeleton Crop
+tile.mysticalagriculture:slime_crop.name=Slime Crop
+tile.mysticalagriculture:soul_glass.name=Soul Glass
+tile.mysticalagriculture:soulium_block.name=Soulium Block
+tile.mysticalagriculture:soulium_crop.name=Soulium Crop
+tile.mysticalagriculture:soulium_gemstone_block.name=Soulium Gemstone Block
+tile.mysticalagriculture:soulium_ingot_block.name=Soulium Ingot Block
+tile.mysticalagriculture:soulium_ore.name=Soulium Ore
+tile.mysticalagriculture:soulstone.name=Soulstone
+tile.mysticalagriculture:soulstone_bricks.name=Soulstone Bricks
+tile.mysticalagriculture:soulstone_bricks_slab.name=Soulstone Bricks Slab
+tile.mysticalagriculture:soulstone_bricks_stairs.name=Soulstone Bricks Stairs
+tile.mysticalagriculture:soulstone_bricks_wall.name=Soulstone Bricks Wall
+tile.mysticalagriculture:soulstone_chiseled_bricks.name=Soulstone Chiseled Bricks
+tile.mysticalagriculture:soulstone_cobble.name=Soulstone Cobble
+tile.mysticalagriculture:soulstone_cobble_slab.name=Soulstone Cobble Slab
+tile.mysticalagriculture:soulstone_cobble_stairs.name=Soulstone Cobble Stairs
+tile.mysticalagriculture:soulstone_cobble_wall.name=Soulstone Cobble Wall
+tile.mysticalagriculture:soulstone_cracked_bricks.name=Soulstone Cracked Bricks
+tile.mysticalagriculture:soulstone_slab.name=Soulstone Slab
+tile.mysticalagriculture:soulstone_smooth.name=Soulstone Smooth
+tile.mysticalagriculture:soulstone_smooth_slab.name=Soulstone Smooth Slab
+tile.mysticalagriculture:soulstone_stairs.name=Soulstone Stairs
+tile.mysticalagriculture:spider_crop.name=Spider Crop
+tile.mysticalagriculture:squid_crop.name=Squid Crop
+tile.mysticalagriculture:steel_crop.name=Steel Crop
+tile.mysticalagriculture:stone_crop.name=Stone Crop
+tile.mysticalagriculture:sulfur_crop.name=Sulfur Crop
+tile.mysticalagriculture:supremium_block.name=Supremium Block
+tile.mysticalagriculture:supremium_farmland.name=Supremium Farmland
+tile.mysticalagriculture:supremium_gemstone_block.name=Supremium Gemstone Block
+tile.mysticalagriculture:supremium_ingot_block.name=Supremium Ingot Block
+tile.mysticalagriculture:template_crop.name=Template Crop
+tile.mysticalagriculture:tertium_block.name=Tertium Block
+tile.mysticalagriculture:tertium_farmland.name=Tertium Farmland
+tile.mysticalagriculture:tertium_gemstone_block.name=Tertium Gemstone Block
+tile.mysticalagriculture:tertium_ingot_block.name=Tertium Ingot Block
+tile.mysticalagriculture:tin_crop.name=Tin Crop
+tile.mysticalagriculture:turtle_crop.name=Turtle Crop
+tile.mysticalagriculture:uranium_crop.name=Uranium Crop
+tile.mysticalagriculture:water_crop.name=Water Crop
+tile.mysticalagriculture:wither_skeleton_crop.name=Wither Skeleton Crop
+tile.mysticalagriculture:witherproof_block.name=Witherproof Block
+tile.mysticalagriculture:witherproof_blocks.name=Witherproof Blocks
+tile.mysticalagriculture:witherproof_bricks.name=Witherproof Bricks
+tile.mysticalagriculture:witherproof_glass.name=Witherproof Glass
+tile.mysticalagriculture:wood_crop.name=Wood Crop
+tile.mysticalagriculture:zinc_crop.name=Zinc Crop
+tile.mysticalagriculture:zombie_crop.name=Zombie Crop
+
+book.mysticalagriculture.credits=Credits
+book.mysticalagriculture.credits.description=Thanks to all these people for sharing different tools that helped me to create a better and more advanced addon:
+
+book.mysticalagriculture.credits.description1.name=BlakeBr0
+book.mysticalagriculture.credits.description1=BlakeBr0 \n- Creator of the original mod
+
+book.mysticalagriculture.credits.description2.name=VactricaKing
+book.mysticalagriculture.credits.description2=VactricaKing \n- Custom Bow
+
+book.mysticalagriculture.credits.description3.name=rebel459
+book.mysticalagriculture.credits.description3=rebel459 \n- Code for tools durability \n- Code for tools interactions
+
+book.mysticalagriculture.credits.description4.name=alienedds (Edds)
+book.mysticalagriculture.credits.description4=alienedds (Edds) \n- Code for custom Crops \n- Notification ui thingy \n- Custom Wall
+
+book.mysticalagriculture.credits.description5.name=Kaioga5
+book.mysticalagriculture.credits.description5=Kaioga5 \n- Custom Slab
+
+book.mysticalagriculture.credits.description6.name=Rimestor
+book.mysticalagriculture.credits.description6=Rimestor \n- Custom Stairs
+
+book.mysticalagriculture.credits.description7.name=Drag0nD
+book.mysticalagriculture.credits.description7=Drag0nD \n- Dynamic multi-tab form UI
+
+book.mysticalagriculture.credits.description8.name=Chatgpt
+book.mysticalagriculture.credits.description8=Chatgpt \n- For fixing the most obscure, bizarre bugs that no human has ever seen.
 
 
-## Growth Accelerators
-tile.strat:inferium_growth_accelerator.name=Inferium Growth Accelerator §7Range: §e12§7 Blocks§r
-tile.strat:prudentium_growth_accelerator.name=Prudentium Growth Accelerator §7Range: §a24§7 Blocks§r
-tile.strat:tertium_growth_accelerator.name=Tertium Growth Accelerator §7Range: §636§7 Blocks§r
-tile.strat:imperium_growth_accelerator.name=Imperium Growth Accelerator §7Range: §b48§7 Blocks§r
-tile.strat:supremium_growth_accelerator.name=Supremium Growth Accelerator §7Range: §460§7 Blocks§r
+
+##book.mysticalagriculture.body=Mystical Agriculture is an addon based around the concept of growing your resources. This book will be your guide to using all the features of Mystical Agriculture.
+book.mysticalagriculture.body=Work in progress
+
+book.mysticalagriculture.coming_soon=Cooming Soon
+
+book.mysticalagriculture.back=Back
+
+book.mysticalagriculture.cat.basics.name=Basics
+
+    book.mysticalagriculture.cat.basics.description=This section goes over the different things required to get started in Mystical Agriculture.
+
+    book.mysticalagriculture.entry.inferium_essence=Inferium Essence
+    book.mysticalagriculture.entry.inferium_essence.page.1=Inferium Essence is one of the two base materials in Mystical Agriculture. It's used in the creation of pretty much everything in the mod. You can §lusually§r obtain Inferium Essence by killing hostile or passive mobs, mining it from the ground, or growing it.
+
+    book.mysticalagriculture.entry.prosperity_shards=Prosperity Shards
+    book.mysticalagriculture.entry.prosperity_shards.page.1=Prosperity Shards are the other of the two base materials in Mystical Agriculture. They are used to create magical variations of basic materials. You can §lusually§r obtain Prosperity Shards by mining them from the ground.
+
+    book.mysticalagriculture.entry.infusion_crystal=Infusion Crystal
+    book.mysticalagriculture.entry.infusion_crystal.page.1=The Infusion Crystal is used to create higher tier essences.
+
+    book.mysticalagriculture.entry.inferium_seeds=Inferium Seeds
+    book.mysticalagriculture.entry.inferium_seeds.page.1=Inferium Seeds are one of the main ways to collect Inferium Essence. They can be grown on any farmland, but are most efficient on Essence Farmland.
+
+    book.mysticalagriculture.overworld_ores=Overworld Ores
+    book.mysticalagriculture.entry.overworld_ores.page.1=Inferium Ore §lusually§r spawns between Y level -32 and 64 in the Overworld.
+    book.mysticalagriculture.entry.overworld_ores.page.2=Prosperity Ore §lusually§r spawns between Y level -60 and 24 in the Overworld.
+
+    book.mysticalagriculture.resource_crops=Resources Crops
+    book.mysticalagriculture.entry.resource_crops.page.1=Resource Crops are the heart and soul of what makes Mystical Agriculture so great. However, there are some special properties of resource crops that should be noted. \n\n- Resource Crops can not be grown using Bonemeal. \n- Resource Crops do not drop a second seed unless planted on Essence Farmland.
+    book.mysticalagriculture.entry.resource_crops.page.2=Resource Crops are §lusually§r created using an Infusion Altar.
+
+    book.mysticalagriculture.essence_farmland=Essence Farmland
+    book.mysticalagriculture.entry.essence_farmland.page.1=Essence Farmland increases the output efficiency of Mystical Agriculture crops in multiple ways. They are listed on the following page. \n\nYou can create Essence Farmland by either right-clicking on Farmland in-world with an essence or by crafting it.
+    book.mysticalagriculture.entry.essence_farmland.page.2=- Crops will §lusually§r have a 10 percent chance to drop a second seed when planted on any tier Essence Farmland. \n- Crops will have an additional 10 percent chance to drop a second seed when planted on the corresponding tier Essence Farmland. \n- Inferium Seeds will drop more essences when planted on higher tier Essence Farmland.
+
+    book.mysticalagriculture.growth_accelerators=Growth Accelerators
+    book.mysticalagriculture.entry.growth_accelerators.page.1=Growth Accelerators are used to increase plant growth speed. They apply random growth ticks to the first plant placed above them within the specified range. \n\nYou can stack multiple Growth Accelerators of any tier as long as the plant is within range.
+    book.mysticalagriculture.entry.growth_accelerators.page.2=The range of the Growth Accelerator is based on it being placed underneath the farmland.
+
+    book.mysticalagriculture.entry.watering_can=Watering Can
+    book.mysticalagriculture.entry.watering_can.page.1=Watering Cans are used to accelerate crop growth using manual* labor. To fill one up, simply right click on a Water source block.
+
+    book.mysticalagriculture.infusion_altar=Infusion Altar
+    book.mysticalagriculture.entry.infusion_altar.page.1=The Infusion Altar is a crafting structure that is §lusually§r used to create Mystical Agriculture seeds. The structure consists of 1 Infusion Altar and 8 Infusion Pedestals. \n\nOnce you have a recipe put in place, you just need to activate the altar with a Wand.
+    book.mysticalagriculture.entry.infusion_altar.page.2=Placing the Infusion Altar in world will show you where to place your pedestals.
+
+    book.mysticalagriculture.entry.fertilized_essence=Fertilized Essence
+    book.mysticalagriculture.entry.fertilized_essence.page.1=Fertilized Essence §lusually§r drops from all Resource Crops §lexcept Inferium§r. It works identically to Bonemeal, but also works on Resource Crops! \n\nFertilized Essence can also be used to more efficiently craft Mystical Fertilizer.
+
+
+book.mysticalagriculture.cat.advances.name=Advances
+
+    book.mysticalagriculture.cat.advances.description=This section goes over some of the more advanced content that comes after you've gotten established.
+
+    book.mysticalagriculture.entry.mystical_fertilizer=Mystical Fertilizer
+    book.mysticalagriculture.entry.mystical_fertilizer.page.1=Mystical Fertilizer is used to instantly grow a crop or sapling. It's effective on Resource Crops too!
+
+    book.mysticalagriculture.entry.master_infusion_crystal=Master Infusion Crystal
+    book.mysticalagriculture.entry.master_infusion_crystal.page.1=The Master Infusion Crystal has infinite durability. You want this, I know you do.
+
+    book.mysticalagriculture.entry.essence_watering_cans=Essence Watering Cans
+    book.mysticalagriculture.entry.essence_watering_cans.page.1=Upgrading the regular Watering Can with essences and Mystical Fertilizer improves your farming experience a ton. \n\nUpgraded Watering Cans have improved range and growth acceleration speed. You can also toggle automatic watering by Shift + Right Clicking with the Watering Can while not targeting a block.
+
+    book.mysticalagriculture.entry.sickles=Sickles
+    book.mysticalagriculture.entry.sickles.page.1=Sickles are used for harvesting/destroying large areas of plant material. \n\nHigher tier Sickles will have a greater area of effect.
+
+    book.mysticalagriculture.entry.scythes=Scythes
+    book.mysticalagriculture.entry.scythes.page.1=Scythes are used for harvesting large areas of crops by right clicking. Any fully grown crops within the area of effect will be harvested without being uprooted. \n\nScythes are also an effective weapon with an increased attack AOE. \n\nHigher tier Scythes have a greater area of effect.
+
+book.mysticalagriculture.cat.souls.name=Souls
+
+    book.mysticalagriculture.cat.souls.description=This section goes over the Nether content as well as the mob soul content required for creating and using mob drop based crops.
+
+    book.mysticalagriculture.entry.soulstone=Soulstone
+    book.mysticalagriculture.entry.soulstone.page.1=Soulstone is a special kind of stone that spawns in the Nether. It generates in large veins at all Y levels. \n\nSoulstone is a decorative block with many variants. It is also required to create Witherproof Blocks.
+    book.mysticalagriculture.entry.soulstone.page.2=It can also be smelted into Soul Dust, which has many uses as well.
+
+    book.mysticalagriculture.entry.soulium_ore=Soulium Ore
+    book.mysticalagriculture.entry.soulium_ore.page.1=Soulium Ore §lusually§r spawns inside Soulstone veins in the Nether.
+
+    book.mysticalagriculture.entry.witherproof_blocks=Witherproof Blocks
+    book.mysticalagriculture.entry.witherproof_blocks.page.1=Witherproof Blocks are unbreakable by the Wither. Very useful for those who like to cheese bosses. \n\nThey are also immune to damage from the Ender Dragon, however it can still fly though them. [CURRENTLY BROKEN, DO NOT USE]
+
+    book.mysticalagriculture.entry.soulium_dagger=Soulium Dagger
+    book.mysticalagriculture.entry.soulium_dagger.page.1=The Soulium Dagger is used to collect souls from mobs. These souls are collected using Soul Jars. Souls are collected by killing mobs with the Soulium Dagger \n\nThe Soulium Dagger can be upgraded using an Infusion Altar, improving soul collection efficiency.
+    book.mysticalagriculture.entry.soulium_dagger.page.2=The Passive Attuned Soulium Dagger provides an additional +50 percent souls gathered from passive mobs.
+    book.mysticalagriculture.entry.soulium_dagger.page.3=The Hostile Attuned Soulium Dagger provides an additional +50 percent souls gathered from hostile mobs.
+
+    book.mysticalagriculture.entry.soul_jars=Soul Jars
+    book.mysticalagriculture.entry.soul_jars.page.1=Soul Jars are used in combination with a Soulium Dagger to collect mob souls. Filled Soul Jars can be used to create Resource Crops for the corresponding entity. \n\nSoul Jars can also be filled using mob drops with a Soul Extractor.
+
+    book.mysticalagriculture.entry.experience_capsule=Experience Capsule
+    book.mysticalagriculture.entry.experience_capsule.page.1=Experience Capsules are used to collect experience for creating Experience Seeds. \n\nTo collect experience, simply have some Experience Capsules in your inventory and pick up Experience Orbs.
+
+    book.mysticalagriculture.entry.enchanter=Enchanter
+    book.mysticalagriculture.entry.enchanter.page.1=The Enchanter is a block that allows you to enchant your tools and armor using different crafting materials and Experience Essence. \n\nThe Enchanter can apply enchantments to both Books and tools/armor, similarly to an Anvil.
+
+book.mysticalagriculture.cat.elemental.name=Elemental
+
+    book.mysticalagriculture.category.elemental.description=This section goes over Awakened Supremium and other elemental essence based content.
+
+    book.mysticalagriculture.entry.elemental_essences=Elemental Essences
+    book.mysticalagriculture.entry.elemental_essences.page.1=Air, Earth, Water and Fire essences can be used in Awakening Altar recipes using Essence Vessels.
+
+    book.mysticalagriculture.entry.cognizant_dust=Cognizant Dust
+    book.mysticalagriculture.entry.cognizant_dust.page.1=Cognizant Dust is §lusually§r obtained by killing a Wither or Ender Dragon using an Essence Weapon enchanted with Mystical Enlightenment. \n\nHigher levels of Mystical Enlightenment will increase the amount of dust dropped on kill.
+
+    book.mysticalagriculture.entry.essence_vessel=Essence Vessel
+    book.mysticalagriculture.entry.essence_vessel.page.1=Essence Vessels are used in the Awakening Altar structure to hold the elemental essences required to create items. Each vessel can hold up to 40 of a single elemental essence.
+
+    book.mysticalagriculture.entry.awakening_altar=Awakening Altar
+    book.mysticalagriculture.entry.awakening_altar.page.1=The Awakening Altar is a crafting structure that is §lusually§r used to create Awakened Supremium. The structure consists of 1 Infusion Altar, 4 Infusion Pedestals and 4 Essence Vessels. \n\nOnce you have a recipe put in place, you just need to activate the altar with a Redstone signal.
+    book.mysticalagriculture.entry.awakening_altar.page.2=Placing the Awakening Altar in world will show you where to place your pedestals and vessels.
+
+    book.mysticalagriculture.entry.awakened_supremium=Awakened Supremium
+    book.mysticalagriculture.entry.awakened_supremium.page.1=Awakened Supremium is a high level crafting material used to create upgraded versions of many of your Supremium items. \n\nAwakened Supremium is §lusually§r created by infusing Cognizant Dust with a Supremium Block using an Awakening Altar.
+
+book.mysticalagriculture.cat.machines.name=Machines
+
+    book.mysticalagriculture.cat.machines.description=This section goes over the different machine type blocks in Mystical Agriculture.
+
+    book.mysticalagriculture.entry.machine_upgrades=Machine Upgrades
+    book.mysticalagriculture.entry.machine_upgrades.page.1=Machine Upgrades can be placed in applicable machines to increase their effectiveness. \n\nHigher tier machines will both use and generate power faster.
+
+    book.mysticalagriculture.entry.essence_furnaces=Essence Furnaces
+    book.mysticalagriculture.entry.essence_furnaces.page.1=Upgrading a regular Furnace with essences will increase its cooking speed and fuel efficiency.
+
+    book.mysticalagriculture.entry.seed_reprocessors=Seed Reprocessors
+    book.mysticalagriculture.entry.seed_reprocessors.page.1=Seed Reprocessors are used to convert your excess seeds into their respective essences. They run off of solid fuels and have an internal power storage buffer.
+
+    book.mysticalagriculture.entry.soul_extractor=Soul Extractor
+    book.mysticalagriculture.entry.soul_extractor.page.1=Soul Extractors are used to convert mob drops into mob souls. They run off of solid fuels and have an internal power storage buffer. \n\nThe Soul Extractor provides a use for extra mob drops you may have, but generally won't be as efficient as using a Soulium Dagger.
+
+    book.mysticalagriculture.entry.harvester=Harvester
+    book.mysticalagriculture.entry.harvester.page.1=Harvesters are used to automatically harvest fully grown crops. They run off of solid fuels and have an internal power storage buffer. \n\nThe harvester will automatically re-plant the crops it harvests. \n\nThe harvester will place all resources into it's internal inventory. If there's no space, the items will be placed on the crop.
+    book.mysticalagriculture.entry.harvester.page.2=The Harvester will use a bit of power every time it checks a crop for growth. Harvesting fully grown crops uses an increased amount of power. \n\nThese machines can upgraded with Machine Upgrades. \n\nThe Harvester can be de-activated with a Redstone signal.
+
+    book.mysticalagriculture.entry.soulium_spawner=Soulium Spawner
+    book.mysticalagriculture.entry.soulium_spawner.page.1=The Soulium Spawner is used to spawn both hostile and passive mobs using Essences. They run off of solid fuels and have an internal power storage buffer. \n\nThe Spawner has an internal inventory that can hold up to 512 items. Each operation will take a certain amount of items and power to spawn a corresponding mob.
+    book.mysticalagriculture.entry.soulium_spawner.page.2=The Spawner will spawn the mob randomly in a 3 block radius around it. \n\nThese machines can upgraded with Machine Upgrades. \n\nThe Soulium Spawner can be de-activated with a Redstone signal.
+
+book.mysticalagriculture.cat.tinkering.name=Tinkering
+
+    book.mysticalagriculture.category.tinkering.description=This section goes over Essence Tools/Armor as well as the tinkering system.
+
+    book.mysticalagriculture.entry.essence_tools=Essence Tools
+    book.mysticalagriculture.entry.essence_tools.page.1=Upgrading your Diamond* tools with essence improves their durability and mining speed. This also allows them to be equipped with Augments. \n\nEssence Tools can be repaired in an Anvil with their corresponding Essence Ingot. These tools each have 1 augment slot.
+
+    book.mysticalagriculture.entry.essence_armor=Essence Armor
+    book.mysticalagriculture.entry.essence_armor.page.1=Upgrading your Diamond* armor with essence improves its durability and protection. This also allows them to be equipped with Augments. \n\nEssence Armor can be repaired in an Anvil with their corresponding Essence Ingot. These armor pieces each have 1 augment slot.
+
+    book.mysticalagriculture.entry.tinkering_table=Tinkering Table
+    book.mysticalagriculture.entry.tinkering_table.page.1=The Tinkering Table is used to add Augments to Essence Tools and Essence Armor.
+
+    book.mysticalagriculture.entry.augments=Augments
+    book.mysticalagriculture.entry.augments.page.1=Augments are upgrades for Essence Tools and Essence Armor. You add Augments to your gear using a Tinkering Table. \n\nEach Augment has a tier assigned to it, designating the minimum tier of gear piece required to equip it.
+    book.mysticalagriculture.entry.augments.page.2=You can see what each Augment does in the 'Augments' section of this guide.
+
+book.mysticalagriculture.cat.augments.name=Augments
+
+    book.mysticalagriculture.cat.augments.description=This section goes over each of the Augments and what they do.
+
+book.mysticalagriculture.readme=The guidebook is adapted from the original mod; some things may not be as stated! \n\nIn future updates, the book will be updated with information about new features.
+
+book.mysticalagriculture.souls=Souls
+book.mysticalagriculture.elemental=Elemental
+book.mysticalagriculture.tinkering=Tinkering
+book.mysticalagriculture.machines=(Coming Soon)
+book.mysticalagriculture.augments=(Coming Soon)
+
+book.mysticalagriculture.chapters=Chapters
+
+item.mysticalagriculture:guide_book=§dMystical §5Agriculture§r: Guide book

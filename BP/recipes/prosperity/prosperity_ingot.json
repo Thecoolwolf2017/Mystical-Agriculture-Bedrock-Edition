@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mysticalagriculture:prosperity_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"O": {
+				"item": "mysticalagriculture:prosperity_shard"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"pattern": [
+			" O ",
+			"OIO",
+			" O "
+		],
+		"result": {
+			"item": "mysticalagriculture:prosperity_ingot"
+		}
+	}
+}

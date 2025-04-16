@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "mysticalagriculture:soulium_dust_smelt"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "mysticalagriculture:soulium_ore",
+		"output": "mysticalagriculture:soulium_dust"
+	}
+}

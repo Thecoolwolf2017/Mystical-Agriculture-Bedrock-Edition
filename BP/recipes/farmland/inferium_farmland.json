@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:inferium_farmland"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:inferium_essence"
+			},
+			{
+				"item": "minecraft:dirt"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:inferium_farmland"
+		}
+	}
+}

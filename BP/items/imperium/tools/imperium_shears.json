@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:imperium_shears",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "imperium_shears",
+			"minecraft:durability": {
+				"max_durability": 6000
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('minecraft:is_shears_item_destructible')"
+						},
+						"speed": 8
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"slot": "shears",
+				"value": 10
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

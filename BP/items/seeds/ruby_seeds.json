@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:ruby_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "ruby_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Ruby Seeds\n§7Tier: §b4§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:ruby_crop"
+			"identifier": "mysticalagriculture:ruby_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "ruby_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:ruby_crop"
+			}
+		}
 	}
 }

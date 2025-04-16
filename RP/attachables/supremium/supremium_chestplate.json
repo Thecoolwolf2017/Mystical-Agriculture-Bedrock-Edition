@@ -1,22 +1,21 @@
-//bridge-file-version: #13
 {
-	"format_version": "1.8.0",
+	"format_version": "1.20.80",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "strat:supremium_chestplate",
+			"identifier": "mysticalagriculture:supremium_chestplate",
 			"materials": {
 				"default": "armor",
 				"enchanted": "armor_enchanted"
 			},
 			"textures": {
-				"default": "textures/models/armor/supremium_1",
-				"enchanted": "textures/misc/enchanted_item_glint"
+				"default": "textures/models/armor/supremium_layer_1",
+				"enchanted": "textures/misc/enchanted_actor_glint"
 			},
 			"geometry": {
-				"default": "geometry.humanoid.armor.chestplate"
+				"default": "geometry.player.armor.chestplate"
 			},
 			"scripts": {
-				"parent_setup": "variable.boot_layer_visible = 0.0;"
+				"parent_setup": "v.chest_layer_visible = 0.0;"
 			},
 			"render_controllers": [
 				"controller.render.armor"

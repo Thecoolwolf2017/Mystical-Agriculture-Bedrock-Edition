@@ -1,49 +1,48 @@
 {
-  "format_version": "1.13.0",
-  "minecraft:feature_rules": {
-    "description": {
-      "identifier": "strat:soulstone_feature_rule",
-      "places_feature": "strat:soulstone_feat"
-    },
-    "conditions": {
-      "placement_pass": "underground_pass",
-      "minecraft:biome_filter": [
-        {
-          "any_of": [
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "nether"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "basalt_deltas"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "crimson_forest"
-            }
-          ]
-        }
-      ]
-    },
-    "distribution": {
-      "iterations": 8,
-      "coordinate_eval_order": "zyx",
-      "x": {
-        "distribution": "uniform",
-        "extent": [0, 16]
-      },
-      "y": {
-        "distribution": "uniform",
-        "extent": [11, 119]
-      },
-      "z": {
-        "distribution": "uniform",
-        "extent": [0, 16]
-      }
-    }
-  }
+	"format_version": "1.20.80",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "strat:soulstone_feature_rule",
+			"places_feature": "strat:soulstone_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "nether"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					128
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
 }

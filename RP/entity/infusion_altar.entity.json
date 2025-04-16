@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mysticalagriculture:infusion_altar_entity",
+			"materials": {
+				"default": "bat"
+			},
+			"textures": {
+				"default": "textures/entity/horse/armor/horse_armor_none"
+			},
+			"geometry": {
+				"default": "geometry.item.mysticalagriculture"
+			},
+			"scripts": {
+				"animate": [
+					"item"
+				]
+			},
+			"animations": {
+				"item": "animation.item.mysticalagriculture"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"held_item_ignores_lighting": true
+		}
+	}
+}

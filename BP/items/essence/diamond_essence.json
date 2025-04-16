@@ -1,21 +1,14 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
 			"identifier": "strat:diamond_essence",
-			"category": "items"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "diamond_essence"
-			},
-			"minecraft:display_name": {
-				"value": "Diamond Essence"
-			},
-			"minecraft:creative_category": {
-				"parent": "items"
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "diamond_essence"
+		}
 	}
 }

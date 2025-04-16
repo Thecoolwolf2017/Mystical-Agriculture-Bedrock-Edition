@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:infusion_altar",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.infusion_all"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "infusion_all_transparent",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:transformation": {
+				"scale": [
+					6.7,
+					6.7,
+					6.7
+				],
+				"scale_pivot": [
+					0,
+					-0.5,
+					0
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

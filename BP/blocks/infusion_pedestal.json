@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:infusion_pedestal",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:geometry": {
+				"identifier": "geometry.infusion_pedestal"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "infusion_all"
+				}
+			},
+			"minecraft:custom_components": [
+				"strat:pedestal_place"
+			],
+			"minecraft:collision_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					16,
+					12
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

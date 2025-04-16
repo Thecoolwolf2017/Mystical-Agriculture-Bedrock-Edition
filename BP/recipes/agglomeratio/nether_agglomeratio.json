@@ -2,32 +2,31 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:nether_agglomeratio_r"
+			"identifier": "mysticalagriculture:nether_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"XO"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:netherrack"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:soul_sand"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:nether_brick"
 			},
-			"O": {
+			"F": {
 				"item": "minecraft:nether_wart"
 			}
 		},
+		"pattern": [
+			"AS",
+			"DF"
+		],
 		"result": {
-			"item": "strat:nether_agglomeratio",
-			"count": 1
+			"item": "mysticalagriculture:nether_agglomeratio"
 		}
 	}
 }

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mysticalagriculture:supremium_farmland"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "mysticalagriculture:supremium_essence"
+			},
+			{
+				"item": "minecraft:dirt"
+			}
+		],
+		"result": {
+			"item": "mysticalagriculture:supremium_farmland"
+		}
+	}
+}

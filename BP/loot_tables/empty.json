@@ -1,12 +1,1 @@
-{
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "empty"
-				}
-			]
-		}
-	]
-}
+{}

@@ -1,31 +1,27 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:soul_glass_r"
+			"identifier": "mysticalagriculture:soul_glass"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			" ~",
-			"~#~",
-			" ~"
-		],
 		"key": {
+			"O": {
+				"item": "mysticalagriculture:soul_dust"
+			},
 			"#": {
 				"item": "minecraft:glass"
-			},
-			"~": {
-				"item": "strat:soul_dust"
 			}
 		},
-		"result": [
-			{
-				"item": "strat:soul_glass",
-				"count": 1
-			}
+		"pattern": [
+			" O",
+			"O#O",
+			" O"
 		],
-		"priority": 0
+		"result": {
+			"item": "mysticalagriculture:soul_glass"
+		}
 	}
 }

@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:obsidian_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "obsidian_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Obsidian Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:obsidian_crop"
+			"identifier": "mysticalagriculture:obsidian_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "obsidian_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:obsidian_crop"
+			}
+		}
 	}
 }

@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:glowstone_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "glowstone_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Glowstone Seeds\n§7Tier: §63§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:glowstone_crop"
+			"identifier": "mysticalagriculture:glowstone_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "glowstone_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:glowstone_crop"
+			}
+		}
 	}
 }

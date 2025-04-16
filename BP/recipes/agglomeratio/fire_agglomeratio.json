@@ -2,32 +2,36 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "strat:fire_agglomeratio_r"
+			"identifier": "mysticalagriculture:fire_agglomeratio"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"pattern": [
-			"#~",
-			"XO"
-		],
 		"key": {
-			"#": {
+			"A": {
 				"item": "minecraft:lava_bucket"
 			},
-			"~": {
+			"S": {
 				"item": "minecraft:gravel"
 			},
-			"X": {
+			"D": {
 				"item": "minecraft:dirt"
 			},
-			"O": {
+			"F": {
 				"item": "minecraft:clay_ball"
 			}
 		},
-		"result": {
-			"item": "strat:fire_agglomeratio",
-			"count": 1
-		}
+		"pattern": [
+			"AS",
+			"DF"
+		],
+		"result": [
+			{
+				"item": "minecraft:bucket"
+			},
+			{
+				"item": "mysticalagriculture:fire_agglomeratio"
+			}
+		]
 	}
 }

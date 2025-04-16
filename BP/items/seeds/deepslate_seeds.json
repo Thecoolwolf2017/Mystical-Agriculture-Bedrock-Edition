@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:deepslate_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "deepslate_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Deepslate Seeds\n§7Tier: §e1§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:deepslate_crop"
+			"identifier": "mysticalagriculture:deepslate_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "deepslate_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:deepslate_crop"
+			}
+		}
 	}
 }

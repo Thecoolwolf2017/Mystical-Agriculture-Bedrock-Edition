@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "mysticalagriculture:soulstone"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "mysticalagriculture:soulstone_cobble",
+		"output": "mysticalagriculture:soulstone"
+	}
+}

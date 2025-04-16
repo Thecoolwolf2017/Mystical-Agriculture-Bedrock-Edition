@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:prudentium_axe",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "prudentium_axe",
+			"minecraft:durability": {
+				"max_durability": 2800
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('minecraft:is_axe_item_destructible')"
+						},
+						"speed": 8
+					}
+				]
+			},
+			"minecraft:damage": {
+				"value": 9
+			},
+			"minecraft:enchantable": {
+				"slot": "axe",
+				"value": 10
+			},
+			"minecraft:hand_equipped": {
+				"value": true
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_axe",
+					"minecraft:digger",
+					"minecraft:is_tool",
+					"mysticalagriculture:prudentium_tier"
+				]
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			}
+		}
+	}
+}

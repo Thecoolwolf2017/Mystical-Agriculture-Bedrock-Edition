@@ -1,24 +1,17 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.20.80",
 	"minecraft:item": {
 		"description": {
-			"identifier": "strat:wither_skeleton_seeds",
-			"category": "nature"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "wither_skeleton_seeds"
-			},
-			"minecraft:display_name": {
-				"value": "Wither Skeleton Seeds\n§7Tier: §45§r"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.seed"
-			},
-			"minecraft:block_placer": {
-				"block": "strat:wither_skeleton_crop"
+			"identifier": "mysticalagriculture:wither_skeleton_seeds",
+			"menu_category": {
+				"category": "equipment"
 			}
 		},
-		"events": {}
+		"components": {
+			"minecraft:icon": "wither_skeleton_seeds",
+			"minecraft:block_placer": {
+				"block": "mysticalagriculture:wither_skeleton_crop"
+			}
+		}
 	}
 }

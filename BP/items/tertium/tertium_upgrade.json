@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mysticalagriculture:tertium_upgrade",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "tertium_upgrade",
+			"minecraft:tags": {
+				"tags": [
+					"operationSpeed:2.5",
+					"fuelUsage:6",
+					"fuelCapacity:4",
+					"area:3"
+				]
+			}
+		}
+	}
+}
