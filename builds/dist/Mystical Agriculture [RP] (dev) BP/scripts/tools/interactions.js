@@ -69,15 +69,27 @@ const sickleIds = [
     'strat:supremium_sickle'
 ];
 
-world.beforeEvents.playerInteractWithEntity.subscribe(result => {
-    if (!result.itemStack) return
+world.beforeEvents.playerInteractWithEntity.subscribe(event => {
+    // Get the player from the event source
+    const player = event.source;
+    // Get the item stack from the player's equipped item
+    const itemStack = event.itemStack;
+    // Get the target entity
+    const target = event.target;
+    
+    // Return if no item is being used
+    if (!itemStack) return;
 
-    if (shearsIds.includes(result.itemStack.typeId)) {
-        const playerEquippableComp = result.player.getComponent("equippable");
+    // Check if the item is a type of shears
+    if (shearsIds.includes(itemStack.typeId)) {
+        // Get the player's equippable component
+        const playerEquippableComp = player.getComponent("equippable");
 
+        // Return if the player doesn't have an equippable component
         if (!playerEquippableComp) return;
 
-        if (result.target.typeId == "minecraft:sheep" && !result.target.getComponent(EntityIsShearedComponent.componentId)) {
+        // Check if the target is a sheep and it hasn't been sheared
+        if (target.typeId == "minecraft:sheep" && !target.getComponent(EntityIsShearedComponent.componentId)) {
 
             const woolColors = [
                 "minecraft:white_wool",
@@ -99,17 +111,17 @@ world.beforeEvents.playerInteractWithEntity.subscribe(result => {
             ];
 
             system.run(() => {
-                result.player.playSound("mob.sheep.shear")
-                result.target.triggerEvent("minecraft:on_sheared")
+                player.playSound("mob.sheep.shear")
+                target.triggerEvent("minecraft:on_sheared")
                 let amount = Math.floor(Math.random() * 3) + 1
 
-                const colorValue = result.target.getComponent(EntityColorComponent.componentId).value;
+                const colorValue = target.getComponent(EntityColorComponent.componentId).value;
                 if (colorValue >= 0 && colorValue < woolColors.length) {
                     const woolType = woolColors[colorValue];
-                    result.target.dimension.spawnItem(new ItemStack(woolType, amount), result.target.location);
+                    target.dimension.spawnItem(new ItemStack(woolType, amount), target.location);
                 }
 
-                let itemUsed = result.itemStack
+                let itemUsed = itemStack
 
                 const itemEnchantmentComp = itemUsed.getComponent("minecraft:enchantable");
                 const unbreakingLevel = itemEnchantmentComp?.getEnchantment("unbreaking")?.level ?? 0;
@@ -154,8 +166,13 @@ world.beforeEvents.playerInteractWithEntity.subscribe(result => {
     }
 })
 
-world.beforeEvents.itemUseOn.subscribe(evd => {
-    const { source: player, block, itemStack: itemUsed } = evd;
+world.beforeEvents.playerInteractWithBlock.subscribe(event => {
+    // Get the player from the event source
+    const player = event.source;
+    // Get the block being interacted with
+    const block = event.block;
+    // Get the item stack being used
+    const itemUsed = event.itemStack;
 
     // This returns if itemUsed is undefined.
     if (!itemUsed) return;
