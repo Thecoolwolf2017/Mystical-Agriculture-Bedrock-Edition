@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:ghast_soul_jar",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

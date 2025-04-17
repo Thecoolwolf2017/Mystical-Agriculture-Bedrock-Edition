@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:mystical_fertilizer",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

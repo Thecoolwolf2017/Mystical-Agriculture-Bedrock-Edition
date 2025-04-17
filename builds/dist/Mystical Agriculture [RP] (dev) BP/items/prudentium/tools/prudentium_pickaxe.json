@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:prudentium_pickaxe",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

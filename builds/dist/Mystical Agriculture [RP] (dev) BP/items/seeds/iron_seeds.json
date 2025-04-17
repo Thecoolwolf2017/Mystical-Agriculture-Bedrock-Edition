@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:iron_seeds",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

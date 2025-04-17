@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:fire_essence",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

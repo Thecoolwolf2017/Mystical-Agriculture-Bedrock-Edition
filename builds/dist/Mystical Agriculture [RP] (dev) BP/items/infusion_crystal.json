@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:infusion_crystal",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

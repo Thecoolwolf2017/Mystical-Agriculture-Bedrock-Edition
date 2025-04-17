@@ -12,29 +12,33 @@ import * as server from "@minecraft/server"
 //     }
 // });
 
-server.world.beforeEvents.itemUseOn.subscribe(result => {
+server.world.beforeEvents.playerInteractWithBlock.subscribe(event => {
+    // Get the player from the event source
+    const player = event.source;
+    // Get the item stack being used
+    const itemStack = event.itemStack;
+    // Get the block being interacted with
+    const block = event.block;
 
-    if (!result.isFirstEvent) return
+    if (!itemStack) return
 
-    if (!result.itemStack) return
+    if (!block) return
 
-    if (!result.block) return
+    let targetBlock = player.getBlockFromViewDirection({ includeLiquidBlocks: true }).block
 
-    let block = result.source.getBlockFromViewDirection({ includeLiquidBlocks: true }).block
-
-    if (block.typeId == "minecraft:water" && (result.itemStack.typeId.startsWith("strat:") && result.itemStack.typeId.endsWith("_can"))) {
+    if (targetBlock.typeId == "minecraft:water" && (itemStack.typeId.startsWith("strat:") && itemStack.typeId.endsWith("_can"))) {
         server.system.run(() => {
-            let lore = result.itemStack.getLore();
+            let lore = itemStack.getLore();
 
             lore = lore.filter(line => line !== "§7Empty");
 
             if (!lore.includes("§7Filled")) {
                 lore.unshift("§7Filled");
-                result.source.playSound("bucket.fill_water")
+                player.playSound("bucket.fill_water")
             }
 
-            result.itemStack.setLore(lore);
-            result.source.getComponent("equippable").setEquipment(server.EquipmentSlot.Mainhand, result.itemStack);
+            itemStack.setLore(lore);
+            player.getComponent("equippable").setEquipment(server.EquipmentSlot.Mainhand, itemStack);
         })
     }
 })

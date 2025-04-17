@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:deepslate_essence",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

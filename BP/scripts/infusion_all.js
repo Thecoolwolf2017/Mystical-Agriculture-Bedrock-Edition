@@ -197,19 +197,13 @@ server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
     if (result.permutationBeingPlaced.type.id == "strat:infusion_altar") result.cancel = true
 })
 
+// Consolidated event handlers to prevent subscription errors
 server.world.beforeEvents.playerInteractWithEntity.subscribe(result => {
     if (converting && result.target.typeId.startsWith("strat:")) result.cancel = true
 })
 
-server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
-    if (converting && result.block.typeId.startsWith("strat:")) result.cancel = true
-})
-
+// Handle block interactions during conversion
 server.world.beforeEvents.playerBreakBlock.subscribe(result => {
-    if (converting && result.block.typeId.startsWith("strat:")) result.cancel = true
-})
-
-server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
     if (converting && result.block.typeId.startsWith("strat:")) result.cancel = true
 })
 

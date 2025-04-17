@@ -209,10 +209,6 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
     if (converting && result.block.typeId.startsWith("strat:")) result.cancel = true
 })
 
-server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
-    if (converting && result.block.typeId.startsWith("strat:")) result.cancel = true
-})
-
 import { sendNotification } from './manager'
 
 server.world.beforeEvents.worldInitialize.subscribe(initEvent => {

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:apatite_seeds",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

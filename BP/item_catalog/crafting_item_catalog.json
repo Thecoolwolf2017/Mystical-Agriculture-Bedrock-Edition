@@ -87,9 +87,31 @@
 							"strat:prosperity_shard",
 							"strat:soulium_dust",
 							"strat:infusion_crystal",
-							"strat:master_infusion_crystal"
+							"strat:master_infusion_crystal",
+							"strat:soul_jar",
+							"strat:soulium_dagger"
 						]
 					},
+					{
+						"group_identifier": {
+							"name": "strat:itemGroup.name.tools",
+							"icon": "strat:inferium_pickaxe"
+						},
+						"items": [
+							"strat:inferium_pickaxe",
+							"strat:inferium_sword",
+							"strat:inferium_axe",
+							"strat:inferium_shovel",
+							"strat:inferium_hoe",
+							"strat:watering_can",
+							"strat:wand"
+						]
+					}
+				]
+			},
+			{
+				"category_name": "construction",
+				"groups": [
 					{
 						"group_identifier": {
 							"name": "strat:itemGroup.name.blocks",
@@ -109,35 +131,10 @@
 							"strat:prudentium_farmland",
 							"strat:tertium_farmland",
 							"strat:imperium_farmland",
-							"strat:supremium_farmland"
-						]
-					},
-					{
-						"group_identifier": {
-							"name": "strat:itemGroup.name.soulstone",
-							"icon": "strat:soulstone"
-						},
-						"items": [
+							"strat:supremium_farmland",
 							"strat:soulstone",
 							"strat:soulstone_bricks",
-							"strat:soul_glass",
-							"strat:soul_jar",
-							"strat:soulium_dagger"
-						]
-					},
-					{
-						"group_identifier": {
-							"name": "strat:itemGroup.name.tools",
-							"icon": "strat:inferium_pickaxe"
-						},
-						"items": [
-							"strat:inferium_pickaxe",
-							"strat:inferium_sword",
-							"strat:inferium_axe",
-							"strat:inferium_shovel",
-							"strat:inferium_hoe",
-							"strat:watering_can",
-							"strat:wand"
+							"strat:soul_glass"
 						]
 					}
 				]
