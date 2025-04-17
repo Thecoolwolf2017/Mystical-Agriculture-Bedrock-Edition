@@ -1,16 +1,14 @@
-import { system, world, ItemStack, GameMode, ItemTypes, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
+import { system, world, ItemStack, GameMode, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
 
-let allItems = ItemTypes.getAll();
-
-const scytheIds = [];
-
-allItems.forEach(item => {
-    if (item.id.startsWith('strat:')) {
-        if (item.id.endsWith('_scythe')) {
-            scytheIds.push(item.id);
-        }
-    }
-});
+// Instead of using ItemTypes.getAll() which requires additional privileges,
+// we'll define the scythe IDs manually
+const scytheIds = [
+    'strat:inferium_scythe',
+    'strat:prudentium_scythe',
+    'strat:tertium_scythe',
+    'strat:imperium_scythe',
+    'strat:supremium_scythe'
+];
 
 world.beforeEvents.playerInteractWithBlock.subscribe(result => {
 

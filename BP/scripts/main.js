@@ -98,34 +98,35 @@ import './components/blockComponents';
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 //code extracted from Televisão (giuzzin.kkjk in Discord)
 //https://discord.com/channels/523663022053392405/1067876948858118185/1318269979967229972
-server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
-    initEvent.blockComponentRegistry.registerCustomComponent("strat:ore_xp", {
-        onPlayerDestroy: result => {
-            const equippable = result.player?.getComponent("minecraft:equippable");
-            const itemStack = equippable.getEquipment(server.EquipmentSlot.Mainhand);
+// Note: The strat:ore_xp component is now registered in blockComponents.js
+// This code is kept as a reference for the implementation
 
-            if (!equippable) return; // Exit if the player or its equipment are undefined
+// XP drop logic for ore blocks
+const handleOreXpDrop = (result) => {
+    const equippable = result.player?.getComponent("minecraft:equippable");
+    if (!equippable) return; // Exit if the player or its equipment are undefined
+    
+    const itemStack = equippable.getEquipment(server.EquipmentSlot.Mainhand);
+    if (!itemStack) return;
+    
+    // Check the tool in the player's hand
+    if (!itemStack?.hasTag("minecraft:is_pickaxe")) return; // Exit if the player isn't holding a pickaxe
+    
+    // Specify enchantments
+    const enchantable = itemStack.getComponent("minecraft:enchantable");
+    const silkTouch = enchantable?.getEnchantment("silk_touch");
+    if (silkTouch) return; // Exit if the pickaxe has the Silk Touch enchantment
+    
+    // Spawn the XP orbs
+    const xpAmount = randomInt(0, 3); // Number of XP orbs to spawn
 
-            if (!itemStack) return
+    for (let i = 0; i < xpAmount; i++) {
+        result.dimension.spawnEntity("minecraft:xp_orb", result.block.location);
+    }
+};
 
-
-            // Check the tool in the player's hand
-            if (!itemStack?.hasTag("minecraft:is_pickaxe")) return; // Exit if the player isn't holding an iron pickaxe
-
-            // Specify enchantments
-            const enchantable = itemStack.getComponent("minecraft:enchantable");
-            const silkTouch = enchantable?.getEnchantment("silk_touch");
-            if (silkTouch) return; // Exit if the iron pickaxe has the Silk Touch enchantment
-
-            // Spawn the XP orbs
-            const xpAmount = randomInt(0, 3); // Number of XP orbs to spawn
-
-            for (let i = 0; i < xpAmount; i++) {
-                result.dimension.spawnEntity("minecraft:xp_orb", result.block.location);
-            }
-        }
-    })
-})
+// Export the function for use in blockComponents.js
+export { handleOreXpDrop };
 
 server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
 

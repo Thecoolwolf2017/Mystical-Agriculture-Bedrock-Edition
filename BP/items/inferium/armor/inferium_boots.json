@@ -2,7 +2,7 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "mysticalagriculture:inferium_boots",
+			"identifier": "strat:inferium_boots",
 			"menu_category": {
 				"category": "equipment"
 			}

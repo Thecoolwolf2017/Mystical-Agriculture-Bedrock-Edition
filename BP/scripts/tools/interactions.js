@@ -1,48 +1,95 @@
-import { system, world, ItemStack, GameMode, ItemTypes, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
+import { system, world, ItemStack, GameMode, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
 
 // Omitted item durability script. Make sure you've also imported "system" when using this script
 
-let allItems = ItemTypes.getAll();
+// Instead of using ItemTypes.getAll() which requires additional privileges,
+// we'll manually define the tool IDs
 
 // Defines hoes
-const hoeIds = [];
+const hoeIds = [
+    'strat:inferium_hoe',
+    'strat:prudentium_hoe',
+    'strat:tertium_hoe',
+    'strat:imperium_hoe',
+    'strat:supremium_hoe',
+    'minecraft:wooden_hoe',
+    'minecraft:stone_hoe',
+    'minecraft:iron_hoe',
+    'minecraft:golden_hoe',
+    'minecraft:diamond_hoe',
+    'minecraft:netherite_hoe'
+];
 
 // Defines shovels
-const shovelIds = [];
+const shovelIds = [
+    'strat:inferium_shovel',
+    'strat:prudentium_shovel',
+    'strat:tertium_shovel',
+    'strat:imperium_shovel',
+    'strat:supremium_shovel',
+    'minecraft:wooden_shovel',
+    'minecraft:stone_shovel',
+    'minecraft:iron_shovel',
+    'minecraft:golden_shovel',
+    'minecraft:diamond_shovel',
+    'minecraft:netherite_shovel'
+];
 
 // Defines axes
-const axeIds = [];
+const axeIds = [
+    'strat:inferium_axe',
+    'strat:prudentium_axe',
+    'strat:tertium_axe',
+    'strat:imperium_axe',
+    'strat:supremium_axe',
+    'minecraft:wooden_axe',
+    'minecraft:stone_axe',
+    'minecraft:iron_axe',
+    'minecraft:golden_axe',
+    'minecraft:diamond_axe',
+    'minecraft:netherite_axe'
+];
 
 // Defines shears
-const shearsIds = [];
+const shearsIds = [
+    'strat:inferium_shears',
+    'strat:prudentium_shears',
+    'strat:tertium_shears',
+    'strat:imperium_shears',
+    'strat:supremium_shears',
+    'minecraft:shears'
+];
 
-const sickleIds = [];
+// Defines sickles
+const sickleIds = [
+    'strat:inferium_sickle',
+    'strat:prudentium_sickle',
+    'strat:tertium_sickle',
+    'strat:imperium_sickle',
+    'strat:supremium_sickle'
+];
 
-allItems.forEach(item => {
-    if (item.id.startsWith('strat:')) {
-        if (item.id.endsWith('_hoe')) {
-            hoeIds.push(item.id);
-        } else if (item.id.endsWith('_shovel')) {
-            shovelIds.push(item.id);
-        } else if (item.id.endsWith('_axe')) {
-            axeIds.push(item.id);
-        } else if (item.id.endsWith('_shears')) {
-            shearsIds.push(item.id);
-        } else if (item.id.endsWith('_sickle')) {
-            sickleIds.push(item.id);
-        }
-    }
-});
+world.beforeEvents.playerInteractWithEntity.subscribe(event => {
+    // Get the player from the event source
+    const player = event.source;
+    // Get the item stack from the player's equipped item
+    const itemStack = event.itemStack;
+    // Get the target entity
+    const target = event.target;
+    
+    // Return if no item is being used
+    if (!itemStack) return;
 
-world.beforeEvents.playerInteractWithEntity.subscribe(result => {
-    if (!result.itemStack) return
+    // Check if the item is a type of shears
+    if (shearsIds.includes(itemStack.typeId)) {
+        // Get the player's equippable component
+        const playerEquippableComp = player.getComponent("equippable");
 
-    if (shearsIds.includes(result.itemStack.typeId)) {
-        const playerEquippableComp = result.player.getComponent("equippable");
-
+        // Return if the player doesn't have an equippable component
         if (!playerEquippableComp) return;
 
-        if (result.target.typeId == "minecraft:sheep" && !result.target.getComponent(EntityIsShearedComponent.componentId)) {
+        // Check if the target is a sheep and it hasn't been sheared
+        if (target.typeId == "minecraft:sheep" && !target.getComponent(EntityIsShearedComponent.componentId)) {
 
             const woolColors = [
                 "minecraft:white_wool",
@@ -64,17 +111,17 @@ world.beforeEvents.playerInteractWithEntity.subscribe(result => {
             ];
 
             system.run(() => {
-                result.player.playSound("mob.sheep.shear")
-                result.target.triggerEvent("minecraft:on_sheared")
+                player.playSound("mob.sheep.shear")
+                target.triggerEvent("minecraft:on_sheared")
                 let amount = Math.floor(Math.random() * 3) + 1
 
-                const colorValue = result.target.getComponent(EntityColorComponent.componentId).value;
+                const colorValue = target.getComponent(EntityColorComponent.componentId).value;
                 if (colorValue >= 0 && colorValue < woolColors.length) {
                     const woolType = woolColors[colorValue];
-                    result.target.dimension.spawnItem(new ItemStack(woolType, amount), result.target.location);
+                    target.dimension.spawnItem(new ItemStack(woolType, amount), target.location);
                 }
 
-                let itemUsed = result.itemStack
+                let itemUsed = itemStack
 
                 const itemEnchantmentComp = itemUsed.getComponent("minecraft:enchantable");
                 const unbreakingLevel = itemEnchantmentComp?.getEnchantment("unbreaking")?.level ?? 0;
@@ -119,8 +166,13 @@ world.beforeEvents.playerInteractWithEntity.subscribe(result => {
     }
 })
 
-world.beforeEvents.itemUseOn.subscribe(evd => {
-    const { source: player, block, itemStack: itemUsed } = evd;
+world.beforeEvents.playerInteractWithBlock.subscribe(event => {
+    // Get the player from the event source
+    const player = event.source;
+    // Get the block being interacted with
+    const block = event.block;
+    // Get the item stack being used
+    const itemUsed = event.itemStack;
 
     // This returns if itemUsed is undefined.
     if (!itemUsed) return;

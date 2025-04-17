@@ -1,38 +1,73 @@
-import { system, world, ItemStack, GameMode, ItemTypes, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
+import { system, world, ItemStack, GameMode, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
 
 // Omitted item durability script. Make sure you've also imported "system" when using this script
 
-let allItems = ItemTypes.getAll();
+// Instead of using ItemTypes.getAll() which requires additional privileges,
+// we'll manually define the tool IDs
 
 // Defines hoes
-const hoeIds = [];
+const hoeIds = [
+    'strat:inferium_hoe',
+    'strat:prudentium_hoe',
+    'strat:tertium_hoe',
+    'strat:imperium_hoe',
+    'strat:supremium_hoe',
+    'minecraft:wooden_hoe',
+    'minecraft:stone_hoe',
+    'minecraft:iron_hoe',
+    'minecraft:golden_hoe',
+    'minecraft:diamond_hoe',
+    'minecraft:netherite_hoe'
+];
 
 // Defines shovels
-const shovelIds = [];
+const shovelIds = [
+    'strat:inferium_shovel',
+    'strat:prudentium_shovel',
+    'strat:tertium_shovel',
+    'strat:imperium_shovel',
+    'strat:supremium_shovel',
+    'minecraft:wooden_shovel',
+    'minecraft:stone_shovel',
+    'minecraft:iron_shovel',
+    'minecraft:golden_shovel',
+    'minecraft:diamond_shovel',
+    'minecraft:netherite_shovel'
+];
 
 // Defines axes
-const axeIds = [];
+const axeIds = [
+    'strat:inferium_axe',
+    'strat:prudentium_axe',
+    'strat:tertium_axe',
+    'strat:imperium_axe',
+    'strat:supremium_axe',
+    'minecraft:wooden_axe',
+    'minecraft:stone_axe',
+    'minecraft:iron_axe',
+    'minecraft:golden_axe',
+    'minecraft:diamond_axe',
+    'minecraft:netherite_axe'
+];
 
 // Defines shears
-const shearsIds = [];
+const shearsIds = [
+    'strat:inferium_shears',
+    'strat:prudentium_shears',
+    'strat:tertium_shears',
+    'strat:imperium_shears',
+    'strat:supremium_shears',
+    'minecraft:shears'
+];
 
-const sickleIds = [];
-
-allItems.forEach(item => {
-    if (item.id.startsWith('strat:')) {
-        if (item.id.endsWith('_hoe')) {
-            hoeIds.push(item.id);
-        } else if (item.id.endsWith('_shovel')) {
-            shovelIds.push(item.id);
-        } else if (item.id.endsWith('_axe')) {
-            axeIds.push(item.id);
-        } else if (item.id.endsWith('_shears')) {
-            shearsIds.push(item.id);
-        } else if (item.id.endsWith('_sickle')) {
-            sickleIds.push(item.id);
-        }
-    }
-});
+// Defines sickles
+const sickleIds = [
+    'strat:inferium_sickle',
+    'strat:prudentium_sickle',
+    'strat:tertium_sickle',
+    'strat:imperium_sickle',
+    'strat:supremium_sickle'
+];
 
 world.beforeEvents.playerInteractWithEntity.subscribe(result => {
     if (!result.itemStack) return

@@ -1,22 +1,50 @@
 import { world, ItemStack, GameMode, ItemTypes } from '@minecraft/server';
 
+// Instead of using ItemTypes.getAll() which requires additional privileges,
+// we'll define the tool and weapon IDs manually
+
 // This array defines the tool items that will lose durability.
-const toolTypeIds = [];
+const toolTypeIds = [
+    // Pickaxes
+    'strat:inferium_pickaxe',
+    'strat:prudentium_pickaxe',
+    'strat:tertium_pickaxe',
+    'strat:imperium_pickaxe',
+    'strat:supremium_pickaxe',
+    // Axes
+    'strat:inferium_axe',
+    'strat:prudentium_axe',
+    'strat:tertium_axe',
+    'strat:imperium_axe',
+    'strat:supremium_axe',
+    // Hoes
+    'strat:inferium_hoe',
+    'strat:prudentium_hoe',
+    'strat:tertium_hoe',
+    'strat:imperium_hoe',
+    'strat:supremium_hoe',
+    // Shovels
+    'strat:inferium_shovel',
+    'strat:prudentium_shovel',
+    'strat:tertium_shovel',
+    'strat:imperium_shovel',
+    'strat:supremium_shovel',
+    // Shears
+    'strat:inferium_shears',
+    'strat:prudentium_shears',
+    'strat:tertium_shears',
+    'strat:imperium_shears',
+    'strat:supremium_shears'
+];
 
 // This array defines the weapon items that will lose durability.
-const weaponTypeIds = [];
-
-let allItems = ItemTypes.getAll();
-
-allItems.forEach(item => {
-    if (item.id.startsWith('strat:')) {
-        if (item.id.endsWith('_pickaxe') || item.id.endsWith('_axe') || item.id.endsWith('_hoe') || item.id.endsWith('_shovel') || item.id.endsWith('_shears')) {
-            toolTypeIds.push(item.id);
-        } else if (item.id.endsWith('_sword')) {
-            weaponTypeIds.push(item.id);
-        }
-    }
-});
+const weaponTypeIds = [
+    'strat:inferium_sword',
+    'strat:prudentium_sword',
+    'strat:tertium_sword',
+    'strat:imperium_sword',
+    'strat:supremium_sword'
+];
 
 world.afterEvents.playerBreakBlock.subscribe(evd => {
     const { player, itemStackBeforeBreak: itemUsed } = evd;

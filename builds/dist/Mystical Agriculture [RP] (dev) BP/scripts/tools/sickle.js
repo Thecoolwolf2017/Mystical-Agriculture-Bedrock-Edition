@@ -1,16 +1,14 @@
-import { system, world, ItemStack, GameMode, ItemTypes, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
+import { system, world, ItemStack, GameMode, EntityColorComponent, EntityIsShearedComponent } from '@minecraft/server';
 
-let allItems = ItemTypes.getAll();
-
-const sickleIds = [];
-
-allItems.forEach(item => {
-    if (item.id.startsWith('strat:')) {
-        if (item.id.endsWith('_sickle')) {
-            sickleIds.push(item.id);
-        }
-    }
-});
+// Instead of using ItemTypes.getAll() which requires additional privileges,
+// we'll define the sickle IDs manually
+const sickleIds = [
+    'strat:inferium_sickle',
+    'strat:prudentium_sickle',
+    'strat:tertium_sickle',
+    'strat:imperium_sickle',
+    'strat:supremium_sickle'
+];
 
 world.beforeEvents.playerBreakBlock.subscribe(result => {
 

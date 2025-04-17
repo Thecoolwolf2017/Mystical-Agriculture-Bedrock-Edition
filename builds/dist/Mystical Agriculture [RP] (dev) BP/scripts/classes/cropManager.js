@@ -7,13 +7,79 @@ export const cropBlocks = [];
 export class cropManager {
     //tick data
     static tick(block) {
-        let allBlocks = BlockTypes.getAll();
-
-        allBlocks.forEach(block => {
-            if (block.id.startsWith("strat:") && block.id.includes("_crop")) {
+        // Instead of using BlockTypes.getAll() which requires additional privileges,
+        // we'll define the crop blocks manually
+        
+        // Only initialize the crop blocks array once
+        if (cropBlocks.length === 0) {
+            // Tier 1 crops
+            const tier1Crops = [
+                'strat:air_crop',
+                'strat:earth_crop',
+                'strat:fire_crop',
+                'strat:water_crop',
+                'strat:inferium_crop',
+                'strat:dirt_crop',
+                'strat:stone_crop',
+                'strat:wood_crop'
+            ];
+            
+            // Tier 2 crops
+            const tier2Crops = [
+                'strat:nature_crop',
+                'strat:ice_crop',
+                'strat:nether_quartz_crop',
+                'strat:coal_crop',
+                'strat:copper_crop'
+            ];
+            
+            // Tier 3 crops
+            const tier3Crops = [
+                'strat:iron_crop',
+                'strat:gold_crop',
+                'strat:lapis_lazuli_crop',
+                'strat:redstone_crop',
+                'strat:obsidian_crop'
+            ];
+            
+            // Tier 4 crops
+            const tier4Crops = [
+                'strat:diamond_crop',
+                'strat:emerald_crop',
+                'strat:netherite_crop',
+                'strat:glowstone_crop',
+                'strat:experience_crop'
+            ];
+            
+            // Tier 5 crops (mob drops)
+            const tier5Crops = [
+                'strat:zombie_crop',
+                'strat:skeleton_crop',
+                'strat:creeper_crop',
+                'strat:spider_crop',
+                'strat:slime_crop',
+                'strat:enderman_crop'
+            ];
+            
+            // Animal crops
+            const animalCrops = [
+                'strat:rabbit_crop',
+                'strat:chicken_crop',
+                'strat:cow_crop',
+                'strat:pig_crop',
+                'strat:sheep_crop',
+                'strat:squid_crop',
+                'strat:fish_crop'
+            ];
+            
+            // All crops combined
+            const allCrops = [...tier1Crops, ...tier2Crops, ...tier3Crops, ...tier4Crops, ...tier5Crops, ...animalCrops];
+            
+            // Add all crops to the cropBlocks array
+            allCrops.forEach(cropId => {
                 cropBlocks.push({
-                    blockID: block.id,
-                    stateID: `strat:growth`,
+                    blockID: cropId,
+                    stateID: 'strat:growth_stage', // Using correct property name as per memory
                     maxStage: 7,
                     growChance: {
                         numerator: 1,
@@ -22,8 +88,8 @@ export class cropManager {
                     bonemealable: true,
                     bonemeal_cancel: true
                 });
-            }
-        });
+            });
+        }
 
         //get the crop data
         const data = cropBlocks.find((f) => f.blockID == block.typeId);
@@ -39,23 +105,8 @@ export class cropManager {
         block.setPermutation(block.permutation.withState(data.stateID, stage + 1));
     }
     static interact(block, player) {
-        let allBlocks = BlockTypes.getAll();
-
-        allBlocks.forEach(block => {
-            if (block.id.startsWith("strat:") && block.id.includes("_crop")) {
-                cropBlocks.push({
-                    blockID: block.id,
-                    stateID: `strat:growth`,
-                    maxStage: 7,
-                    growChance: {
-                        numerator: 1,
-                        denominator: 3
-                    },
-                    bonemealable: true,
-                    bonemeal_cancel: true
-                });
-            }
-        });
+        // We don't need to initialize cropBlocks here since we already do it in the tick method
+        // This avoids duplicate initialization and the BlockTypes.getAll() call that requires privileges
 
         //get the crop data
         const data = cropBlocks.find((f) => f.blockID == block.typeId);

@@ -105,7 +105,11 @@
 							"strat:supremium_block",
 							"strat:infusion_altar",
 							"strat:infusion_pedestal",
-							"strat:essence_farmland"
+							"strat:inferium_farmland",
+							"strat:prudentium_farmland",
+							"strat:tertium_farmland",
+							"strat:imperium_farmland",
+							"strat:supremium_farmland"
 						]
 					},
 					{
@@ -133,7 +137,7 @@
 							"strat:inferium_shovel",
 							"strat:inferium_hoe",
 							"strat:watering_can",
-							"strat:mystical_wand"
+							"strat:wand"
 						]
 					}
 				]
