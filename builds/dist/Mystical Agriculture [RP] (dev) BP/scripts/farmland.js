@@ -78,7 +78,9 @@ server.world.beforeEvents.playerInteractWithBlock.subscribe(result => {
     })
 })
 
-server.world.beforeEvents.worldInitialize.subscribe(result => {
+// Check if worldInitialize exists before subscribing
+if (server.world.beforeEvents.worldInitialize) {
+    server.world.beforeEvents.worldInitialize.subscribe(result => {
     result.blockComponentRegistry.registerCustomComponent("strat:farmland", {
         onRandomTick: result => {
             // console.warn("test")
@@ -125,7 +127,8 @@ server.world.beforeEvents.worldInitialize.subscribe(result => {
         //     }
         // }
     })
-})
+    })
+}
 
 import { seedsTier } from './seeds_tier'
 //Loot of the crops

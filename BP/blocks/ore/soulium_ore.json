@@ -5,9 +5,7 @@
 			"identifier": "strat:soulium_ore"
 		},
 		"components": {
-			"minecraft:geometry": {
-				"identifier": "minecraft:geometry.full_block"
-			},
+			
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "soulium_ore"

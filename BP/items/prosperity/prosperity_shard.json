@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:prosperity_shard",
 			"menu_category": {
-				"category": "equipment"
+				"category": "items"
 			}
 		},
 		"components": {

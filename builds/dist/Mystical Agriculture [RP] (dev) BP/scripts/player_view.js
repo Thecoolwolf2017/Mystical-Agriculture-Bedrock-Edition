@@ -20,7 +20,27 @@ server.system.runInterval(() => {
                 { typeId: "strat:supremium_farmland", tier: "§c5", output: 300 },
             ]
 
-            let growth = block.permutation.getState("strat:growth") == 7 ? "§aMature" : `§f${((parseInt(block.permutation.getState("strat:growth")) * 100) / 7).toFixed(0)}%`
+            // Fix for NaN% growth display issue
+            let growthValue = block.permutation.getState("strat:growth");
+            let growth;
+            
+            if (growthValue === undefined || growthValue === null) {
+                growth = "§fUnknown";
+            } else if (growthValue == 7) {
+                growth = "§aMature";
+            } else {
+                // Make sure we have a valid number
+                try {
+                    const growthNum = parseInt(growthValue);
+                    if (isNaN(growthNum)) {
+                        growth = "§f0%";
+                    } else {
+                        growth = `§f${((growthNum * 100) / 7).toFixed(0)}%`;
+                    }
+                } catch (e) {
+                    growth = "§f0%";
+                }
+            }
             let cropTier = seedsTier.find(seed => seed.typeId.replaceAll("_seeds", "_crop") == block.typeId).tier
             let output = farmlandTierList.find(farmBlock => farmBlock.typeId == block.below().typeId).output
             let farmlandTier = farmlandTierList.find(farmBlock => farmBlock.typeId == block.below().typeId).tier

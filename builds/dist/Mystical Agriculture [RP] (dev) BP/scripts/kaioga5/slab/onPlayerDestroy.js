@@ -2,7 +2,9 @@
 import { world, ItemStack, system } from '@minecraft/server';
 
 // Subscribe to the 'worldInitialize' event to register custom components
-world.beforeEvents.worldInitialize.subscribe(eventData => {
+// Add safety check to prevent TypeError when worldInitialize is undefined
+if (world.beforeEvents.worldInitialize) {
+    world.beforeEvents.worldInitialize.subscribe(eventData => {
     // Register a custom component named kai:on_player_destroy for slab destruction
     eventData.blockComponentRegistry.registerCustomComponent('kai:on_player_destroy_slab', {
         // Define behavior when a player destroys the slab
@@ -41,4 +43,5 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             }
         }
     });
-});
+    });
+}

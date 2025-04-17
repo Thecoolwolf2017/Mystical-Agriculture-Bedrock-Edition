@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "strat:infusion_pedestal",
 			"menu_category": {
-				"category": "equipment"
+				"category": "construction"
 			}
 		},
 		"components": {

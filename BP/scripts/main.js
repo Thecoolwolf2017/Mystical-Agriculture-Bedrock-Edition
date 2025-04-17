@@ -88,7 +88,13 @@ function firstJoin(player) {
     }, 260)
 }
 
+// Import the components registration module
 import './components/blockComponents';
+// Import the direct component registration script
+import './register_components';
+
+// Import the ore utilities
+import './utils/oreUtils';
 
 /**
 @param {number} min The minimum integer
@@ -96,37 +102,6 @@ import './components/blockComponents';
 @returns {number} A random integer between the min and max parameters (inclusive)
 */
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-//code extracted from Televisão (giuzzin.kkjk in Discord)
-//https://discord.com/channels/523663022053392405/1067876948858118185/1318269979967229972
-// Note: The strat:ore_xp component is now registered in blockComponents.js
-// This code is kept as a reference for the implementation
-
-// XP drop logic for ore blocks
-const handleOreXpDrop = (result) => {
-    const equippable = result.player?.getComponent("minecraft:equippable");
-    if (!equippable) return; // Exit if the player or its equipment are undefined
-    
-    const itemStack = equippable.getEquipment(server.EquipmentSlot.Mainhand);
-    if (!itemStack) return;
-    
-    // Check the tool in the player's hand
-    if (!itemStack?.hasTag("minecraft:is_pickaxe")) return; // Exit if the player isn't holding a pickaxe
-    
-    // Specify enchantments
-    const enchantable = itemStack.getComponent("minecraft:enchantable");
-    const silkTouch = enchantable?.getEnchantment("silk_touch");
-    if (silkTouch) return; // Exit if the pickaxe has the Silk Touch enchantment
-    
-    // Spawn the XP orbs
-    const xpAmount = randomInt(0, 3); // Number of XP orbs to spawn
-
-    for (let i = 0; i < xpAmount; i++) {
-        result.dimension.spawnEntity("minecraft:xp_orb", result.block.location);
-    }
-};
-
-// Export the function for use in blockComponents.js
-export { handleOreXpDrop };
 
 server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
 
@@ -139,7 +114,9 @@ server.world.beforeEvents.playerPlaceBlock.subscribe(result => {
 })
 
 //Mystical Fertilizer
-server.world.beforeEvents.itemUseOn.subscribe(result => {
+// Add safety check for the itemUseOn event to prevent TypeError
+if (server.world.beforeEvents.itemUseOn) {
+    server.world.beforeEvents.itemUseOn.subscribe(result => {
 
     if (result.itemStack.typeId != "strat:mystical_fertilizer") return
 
@@ -190,10 +167,16 @@ server.world.beforeEvents.itemUseOn.subscribe(result => {
 //     }
 // })
 
+// Register all custom components during world initialization
 server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
-    initEvent.blockComponentRegistry.registerCustomComponent("strat:none", {
-        onPlace: result => {
-
-        }
-    })
-})
+    // Import the block components from the components file
+    import('./components/blockComponents.js')
+        .then(module => {
+            // Log successful component registration
+            console.log("Registered all custom block components successfully");
+        })
+        .catch(error => {
+            console.error("Failed to register custom components:", error);
+        });
+});
+}

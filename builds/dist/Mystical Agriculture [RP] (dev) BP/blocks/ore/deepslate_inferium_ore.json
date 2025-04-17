@@ -9,9 +9,6 @@
 				"explosion_resistance": 1
 			},
 			"minecraft:map_color": "#ffffff",
-			"minecraft:geometry": {
-				"identifier": "minecraft:geometry.full_block"
-			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "deepslate_inferium_ore"

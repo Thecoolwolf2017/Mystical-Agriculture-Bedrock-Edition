@@ -209,7 +209,9 @@ server.world.beforeEvents.playerBreakBlock.subscribe(result => {
 
 import { sendNotification } from './manager'
 
-server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
+// Check if worldInitialize exists before subscribing
+if (server.world.beforeEvents.worldInitialize) {
+    server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
     initEvent.blockComponentRegistry.registerCustomComponent("strat:altar_check", {
         onTick: (result) => {
 
@@ -271,4 +273,5 @@ server.world.beforeEvents.worldInitialize.subscribe(initEvent => {
                 result.block.dimension.spawnEntity("strat:infusion_pedestal_entity", { x: result.block.center().x, y: result.block.center().y + 0.49, z: result.block.center().z })
             }
         })
-})
+    })
+}

@@ -1,1 +1,22 @@
+# Build directories
 builds/
+dist/
+
+# Development files
+.git/
+.github/
+.vscode/
+.bridge/
+.lightningCache
+
+# Temporary script files
+BP/scripts/fix_*.js
+
+# Documentation (will be ignored by Minecraft but kept in the repo)
+docs/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.tmp

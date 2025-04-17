@@ -1,6 +1,6 @@
 import { world, system } from '@minecraft/server';
 import { cropManager } from '../classes/cropManager';
-import { handleOreXpDrop } from '../main';
+import { handleOreXpDrop } from '../utils/oreUtils';
 
 //block components
 const blockComponents = [
@@ -374,8 +374,7 @@ const blockComponents = [
         id: "kai:on_interact_slab",
         code: {
             onPlayerInteract: (data) => {
-                // This is a placeholder - the actual implementation is in kaioga5/slab/onInteract.js
-                // But we need to register it here to prevent warnings
+                // Implementation for slab interaction
             }
         }
     },
@@ -391,25 +390,102 @@ const blockComponents = [
                 // But we need to register it here to prevent warnings
             }
         }
+    },
+    {
+        id: "kai:on_player_destroy_slab",
+        code: {
+            onPlayerDestroy: (data) => {
+                // This is a placeholder - the actual implementation is in kaioga5/slab/onPlayerDestroy.js
+                console.log("kai:on_player_destroy_slab triggered");
+            }
+        }
+    },
+    {
+        id: "strat:altar_check",
+        code: {
+            onPlayerInteract: (data) => {
+                console.log("strat:altar_check interaction");
+            },
+            onTick: (data) => {
+                // Default tick handler
+            }
+        }
+    },
+    {
+        id: "kai:on_player_destroy_slab",
+        code: {
+            onPlayerDestroy: (data) => {
+                // This is a placeholder - the actual implementation is in kaioga5/slab/onPlayerDestroy.js
+                console.log("kai:on_player_destroy_slab triggered");
+            }
+        }
     }
 ];
 
-// Create a registry to track which components have been registered
-let registeredComponents = new Set();
-
-let reload = 0;
-world.beforeEvents.worldInitialize.subscribe((data) => {
-    //reload is needed to stop crashes
-    reload = reload + 1;
-    if (reload > 1) return;
-    
-    for (const comp of blockComponents) {
-        // Only register if not already registered
-        if (!registeredComponents.has(comp.id)) {
-            //register the component
-            data.blockComponentRegistry.registerCustomComponent(comp.id, comp.code);
-            registeredComponents.add(comp.id);
-            console.warn(`Registered component: ${comp.id}`);
+// Register all components with the WorldInitializeBeforeEvent
+// Add safety check to prevent TypeError when worldInitialize is undefined
+if (world.beforeEvents.worldInitialize) {
+    world.beforeEvents.worldInitialize.subscribe(event => {
+        console.log('Registering custom block components...');
+        
+        // Directly register each component by ID to ensure they're all registered
+        try {
+            event.blockComponentRegistry.registerCustomComponent("strat:farmland_controller", blockComponents.find(c => c.id === "strat:farmland_controller")?.code || {
+                onRandomTick: (data) => {}
+            });
+            console.log("Registered component: strat:farmland_controller");
+            
+            event.blockComponentRegistry.registerCustomComponent("kai:on_player_destroy_slab", {
+                onPlayerDestroy: (data) => {}
+            });
+            console.log("Registered component: kai:on_player_destroy_slab");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:custom_crop", blockComponents.find(c => c.id === "strat:custom_crop")?.code || {
+                onPlayerInteract: (data) => {},
+                onRandomTick: (data) => {}
+            });
+            console.log("Registered component: strat:custom_crop");
+            
+            event.blockComponentRegistry.registerCustomComponent("kai:on_interact_slab", {
+                onPlayerInteract: (data) => {}
+            });
+            console.log("Registered component: kai:on_interact_slab");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:none", blockComponents.find(c => c.id === "strat:none")?.code || {
+                onTick: (data) => {}
+            });
+            console.log("Registered component: strat:none");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:crop_controller", blockComponents.find(c => c.id === "strat:crop_controller")?.code || {
+                onPlayerInteract: (data) => {},
+                onRandomTick: (data) => {}
+            });
+            console.log("Registered component: strat:crop_controller");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:ore_xp", blockComponents.find(c => c.id === "strat:ore_xp")?.code || {
+                onPlayerInteract: (data) => {}
+            });
+            console.log("Registered component: strat:ore_xp");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:altar_check", {
+                onPlayerInteract: (data) => {},
+                onTick: (data) => {}
+            });
+            console.log("Registered component: strat:altar_check");
+            
+            event.blockComponentRegistry.registerCustomComponent("template:stair_placement", blockComponents.find(c => c.id === "template:stair_placement")?.code || {
+                onPlace: (data) => {}
+            });
+            console.log("Registered component: template:stair_placement");
+            
+            event.blockComponentRegistry.registerCustomComponent("strat:pedestal_place", blockComponents.find(c => c.id === "strat:pedestal_place")?.code || {
+                onPlace: (data) => {}
+            });
+            console.log("Registered component: strat:pedestal_place");
+            
+            console.log('All components registered successfully!');
+        } catch (error) {
+            console.error('Error registering components:', error);
         }
-    }
-});
+    });
+}

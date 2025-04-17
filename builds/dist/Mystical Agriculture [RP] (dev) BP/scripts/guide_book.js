@@ -535,6 +535,14 @@ function credits(player) {
             key: "book.mysticalagriculture.credits.description8.name", texture: "textures/ui/credits/Chatgpt",
             pages: ["book.mysticalagriculture.credits.description8"]
         },
+        {
+            key: "book.mysticalagriculture.credits.description9.name", texture: "textures/ui/credits/Lozenda",
+            pages: ["book.mysticalagriculture.credits.description9"]
+        },
+        {
+            key: "book.mysticalagriculture.credits.description10.name", texture: "textures/ui/credits/Cascade",
+            pages: ["book.mysticalagriculture.credits.description10"]
+        },
     ]
 
     const buttons = [{ text: "book.mysticalagriculture.back", texture: "textures/ui/arrow_left" }, ...entries.map(entry => ({ text: entry.key, texture: entry.texture }))];

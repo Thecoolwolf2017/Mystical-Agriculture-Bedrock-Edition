@@ -28,6 +28,10 @@
 			],
 			"minecraft:geometry": "geometry.crop.x",
 			"minecraft:light_dampening": 0,
+			"minecraft:tick": {
+				"interval_range": [300, 600],
+				"looping": true
+			},
 			"minecraft:placement_filter": {
 				"conditions": [
 					{

@@ -5,9 +5,7 @@
 			"identifier": "strat:deepslate_prosperity_ore"
 		},
 		"components": {
-			"minecraft:geometry": {
-				"identifier": "minecraft:geometry.full_block"
-			},
+			
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "deepslate_prosperity_ore"

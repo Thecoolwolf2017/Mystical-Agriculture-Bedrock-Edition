@@ -1,16 +1,18 @@
 import { world, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(initEvent => {
-    initEvent.blockComponentRegistry.registerCustomComponent('template:stair_placement', {
-        onPlace: e => {
-            const { block } = e;
-            const northBlock = block.north();
-            const southBlock = block.south();
-            const eastBlock = block.east();
-            const westBlock = block.west();
-            const vertical_half = block.permutation.getState('minecraft:vertical_half');
-            const shape = block.permutation.getState('template:shape');
-            const cardinal_direction = block.permutation.getState('minecraft:cardinal_direction');
+// Check if worldInitialize exists before subscribing
+if (world.beforeEvents.worldInitialize) {
+    world.beforeEvents.worldInitialize.subscribe(initEvent => {
+        initEvent.blockComponentRegistry.registerCustomComponent('template:stair_placement', {
+            onPlace: e => {
+                const { block } = e;
+                const northBlock = block.north();
+                const southBlock = block.south();
+                const eastBlock = block.east();
+                const westBlock = block.west();
+                const vertical_half = block.permutation.getState('minecraft:vertical_half');
+                const shape = block.permutation.getState('template:shape');
+                const cardinal_direction = block.permutation.getState('minecraft:cardinal_direction');
 
             if (vertical_half == 'bottom') {
                 block.setPermutation(block.permutation.withState('template:placed_bit', true));
@@ -421,4 +423,5 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
             }
         }
     });
-});
+})
+}

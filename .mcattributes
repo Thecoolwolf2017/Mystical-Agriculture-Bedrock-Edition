@@ -1,0 +1,17 @@
+diagnostic.disable.minecraft.manifest.module.missing_dependencies=true
+diagnostic.disable.minecraft.manifest.module.missing_capabilities=true
+diagnostic.disable.minecraft.manifest.module.missing_min_engine_version=true
+
+# Enable experimental features
+experimental_custom_ui = true
+experimental_molang = true
+
+# Disable certain diagnostics
+diagnostic.disable.minecraft.item.missing_texture=true
+diagnostic.disable.minecraft.block.missing_texture=true
+
+# Script configuration
+com.mojang.script.toolsVersion=1.0.0
+
+# Category configuration
+item.categories=items,construction,equipment
