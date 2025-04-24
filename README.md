@@ -57,7 +57,7 @@
          <div class="mhGZq">
             <h3 id="viewer-da2fp" class="DjYhe Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Watering Can</span></span></h3>
             <div id="viewer-tt59" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.3;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span><br role="presentation"></span></span></div>
-            <p id="viewer-vta5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Using a watering can, you can grow any vanilla or new crop until it fully matures. This tool has infinite uses, so feel free to experiment!</span></span></p>
+            <p id="viewer-vta5" class="xVISr Y9Dpf OZy-3 lnyWN public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr" style="line-height:1.6;padding-top:0px;padding-bottom:0px"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Using a watering can, you can grow any vanilla or new crop until it fully matures. The watering can needs to be filled with water before use and will empty after each use.</span></span></p>
             <div id="viewer-cnkov" class="QHjDE">
                <div class="gO6aa flaqF">
                   <div data-hook="imageViewer" class="Q6a5A" role="button" tabindex="0">
