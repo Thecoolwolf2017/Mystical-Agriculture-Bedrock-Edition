@@ -35,9 +35,11 @@ Different ore types drop different amounts of XP:
 - The `handleOreXpDrop` function is kept as a stub for backward compatibility
 - Debug logging helps track XP drops with messages in the console
 
-## 2. Deepslate Prosperity Ore Texture Fix
+## 2. Deepslate Ore Texture Fixes
 
-### Issue and Solution
+### Deepslate Prosperity Ore
+
+#### Issue and Solution
 
 The deepslate prosperity ore texture was not displaying correctly due to two issues:
 
@@ -50,7 +52,7 @@ The deepslate prosperity ore texture was not displaying correctly due to two iss
 
 **Location:** `BP/blocks/ore/deepslate_prosperity_ore.json`
 
-### Block Definition Changes
+#### Block Definition Changes
 
 The block definition was updated to use a simpler and more consistent structure:
 
@@ -63,6 +65,32 @@ The block definition was updated to use a simpler and more consistent structure:
     }
 }
 ```
+
+### Deepslate Inferium Ore
+
+#### Issue and Solution
+
+The deepslate inferium ore was not appearing in the creative menu and displayed an unknown texture when placed. The issues were:
+
+1. Missing entry in the `blocks.json` file
+2. Missing proper menu category in the block definition
+3. Missing display name for proper identification
+
+**Solution:**
+- Added the block entry to `RP/blocks.json`:
+```json
+"strat:deepslate_inferium_ore": {
+    "sound": "deepslate",
+    "textures": "deepslate_inferium_ore"
+}
+```
+- Added proper menu categorization to ensure it appears in the creative inventory
+- Added a display name component for better identification
+
+**Location:** 
+- `BP/blocks/ore/deepslate_inferium_ore.json` 
+- `RP/blocks.json`
+- `RP/texts/en_US.lang`
 
 ## Additional Documentation
 

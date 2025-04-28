@@ -74,8 +74,15 @@ This resource pack is actively maintained and developed. Future plans include:
 
 ## Credits
 
-- Original Mod: [BlakeBr0's Mystical Agriculture](https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture)
-- Bedrock Port: Lozenda
+### Original Creation
+- **Original Java Mod**: [BlakeBr0's Mystical Agriculture](https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture)
+- **Lead Developer**: Lozenda (Thecoolwolf2017)
+- **Additional Contributors**: 
+  - See the [Contributors](https://github.com/Thecoolwolf2017/Mystical-Agriculture-Bedrock-Edition/contributors) page for a complete list
+
+### Special Thanks
+- The Minecraft Bedrock Add-On community for testing and feedback
+- All players who have reported issues and suggested improvements
 
 ## License
 

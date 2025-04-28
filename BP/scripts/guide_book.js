@@ -532,15 +532,7 @@ function credits(player) {
             pages: ["book.mysticalagriculture.credits.description7"]
         },
         {
-            key: "book.mysticalagriculture.credits.description8.name", texture: "textures/ui/credits/Chatgpt",
-            pages: ["book.mysticalagriculture.credits.description8"]
-        },
-        {
-            key: "book.mysticalagriculture.credits.description9.name", texture: "textures/ui/credits/Lozenda",
-            pages: ["book.mysticalagriculture.credits.description9"]
-        },
-        {
-            key: "book.mysticalagriculture.credits.description10.name", texture: "textures/ui/credits/Cascade",
+            key: "book.mysticalagriculture.credits.description10.name", texture: "textures/ui/credits/Lozenda",
             pages: ["book.mysticalagriculture.credits.description10"]
         },
     ]
