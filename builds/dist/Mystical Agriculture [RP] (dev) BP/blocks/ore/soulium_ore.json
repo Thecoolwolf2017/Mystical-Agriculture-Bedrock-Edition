@@ -11,8 +11,9 @@
 				}
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3
+				"seconds_to_destroy": 5
 			},
+			"tag:minecraft:requires_stone_tool": {},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:loot": "loot_tables/blocks/soulium_ore.json",
 			"minecraft:custom_components": [

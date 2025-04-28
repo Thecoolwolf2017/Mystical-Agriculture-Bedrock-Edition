@@ -7,6 +7,7 @@ const addonVersion = 'V1.0 Beta'
 import './tools/interactions';
 import './tools/durability';
 import './tools/sickle';
+import './tools/sickle_right_click';
 import './tools/scythe';
 import './tools/watering_can';
 import './items_lore';
@@ -17,6 +18,8 @@ import './infusion_crystal'
 import './farmland'
 import './player_view'
 import './stairPlacement'
+import './crop_harvesting'
+import './crop_right_click_harvest'
 // import './kaioga5/fence/onInteract'
 // import './kaioga5/fence/onTick'
 // import './kaioga5/fence/onPlayerDestroy'

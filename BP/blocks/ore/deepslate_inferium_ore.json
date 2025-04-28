@@ -2,22 +2,28 @@
 	"format_version": "1.21.50",
 	"minecraft:block": {
 		"description": {
-			"identifier": "strat:deepslate_inferium_ore"
+			"identifier": "strat:deepslate_inferium_ore",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.ore"
+			}
 		},
 		"components": {
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 1
 			},
 			"minecraft:map_color": "#ffffff",
-			
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "deepslate_inferium_ore"
+					"texture": "deepslate_inferium_ore",
+					"render_method": "opaque"
 				}
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 5
+				"seconds_to_destroy": 6.0
 			},
+			"minecraft:display_name": "Deepslate Inferium Ore",
+			"tag:minecraft:requires_stone_tool": {},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:custom_components": [
 				"strat:ore_xp"

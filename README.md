@@ -2,6 +2,8 @@
 
 A Minecraft Bedrock port of the popular Java mod Mystical Agriculture, enabling resource farming through magical crops.
 
+> **Note:** All features in this addon are currently implemented at the prototype level. While functional, they are still under active development and refinement.
+
 ## Overview
 
 - **Current Version:** 1.3.0
@@ -25,7 +27,7 @@ Resources are organized into different tiers:
 ### Key Components
 
 #### Watering Can
-- Infinite uses
+- Needs to be filled with water before use and empties after each use
 - Accelerates crop growth
 - Works on both vanilla and magical crops
 

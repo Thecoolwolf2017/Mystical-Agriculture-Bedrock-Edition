@@ -79,7 +79,7 @@ export class cropManager {
             allCrops.forEach(cropId => {
                 cropBlocks.push({
                     blockID: cropId,
-                    stateID: 'strat:growth_stage', // Using correct property name as per memory
+                    stateID: 'strat:growth_stage', // Using the actual state name from the logs
                     maxStage: 7,
                     growChance: {
                         numerator: 1,

@@ -1,6 +1,6 @@
 # Ore Features in Mystical Agriculture Bedrock Edition
 
-This document outlines the proper format and structure for defining ore features in the Mystical Agriculture Bedrock Edition mod.
+This document outlines the proper format and structure for defining ore features in the Mystical Agriculture Bedrock Edition mod, as well as special functionality such as XP drops.
 
 ## Key Components
 
@@ -111,6 +111,53 @@ The mod includes several ore types, each with specific generation parameters:
 ## Namespace Standards
 
 All feature and feature rule identifiers should use the "strat:" namespace, replacing the old "mysticalagriculture:" namespace.
+
+## Ore XP System
+
+Ore blocks in Mystical Agriculture automatically drop experience orbs when mined. This is handled by a global event system that detects when players break ore blocks.
+
+### XP Drop Mechanics
+
+1. **XP Detection**: The system uses `world.beforeEvents.playerBreakBlock` to detect when a player breaks an ore block
+
+2. **Ore Identification**: Blocks are identified as ores through one of three methods:
+   - Having the "ore" tag
+   - Having "_ore" in their typeId
+   - Being a prosperity, inferium, or soulium block
+
+3. **XP Amount**: Different ores drop different amounts of XP:
+   - Diamond/Emerald: 3-7 XP
+   - Lapis: 2-5 XP
+   - Redstone: 1-5 XP
+   - Gold/Quartz/Coal: 0-2 XP
+   - Iron/Copper: 0-1 XP
+   - Prosperity/Inferium/Soulium: 1-3 XP
+
+4. **XP Spawn**: XP orbs are spawned with slight position randomization for a more natural effect
+
+### Implementation Notes
+
+- The ore XP system is implemented in `BP/scripts/utils/oreUtils.js`
+- XP orbs are spawned through the `system.run()` method to ensure they appear after the block is broken
+- Debug logging helps track XP drops with messages like: `[MYSTICAL AGRICULTURE] Spawning X XP from block_id at x, y, z`
+
+### Adding Custom Ore XP Rules
+
+To make a custom block drop XP when mined:
+
+1. **Block Definition**: Add the custom component to the block's JSON definition:
+
+```json
+"minecraft:custom_components": [
+  "strat:ore_xp"
+]
+```
+
+2. **Block ID**: Ensure the block's ID contains one of these terms for automatic detection:
+   - "_ore" (e.g., "strat:example_ore")
+   - "prosperity", "inferium", or "soulium"
+
+Alternatively, you can manually add XP drop behavior for custom blocks by extending the ore identification logic in `oreUtils.js`.
 
 ## References
 

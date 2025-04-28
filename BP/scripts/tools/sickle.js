@@ -41,14 +41,39 @@ world.beforeEvents.playerBreakBlock.subscribe(result => {
                         if (targetBlock.permutation.getState("strat:growth") == 7) {
                             if (blockID.startsWith("strat:") && blockID.includes("_crop")) {
                                 const baseID = blockID.replace("_crop", "");
-                                let itemStack1 = new ItemStack(`${baseID}_essence`, 1);
-                                let itemStack2 = new ItemStack(`${baseID}_seeds`, 1);
+                                
+                                // Increased essence drops for sickle (1-2 essence)
+                                const essenceAmount = Math.floor(Math.random() * 2) + 1;
+                                let itemStack1 = new ItemStack(`${baseID}_essence`, essenceAmount);
+                                
+                                // Increased seed drops for sickle (1-3 seeds)
+                                const seedAmount = Math.floor(Math.random() * 3) + 1;
+                                let itemStack2 = new ItemStack(`${baseID}_seeds`, seedAmount);
+                                
                                 targetBlock.dimension.spawnItem(itemStack1, targetBlock.location);
                                 targetBlock.dimension.spawnItem(itemStack2, targetBlock.location);
 
-                                if (Math.floor(Math.random() * 10) + 1 == 1) {
+                                // Increased chance for fertilized essence (30% instead of 10%)
+                                if (Math.floor(Math.random() * 10) + 1 <= 3) {
                                     let itemStack3 = new ItemStack(`strat:fertilized_essence`, 1);
                                     targetBlock.dimension.spawnItem(itemStack3, targetBlock.location);
+                                }
+                                
+                                // Small chance to drop a tier essence (5% chance)
+                                if (Math.floor(Math.random() * 100) + 1 <= 5) {
+                                    // Determine which tier essence to drop based on the sickle tier
+                                    let tierEssence = "strat:inferium_essence";
+                                    if (result.itemStack.typeId.includes("prudentium")) {
+                                        tierEssence = "strat:prudentium_essence";
+                                    } else if (result.itemStack.typeId.includes("tertium")) {
+                                        tierEssence = "strat:tertium_essence";
+                                    } else if (result.itemStack.typeId.includes("imperium")) {
+                                        tierEssence = "strat:imperium_essence";
+                                    } else if (result.itemStack.typeId.includes("supremium")) {
+                                        tierEssence = "strat:supremium_essence";
+                                    }
+                                    let tierEssenceItem = new ItemStack(tierEssence, 1);
+                                    targetBlock.dimension.spawnItem(tierEssenceItem, targetBlock.location);
                                 }
                             }
                         } else if (targetBlock.permutation.getState("strat:growth") < 7) {

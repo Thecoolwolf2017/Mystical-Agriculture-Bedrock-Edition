@@ -7,12 +7,15 @@
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "deepslate_prosperity_ore"
+					"texture": "deepslate_prosperity_ore",
+					"render_method": "opaque",
+					"face_dimming": false
 				}
 			},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 5
+				"seconds_to_destroy": 6
 			},
+			"tag:minecraft:requires_stone_tool": {},
 			"tag:minecraft:is_pickaxe_item_destructible": {},
 			"minecraft:loot": "loot_tables/blocks/prosperity_ore.json",
 			"minecraft:custom_components": [

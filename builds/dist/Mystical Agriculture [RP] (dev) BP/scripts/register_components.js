@@ -107,9 +107,12 @@ if (system && system.beforeEvents && system.beforeEvents.startup) {
             console.log('[MYSTICAL AGRICULTURE] Registered strat:crop_controller');
             
             // Register strat:ore_xp
+            // Note: The main XP functionality is now handled by the global event handler in oreUtils.js
+            // This component is kept for backward compatibility
             event.blockComponentRegistry.registerCustomComponent("strat:ore_xp", {
                 onPlayerDestroy: (data) => {
-                    handleOreXpDrop(data.block, data.player);
+                    // Call the simplified compatibility handler
+                    handleOreXpDrop(data);
                 }
             });
             console.log('[MYSTICAL AGRICULTURE] Registered strat:ore_xp');
@@ -250,9 +253,12 @@ if (system && system.beforeEvents && system.beforeEvents.startup) {
             console.log('[MYSTICAL AGRICULTURE] Registered strat:crop_controller');
             
             // Register strat:ore_xp
+            // Note: The main XP functionality is now handled by the global event handler in oreUtils.js
+            // This component is kept for backward compatibility
             event.blockComponentRegistry.registerCustomComponent("strat:ore_xp", {
                 onPlayerDestroy: (data) => {
-                    handleOreXpDrop(data.block, data.player);
+                    // Call the simplified compatibility handler
+                    handleOreXpDrop(data);
                 }
             });
             console.log('[MYSTICAL AGRICULTURE] Registered strat:ore_xp');
