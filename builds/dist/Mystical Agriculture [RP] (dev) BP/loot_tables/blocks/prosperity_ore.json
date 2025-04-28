@@ -11,27 +11,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "strat:prosperity_shard",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 5
               }
             }
           ]
@@ -41,16 +22,23 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "minecraft:is_pickaxe": true,
-            "enchantments": [
-              {
-                "enchantment": "minecraft:fortune",
-                "levels": {
-                  "min": 1,
-                  "max": 3
+            "minecraft:is_pickaxe": true
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       ]

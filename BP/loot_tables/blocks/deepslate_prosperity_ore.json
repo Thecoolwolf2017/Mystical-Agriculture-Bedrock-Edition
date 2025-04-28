@@ -5,6 +5,42 @@
       "entries": [
         {
           "type": "item",
+          "name": "strat:deepslate_prosperity_ore",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                "Carefully extracted with Silk Touch",
+                "Fortified by the deep stone",
+                "Can be smelted for bonus Shards"
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "minecraft:is_pickaxe": true,
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
           "name": "strat:prosperity_shard",
           "weight": 1,
           "functions": [

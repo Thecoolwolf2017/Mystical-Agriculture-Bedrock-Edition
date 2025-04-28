@@ -1,5 +1,5 @@
 pack.name=Mystical Agriculture Bedrock (Unofficial Port) RP
-pack.description=Mystical Agriculture is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!
+pack.description=Mystical Agriculture is a mod based around the concept of growing your resources with crops. Farm everything from basic materials to rare resources using a tiered progression system with Inferium Essence and Prosperity Shards. Use specialized tools, essence farmland, and growth accelerators to build your magical farming empire!
 
 strat:itemGroup.name.watering_can=§dMystical §5Agriculture§r: Watering Cans
 strat:itemGroup.name.soul_jar=§dMystical §5Agriculture§r: Soul Jars
@@ -512,7 +512,7 @@ book.mysticalagriculture.credits.description7.name=Drag0nD
 book.mysticalagriculture.credits.description7=Drag0nD \n- Dynamic multi-tab form UI
 
 book.mysticalagriculture.credits.description10.name=Lozenda
-book.mysticalagriculture.credits.description10=Lozenda (Thecoolwolf2017) \n- Lead Developer \n- Block texture fixes \n- Ore system improvements \n- Documentation updates
+book.mysticalagriculture.credits.description10=Lozenda (Thecoolwolf2017) \n- Lead Developer \n- Pentagram Logo Creator \n- Addon Updates \n- Documentation updates
 
 
 

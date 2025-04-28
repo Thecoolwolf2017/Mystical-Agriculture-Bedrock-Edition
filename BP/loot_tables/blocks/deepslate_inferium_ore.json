@@ -5,41 +5,6 @@
       "entries": [
         {
           "type": "item",
-          "name": "strat:inferium_ore",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_lore",
-              "lore": [
-                "Carefully extracted with Silk Touch",
-                "Can be smelted for bonus Inferium"
-              ]
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "minecraft:is_pickaxe": true,
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
           "name": "strat:inferium_essence",
           "weight": 1,
           "functions": [

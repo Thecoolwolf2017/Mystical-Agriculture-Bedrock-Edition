@@ -28,7 +28,7 @@
 			"minecraft:custom_components": [
 				"strat:ore_xp"
 			],
-			"minecraft:loot": "loot_tables/blocks/inferium_ore.json"
+			"minecraft:loot": "loot_tables/blocks/deepslate_inferium_ore.json"
 		}
 	}
 }

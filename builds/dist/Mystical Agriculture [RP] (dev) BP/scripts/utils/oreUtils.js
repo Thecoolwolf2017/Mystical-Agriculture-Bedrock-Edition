@@ -17,18 +17,37 @@ function randomInt(min, max) {
  */
 const world = server.world;
 
-world.beforeEvents.playerBreakBlock.subscribe((event) => {
+// Use try-catch to safely handle all events
+try {
+    // Register the playerBreakBlock event handler
+    world.beforeEvents.playerBreakBlock.subscribe((event) => {
     const { block, player, dimension } = event;
     
     // Only process blocks that might be ores
     if (!block) return;
     
     // Check if the block is an ore (by typeId or tag)
-    const isOre = (block.hasTag && block.hasTag("ore")) || 
-                 block.typeId.includes("_ore") || 
-                 block.typeId.includes("prosperity") || 
-                 block.typeId.includes("inferium") || 
-                 block.typeId.includes("soulium");
+    const blockId = block.typeId ? block.typeId.toLowerCase() : "";
+    console.log(`[MYSTICAL AGRICULTURE] Block broken: ${blockId}`);
+    
+    // Enhanced ore detection with better logging
+    let isOre = false;
+    
+    // Check by tag first
+    if (block.hasTag && block.hasTag("ore")) {
+        console.log(`[MYSTICAL AGRICULTURE] Detected ore by tag: ${blockId}`);
+        isOre = true;
+    }
+    // Check by type ID
+    else if (blockId.includes("_ore")) {
+        console.log(`[MYSTICAL AGRICULTURE] Detected ore by name: ${blockId}`);
+        isOre = true;
+    }
+    // Check custom ores
+    else if (blockId.includes("prosperity") || blockId.includes("inferium") || blockId.includes("soulium")) {
+        console.log(`[MYSTICAL AGRICULTURE] Detected custom ore: ${blockId}`);
+        isOre = true;
+    }
     
     // Improved approach to check if player is using a pickaxe
     let isUsingPickaxe = false;
@@ -44,7 +63,7 @@ world.beforeEvents.playerBreakBlock.subscribe((event) => {
             // Properly handle empty hands case
             if (!itemInHand) {
                 isUsingPickaxe = false;
-                console.log(`[MYSTICAL AGRICULTURE] Player has empty hand - cannot mine ore`);
+                // Empty hand detection (no console message needed)
             }
             // Check if the item's ID contains 'pickaxe'
             else if (itemInHand.typeId && itemInHand.typeId.includes("pickaxe")) {
@@ -101,8 +120,21 @@ world.beforeEvents.playerBreakBlock.subscribe((event) => {
                 console.log(`[MYSTICAL AGRICULTURE] Spawning ${xp} XP from ${block.typeId} at ${pos.x}, ${pos.y}, ${pos.z}`);
                 
                 // Schedule the XP spawn for the next tick to ensure it happens after the block is broken
-                server.system.run(() => {
+                // Use a fixed delay of 1 tick (50ms)
+                console.log(`[MYSTICAL AGRICULTURE] Scheduling XP spawn with 1 tick delay`);
+                server.system.runTimeout(() => {
                     try {
+                        // Add additional safety check for dimension validity
+                        if (!dimension || typeof dimension.spawnEntity !== 'function') {
+                            console.error(`[MYSTICAL AGRICULTURE] Invalid dimension or spawnEntity method not available`);
+                            return;
+                        }
+                        
+                        // Check if the entity type is valid
+                        const validEntityTypes = dimension.getEntitiesAtBlockLocation ? 
+                            dimension.getEntitiesAtBlockLocation(pos) : [];
+                        console.log(`[MYSTICAL AGRICULTURE] Valid entity types at location: ${validEntityTypes.length}`);
+                        
                         // Spawn individual XP orbs
                         for (let i = 0; i < xp; i++) {
                             // Add slight randomization to position
@@ -116,19 +148,41 @@ world.beforeEvents.playerBreakBlock.subscribe((event) => {
                                 z: pos.z + 0.5 + offsetZ 
                             };
                             
-                            dimension.spawnEntity("minecraft:xp_orb", orbPos);
+                            try {
+                                // Make sure we have a valid dimension
+                                if (!dimension) {
+                                    console.error(`[MYSTICAL AGRICULTURE] Dimension is null or undefined`);
+                                    return;
+                                }
+                                
+                                // Try to spawn the XP orb entity with explicit parameters
+                                console.log(`[MYSTICAL AGRICULTURE] Attempting to spawn XP orb at ${JSON.stringify(orbPos)}`);
+                                const entity = dimension.spawnEntity("minecraft:xp_orb", orbPos);
+                                
+                                if (entity) {
+                                    console.log(`[MYSTICAL AGRICULTURE] XP orb spawned successfully with ID: ${entity.id}`);
+                                } else {
+                                    console.error(`[MYSTICAL AGRICULTURE] XP orb was not created even though no error was thrown`);
+                                }
+                            } catch (spawnError) {
+                                console.error(`[MYSTICAL AGRICULTURE] Failed to spawn XP orb: ${spawnError.message}`);
+                            }
                         }
                         console.log(`[MYSTICAL AGRICULTURE] Successfully spawned ${xp} XP orbs`);
                     } catch (innerError) {
                         console.error(`[MYSTICAL AGRICULTURE] Error in delayed XP spawn: ${innerError.message}`);
                     }
-                });
+                }, 1);
             } catch (error) {
                 console.error(`[MYSTICAL AGRICULTURE] Error scheduling XP spawn: ${error.message}`);
             }
         }
     }
 });
+
+} catch (error) {
+    console.error(`[MYSTICAL AGRICULTURE] Error setting up ore break handler: ${error.message}`);
+}
 
 /**
  * Compatibility function for the component-based ore XP system.
