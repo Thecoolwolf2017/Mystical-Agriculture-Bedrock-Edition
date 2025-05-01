@@ -1,0 +1,20 @@
+{
+    "resource_pack_name": "mystical_agriculture",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "prosperity_ore": {
+            "textures": "textures/blocks/prosperity_ore"
+        },
+        "inferium_ore": {
+            "textures": "textures/blocks/inferium_ore"
+        },
+        "deepslate_inferium_ore": {
+            "textures": "textures/blocks/deepslate_inferium_ore"
+        },
+        "deepslate_prosperity_ore": {
+            "textures": "textures/blocks/deepslate_prosperity_ore"
+        }
+    }
+}

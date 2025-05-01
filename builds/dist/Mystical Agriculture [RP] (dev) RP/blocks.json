@@ -11,5 +11,9 @@
 	"strat:deepslate_inferium_ore": {
 		"sound": "deepslate",
 		"textures": "deepslate_inferium_ore"
+	},
+	"strat:deepslate_prosperity_ore": {
+		"sound": "deepslate",
+		"textures": "deepslate_prosperity_ore"
 	}
 }

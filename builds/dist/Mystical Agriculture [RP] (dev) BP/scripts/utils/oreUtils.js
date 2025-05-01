@@ -66,9 +66,14 @@ try {
                 // Empty hand detection (no console message needed)
             }
             // Check if the item's ID contains 'pickaxe'
-            else if (itemInHand.typeId && itemInHand.typeId.includes("pickaxe")) {
+            else if (itemInHand.typeId && (itemInHand.typeId.includes("pickaxe") || itemInHand.typeId.includes("pick"))) {
                 isUsingPickaxe = true;
                 console.log(`[MYSTICAL AGRICULTURE] Player using pickaxe: ${itemInHand.typeId}`);
+            } 
+            // Special case for Mystical Agriculture ores - always allow XP for custom ores
+            else if (blockId.includes("inferium") || blockId.includes("prosperity") || blockId.includes("soulium")) {
+                console.log(`[MYSTICAL AGRICULTURE] Custom ore detected, bypassing pickaxe check`);
+                isUsingPickaxe = true;
             } else {
                 isUsingPickaxe = false;
                 console.log(`[MYSTICAL AGRICULTURE] Player using non-pickaxe tool: ${itemInHand.typeId}`);
@@ -88,13 +93,22 @@ try {
     }
     
     if (isOre) {
-        console.log(`[MYSTICAL AGRICULTURE] Detected ore break: ${block.typeId}`);
+        console.log(`[MYSTICAL AGRICULTURE] Processing ore break: ${block.typeId} with isUsingPickaxe=${isUsingPickaxe}`);
+        
+        // CRITICAL FIX: For Mystical Agriculture custom ores, always spawn XP
+        const isCustomOre = blockId.includes("inferium") || blockId.includes("prosperity") || blockId.includes("soulium");
+        if (isCustomOre) {
+            console.log(`[MYSTICAL AGRICULTURE] Custom ore detected, forcing XP spawn`);
+            isUsingPickaxe = true;
+        }
         
         // Get the block's position
         const pos = block.location;
         
         // Determine the amount of XP to drop based on the block type
         let xp = 0;
+        
+        console.log(`[MYSTICAL AGRICULTURE] Checking XP amount for ${block.typeId} (isUsingPickaxe=${isUsingPickaxe})`);
         
         if (block.typeId.includes("diamond")) {
             xp = randomInt(3, 7);
@@ -111,7 +125,9 @@ try {
         } else if (block.typeId.includes("coal")) {
             xp = randomInt(0, 2);
         } else if (block.typeId.includes("prosperity") || block.typeId.includes("inferium") || block.typeId.includes("soulium")) {
-            xp = randomInt(1, 3);
+            // Guaranteed XP for Mystical Agriculture ores
+            xp = randomInt(2, 4); // Increased XP amount for custom ores
+            console.log(`[MYSTICAL AGRICULTURE] Setting XP amount for custom ore: ${xp}`);
         }
         
         // Spawn XP orbs if we have a valid amount

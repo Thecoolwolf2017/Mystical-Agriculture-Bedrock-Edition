@@ -21,18 +21,11 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "minecraft:is_pickaxe": true,
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
-                }
-              }
-            ]
-          }
+          "condition": "has_silk_touch"
+        },
+        {
+          "condition": "tool_is",
+          "item": "minecraft:pickaxe"
         }
       ]
     },
@@ -56,26 +49,11 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "minecraft:is_pickaxe": true
-          }
+          "condition": "tool_is",
+          "item": "minecraft:pickaxe"
         },
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "enchantments": [
-                {
-                  "enchantment": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
+          "condition": "not_has_silk_touch"
         }
       ]
     }
