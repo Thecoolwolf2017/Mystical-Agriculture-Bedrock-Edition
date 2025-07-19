@@ -5,7 +5,7 @@
 	"authors": [
 		"Stratospheer and Lozenda"
 	],
-	"targetVersion": "1.20.40",
+	"targetVersion": "1.21.0",
 	"description": "A faithful recreation of a popular magical crops mod (v1.3). Created by §lStratospheer§r and recoded by §lLozenda§r . Original Java mod by §lBlakeBr0§r.",
 	"experimentalGameplay": {
 		"holidayCreatorFeatures": true,

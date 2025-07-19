@@ -1,7 +1,7 @@
 <div tabindex="-1" class="cD_92h y3TPob" data-hook="post-title">
    <h1 class="UbhFJ7 nkqC0Q blog-post-title-font blog-post-title-color blog-text-color post-title blog-hover-container-element-color FG3qXk blog-post-page-title-font" data-hook="post-title"><span class="post-title__text blog-post-title-font blog-post-title-color"><span class="blog-post-title-font blog-post-title-color">Mystical Agriculture</span></span></h1>
 </div>
-<p id="viewer-foo" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Stratospheer has successfully recreated the Java mod Mystical Agriculture for Bedrock Edition. I have updated the coding to make it compatible with 1.20.41. Initially created by BlakeBr0, this mod is a successor to the Magical Crops mod. Its primary objective is to enable players to cultivate various resources, including diamonds, blaze rods, and even dirt, using crops.
+<p id="viewer-foo" class="xVISr Y9Dpf bCMSCT OZy-3 lnyWN yMZv8w bCMSCT public-DraftStyleDefault-block-depth0 fixed-tab-size public-DraftStyleDefault-text-ltr"><span class="B2EFF public-DraftStyleDefault-ltr"><span>Stratospheer has successfully recreated the Java mod Mystical Agriculture for Bedrock Edition. I have updated the coding to make it compatible with 1.21.0. Initially created by BlakeBr0, this mod is a successor to the Magical Crops mod. Its primary objective is to enable players to cultivate various resources, including diamonds, blaze rods, and even dirt, using crops.
    
    Note: The original mod is <a data-hook="linkViewer" href="https://raw.githubusercontent.com/BlakeBr0/MysticalAgriculture/1.20/LICENSE" target="_blank" rel="noopener noreferrer" class="TWoY9 itht3"><strong><u class="D-jZk">MIT-licensed</u></strong></a>.
    
@@ -1032,7 +1032,7 @@
                <li id="viewer-7olpa" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
                   <p class="Y9Dpf OZy-3 lnyWN">Soul Glass and Wither-proof Glass are now fully transparent</p>
                   <li id="viewer-7olpa" class="s-SEY public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-depth0 public-DraftStyleDefault-list-ltr fixed-tab-size OZy-3 lnyWN">
-                  <p class="Y9Dpf OZy-3 lnyWN">recoded the addon to work with 1.20.41</p>
+                  <p class="Y9Dpf OZy-3 lnyWN">recoded the addon to work with 1.21.0</p>
                </li>
             </ul>
          </div>
