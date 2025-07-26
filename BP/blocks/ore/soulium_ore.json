@@ -4,13 +4,13 @@
 		"description": {
 			"identifier": "mysticalagriculture:soulium_ore"
 		},
-		"components": {
-			"minecraft:geometry": {
-				"identifier": "minecraft:geometry.full_block"
-			},
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "soulium_ore"
+                "components": {
+                        "minecraft:geometry": {
+                                "identifier": "minecraft:geometry.full_block"
+                        },
+                        "minecraft:material_instances": {
+                                "*": {
+                                        "texture": "soulium_ore"
 				}
 			},
 			"minecraft:destructible_by_mining": {

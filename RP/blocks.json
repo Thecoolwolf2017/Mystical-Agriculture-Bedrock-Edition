@@ -1,11 +1,4 @@
 {
 	"format_version": "1.21.10",
-	"mysticalagriculture:prosperity_ore": {
-		"sound": "stone",
-		"textures": "mysticalagriculture_prosperity_ore"
-	},
-	"mysticalagriculture:inferium_ore": {
-		"sound": "stone",
-		"textures": "mysticalagriculture_inferium_ore"
-	}
+       
 }

@@ -8,7 +8,7 @@
 			}
 		},
 		"components": {
-			"minecraft:icon": "null"
+			"minecraft:icon": "blank_record"
 		}
 	}
 }
